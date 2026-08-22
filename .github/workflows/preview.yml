@@ -1,1 +1,83 @@
+name: Preview English Season 1
 
+on:
+  workflow_dispatch:
+    inputs:
+      event_id:
+        description: "Что показать в Telegram"
+        required: true
+        type: choice
+        default: day01_morning
+        options:
+          - day01_morning
+          - day01_practice
+          - day07_morning
+          - day07_practice
+          - day30_morning
+          - season1_final_polls
+          - season1_congratulations
+      confirm:
+        description: "Введите PREVIEW"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: english-season-1-preview
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONUNBUFFERED: "1"
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      PREVIEW_EVENT_ID: ${{ inputs.event_id }}
+      PREVIEW_CONFIRM: ${{ inputs.confirm }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Verify package
+        run: python tests/test_package.py
+
+      - name: Send exact preview without changing state
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          from pathlib import Path
+
+          from publisher import TelegramClient, send_step
+
+          if os.environ.get("PREVIEW_CONFIRM") != "PREVIEW":
+              raise SystemExit("Введите PREVIEW в поле confirm")
+
+          event_id = os.environ["PREVIEW_EVENT_ID"]
+          content = json.loads(
+              Path("content/season1.json").read_text(encoding="utf-8")
+          )
+          matches = [event for event in content["events"] if event["id"] == event_id]
+          if len(matches) != 1:
+              raise SystemExit(f"Событие не найдено: {event_id}")
+
+          client = TelegramClient(
+              os.environ["TELEGRAM_BOT_TOKEN"].strip(),
+              os.environ["TELEGRAM_CHAT_ID"].strip(),
+          )
+          event = matches[0]
+          print(f"Предпросмотр {event_id}: {len(event['steps'])} сообщений")
+
+          for step in event["steps"]:
+              result = send_step(client, step)
+              print(f"Отправлено {step['id']}: message_id={result.get('message_id')}")
+              time.sleep(1)
+
+          print("Предпросмотр завершён. state/published.json не изменён.")
+          PY
