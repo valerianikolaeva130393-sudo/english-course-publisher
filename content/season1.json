@@ -6,7 +6,7 @@
     "end_date": "2026-09-30",
     "timezone": "Europe/Moscow",
     "channel": "@english_story_a1a2",
-    "source_sha256": "25ead666a4f45e19e1da109678b232b7fde6abd625d8c89f4a9a6fee1b73eb3a",
+    "source_sha256": "ef1e7a46c10ea9553d31d5eccc8cd2c7d639fc7503fd98377c73cc8f7d12778f",
     "audio_files": 52,
     "image_files": 5
   },
@@ -336,6 +336,11 @@
       "retry_until": "09:00",
       "steps": [
         {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week01.png"
+        },
+        {
           "id": "text",
           "type": "message",
           "text": "🌱 <b>Сезон 1 • День 7</b>\n<b>Week 1 Review — Повторяем первую неделю</b>\n\n<u>🎬 История</u>\nПрошла первая неделя.\nЭмма и Адам уже узнают друг друга и легко обмениваются несколькими фразами.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Emma. How are you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good, thanks. And you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Are you from New York?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No, I’m not. I’m from Denver.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And I’m from Chicago.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Now we’re neighbors.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes!\n\n<u>🗣 Повторяем</u>\n🔹 Hi! I’m… I’m from…\n🔹 Where are you from? — I’m from…\n🔹 How are you? — I’m good, thanks.\n🔹 We’re neighbors.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
@@ -346,11 +351,6 @@
           "path": "audio/morning/day07.mp3",
           "title": "Сезон 1 · День 7 · Утро",
           "performer": "Английский через истории"
-        },
-        {
-          "id": "image",
-          "type": "photo",
-          "path": "images/week01.png"
         }
       ]
     },
@@ -698,6 +698,11 @@
       "retry_until": "09:00",
       "steps": [
         {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week02.png"
+        },
+        {
           "id": "text",
           "type": "message",
           "text": "🌱 <b>Сезон 1 • День 14</b>\n<b>Week 2 Review — Уже можем рассказать о себе</b>\n\n<u>🎬 История</u>\nЭмма и Адам встречаются в небольшом кафе возле дома.\nСейчас день, и каждый уже знает несколько фактов о другом.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Good afternoon, Adam. How are you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good, thanks. What about you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;You work in Manhattan, right?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I work in marketing.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;And you like photography.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes! What about you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I like cooking.\n\n<u>🗣 Повторяем</u>\nWhere do you live? — I live in…\nWhat do you do? — I’m a…\nWhere do you work? — I work in…\nI like… What about you?\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
@@ -708,11 +713,6 @@
           "path": "audio/morning/day14.mp3",
           "title": "Сезон 1 · День 14 · Утро",
           "performer": "Английский через истории"
-        },
-        {
-          "id": "image",
-          "type": "photo",
-          "path": "images/week02.png"
         }
       ]
     },
@@ -1060,6 +1060,11 @@
       "retry_until": "09:00",
       "steps": [
         {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week03.png"
+        },
+        {
           "id": "text",
           "type": "message",
           "text": "🌱 <b>Сезон 1 • День 21</b>\n<b>Week 3 Review — Уже ориентируемся в районе</b>\n\n<u>🎬 История</u>\nЭмма выходит из метро с другой стороны улицы и снова немного путается.\nК счастью, она встречает Адама.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Adam, where is the pharmacy?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It’s on Green Street, next to the supermarket.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is it far?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No, it’s not. It’s around the corner.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Thanks!\n\n<u>🗣 Повторяем</u>\nWhere is the pharmacy? — Где находится аптека?\nIs there a supermarket near here?\nIt’s on Green Street, next to the supermarket.\nIt’s around the corner. It’s not far.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
@@ -1070,11 +1075,6 @@
           "path": "audio/morning/day21.mp3",
           "title": "Сезон 1 · День 21 · Утро",
           "performer": "Английский через истории"
-        },
-        {
-          "id": "image",
-          "type": "photo",
-          "path": "images/week03.png"
         }
       ]
     },
@@ -1408,6 +1408,11 @@
       "retry_until": "09:00",
       "steps": [
         {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week04.png"
+        },
+        {
           "id": "text",
           "type": "message",
           "text": "🌱 <b>Сезон 1 • День 28</b>\n<b>Week 4 Review — Разговор уже становится настоящим</b>\n\n<u>🎬 История</u>\nЭмма и Адам снова сидят в знакомом кафе.\nЧетыре недели назад их разговор состоял почти только из имён.\nСегодня всё иначе.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How are you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good, thanks. What about you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good. Do you like this café?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I like it.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. I like the coffee here.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you tomorrow?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. See you tomorrow!\n\n<u>🗣 Повторяем</u>\nDo you like…? — Yes, I do. / No, I don’t.\nI like… / I don’t like…\nReally? Me too.\nSee you tomorrow.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
@@ -1418,11 +1423,6 @@
           "path": "audio/morning/day28.mp3",
           "title": "Сезон 1 · День 28 · Утро",
           "performer": "Английский через истории"
-        },
-        {
-          "id": "image",
-          "type": "photo",
-          "path": "images/week04.png"
         }
       ]
     },
@@ -1512,16 +1512,16 @@
       "retry_until": "09:00",
       "steps": [
         {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 30</b>\n<b>One Month in New York — Один месяц в Нью-Йорке</b>\n\n<u>🎬 История</u>\nПрошёл месяц.\nЭмма и Адам снова сидят в небольшом кафе рядом с домом.\nНью-Йорк всё ещё огромный, но их район уже не кажется совсем незнакомым.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I like this area now.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We know the café, the supermarket, and the subway station.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, we do.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Have a good evening, Adam.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;You too. See you tomorrow!\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you!\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог, не читая текст, и постарайтесь понять общий смысл.\nНе переводите каждое слово отдельно.\n\n<u>🎧 Послушайте диалог целиком</u>\n<b>Диалог целиком.</b>"
+        },
+        {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day30.mp3",
           "title": "Сезон 1 · День 30 · Утро",
           "performer": "Английский через истории"
-        },
-        {
-          "id": "text",
-          "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 30</b>\n<b>One Month in New York — Один месяц в Нью-Йорке</b>\n\n<u>🎬 История</u>\nПрошёл месяц.\nЭмма и Адам снова сидят в небольшом кафе рядом с домом.\nНью-Йорк всё ещё огромный, но их район уже не кажется совсем незнакомым.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I like this area now.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We know the café, the supermarket, and the subway station.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, we do.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Have a good evening, Adam.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;You too. See you tomorrow!\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you!\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог, не читая текст, и постарайтесь понять общий смысл.\nНе переводите каждое слово отдельно.\nЭмма и Адам уже понемногу освоились в новом районе и стали приятелями.\n\n<u>🎧 Послушайте диалог целиком</u>\nI like this area now.\nMe too.\nWe know the café, the supermarket, and the subway station.\nYes, we do.\nHave a good evening, Adam.\nYou too. See you tomorrow!\nSee you!"
         }
       ]
     },
@@ -1671,72 +1671,72 @@
       "retry_until": "18:00",
       "steps": [
         {
-          "id": "text",
-          "type": "message",
-          "text": "<b>🎉 SEASON 1 COMPLETE!</b>\nМесяц назад всё началось всего с нескольких коротких фраз:\n<b>Hi!</b>\n<b>I’m Emma.</b>\n<b>Nice to meet you.</b>\nА теперь вы уже можете:\n✓ познакомиться;\n✓ сказать, откуда вы;\n✓ рассказать, где живёте и работаете;\n✓ назвать несколько своих интересов;\n✓ спросить человека о нём самом;\n✓ спросить, где находится нужное место;\n✓ понять простое объяснение;\n✓ сказать, что вам нравится или не нравится;\n✓ поддержать небольшой разговор;\n✓ попрощаться и пожелать человеку хорошего дня.\nИ главное — английский уже начинает состоять не из отдельных незнакомых слов.\nВы начинаете понимать целые реплики.\nЭто только первый сезон.\nНо язык уже начал работать."
-        },
-        {
           "id": "image",
           "type": "photo",
           "path": "images/final.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🎉 SEASON 1 COMPLETE!\n     Поздравляем!</b>\n\nВы прошли весь первый сезон курса.\n\nТеперь вы уже можете:\n\n✅ познакомиться;\n✅ сказать, откуда вы;\n✅ рассказать, где живёте и работаете;\n✅ назвать несколько своих интересов;\n✅ спросить человека о нём самом;\n✅ спросить, где находится нужное место;\n✅ понять простое объяснение;\n✅ сказать, что вам нравится или не нравится;\n✅ поддержать небольшой разговор;\n✅ попрощаться и пожелать человеку хорошего дня.\n\n<b>🏆 Вы молодец!</b>\n\nДо встречи во втором сезоне!"
         }
       ]
     }
   ],
   "assets": {
-    "audio/final/final_poll_07.mp3": "8d9c0c7d77459193b98386b22b47c69b9654e64a206d49e0a8893550a63a50c9",
-    "audio/morning/day01.mp3": "163ea25d022201104a5c375a6ddbeee4931dad62506d7c000b4859f9d2300a50",
-    "audio/morning/day02.mp3": "a654e5dfc6914b662aa0144ab89111dd51dc21128cf5581f13dbc6d460a5687e",
-    "audio/morning/day03.mp3": "5afc3988663ca5100eddb18c04afae1bc9e0730a2f5afa9155a44245f1598301",
-    "audio/morning/day04.mp3": "bb43febfea89e6ee44df1fbf0fd64e05a6a7f17ddfe8c7caad2cfcaf96866f6a",
-    "audio/morning/day05.mp3": "f6ee2436c7da8f67f969bd57e393fb7806cfa9b6d4a60ba19178bfcc32f4d224",
-    "audio/morning/day06.mp3": "a4910dccbd249b5e21204e465290e746137d6c89942693a48ef8ae428b29911d",
-    "audio/morning/day07.mp3": "b364e9752db54179e6dfb9027e18ceb479c44e4f876cb48ceadefda1760d5650",
-    "audio/morning/day08.mp3": "9298bb27f71e9365de9728bde3b6c909acb753f36192e4b569defd749401184d",
-    "audio/morning/day09.mp3": "47a96ba9cad9938b924a4eecc7bb434c51dcc4c207e0e39517a0bb211bbf0f11",
-    "audio/morning/day10.mp3": "b03ef9325e1e98d96ad53c371fe154aae59f62f9a6a1dff7b833c086694b4c77",
-    "audio/morning/day11.mp3": "94df145471e22bb2110ad7f058619e97ca8f2453a9b28c489f9442009971fb7e",
-    "audio/morning/day12.mp3": "cb88c4c414e279569ef248ebab727a10cb2b2930160ea791b805ac9f2b4ba1cc",
-    "audio/morning/day13.mp3": "b10286ae60ec9fec1131855b530f1d938d9a3ccd3d9cbd3021246ff5eb5ddf03",
-    "audio/morning/day14.mp3": "e60e95649cdc5594bce731bedc17a680e459c89825a377644ddd2099cadd3a92",
-    "audio/morning/day15.mp3": "668d10bc5b3371ddf5750abaf76d1a3de00958eaea72ea89fa40452ed524c323",
-    "audio/morning/day16.mp3": "d7d91c3d31ec86d201a77e0a7bfcd6cf0e40fbbae0f86cd1105af0d52170c117",
-    "audio/morning/day17.mp3": "a4db97bbf139400b2f21476d9b701d0046f27fbd74b2e62ea1b29e035ec263ce",
-    "audio/morning/day18.mp3": "90e7815fc1c12a80e96dee4c18c9b0e2dea78c4fe20725c008a8ef20575b5aab",
-    "audio/morning/day19.mp3": "44279290e78dd87b2c18646840ab45708ad425a1aca31db59d60a4aaf88bb5fd",
-    "audio/morning/day20.mp3": "9d058a4ed2028d1d18dcd926a342d47cce0a8c99eb07d259ac937084c325e929",
-    "audio/morning/day21.mp3": "7e22dff447a8d92f48b4e88cf638e5dbb392739cac94a1ccec3fb7b0f3228d9e",
-    "audio/morning/day22.mp3": "81ba1a266849f1cf37bb6dc25947b19f7d9f77c6540e662ce2d90db60a49b14f",
-    "audio/morning/day23.mp3": "eb2ea91d137fa004226afc207ba1c1fdf222f38d85df52ef85f5d20f86ffffd9",
-    "audio/morning/day24.mp3": "eb2b18587e51d16aad4067a970c3a130cb0f8df900b772cb4461a9ddb55d5325",
-    "audio/morning/day25.mp3": "4210fd8081d0abbb244d8c8528cda1952b9630b680ae3f85bfa623c15bc5b505",
-    "audio/morning/day26.mp3": "18388467b8cdf4df6284689ca8db8886e4f5d2b8c06df8d30ebbd71d06bd00af",
-    "audio/morning/day27.mp3": "f8b8032f274713ed7ddbcf8969e7cf5907269630df81507ffd7dd0e1f57ca3a8",
-    "audio/morning/day28.mp3": "6d3c411d988c3723a4df192a2dcd526d713dac5145b05f06c905e70bc4aed9d6",
-    "audio/morning/day29.mp3": "0d33a8a92bfa8d15bc3243778fded440678b1bd1e9163018452a7f1952ff9c8b",
-    "audio/morning/day30.mp3": "cc8df36aa1a321c7c2ca8e652047a3e2aff87c5cf8813d85073e6d56671691ed",
-    "audio/practice/day01.mp3": "b13bb3f4e205e6bd1802b3a90af1d97182cafdea260311c086c7388b550918af",
-    "audio/practice/day02.mp3": "0de74fd509762ce3af809fd8f4021fd643658536f03578a8676c9256de34c55e",
-    "audio/practice/day03.mp3": "395f6eda61eb97efc2e34440650cdef46475e181a0aeb2e3f3695e451e5f6ce6",
-    "audio/practice/day04.mp3": "66e39dd458093347968bbd2194f8bf4f6eb767305777a437e2c683fc5e138465",
-    "audio/practice/day05.mp3": "79d2092252e4d654d34e01fd09b52765397b32672c2ec19557abdcf4947e10ec",
-    "audio/practice/day06.mp3": "dd3aac5383bb0af548d0701735a78e01115bb59a4a0a763670b927ae49aae196",
-    "audio/practice/day07.mp3": "a7d371175673c2d3a79a366d7c43971a868463ea34d6a8b869407864aa6d4404",
-    "audio/practice/day08.mp3": "fcb239a5ddcd7abeb974b61def1f9b106c943991f24f36660de99f93199f75e0",
-    "audio/practice/day10.mp3": "f7b10d64e8ad219cf6f1430c0a0bf3f44c7fb41ea3fc41920ca6e74ed306b655",
-    "audio/practice/day11.mp3": "47dc12e01bd75775ab03835ae99452a4531030c2084c569b08cb09125e9758d0",
-    "audio/practice/day13.mp3": "98adb820c9f9250cf791f1fe4b62aa238f0a698379c5860c8584443170deca5c",
-    "audio/practice/day14.mp3": "3822065df4016194151248c09061dad6c4c64a53e214c86ff8078a352db57891",
-    "audio/practice/day15.mp3": "0a711f0254d16abc1be382fafb51c12ce5134f05e7bb9422539e16b5bf133807",
-    "audio/practice/day16.mp3": "30451e7df02d915910eaf5bddf81cb82379e62c5a1565cbd61a90a29da8badf1",
-    "audio/practice/day17.mp3": "b6275ea3e8995f9b04e687d2780c737315230260fb07a34f6a1abef0d324a0b4",
-    "audio/practice/day20.mp3": "84c8ce7a953ce5be75aa9d6e79039565312e5086baf79fda8ed37c5dd3dacf7e",
-    "audio/practice/day21.mp3": "59fe4c2700cc92f73358587311fc33b84538ed60a9ebbbded3faed087b92dd9c",
-    "audio/practice/day24.mp3": "23e1f4e0190d32cf6e2a2d28bb7b725c0d1a68141682aa6e36af5bce963757ee",
-    "audio/practice/day27.mp3": "95f6c3ec0316f7b9c99def4d65cacbfa4b7e97597b4a94ae99161a3b4bbf2a4e",
-    "audio/practice/day28.mp3": "4aa26a1875c2ce6a9622421eabd1bbdbc47d25ca15be1ca6425e9681dbd32f55",
-    "audio/practice/day30.mp3": "e40acd6d274a5a56d9b76206b073e0f18dc91be3b2f128b7ad6cfe2a9e96a344",
-    "images/final.png": "94c373fe3fe74ce17436f30eb513f40bcbfaa4454b56d5ae4646ad25c69010c0",
+    "audio/final/final_poll_07.mp3": "29e4431139455fd4a3e5d60f1f9ee3f4d92596d7c60b90bb17285e4772afa664",
+    "audio/morning/day01.mp3": "fadfc5b2621a6d5eace1b4ae4ba16f4d4dd00faad5be6b993af6d872d39d55cb",
+    "audio/morning/day02.mp3": "028866e4a6131ab45aeac22e9099d58435daef7331a5bb174f8998512f60ecd3",
+    "audio/morning/day03.mp3": "c01594a6d61b6d82f289d8e3857b6002833ff02bc9593c54187522250ff18c0e",
+    "audio/morning/day04.mp3": "86141ff86bdc9de408d97daed0f0092b27e0c738107c96c95a70eb3715c4c186",
+    "audio/morning/day05.mp3": "d4090a3011073408c274a033f5f6bb206fcb5fc801b358fbce46cc715a7c95ce",
+    "audio/morning/day06.mp3": "26d9958f0321df46b7b2c6e48d79c63f2764da4ea461a319c6c94c2e94c7837a",
+    "audio/morning/day07.mp3": "7822713fa8db40aa9d3ea90fc12d6d5308fb92ae9700bb8b80b9d4d9f21e1950",
+    "audio/morning/day08.mp3": "cdc280c7e4ddc8dda5c55a4c900344e172f6882d19d631fd948359dd4c7752f2",
+    "audio/morning/day09.mp3": "e12a10d96fb0dda1496a37a01ff6b5314b282b000c5a61b1555b181ac590db52",
+    "audio/morning/day10.mp3": "09e36608bb27416bab86ca1c2b2926fb56a7dfe14d4829af5024fe246f9d4ea7",
+    "audio/morning/day11.mp3": "5a531987abf3d20c2f8f82d0797494e8377b6c1e16f33aac5c035862321435a5",
+    "audio/morning/day12.mp3": "4612ec2a3835d5ff1ca5749e37f9b00dcd6194091ffc1d88ca0bc7e8f32ac6ac",
+    "audio/morning/day13.mp3": "6a970c9a34661974659d9bdba8a2c72cac65a3dcbb263d58e41930b7df501dbd",
+    "audio/morning/day14.mp3": "1fcd1b3c872169ddc5e7042bf9654bd909f9dba5a8d085f1b4b627aff6556900",
+    "audio/morning/day15.mp3": "23eab80e1f8fbe74c81dea2f14e3f1f93ee34594e01b2c8ef3541fa725fda3cf",
+    "audio/morning/day16.mp3": "7fab09f2fcb0a6aab08e268392ecc3c44596543a9989c179a16ce17b8f10bb32",
+    "audio/morning/day17.mp3": "5ea5ec62963f9861a580e9342b0aa40a1555f417c80d56cd2e302dc65655a84e",
+    "audio/morning/day18.mp3": "53ce091cd664c8640a050453c71750099f3be07ab4870aba04ed0ac66b966356",
+    "audio/morning/day19.mp3": "8357be274a5e9e7aa6404abdeaafcb4215f3fb6f42a93dcb2acd699db4d89448",
+    "audio/morning/day20.mp3": "4662621ed2d4a160abd2922c6516e4262a3c8105b196c19c656d48b75c0152c2",
+    "audio/morning/day21.mp3": "709c800469ee9a8d41b94b12a0449c699bd4023ef1d2b4fdfdac71d5429ecd9f",
+    "audio/morning/day22.mp3": "3dd5a215c4b0b3ac8481826f2063cc22e872e06decbe90244c9309cc3e2d1d91",
+    "audio/morning/day23.mp3": "b3aef177bfd28132fa2f57b1648825e68d19165824f71748df523c5e19377c32",
+    "audio/morning/day24.mp3": "b8676093b569e176d08cdb247a4e3d3600c53f17e9c8897c0ec749e04f886361",
+    "audio/morning/day25.mp3": "79fa3e20cd609fdd50e4204ac8f06e0dd0f7cd6c332b40e883b08ba26ee08442",
+    "audio/morning/day26.mp3": "4a47bb59154a28f64dff6efd4b39b72bfff5571be5b29a01ba15bfeb6948d123",
+    "audio/morning/day27.mp3": "2a549f3daa6c5b24df5569b25fcc927135ed670beafeff86b4e839daae11c62a",
+    "audio/morning/day28.mp3": "88271d51a93baa9c093d94d48ac9bb2f8edd6884bdf4a83005c3cefdcd1e38c7",
+    "audio/morning/day29.mp3": "224aa8408052559854be57cb89bf076429e6ca3fe3d254043bcb4a75fc35c625",
+    "audio/morning/day30.mp3": "bb94223f50192f3e0e046f0dd738e0c7f83e9cc77bb69d9654b6c8caba48fc6c",
+    "audio/practice/day01.mp3": "e5fe73071379cf3b2762474b54e38c0aecac8372835999282d97de729f1eacdb",
+    "audio/practice/day02.mp3": "8dead60cd41d46cd6e518352d9f58ea1ed51d0682f86614a6a1d332f3f74b473",
+    "audio/practice/day03.mp3": "74bee07f0d30d3c925182a0793cb7ebb7470ddd6023d4f070c9f5198e4d64784",
+    "audio/practice/day04.mp3": "d93be4d00ab58542bf3fd0584d5fa02f99ad299005acf2bfa0f99bbf9464636e",
+    "audio/practice/day05.mp3": "bae6fd82aba18a002aad392a549f2816e6fe9a1133a7cf42bfe10becb9207d9f",
+    "audio/practice/day06.mp3": "d552cb4956da0b2db4ba05339ece862fb5cf78a0ad6d2771110eec1e8990b67c",
+    "audio/practice/day07.mp3": "007f0b570ac5be2f659e6be65d80bd64095a439bb4acefbe1b27583302fba081",
+    "audio/practice/day08.mp3": "d3fefd7382176504caaa17bb11a8ef1f49fab1db2d892a73bb83e5bf3e13579c",
+    "audio/practice/day10.mp3": "4930fc7efb198cf0678045eeafa367650774c95bb29871069bc1384b493fe899",
+    "audio/practice/day11.mp3": "63c0e0f3724ad079419e3303c4a9476098da90ca1237fff488e650da712c4e2f",
+    "audio/practice/day13.mp3": "36b96e8d45a649922b96ad479263f52bafdf26e7394be7ca87980f81e1b0d6a1",
+    "audio/practice/day14.mp3": "98155d87f4e2d5a52425307e2b935c6eea75be67233eddfa45df2447367c2801",
+    "audio/practice/day15.mp3": "716c5ea828cae31c9bd2864dbb546cd6e24b7673248feb4a452703a902e135e2",
+    "audio/practice/day16.mp3": "87b4a59d64fa9808015815a713efa41778cf1f9ed716c24865fe0d4483162acf",
+    "audio/practice/day17.mp3": "5ea5a22dfe0557199c687d9bb4d673bb0434918011b814504d306d9a68cbdfaf",
+    "audio/practice/day20.mp3": "7a0172d42e946c9336b5ca4ccb61d78836fc439f27d523fe10be4b4430524853",
+    "audio/practice/day21.mp3": "51eeb5d7e898bba0742a97aee8470bfbc9158834ec69bd9dd8f98534440664dc",
+    "audio/practice/day24.mp3": "03a577886f5e9c75fad4cdd6fe21802fec463f13e6dd5661b6d1e19850512302",
+    "audio/practice/day27.mp3": "47e7590d60e7b6cb8d2e6b613d6ff57e55ea5c31bdd279d58a4e8a8b6767a2d5",
+    "audio/practice/day28.mp3": "8bb776aeeb0f8a185e6f6ee37b74884bc80a77152cf0fc04e05a06bf57b46e47",
+    "audio/practice/day30.mp3": "a0f59a97be7e11a686c2f0f997db3c6a07700887c3d3071d16426f5929da1016",
+    "images/final.png": "2899f8f2ac68dc622477f7af52984ec53b2dccf364ebb568b3f2fb0c3a827cda",
     "images/week01.png": "63edd96831a88261e13e27a783f8c83ceea8f5b2c2a8e1372d6dcf77fb9048ea",
     "images/week02.png": "b2b14306095c9ed0cf1d2ea049eddf83d5921e72f467c4f706825a30c66834dc",
     "images/week03.png": "e67b388b33950faa17158f17ffaf5e3b0725ad856fec12debb860f3497c87c27",

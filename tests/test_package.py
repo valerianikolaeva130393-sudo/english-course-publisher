@@ -77,8 +77,17 @@ def main() -> None:
             assert "caption" not in practice_audio
         assert sum(step["type"] == "poll" for step in practice["steps"]) == 1
 
-    day30 = next(event for event in events if event["id"] == "day30_morning")
-    assert [step["type"] for step in day30["steps"][:2]] == ["audio", "message"]
+    for day in range(1, 31):
+        morning = next(event for event in events if event["id"] == f"day{day:02d}_morning")
+        expected_order = ["photo", "message", "audio"] if day in {7, 14, 21, 28} else ["message", "audio"]
+        assert [step["type"] for step in morning["steps"]] == expected_order, (day, morning["steps"])
+
+        practice = next(event for event in events if event["id"] == f"day{day:02d}_practice")
+        expected_order = ["message", "audio", "poll"] if day not in NO_PRACTICE_AUDIO else ["message", "poll"]
+        assert [step["type"] for step in practice["steps"]] == expected_order, (day, practice["steps"])
+
+    congratulations = next(event for event in events if event["id"] == "season1_congratulations")
+    assert [step["type"] for step in congratulations["steps"]] == ["photo", "message"]
 
     messages = [step["text"] for event in events for step in event["steps"] if step["type"] == "message"]
     assert sum("<tg-spoiler>Hi! I’m Alex. I’m from Boston.</tg-spoiler>" in text for text in messages) == 1
@@ -87,6 +96,33 @@ def main() -> None:
     assert all("Telegram Quiz Poll" not in text for text in messages)
     assert all("📸 ФОТО" not in text for text in messages)
     assert all("🎧 Аудио:" not in text for text in messages)
+
+    for day in (7, 14, 21, 28, 30):
+        event = next(event for event in events if event["id"] == f"day{day:02d}_morning")
+        message = next(step["text"] for step in event["steps"] if step["type"] == "message")
+        assert "<b>Диалог целиком.</b>" in message, day
+
+    day30_message = next(
+        step["text"]
+        for event in events
+        if event["id"] == "day30_morning"
+        for step in event["steps"]
+        if step["type"] == "message"
+    )
+    assert "Эмма и Адам уже понемногу освоились" not in day30_message
+
+    congratulations_text = next(
+        step["text"]
+        for event in events
+        if event["id"] == "season1_congratulations"
+        for step in event["steps"]
+        if step["type"] == "message"
+    )
+    assert "Месяц назад всё началось" not in congratulations_text
+    assert "Вы прошли весь первый сезон курса." in congratulations_text
+    assert congratulations_text.count("✅ ") == 10
+    assert "<b>🏆 Вы молодец!</b>" in congratulations_text
+    assert congratulations_text.endswith("До встречи во втором сезоне!")
 
     morning_messages = {
         event["id"]: next(step["text"] for step in event["steps"] if step["type"] == "message")

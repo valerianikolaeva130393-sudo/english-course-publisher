@@ -98,6 +98,10 @@ def join_paragraphs(paragraphs) -> str:
     return "".join(output)
 
 
+def join_congratulations(paragraphs) -> str:
+    return "\n\n".join(filter(None, (paragraph_html(paragraph) for paragraph in paragraphs)))
+
+
 def plain_text(value: str) -> str:
     return html.unescape(re.sub(r"<[^>]+>", "", value)).strip()
 
@@ -184,10 +188,8 @@ def build() -> None:
                 "performer": COURSE_NAME,
             },
         ]
-        if day == 30:
-            morning_steps.reverse()
         if day in WEEK_IMAGES:
-            morning_steps.append({"id": "image", "type": "photo", "path": WEEK_IMAGES[day]})
+            morning_steps.insert(0, {"id": "image", "type": "photo", "path": WEEK_IMAGES[day]})
         events.append(
             {
                 "id": f"day{day:02d}_morning",
@@ -275,7 +277,7 @@ def build() -> None:
     congrats_texts = [p.text.strip() for p in congrats_section]
     congrats_body_start = next(i for i, value in enumerate(congrats_texts) if value.startswith("🎉 SEASON 1 COMPLETE"))
     photo_marker = next(i for i, value in enumerate(congrats_texts) if value.startswith("📸 ФИНАЛЬНОЕ ФОТО"))
-    congrats_text = join_paragraphs(congrats_section[congrats_body_start:photo_marker])
+    congrats_text = join_congratulations(congrats_section[congrats_body_start:photo_marker])
     events.append(
         {
             "id": "season1_congratulations",
@@ -283,8 +285,8 @@ def build() -> None:
             "time": "16:00",
             "retry_until": "18:00",
             "steps": [
-                {"id": "text", "type": "message", "text": congrats_text},
                 {"id": "image", "type": "photo", "path": "images/final.png"},
+                {"id": "text", "type": "message", "text": congrats_text},
             ],
         }
     )
