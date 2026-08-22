@@ -1,1 +1,90 @@
+name: Publish English Season 1
 
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Режим запуска"
+        required: true
+        type: choice
+        default: validate
+        options:
+          - validate
+          - test
+          - preview
+          - event
+      event_id:
+        description: "Только для mode=event, например day01_morning"
+        required: false
+        type: string
+      confirm:
+        description: "Для mode=event введите PUBLISH"
+        required: false
+        type: string
+  schedule:
+    - cron: "*/15 7-8 * 9 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 9 * 9 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/15 12-13 * 9 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 14 * 9 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/15 14-15 30 9 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 16 30 9 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/15 16-17 30 9 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 18 30 9 *"
+      timezone: "Europe/Moscow"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: english-season-1-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 130
+    env:
+      PYTHONUNBUFFERED: "1"
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      MANUAL_MODE: ${{ inputs.mode }}
+      MANUAL_EVENT_ID: ${{ inputs.event_id }}
+      MANUAL_CONFIRM: ${{ inputs.confirm }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify package
+        run: python tests/test_package.py
+
+      - name: Run publisher
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python publisher.py --mode scheduled --retry
+          elif [ "$MANUAL_MODE" = "event" ]; then
+            python publisher.py --mode event --event-id "$MANUAL_EVENT_ID" --confirm "$MANUAL_CONFIRM" --retry
+          else
+            python publisher.py --mode "$MANUAL_MODE"
+          fi
+
+      - name: Persist publication state
+        if: always()
+        run: |
+          if git diff --quiet -- state/published.json; then
+            echo "Publication state did not change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/published.json
+          git commit -m "Update publication state"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
