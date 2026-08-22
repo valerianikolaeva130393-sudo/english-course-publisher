@@ -64,8 +64,17 @@ def main() -> None:
         morning = next(event for event in events if event["id"] == f"day{day:02d}_morning")
         practice = next(event for event in events if event["id"] == f"day{day:02d}_practice")
         assert sum(step["type"] == "audio" for step in morning["steps"]) == 1
+        morning_audio = next(step for step in morning["steps"] if step["type"] == "audio")
+        assert morning_audio["title"] == f"Сезон 1 · День {day} · Утро"
+        assert morning_audio["performer"] == "Английский через истории"
+        assert "caption" not in morning_audio
         practice_has_audio = any(step["type"] == "audio" for step in practice["steps"])
         assert practice_has_audio == (day not in NO_PRACTICE_AUDIO), day
+        if practice_has_audio:
+            practice_audio = next(step for step in practice["steps"] if step["type"] == "audio")
+            assert practice_audio["title"] == f"Сезон 1 · День {day} · Практика"
+            assert practice_audio["performer"] == "Английский через истории"
+            assert "caption" not in practice_audio
         assert sum(step["type"] == "poll" for step in practice["steps"]) == 1
 
     day30 = next(event for event in events if event["id"] == "day30_morning")
@@ -78,6 +87,30 @@ def main() -> None:
     assert all("Telegram Quiz Poll" not in text for text in messages)
     assert all("📸 ФОТО" not in text for text in messages)
     assert all("🎧 Аудио:" not in text for text in messages)
+
+    morning_messages = {
+        event["id"]: next(step["text"] for step in event["steps"] if step["type"] == "message")
+        for event in events
+        if event["id"].endswith("_morning")
+    }
+    for message in morning_messages.values():
+        lines = message.splitlines()
+        assert lines[0].startswith("🌱 ")
+        assert lines[1] and not lines[1].isspace()
+        assert not lines[2].strip()
+        assert "<b>🎬 История</b>" not in message
+        assert "<u>🎬 История</u>\n" in message
+        assert "\n\n<u>🗣 " in message or "\n\n<u>⭐ Главная задача</u>" in message
+        for line in lines:
+            if line.startswith("👩 ") or line.startswith("👨 "):
+                continue
+            if "Emma:" not in line and "Adam:" not in line and line.startswith("&#160;"):
+                assert line.startswith("&#160;" * 5)
+
+    all_audio = [step for event in events for step in event["steps"] if step["type"] == "audio"]
+    assert all(step.get("performer") == "Английский через истории" for step in all_audio)
+    assert all(step.get("title") for step in all_audio)
+    assert all("caption" not in step for step in all_audio)
 
     polls = [step for event in events for step in event["steps"] if step["type"] == "poll"]
     for poll in polls:

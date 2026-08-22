@@ -121,10 +121,23 @@ class TelegramClient:
             },
         )
 
-    def send_audio(self, path: Path, caption: str = "") -> dict:
+    def send_audio(
+        self,
+        path: Path,
+        caption: str = "",
+        title: str = "",
+        performer: str = "",
+    ) -> dict:
+        fields = {"chat_id": self.chat_id, "parse_mode": "HTML"}
+        if caption:
+            fields["caption"] = caption
+        if title:
+            fields["title"] = title
+        if performer:
+            fields["performer"] = performer
         return self.multipart_call(
             "sendAudio",
-            {"chat_id": self.chat_id, "caption": caption, "parse_mode": "HTML"},
+            fields,
             "audio",
             path,
         )
@@ -182,7 +195,12 @@ def send_step(client: TelegramClient, step: dict) -> dict:
     if kind == "message":
         return client.send_message(step["text"])
     if kind == "audio":
-        return client.send_audio(ROOT / step["path"], step.get("caption", ""))
+        return client.send_audio(
+            ROOT / step["path"],
+            step.get("caption", ""),
+            step.get("title", ""),
+            step.get("performer", ""),
+        )
     if kind == "photo":
         return client.send_photo(ROOT / step["path"], step.get("caption", ""))
     if kind == "poll":

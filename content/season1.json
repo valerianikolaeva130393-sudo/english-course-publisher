@@ -20,13 +20,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 1</b>\n\n<b>Hi! I’m Emma. — Привет! Я Эмма.</b>\n\n<b>🎬 История</b>\n\nЭмма только переехала в Нью-Йорк.\n\nВозле нового дома она замечает Адама с коробками для переезда. Похоже, он тоже здесь недавно.\n\n👩 <b>Emma:</b>\nHi! I’m Emma.\n\n👨 <b>Adam:</b>\nHi! I’m Adam.\n\n👩 <b>Emma:</b>\nNice to meet you.\n\n👨 <b>Adam:</b>\nNice to meet you too.\n\nЭмма улыбается. Похоже, у неё появился первый знакомый в новом городе.\n\n<b>🗣 Новые слова</b>\n\n🔹 Hi! — привет!\n🔹 I’m Emma. — я Эмма.\n🔹 Nice to meet you. — приятно познакомиться.\n\n<b>⭐ Запомните</b>\n\n<b>I’m = I am</b>\n\nВ обычной речи чаще говорят:\n\n<b>I’m Emma.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nHi! I’m Emma.\nHi! I’m Adam.\nNice to meet you.\nNice to meet you too."
+          "text": "🌱 <b>Сезон 1 • День 1</b>\n<b>Hi! I’m Emma. — Привет! Я Эмма.</b>\n\n<u>🎬 История</u>\nЭмма только переехала в Нью-Йорк.\nВозле нового дома она замечает Адама с коробками для переезда. Похоже, он тоже здесь недавно.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Hi! I’m Emma.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Hi! I’m Adam.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Nice to meet you.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Nice to meet you too.\n\nЭмма улыбается. Похоже, у неё появился первый знакомый в новом городе.\n\n<u>🗣 Новые слова</u>\n🔹 Hi! — привет!\n🔹 I’m Emma. — я Эмма.\n🔹 Nice to meet you. — приятно познакомиться.\n\n<u>⭐ Запомните</u>\n<b>I’m = I am</b>\nВ обычной речи чаще говорят:\n<b>I’m Emma.</b>\n\n<u>🎧 Послушайте и повторите</u>\nHi! I’m Emma.\nHi! I’m Adam.\nNice to meet you.\nNice to meet you too."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day01.mp3",
-          "caption": "🎧 Сезон 1 • День 1 • Утро"
+          "title": "Сезон 1 · День 1 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -39,13 +40,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 1</b>\n\n🎧 Послушайте и повторите:\n\nHi! I’m Emma.\nNice to meet you.\n\n👇 Ответьте в опросе ниже."
+          "text": "☀️ <b>Практика • День 1</b>\n\n<u>🎧 Послушайте и повторите:</u>\nHi! I’m Emma.\nNice to meet you.\n\n👇 Ответьте в опросе ниже."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day01.mp3",
-          "caption": "🎧 Практика • День 1"
+          "title": "Сезон 1 · День 1 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -71,13 +73,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 2</b>\n\n<b>Where are you from? — Откуда ты?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам продолжают разговор возле дома.\n\nОказывается, оба приехали в Нью-Йорк из других городов.\n\n👨 <b>Adam:</b>\nAre you from New York?\n\n👩 <b>Emma:</b>\nNo, I’m not. I’m from Chicago.\n\n👩 <b>Emma:</b>\nWhat about you?\n\n👨 <b>Adam:</b>\nI’m from Denver.\n\n<b>🗣 Новые слова</b>\n\n🔹 Are you from New York? — ты из Нью-Йорка?\n🔹 I’m from Chicago. — я из Чикаго.\n🔹 What about you? — а ты?\n\n<b>⭐ Запомните</b>\n\nВопрос:\n\n<b>Are you from…?</b>\n\nОтвет:\n\n<b>Yes, I am.</b>\n\n<b>No, I’m not.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nAre you from New York?\nNo, I’m not. I’m from Chicago.\nWhat about you?\nI’m from Denver."
+          "text": "🌱 <b>Сезон 1 • День 2</b>\n<b>Where are you from? — Откуда ты?</b>\n\n<u>🎬 История</u>\nЭмма и Адам продолжают разговор возле дома.\nОказывается, оба приехали в Нью-Йорк из других городов.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Are you from New York?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No, I’m not. I’m from Chicago.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;What about you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m from Denver.\n\n<u>🗣 Новые слова</u>\n🔹 Are you from New York? — ты из Нью-Йорка?\n🔹 I’m from Chicago. — я из Чикаго.\n🔹 What about you? — а ты?\n\n<u>⭐ Запомните</u>\nВопрос:\n<b>Are you from…?</b>\nОтвет:\n<b>Yes, I am.</b>\n<b>No, I’m not.</b>\n\n<u>🎧 Послушайте и повторите</u>\nAre you from New York?\nNo, I’m not. I’m from Chicago.\nWhat about you?\nI’m from Denver."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day02.mp3",
-          "caption": "🎧 Сезон 1 • День 2 • Утро"
+          "title": "Сезон 1 · День 2 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -90,13 +93,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 2</b>\n\n🎧 Послушайте и повторите:\n\nWhere are you from?\nI’m from Chicago.\n\n👇 Ответьте в опросе ниже."
+          "text": "☀️ <b>Практика • День 2</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhere are you from?\nI’m from Chicago.\n\n👇 Ответьте в опросе ниже."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day02.mp3",
-          "caption": "🎧 Практика • День 2"
+          "title": "Сезон 1 · День 2 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -122,13 +126,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 3</b>\n\n<b>Are you new here? — Ты здесь недавно?</b>\n\n<b>🎬 История</b>\n\nНа следующий день Эмма снова встречает Адама у дома.\n\nТеперь она уже узнаёт знакомое лицо.\n\n👩 <b>Emma:</b>\nGood morning, Adam! Are you new here too?\n\n👨 <b>Adam:</b>\nYes, I am. I’m new here.\n\n👩 <b>Emma:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 Are you new here? — ты здесь недавно?\n🔹 I’m new here. — я здесь недавно / я здесь новенький.\n🔹 Me too. — я тоже.\n\n<b>⭐ Запомните</b>\n\n<b>too = тоже</b>\n\n<b>I’m new here too.</b>\n\n— Я тоже здесь недавно.\n\n<b>🎧 Послушайте и повторите</b>\n\nGood morning, Adam! Are you new here too?\nYes, I am. I’m new here.\nMe too."
+          "text": "🌱 <b>Сезон 1 • День 3</b>\n<b>Are you new here? — Ты здесь недавно?</b>\n\n<u>🎬 История</u>\nНа следующий день Эмма снова встречает Адама у дома.\nТеперь она уже узнаёт знакомое лицо.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Adam! Are you new here too?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I am. I’m new here.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n\n<u>🗣 Новые слова</u>\n🔹 Are you new here? — ты здесь недавно?\n🔹 I’m new here. — я здесь недавно / я здесь новенький.\n🔹 Me too. — я тоже.\n\n<u>⭐ Запомните</u>\n<b>too = тоже</b>\n<b>I’m new here too.</b>\n— Я тоже здесь недавно.\n\n<u>🎧 Послушайте и повторите</u>\nGood morning, Adam! Are you new here too?\nYes, I am. I’m new here.\nMe too."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day03.mp3",
-          "caption": "🎧 Сезон 1 • День 3 • Утро"
+          "title": "Сезон 1 · День 3 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -141,13 +146,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 3</b>\n\n🎧 Послушайте:\n\nAre you new here?\n\n👇 Что вы услышали?"
+          "text": "☀️ <b>Практика • День 3</b>\n\n<u>🎧 Послушайте:</u>\nAre you new here?\n\n👇 Что вы услышали?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day03.mp3",
-          "caption": "🎧 Практика • День 3"
+          "title": "Сезон 1 · День 3 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -173,13 +179,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 4</b>\n\n<b>We’re neighbors. — Мы соседи.</b>\n\n<b>🎬 История</b>\n\nЭмма замечает, что Адам входит в тот же дом.\n\nОказывается, они не просто живут в одном районе.\n\n👩 <b>Emma:</b>\nDo you live in this building too?\n\n👨 <b>Adam:</b>\nYes, I do. I live in apartment 4B.\n\n👩 <b>Emma:</b>\nI live in apartment 5A.\n\n👨 <b>Adam:</b>\nOh! We’re neighbors.\n\n<b>🗣 Новые слова</b>\n\n🔹 building — здание / дом\n🔹 apartment — квартира\n🔹 We’re neighbors. — мы соседи.\n\n<b>⭐ Запомните</b>\n\n<b>We’re = we are</b>\n\n<b>We’re neighbors.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you live in this building too?\nYes, I do. I live in apartment 4B.\nI live in apartment 5A.\nOh! We’re neighbors."
+          "text": "🌱 <b>Сезон 1 • День 4</b>\n<b>We’re neighbors. — Мы соседи.</b>\n\n<u>🎬 История</u>\nЭмма замечает, что Адам входит в тот же дом.\nОказывается, они не просто живут в одном районе.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do you live in this building too?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I live in apartment 4B.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I live in apartment 5A.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Oh! We’re neighbors.\n\n<u>🗣 Новые слова</u>\n🔹 building — здание / дом\n🔹 apartment — квартира\n🔹 We’re neighbors. — мы соседи.\n\n<u>⭐ Запомните</u>\n<b>We’re = we are</b>\n<b>We’re neighbors.</b>\n\n<u>🎧 Послушайте и повторите</u>\nDo you live in this building too?\nYes, I do. I live in apartment 4B.\nI live in apartment 5A.\nOh! We’re neighbors."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day04.mp3",
-          "caption": "🎧 Сезон 1 • День 4 • Утро"
+          "title": "Сезон 1 · День 4 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -192,13 +199,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 4</b>\n\n🎧 Послушайте и повторите:\n\nWe’re neighbors.\n\n👇 Что это значит?"
+          "text": "☀️ <b>Практика • День 4</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWe’re neighbors.\n\n👇 Что это значит?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day04.mp3",
-          "caption": "🎧 Практика • День 4"
+          "title": "Сезон 1 · День 4 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -224,13 +232,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 5</b>\n\n<b>How are you? — Как дела?</b>\n\n<b>🎬 История</b>\n\nУтром Эмма встречает Адама возле входа.\n\nТеперь они уже разговаривают как знакомые.\n\n👩 <b>Emma:</b>\nGood morning, Adam. How are you?\n\n👨 <b>Adam:</b>\nI’m good, thanks. And you?\n\n👩 <b>Emma:</b>\nI’m good too.\n\n<b>🗣 Новые слова</b>\n\n🔹 How are you? — как дела?\n🔹 I’m good, thanks. — всё хорошо, спасибо.\n🔹 And you? — а ты?\n\n<b>⭐ Запомните</b>\n\nВ современном американском английском:\n\n<b>I’m good, thanks.</b>\n\n— естественный повседневный ответ на <b>How are you?</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nGood morning, Adam. How are you?\nI’m good, thanks. And you?\nI’m good too."
+          "text": "🌱 <b>Сезон 1 • День 5</b>\n<b>How are you? — Как дела?</b>\n\n<u>🎬 История</u>\nУтром Эмма встречает Адама возле входа.\nТеперь они уже разговаривают как знакомые.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Adam. How are you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good, thanks. And you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good too.\n\n<u>🗣 Новые слова</u>\n🔹 How are you? — как дела?\n🔹 I’m good, thanks. — всё хорошо, спасибо.\n🔹 And you? — а ты?\n\n<u>⭐ Запомните</u>\nВ современном американском английском:\n<b>I’m good, thanks.</b>\n— естественный повседневный ответ на <b>How are you?</b>\n\n<u>🎧 Послушайте и повторите</u>\nGood morning, Adam. How are you?\nI’m good, thanks. And you?\nI’m good too."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day05.mp3",
-          "caption": "🎧 Сезон 1 • День 5 • Утро"
+          "title": "Сезон 1 · День 5 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -243,13 +252,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 5</b>\n\n🎧 Послушайте и повторите:\n\nHow are you?\nI’m good, thanks.\n\n👇 Ответьте в опросе."
+          "text": "☀️ <b>Практика • День 5</b>\n\n<u>🎧 Послушайте и повторите:</u>\nHow are you?\nI’m good, thanks.\n\n👇 Ответьте в опросе."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day05.mp3",
-          "caption": "🎧 Практика • День 5"
+          "title": "Сезон 1 · День 5 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -275,13 +285,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 6</b>\n\n<b>See you later! — Увидимся позже!</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам встречаются в холле, но оба спешат.\n\nРазговор сегодня совсем короткий.\n\n👨 <b>Adam:</b>\nEmma, are you in a hurry?\n\n👩 <b>Emma:</b>\nYes, I am.\n\n👨 <b>Adam:</b>\nMe too. See you later!\n\n👩 <b>Emma:</b>\nSee you!\n\n<b>🗣 Новые слова</b>\n\n🔹 I’m in a hurry. — я спешу.\n🔹 Me too. — я тоже.\n🔹 See you later! — увидимся позже!\n🔹 See you! — увидимся!\n\n<b>🎧 Послушайте и повторите</b>\n\nEmma, are you in a hurry?\nYes, I am.\nMe too. See you later!\nSee you!"
+          "text": "🌱 <b>Сезон 1 • День 6</b>\n<b>See you later! — Увидимся позже!</b>\n\n<u>🎬 История</u>\nЭмма и Адам встречаются в холле, но оба спешат.\nРазговор сегодня совсем короткий.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Emma, are you in a hurry?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I am.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. See you later!\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you!\n\n<u>🗣 Новые слова</u>\n🔹 I’m in a hurry. — я спешу.\n🔹 Me too. — я тоже.\n🔹 See you later! — увидимся позже!\n🔹 See you! — увидимся!\n\n<u>🎧 Послушайте и повторите</u>\nEmma, are you in a hurry?\nYes, I am.\nMe too. See you later!\nSee you!"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day06.mp3",
-          "caption": "🎧 Сезон 1 • День 6 • Утро"
+          "title": "Сезон 1 · День 6 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -294,13 +305,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 6</b>\n\n🎧 Послушайте:\n\nSee you later!\n\n👇 Как лучше ответить?"
+          "text": "☀️ <b>Практика • День 6</b>\n\n<u>🎧 Послушайте:</u>\nSee you later!\n\n👇 Как лучше ответить?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day06.mp3",
-          "caption": "🎧 Практика • День 6"
+          "title": "Сезон 1 · День 6 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -326,13 +338,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 7</b>\n\n<b>Week 1 Review — Повторяем первую неделю</b>\n\n<b>🎬 История</b>\n\nПрошла первая неделя.\n\nЭмма и Адам уже узнают друг друга и легко обмениваются несколькими фразами.\n\n👨 <b>Adam:</b>\nGood morning, Emma. How are you?\n\n👩 <b>Emma:</b>\nI’m good, thanks. And you?\n\n👨 <b>Adam:</b>\nI’m good too.\n\n👩 <b>Emma:</b>\nAre you from New York?\n\n👨 <b>Adam:</b>\nNo, I’m not. I’m from Denver.\n\n👩 <b>Emma:</b>\nAnd I’m from Chicago.\n\n👨 <b>Adam:</b>\nNow we’re neighbors.\n\n👩 <b>Emma:</b>\nYes!\n\n<b>🗣 Повторяем</b>\n\n🔹 Hi! I’m… I’m from…\n🔹 Where are you from? — I’m from…\n🔹 How are you? — I’m good, thanks.\n🔹 We’re neighbors.\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+          "text": "🌱 <b>Сезон 1 • День 7</b>\n<b>Week 1 Review — Повторяем первую неделю</b>\n\n<u>🎬 История</u>\nПрошла первая неделя.\nЭмма и Адам уже узнают друг друга и легко обмениваются несколькими фразами.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Emma. How are you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good, thanks. And you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Are you from New York?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No, I’m not. I’m from Denver.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And I’m from Chicago.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Now we’re neighbors.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes!\n\n<u>🗣 Повторяем</u>\n🔹 Hi! I’m… I’m from…\n🔹 Where are you from? — I’m from…\n🔹 How are you? — I’m good, thanks.\n🔹 We’re neighbors.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day07.mp3",
-          "caption": "🎧 Сезон 1 • День 7 • Утро"
+          "title": "Сезон 1 · День 7 · Утро",
+          "performer": "Английский через истории"
         },
         {
           "id": "image",
@@ -350,13 +363,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 7</b>\n\n🎧 Послушайте:\n\n<tg-spoiler>Hi! I’m Alex. I’m from Boston.</tg-spoiler>\n\n👇 Какой вариант полностью правильный?"
+          "text": "☀️ <b>Практика • День 7</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>Hi! I’m Alex. I’m from Boston.</tg-spoiler>\n\n👇 Какой вариант полностью правильный?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day07.mp3",
-          "caption": "🎧 Практика • День 7"
+          "title": "Сезон 1 · День 7 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -382,13 +396,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 8</b>\n\n<b>Where do you live? — Где ты живёшь?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам снова встречаются возле дома.\n\nОни начинают немного больше рассказывать о своей новой жизни.\n\n👩 <b>Emma:</b>\nWhere do you live now?\n\n👨 <b>Adam:</b>\nI live here in Brooklyn.\n\n👩 <b>Emma:</b>\nMe too. I like this area.\n\n<b>🗣 Новые слова</b>\n\n🔹 Where do you live? — где ты живёшь?\n🔹 I live in Brooklyn. — я живу в Бруклине.\n🔹 area — район / местность\n\n<b>⭐ Запомните</b>\n\nПока запоминаем вопрос целиком:\n\n<b>Where do you live?</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere do you live now?\nI live here in Brooklyn.\nMe too. I like this area."
+          "text": "🌱 <b>Сезон 1 • День 8</b>\n<b>Where do you live? — Где ты живёшь?</b>\n\n<u>🎬 История</u>\nЭмма и Адам снова встречаются возле дома.\nОни начинают немного больше рассказывать о своей новой жизни.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where do you live now?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I live here in Brooklyn.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. I like this area.\n\n<u>🗣 Новые слова</u>\n🔹 Where do you live? — где ты живёшь?\n🔹 I live in Brooklyn. — я живу в Бруклине.\n🔹 area — район / местность\n\n<u>⭐ Запомните</u>\nПока запоминаем вопрос целиком:\n<b>Where do you live?</b>\n\n<u>🎧 Послушайте и повторите</u>\nWhere do you live now?\nI live here in Brooklyn.\nMe too. I like this area."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day08.mp3",
-          "caption": "🎧 Сезон 1 • День 8 • Утро"
+          "title": "Сезон 1 · День 8 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -401,13 +416,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 8</b>\n\n🎧 Послушайте:\n\nWhere do you live?\n\n👇 Выберите правильный ответ."
+          "text": "☀️ <b>Практика • День 8</b>\n\n<u>🎧 Послушайте:</u>\nWhere do you live?\n\n👇 Выберите правильный ответ."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day08.mp3",
-          "caption": "🎧 Практика • День 8"
+          "title": "Сезон 1 · День 8 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -433,13 +449,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 9</b>\n\n<b>What do you do? — Чем ты занимаешься?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам заходят за кофе.\n\nРазговор переходит к работе.\n\n👩 <b>Emma:</b>\nWhat do you do?\n\n👨 <b>Adam:</b>\nI’m a project engineer. What about you?\n\n👩 <b>Emma:</b>\nI’m a marketing coordinator.\n\n<b>🗣 Новые слова</b>\n\n🔹 What do you do? — кем ты работаешь? / чем занимаешься?\n🔹 project engineer — инженер проекта\n🔹 marketing coordinator — координатор по маркетингу\n\n<b>⭐ Запомните</b>\n\n<b>What do you do?</b>\n\nВ таком разговоре означает:\n\n«Кем ты работаешь?»\n\n<b>🎧 Послушайте и повторите</b>\n\nWhat do you do?\nI’m a project engineer. What about you?\nI’m a marketing coordinator."
+          "text": "🌱 <b>Сезон 1 • День 9</b>\n<b>What do you do? — Чем ты занимаешься?</b>\n\n<u>🎬 История</u>\nЭмма и Адам заходят за кофе.\nРазговор переходит к работе.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;What do you do?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m a project engineer. What about you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m a marketing coordinator.\n\n<u>🗣 Новые слова</u>\n🔹 What do you do? — кем ты работаешь? / чем занимаешься?\n🔹 project engineer — инженер проекта\n🔹 marketing coordinator — координатор по маркетингу\n\n<u>⭐ Запомните</u>\n<b>What do you do?</b>\nВ таком разговоре означает:\n«Кем ты работаешь?»\n\n<u>🎧 Послушайте и повторите</u>\nWhat do you do?\nI’m a project engineer. What about you?\nI’m a marketing coordinator."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day09.mp3",
-          "caption": "🎧 Сезон 1 • День 9 • Утро"
+          "title": "Сезон 1 · День 9 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -452,7 +469,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 9</b>\n\n👇 Что хочет узнать человек, спрашивая:\n\n<b>What do you do?</b>"
+          "text": "☀️ <b>Практика • День 9</b>\n\n👇 Что хочет узнать человек, спрашивая:\n<b>What do you do?</b>"
         },
         {
           "id": "poll",
@@ -478,13 +495,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 10</b>\n\n<b>Where do you work? — Где ты работаешь?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам выясняют, что оба работают на Манхэттене.\n\n👨 <b>Adam:</b>\nWhere do you work?\n\n👩 <b>Emma:</b>\nI work in Manhattan.\n\n👨 <b>Adam:</b>\nNice. I work in Manhattan too.\n\n<b>🗣 Новые слова</b>\n\n🔹 Where do you work? — где ты работаешь?\n🔹 I work in Manhattan. — я работаю на Манхэттене.\n🔹 work — работать\n\n<b>⭐ Запомните</b>\n\n<b>live — жить</b>\n\n<b>work — работать</b>\n\nI live in Brooklyn.\n\nI work in Manhattan.\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere do you work?\nI work in Manhattan.\nNice. I work in Manhattan too."
+          "text": "🌱 <b>Сезон 1 • День 10</b>\n<b>Where do you work? — Где ты работаешь?</b>\n\n<u>🎬 История</u>\nЭмма и Адам выясняют, что оба работают на Манхэттене.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Where do you work?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I work in Manhattan.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Nice. I work in Manhattan too.\n\n<u>🗣 Новые слова</u>\n🔹 Where do you work? — где ты работаешь?\n🔹 I work in Manhattan. — я работаю на Манхэттене.\n🔹 work — работать\n\n<u>⭐ Запомните</u>\n<b>live — жить</b>\n<b>work — работать</b>\nI live in Brooklyn.\nI work in Manhattan.\n\n<u>🎧 Послушайте и повторите</u>\nWhere do you work?\nI work in Manhattan.\nNice. I work in Manhattan too."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day10.mp3",
-          "caption": "🎧 Сезон 1 • День 10 • Утро"
+          "title": "Сезон 1 · День 10 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -497,13 +515,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 10</b>\n\n🎧 Послушайте:\n\nI work in Manhattan.\n\n👇 Что это означает?"
+          "text": "☀️ <b>Практика • День 10</b>\n\n<u>🎧 Послушайте:</u>\nI work in Manhattan.\n\n👇 Что это означает?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day10.mp3",
-          "caption": "🎧 Практика • День 10"
+          "title": "Сезон 1 · День 10 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -529,13 +548,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 11</b>\n\n<b>I like photography. — Мне нравится фотография.</b>\n\n<b>🎬 История</b>\n\nПосле разговора о работе Эмма и Адам переходят к более приятной теме — тому, что они любят делать в свободное время.\n\n👩 <b>Emma:</b>\nI like photography.\n\n👨 <b>Adam:</b>\nReally? I like cooking.\n\n👩 <b>Emma:</b>\nNice!\n\n<b>🗣 Новые слова</b>\n\n🔹 I like… — мне нравится…\n🔹 photography — фотография\n🔹 cooking — готовка\n\n<b>⭐ Запомните</b>\n\nПосле <b>I like</b> можно поставить предмет или занятие:\n\nI like coffee.\n\nI like music.\n\nI like photography.\n\n<b>🎧 Послушайте и повторите</b>\n\nI like photography.\nReally? I like cooking.\nNice!"
+          "text": "🌱 <b>Сезон 1 • День 11</b>\n<b>I like photography. — Мне нравится фотография.</b>\n\n<u>🎬 История</u>\nПосле разговора о работе Эмма и Адам переходят к более приятной теме — тому, что они любят делать в свободное время.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I like photography.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Really? I like cooking.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Nice!\n\n<u>🗣 Новые слова</u>\n🔹 I like… — мне нравится…\n🔹 photography — фотография\n🔹 cooking — готовка\n\n<u>⭐ Запомните</u>\nПосле <b>I like</b> можно поставить предмет или занятие:\nI like coffee.\nI like music.\nI like photography.\n\n<u>🎧 Послушайте и повторите</u>\nI like photography.\nReally? I like cooking.\nNice!"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day11.mp3",
-          "caption": "🎧 Сезон 1 • День 11 • Утро"
+          "title": "Сезон 1 · День 11 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -548,13 +568,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 11</b>\n\n🎧 Послушайте:\n\nI like photography.\n\n👇 Что это значит?"
+          "text": "☀️ <b>Практика • День 11</b>\n\n<u>🎧 Послушайте:</u>\nI like photography.\n\n👇 Что это значит?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day11.mp3",
-          "caption": "🎧 Практика • День 11"
+          "title": "Сезон 1 · День 11 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -580,13 +601,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 12</b>\n\n<b>This is my office. — Это мой офис.</b>\n\n<b>🎬 История</b>\n\nЭмма показывает Адаму фотографию своего нового офиса.\n\n👩 <b>Emma:</b>\nThis is my office.\n\n👨 <b>Adam:</b>\nNice! My office is near here too.\n\n👩 <b>Emma:</b>\nWhere is your office?\n\n👨 <b>Adam:</b>\nIt’s in Midtown.\n\n<b>🗣 Новые слова</b>\n\n🔹 my — мой / моя / моё\n🔹 your — твой / ваш\n🔹 office — офис\n\n<b>⭐ Запомните</b>\n\nmy office — мой офис\n\nyour office — твой офис\n\n<b>🎧 Послушайте и повторите</b>\n\nThis is my office.\nNice! My office is near here too.\nWhere is your office?\nIt’s in Midtown."
+          "text": "🌱 <b>Сезон 1 • День 12</b>\n<b>This is my office. — Это мой офис.</b>\n\n<u>🎬 История</u>\nЭмма показывает Адаму фотографию своего нового офиса.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;This is my office.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Nice! My office is near here too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where is your office?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It’s in Midtown.\n\n<u>🗣 Новые слова</u>\n🔹 my — мой / моя / моё\n🔹 your — твой / ваш\n🔹 office — офис\n\n<u>⭐ Запомните</u>\nmy office — мой офис\nyour office — твой офис\n\n<u>🎧 Послушайте и повторите</u>\nThis is my office.\nNice! My office is near here too.\nWhere is your office?\nIt’s in Midtown."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day12.mp3",
-          "caption": "🎧 Сезон 1 • День 12 • Утро"
+          "title": "Сезон 1 · День 12 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -599,7 +621,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 12</b>\n\nКак сказать:\n\n«Это мой офис»?"
+          "text": "☀️ <b>Практика • День 12</b>\nКак сказать:\n«Это мой офис»?"
         },
         {
           "id": "poll",
@@ -625,13 +647,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 13</b>\n\n<b>What about you? — А ты?</b>\n\n<b>🎬 История</b>\n\nЭмма замечает, что короткий вопрос может легко продолжить разговор.\n\n👨 <b>Adam:</b>\nI like cooking.\n\n👩 <b>Emma:</b>\nReally? That’s interesting.\n\n👨 <b>Adam:</b>\nWhat about you?\n\n👩 <b>Emma:</b>\nI like photography.\n\n<b>🗣 Новые слова</b>\n\n🔹 Really? — правда?\n🔹 That’s interesting. — это интересно.\n🔹 What about you? — а ты?\n\n<b>⭐ Запомните</b>\n\nНе обязательно каждый раз задавать длинный вопрос.\n\n<b>What about you?</b>\n\nпомогает вернуть вопрос собеседнику.\n\n<b>🎧 Послушайте и повторите</b>\n\nI like cooking.\nReally? That’s interesting.\nWhat about you?\nI like photography."
+          "text": "🌱 <b>Сезон 1 • День 13</b>\n<b>What about you? — А ты?</b>\n\n<u>🎬 История</u>\nЭмма замечает, что короткий вопрос может легко продолжить разговор.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I like cooking.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Really? That’s interesting.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;What about you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I like photography.\n\n<u>🗣 Новые слова</u>\n🔹 Really? — правда?\n🔹 That’s interesting. — это интересно.\n🔹 What about you? — а ты?\n\n<u>⭐ Запомните</u>\nНе обязательно каждый раз задавать длинный вопрос.\n<b>What about you?</b>\nпомогает вернуть вопрос собеседнику.\n\n<u>🎧 Послушайте и повторите</u>\nI like cooking.\nReally? That’s interesting.\nWhat about you?\nI like photography."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day13.mp3",
-          "caption": "🎧 Сезон 1 • День 13 • Утро"
+          "title": "Сезон 1 · День 13 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -644,13 +667,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 13</b>\n\n🎧 Послушайте:\n\nWhat about you?\n\n👇 Что означает эта фраза?"
+          "text": "☀️ <b>Практика • День 13</b>\n\n<u>🎧 Послушайте:</u>\nWhat about you?\n\n👇 Что означает эта фраза?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day13.mp3",
-          "caption": "🎧 Практика • День 13"
+          "title": "Сезон 1 · День 13 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -676,13 +700,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 14</b>\n\n<b>Week 2 Review — Уже можем рассказать о себе</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам встречаются в небольшом кафе возле дома.\n\nСейчас день, и каждый уже знает несколько фактов о другом.\n\n👩 <b>Emma:</b>\nGood afternoon, Adam. How are you?\n\n👨 <b>Adam:</b>\nI’m good, thanks. What about you?\n\n👩 <b>Emma:</b>\nI’m good.\n\n👨 <b>Adam:</b>\nYou work in Manhattan, right?\n\n👩 <b>Emma:</b>\nYes. I work in marketing.\n\n👨 <b>Adam:</b>\nAnd you like photography.\n\n👩 <b>Emma:</b>\nYes! What about you?\n\n👨 <b>Adam:</b>\nI like cooking.\n\n<b>🗣 Повторяем</b>\n\nWhere do you live? — I live in…\n\nWhat do you do? — I’m a…\n\nWhere do you work? — I work in…\n\nI like… What about you?\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+          "text": "🌱 <b>Сезон 1 • День 14</b>\n<b>Week 2 Review — Уже можем рассказать о себе</b>\n\n<u>🎬 История</u>\nЭмма и Адам встречаются в небольшом кафе возле дома.\nСейчас день, и каждый уже знает несколько фактов о другом.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Good afternoon, Adam. How are you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good, thanks. What about you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;You work in Manhattan, right?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I work in marketing.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;And you like photography.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes! What about you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I like cooking.\n\n<u>🗣 Повторяем</u>\nWhere do you live? — I live in…\nWhat do you do? — I’m a…\nWhere do you work? — I work in…\nI like… What about you?\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day14.mp3",
-          "caption": "🎧 Сезон 1 • День 14 • Утро"
+          "title": "Сезон 1 · День 14 · Утро",
+          "performer": "Английский через истории"
         },
         {
           "id": "image",
@@ -700,13 +725,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 14</b>\n\n🎧 Послушайте:\n\nI live in Brooklyn, and I work in Manhattan.\n\n👇 Что сказал человек?"
+          "text": "☀️ <b>Практика • День 14</b>\n\n<u>🎧 Послушайте:</u>\nI live in Brooklyn, and I work in Manhattan.\n\n👇 Что сказал человек?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day14.mp3",
-          "caption": "🎧 Практика • День 14"
+          "title": "Сезон 1 · День 14 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -732,13 +758,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 15</b>\n\n<b>Is there a café near here? — Здесь рядом есть кафе?</b>\n\n<b>🎬 История</b>\n\nЭмма всё ещё изучает район.\n\nСегодня ей хочется найти новое место для кофе.\n\n👩 <b>Emma:</b>\nIs there a café near here?\n\n👨 <b>Adam:</b>\nYes. There’s a café on the corner.\n\n👩 <b>Emma:</b>\nGreat, thanks.\n\n<b>🗣 Новые слова</b>\n\n🔹 Is there…? — есть ли…?\n🔹 There’s… — есть…\n🔹 on the corner — на углу\n\n<b>⭐ Запомните</b>\n\n<b>There’s = there is</b>\n\nThere’s a café.\n\n— Здесь есть кафе.\n\n<b>🎧 Послушайте и повторите</b>\n\nIs there a café near here?\nYes. There’s a café on the corner.\nGreat, thanks."
+          "text": "🌱 <b>Сезон 1 • День 15</b>\n<b>Is there a café near here? — Здесь рядом есть кафе?</b>\n\n<u>🎬 История</u>\nЭмма всё ещё изучает район.\nСегодня ей хочется найти новое место для кофе.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is there a café near here?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. There’s a café on the corner.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great, thanks.\n\n<u>🗣 Новые слова</u>\n🔹 Is there…? — есть ли…?\n🔹 There’s… — есть…\n🔹 on the corner — на углу\n\n<u>⭐ Запомните</u>\n<b>There’s = there is</b>\nThere’s a café.\n— Здесь есть кафе.\n\n<u>🎧 Послушайте и повторите</u>\nIs there a café near here?\nYes. There’s a café on the corner.\nGreat, thanks."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day15.mp3",
-          "caption": "🎧 Сезон 1 • День 15 • Утро"
+          "title": "Сезон 1 · День 15 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -751,13 +778,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 15</b>\n\n🎧 Послушайте:\n\nIs there a café near here?\n\n👇 Выберите правильный смысл."
+          "text": "☀️ <b>Практика • День 15</b>\n\n<u>🎧 Послушайте:</u>\nIs there a café near here?\n\n👇 Выберите правильный смысл."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day15.mp3",
-          "caption": "🎧 Практика • День 15"
+          "title": "Сезон 1 · День 15 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -783,13 +811,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 16</b>\n\n<b>It’s next to the pharmacy. — Это рядом с аптекой.</b>\n\n<b>🎬 История</b>\n\nТеперь Эмме нужен супермаркет.\n\nАдам уже немного лучше знает район.\n\n👩 <b>Emma:</b>\nIs there a supermarket near here?\n\n👨 <b>Adam:</b>\nYes, there is. It’s next to the pharmacy.\n\n👩 <b>Emma:</b>\nPerfect.\n\n<b>🗣 Новые слова</b>\n\n🔹 supermarket — супермаркет\n🔹 pharmacy — аптека\n🔹 next to — рядом с\n\n<b>🎧 Послушайте и повторите</b>\n\nIs there a supermarket near here?\nYes, there is. It’s next to the pharmacy.\nPerfect."
+          "text": "🌱 <b>Сезон 1 • День 16</b>\n<b>It’s next to the pharmacy. — Это рядом с аптекой.</b>\n\n<u>🎬 История</u>\nТеперь Эмме нужен супермаркет.\nАдам уже немного лучше знает район.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is there a supermarket near here?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, there is. It’s next to the pharmacy.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Perfect.\n\n<u>🗣 Новые слова</u>\n🔹 supermarket — супермаркет\n🔹 pharmacy — аптека\n🔹 next to — рядом с\n\n<u>🎧 Послушайте и повторите</u>\nIs there a supermarket near here?\nYes, there is. It’s next to the pharmacy.\nPerfect."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day16.mp3",
-          "caption": "🎧 Сезон 1 • День 16 • Утро"
+          "title": "Сезон 1 · День 16 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -802,13 +831,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 16</b>\n\n🎧 Послушайте:\n\nIt’s next to the pharmacy."
+          "text": "☀️ <b>Практика • День 16</b>\n\n<u>🎧 Послушайте:</u>\nIt’s next to the pharmacy."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day16.mp3",
-          "caption": "🎧 Практика • День 16"
+          "title": "Сезон 1 · День 16 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -834,13 +864,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 17</b>\n\n<b>Is it far? — Это далеко?</b>\n\n<b>🎬 История</b>\n\nЭмма собирается ехать на работу и ищет ближайшую станцию метро.\n\n👩 <b>Emma:</b>\nWhere is the subway station?\n\n👨 <b>Adam:</b>\nIt’s near the bank.\n\n👩 <b>Emma:</b>\nIs it far?\n\n👨 <b>Adam:</b>\nNo, it’s not far.\n\n<b>🗣 Новые слова</b>\n\n🔹 subway station — станция метро\n🔹 Is it far? — это далеко?\n🔹 It’s not far. — это недалеко.\n\n<b>⭐ Запомните</b>\n\nВ американском английском:\n\n<b>subway</b>\n\nБританский вариант мы встретим позже в истории.\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere is the subway station?\nIt’s near the bank.\nIs it far?\nNo, it’s not far."
+          "text": "🌱 <b>Сезон 1 • День 17</b>\n<b>Is it far? — Это далеко?</b>\n\n<u>🎬 История</u>\nЭмма собирается ехать на работу и ищет ближайшую станцию метро.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where is the subway station?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It’s near the bank.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is it far?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No, it’s not far.\n\n<u>🗣 Новые слова</u>\n🔹 subway station — станция метро\n🔹 Is it far? — это далеко?\n🔹 It’s not far. — это недалеко.\n\n<u>⭐ Запомните</u>\nВ американском английском:\n<b>subway</b>\nБританский вариант мы встретим позже в истории.\n\n<u>🎧 Послушайте и повторите</u>\nWhere is the subway station?\nIt’s near the bank.\nIs it far?\nNo, it’s not far."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day17.mp3",
-          "caption": "🎧 Сезон 1 • День 17 • Утро"
+          "title": "Сезон 1 · День 17 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -853,13 +884,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 17</b>\n\n🎧 Послушайте:\n\nIt’s not far."
+          "text": "☀️ <b>Практика • День 17</b>\n\n<u>🎧 Послушайте:</u>\nIt’s not far."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day17.mp3",
-          "caption": "🎧 Практика • День 17"
+          "title": "Сезон 1 · День 17 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -885,13 +917,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 18</b>\n\n<b>It’s on Green Street. — Это на Грин-стрит.</b>\n\n<b>🎬 История</b>\n\nСегодня Эмма ищет банк.\n\n👩 <b>Emma:</b>\nWhere is the bank?\n\n👨 <b>Adam:</b>\nIt’s on Green Street.\n\n👩 <b>Emma:</b>\nNear the café?\n\n👨 <b>Adam:</b>\nYes.\n\n<b>🗣 Новые слова</b>\n\n🔹 Where is…? — где находится…?\n\n🔹 bank — банк\n🔹 street — улица\n🔹 on Green Street — на Грин-стрит\n\n<b>⭐ Запомните</b>\n\nС названиями улиц используем предлог:\n\n<b>on Green Street</b>\n\n<b>on Fifth Avenue</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere is the bank?\nIt’s on Green Street.\nNear the café?\nYes."
+          "text": "🌱 <b>Сезон 1 • День 18</b>\n<b>It’s on Green Street. — Это на Грин-стрит.</b>\n\n<u>🎬 История</u>\nСегодня Эмма ищет банк.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where is the bank?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It’s on Green Street.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Near the café?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes.\n\n<u>🗣 Новые слова</u>\n🔹 Where is…? — где находится…?\n🔹 bank — банк\n🔹 street — улица\n🔹 on Green Street — на Грин-стрит\n\n<u>⭐ Запомните</u>\nС названиями улиц используем предлог:\n<b>on Green Street</b>\n<b>on Fifth Avenue</b>\n\n<u>🎧 Послушайте и повторите</u>\nWhere is the bank?\nIt’s on Green Street.\nNear the café?\nYes."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day18.mp3",
-          "caption": "🎧 Сезон 1 • День 18 • Утро"
+          "title": "Сезон 1 · День 18 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -904,7 +937,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 18</b>\n\nЗаполните пропуск:\n\n<b>The bank is ___ Green Street.</b>"
+          "text": "☀️ <b>Практика • День 18</b>\nЗаполните пропуск:\n<b>The bank is ___ Green Street.</b>"
         },
         {
           "id": "poll",
@@ -930,13 +963,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 19</b>\n\n<b>There are two cafés. — Здесь есть два кафе.</b>\n\n<b>🎬 История</b>\n\nЧем больше Эмма гуляет по району, тем больше знакомых мест замечает.\n\n👩 <b>Emma:</b>\nThere are two cafés near here.\n\n👨 <b>Adam:</b>\nYes. And there’s a park too.\n\n👩 <b>Emma:</b>\nNice!\n\n<b>🗣 Новые слова</b>\n\n🔹 There are… — есть / находятся, когда объектов несколько\n🔹 park — парк\n🔹 two cafés — два кафе\n\n<b>⭐ Запомните</b>\n\nОдин объект:\n\n<b>There is a café.</b>\n\nНесколько:\n\n<b>There are two cafés.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nThere are two cafés near here.\nYes. And there’s a park too.\nNice!"
+          "text": "🌱 <b>Сезон 1 • День 19</b>\n<b>There are two cafés. — Здесь есть два кафе.</b>\n\n<u>🎬 История</u>\nЧем больше Эмма гуляет по району, тем больше знакомых мест замечает.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;There are two cafés near here.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. And there’s a park too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Nice!\n\n<u>🗣 Новые слова</u>\n🔹 There are… — есть / находятся, когда объектов несколько\n🔹 park — парк\n🔹 two cafés — два кафе\n\n<u>⭐ Запомните</u>\nОдин объект:\n<b>There is a café.</b>\nНесколько:\n<b>There are two cafés.</b>\n\n<u>🎧 Послушайте и повторите</u>\nThere are two cafés near here.\nYes. And there’s a park too.\nNice!"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day19.mp3",
-          "caption": "🎧 Сезон 1 • День 19 • Утро"
+          "title": "Сезон 1 · День 19 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -949,7 +983,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 19</b>\n\nКак правильно сказать:\n\n«Здесь есть два кафе»?"
+          "text": "☀️ <b>Практика • День 19</b>\nКак правильно сказать:\n«Здесь есть два кафе»?"
         },
         {
           "id": "poll",
@@ -975,13 +1009,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 20</b>\n\n<b>It’s around the corner. — Это за углом.</b>\n\n<b>🎬 История</b>\n\nЭмма хочет найти книжный магазин.\n\nАдам снова приходит на помощь.\n\n👩 <b>Emma:</b>\nWhere is the bookstore?\n\n👨 <b>Adam:</b>\nIt’s around the corner, next to the café.\n\n👩 <b>Emma:</b>\nGreat, thanks!\n\n<b>🗣 Новые слова</b>\n\n🔹 bookstore — книжный магазин\n🔹 around the corner — за углом\n🔹 next to the café — рядом с кафе\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere is the bookstore?\nIt’s around the corner, next to the café.\nGreat, thanks!"
+          "text": "🌱 <b>Сезон 1 • День 20</b>\n<b>It’s around the corner. — Это за углом.</b>\n\n<u>🎬 История</u>\nЭмма хочет найти книжный магазин.\nАдам снова приходит на помощь.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where is the bookstore?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It’s around the corner, next to the café.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great, thanks!\n\n<u>🗣 Новые слова</u>\n🔹 bookstore — книжный магазин\n🔹 around the corner — за углом\n🔹 next to the café — рядом с кафе\n\n<u>🎧 Послушайте и повторите</u>\nWhere is the bookstore?\nIt’s around the corner, next to the café.\nGreat, thanks!"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day20.mp3",
-          "caption": "🎧 Сезон 1 • День 20 • Утро"
+          "title": "Сезон 1 · День 20 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -994,13 +1029,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 20</b>\n\n🎧 Послушайте:\n\nIt’s around the corner."
+          "text": "☀️ <b>Практика • День 20</b>\n\n<u>🎧 Послушайте:</u>\nIt’s around the corner."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day20.mp3",
-          "caption": "🎧 Практика • День 20"
+          "title": "Сезон 1 · День 20 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -1026,13 +1062,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 21</b>\n\n<b>Week 3 Review — Уже ориентируемся в районе</b>\n\n<b>🎬 История</b>\n\nЭмма выходит из метро с другой стороны улицы и снова немного путается.\n\nК счастью, она встречает Адама.\n\n👩 <b>Emma:</b>\nAdam, where is the pharmacy?\n\n👨 <b>Adam:</b>\nIt’s on Green Street, next to the supermarket.\n\n👩 <b>Emma:</b>\nIs it far?\n\n👨 <b>Adam:</b>\nNo, it’s not. It’s around the corner.\n\n👩 <b>Emma:</b>\nGreat. Thanks!\n\n<b>🗣 Повторяем</b>\n\nWhere is the pharmacy? — Где находится аптека?\n\nIs there a supermarket near here?\n\nIt’s on Green Street, next to the supermarket.\n\nIt’s around the corner. It’s not far.\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+          "text": "🌱 <b>Сезон 1 • День 21</b>\n<b>Week 3 Review — Уже ориентируемся в районе</b>\n\n<u>🎬 История</u>\nЭмма выходит из метро с другой стороны улицы и снова немного путается.\nК счастью, она встречает Адама.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Adam, where is the pharmacy?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It’s on Green Street, next to the supermarket.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is it far?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No, it’s not. It’s around the corner.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Thanks!\n\n<u>🗣 Повторяем</u>\nWhere is the pharmacy? — Где находится аптека?\nIs there a supermarket near here?\nIt’s on Green Street, next to the supermarket.\nIt’s around the corner. It’s not far.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day21.mp3",
-          "caption": "🎧 Сезон 1 • День 21 • Утро"
+          "title": "Сезон 1 · День 21 · Утро",
+          "performer": "Английский через истории"
         },
         {
           "id": "image",
@@ -1050,13 +1087,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 21</b>\n\n🎧 Послушайте:\n\nThe pharmacy is on Green Street, next to the supermarket."
+          "text": "☀️ <b>Практика • День 21</b>\n\n<u>🎧 Послушайте:</u>\nThe pharmacy is on Green Street, next to the supermarket."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day21.mp3",
-          "caption": "🎧 Практика • День 21"
+          "title": "Сезон 1 · День 21 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -1082,13 +1120,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 22</b>\n\n<b>Do you like coffee? — Тебе нравится кофе?</b>\n\n<b>🎬 История</b>\n\nАдам и Эмма снова встречаются возле кафе.\n\nТеперь они уже могут поговорить не только о работе и районе.\n\n👨 <b>Adam:</b>\nDo you like coffee?\n\n👩 <b>Emma:</b>\nYes, I do. I like coffee a lot.\n\n👨 <b>Adam:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 Do you like…? — тебе нравится…?\n🔹 Yes, I do. — да.\n🔹 a lot — очень / сильно / много\n\n<b>⭐ Запомните</b>\n\nВопрос:\n\n<b>Do you like coffee?</b>\n\nОтвет:\n\n<b>Yes, I do.</b>\n\nили\n\n<b>No, I don’t.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like coffee?\nYes, I do. I like coffee a lot.\nMe too."
+          "text": "🌱 <b>Сезон 1 • День 22</b>\n<b>Do you like coffee? — Тебе нравится кофе?</b>\n\n<u>🎬 История</u>\nАдам и Эмма снова встречаются возле кафе.\nТеперь они уже могут поговорить не только о работе и районе.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like coffee?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I like coffee a lot.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n\n<u>🗣 Новые слова</u>\n🔹 Do you like…? — тебе нравится…?\n🔹 Yes, I do. — да.\n🔹 a lot — очень / сильно / много\n\n<u>⭐ Запомните</u>\nВопрос:\n<b>Do you like coffee?</b>\nОтвет:\n<b>Yes, I do.</b>\nили\n<b>No, I don’t.</b>\n\n<u>🎧 Послушайте и повторите</u>\nDo you like coffee?\nYes, I do. I like coffee a lot.\nMe too."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day22.mp3",
-          "caption": "🎧 Сезон 1 • День 22 • Утро"
+          "title": "Сезон 1 · День 22 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1101,7 +1140,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 22</b>\n\nВас спрашивают:\n\n<b>Do you like coffee?</b>"
+          "text": "☀️ <b>Практика • День 22</b>\nВас спрашивают:\n<b>Do you like coffee?</b>"
         },
         {
           "id": "poll",
@@ -1127,13 +1166,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 23</b>\n\n<b>I don’t like tea. — Мне не нравится чай.</b>\n\n<b>🎬 История</b>\n\nОказывается, вкусы Эммы и Адама совпадают не во всём.\n\n👩 <b>Emma:</b>\nDo you like tea?\n\n👨 <b>Adam:</b>\nNot really. I don’t like tea very much.\n\n👩 <b>Emma:</b>\nI like it.\n\n<b>🗣 Новые слова</b>\n\n🔹 I don’t like… — мне не нравится…\n🔹 Not really. — не очень.\n🔹 tea — чай\n\n<b>⭐ Запомните</b>\n\nI like coffee.\n\nI don’t like tea.\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like tea?\nNot really. I don’t like tea very much.\nI like it."
+          "text": "🌱 <b>Сезон 1 • День 23</b>\n<b>I don’t like tea. — Мне не нравится чай.</b>\n\n<u>🎬 История</u>\nОказывается, вкусы Эммы и Адама совпадают не во всём.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like tea?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Not really. I don’t like tea very much.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I like it.\n\n<u>🗣 Новые слова</u>\n🔹 I don’t like… — мне не нравится…\n🔹 Not really. — не очень.\n🔹 tea — чай\n\n<u>⭐ Запомните</u>\nI like coffee.\nI don’t like tea.\n\n<u>🎧 Послушайте и повторите</u>\nDo you like tea?\nNot really. I don’t like tea very much.\nI like it."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day23.mp3",
-          "caption": "🎧 Сезон 1 • День 23 • Утро"
+          "title": "Сезон 1 · День 23 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1146,7 +1186,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 23</b>\n\nКак сказать:\n\n«Мне не нравится чай»?"
+          "text": "☀️ <b>Практика • День 23</b>\nКак сказать:\n«Мне не нравится чай»?"
         },
         {
           "id": "poll",
@@ -1172,13 +1212,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 24</b>\n\n<b>I like Italian food. — Мне нравится итальянская кухня.</b>\n\n<b>🎬 История</b>\n\nРазговор о напитках постепенно переходит к еде.\n\n👨 <b>Adam:</b>\nDo you like pizza?\n\n👩 <b>Emma:</b>\nYes, I do. I like Italian food.\n\n👨 <b>Adam:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 pizza — пицца\n🔹 Italian food — итальянская кухня\n🔹 food — еда\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like pizza?\nYes, I do. I like Italian food.\nMe too."
+          "text": "🌱 <b>Сезон 1 • День 24</b>\n<b>I like Italian food. — Мне нравится итальянская кухня.</b>\n\n<u>🎬 История</u>\nРазговор о напитках постепенно переходит к еде.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like pizza?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I like Italian food.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n\n<u>🗣 Новые слова</u>\n🔹 pizza — пицца\n🔹 Italian food — итальянская кухня\n🔹 food — еда\n\n<u>🎧 Послушайте и повторите</u>\nDo you like pizza?\nYes, I do. I like Italian food.\nMe too."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day24.mp3",
-          "caption": "🎧 Сезон 1 • День 24 • Утро"
+          "title": "Сезон 1 · День 24 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1191,13 +1232,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 24</b>\n\n🎧 Послушайте:\n\nI like Italian food."
+          "text": "☀️ <b>Практика • День 24</b>\n\n<u>🎧 Послушайте:</u>\nI like Italian food."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day24.mp3",
-          "caption": "🎧 Практика • День 24"
+          "title": "Сезон 1 · День 24 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -1223,13 +1265,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 25</b>\n\n<b>I like it. — Мне это нравится.</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам заходят в кафе, которое уже несколько раз видели неподалёку.\n\n👩 <b>Emma:</b>\nDo you like this café?\n\n👨 <b>Adam:</b>\nYes, I do. I like it.\n\n👩 <b>Emma:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 this café — это кафе\n🔹 I like it. — мне это нравится.\n🔹 it — это / его / её, когда говорим о предмете или месте\n\n<b>⭐ Запомните</b>\n\nЧтобы не повторять одно слово:\n\nI like this café.\n\n↓\n\nI like it.\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like this café?\nYes, I do. I like it.\nMe too."
+          "text": "🌱 <b>Сезон 1 • День 25</b>\n<b>I like it. — Мне это нравится.</b>\n\n<u>🎬 История</u>\nЭмма и Адам заходят в кафе, которое уже несколько раз видели неподалёку.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like this café?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I like it.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n\n<u>🗣 Новые слова</u>\n🔹 this café — это кафе\n🔹 I like it. — мне это нравится.\n🔹 it — это / его / её, когда говорим о предмете или месте\n\n<u>⭐ Запомните</u>\nЧтобы не повторять одно слово:\nI like this café.\n↓\nI like it.\n\n<u>🎧 Послушайте и повторите</u>\nDo you like this café?\nYes, I do. I like it.\nMe too."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day25.mp3",
-          "caption": "🎧 Сезон 1 • День 25 • Утро"
+          "title": "Сезон 1 · День 25 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1242,7 +1285,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 25</b>\n\nEmma спрашивает:\n\n<b>Do you like this café?</b>"
+          "text": "☀️ <b>Практика • День 25</b>\nEmma спрашивает:\n<b>Do you like this café?</b>"
         },
         {
           "id": "poll",
@@ -1268,13 +1311,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 26</b>\n\n<b>That’s interesting. — Это интересно.</b>\n\n<b>🎬 История</b>\n\nЗа кофе Эмма и Адам продолжают узнавать интересы друг друга.\n\n👩 <b>Emma:</b>\nI like jazz.\n\n👨 <b>Adam:</b>\nReally? I like jazz too.\n\n👩 <b>Emma:</b>\nThat’s interesting.\n\n<b>🗣 Новые слова</b>\n\n🔹 jazz — джаз\n🔹 Really? — правда?\n🔹 That’s interesting. — это интересно.\n\n<b>⭐ Запомните</b>\n\n<b>Really?</b>\n\nВ дружеском разговоре часто просто показывает интерес:\n\n«Правда? Интересно!»\n\n<b>🎧 Послушайте и повторите</b>\n\nI like jazz.\nReally? I like jazz too.\nThat’s interesting."
+          "text": "🌱 <b>Сезон 1 • День 26</b>\n<b>That’s interesting. — Это интересно.</b>\n\n<u>🎬 История</u>\nЗа кофе Эмма и Адам продолжают узнавать интересы друг друга.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I like jazz.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Really? I like jazz too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;That’s interesting.\n\n<u>🗣 Новые слова</u>\n🔹 jazz — джаз\n🔹 Really? — правда?\n🔹 That’s interesting. — это интересно.\n\n<u>⭐ Запомните</u>\n<b>Really?</b>\nВ дружеском разговоре часто просто показывает интерес:\n«Правда? Интересно!»\n\n<u>🎧 Послушайте и повторите</u>\nI like jazz.\nReally? I like jazz too.\nThat’s interesting."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day26.mp3",
-          "caption": "🎧 Сезон 1 • День 26 • Утро"
+          "title": "Сезон 1 · День 26 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1287,7 +1331,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 26</b>\n\nЧто означает:\n\n<b>Really?</b>"
+          "text": "☀️ <b>Практика • День 26</b>\nЧто означает:\n<b>Really?</b>"
         },
         {
           "id": "poll",
@@ -1313,13 +1357,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 27</b>\n\n<b>See you tomorrow. — Увидимся завтра.</b>\n\n<b>🎬 История</b>\n\nРазговор в кафе заканчивается.\n\nТеперь Эмма и Адам уже уверены, что скоро увидятся снова.\n\n👩 <b>Emma:</b>\nI have to go.\n\n👨 <b>Adam:</b>\nOkay. See you tomorrow.\n\n👩 <b>Emma:</b>\nSee you tomorrow!\n\n<b>🗣 Новые слова</b>\n\n🔹 I have to go. — мне нужно идти.\n🔹 tomorrow — завтра\n🔹 See you tomorrow. — увидимся завтра.\n\n<b>⭐ Запомните</b>\n\nУже знакомая модель:\n\n<b>See you later.</b>\n\nТеперь:\n\n<b>See you tomorrow.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nI have to go.\nOkay. See you tomorrow.\nSee you tomorrow!"
+          "text": "🌱 <b>Сезон 1 • День 27</b>\n<b>See you tomorrow. — Увидимся завтра.</b>\n\n<u>🎬 История</u>\nРазговор в кафе заканчивается.\nТеперь Эмма и Адам уже уверены, что скоро увидятся снова.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I have to go.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. See you tomorrow.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you tomorrow!\n\n<u>🗣 Новые слова</u>\n🔹 I have to go. — мне нужно идти.\n🔹 tomorrow — завтра\n🔹 See you tomorrow. — увидимся завтра.\n\n<u>⭐ Запомните</u>\nУже знакомая модель:\n<b>See you later.</b>\nТеперь:\n<b>See you tomorrow.</b>\n\n<u>🎧 Послушайте и повторите</u>\nI have to go.\nOkay. See you tomorrow.\nSee you tomorrow!"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day27.mp3",
-          "caption": "🎧 Сезон 1 • День 27 • Утро"
+          "title": "Сезон 1 · День 27 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1332,13 +1377,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 27</b>\n\n🎧 Послушайте:\n\nSee you tomorrow!"
+          "text": "☀️ <b>Практика • День 27</b>\n\n<u>🎧 Послушайте:</u>\nSee you tomorrow!"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day27.mp3",
-          "caption": "🎧 Практика • День 27"
+          "title": "Сезон 1 · День 27 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -1364,13 +1410,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 28</b>\n\n<b>Week 4 Review — Разговор уже становится настоящим</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам снова сидят в знакомом кафе.\n\nЧетыре недели назад их разговор состоял почти только из имён.\n\nСегодня всё иначе.\n\n👩 <b>Emma:</b>\nHow are you?\n\n👨 <b>Adam:</b>\nI’m good, thanks. What about you?\n\n👩 <b>Emma:</b>\nI’m good. Do you like this café?\n\n👨 <b>Adam:</b>\nYes, I do. I like it.\n\n👩 <b>Emma:</b>\nMe too. I like the coffee here.\n\n👨 <b>Adam:</b>\nMe too.\n\n👩 <b>Emma:</b>\nSee you tomorrow?\n\n👨 <b>Adam:</b>\nYes. See you tomorrow!\n\n<b>🗣 Повторяем</b>\n\nDo you like…? — Yes, I do. / No, I don’t.\n\nI like… / I don’t like…\n\nReally? Me too.\n\nSee you tomorrow.\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+          "text": "🌱 <b>Сезон 1 • День 28</b>\n<b>Week 4 Review — Разговор уже становится настоящим</b>\n\n<u>🎬 История</u>\nЭмма и Адам снова сидят в знакомом кафе.\nЧетыре недели назад их разговор состоял почти только из имён.\nСегодня всё иначе.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How are you?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good, thanks. What about you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m good. Do you like this café?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I like it.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. I like the coffee here.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you tomorrow?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. See you tomorrow!\n\n<u>🗣 Повторяем</u>\nDo you like…? — Yes, I do. / No, I don’t.\nI like… / I don’t like…\nReally? Me too.\nSee you tomorrow.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day28.mp3",
-          "caption": "🎧 Сезон 1 • День 28 • Утро"
+          "title": "Сезон 1 · День 28 · Утро",
+          "performer": "Английский через истории"
         },
         {
           "id": "image",
@@ -1388,13 +1435,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 28</b>\n\n🎧 Послушайте:\n\nDo you like this café?\n\nYes, I do. I like it."
+          "text": "☀️ <b>Практика • День 28</b>\n\n<u>🎧 Послушайте:</u>\nDo you like this café?\nYes, I do. I like it."
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day28.mp3",
-          "caption": "🎧 Практика • День 28"
+          "title": "Сезон 1 · День 28 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -1420,13 +1468,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 29</b>\n\n<b>Have a good day! — Хорошего дня!</b>\n\n<b>🎬 История</b>\n\nУтром Эмма и Адам встречаются возле дома.\n\nОба спешат на работу.\n\n👩 <b>Emma:</b>\nGood morning, Adam!\n\n👨 <b>Adam:</b>\nGood morning, Emma!\n\n👩 <b>Emma:</b>\nHave a good day!\n\n👨 <b>Adam:</b>\nYou too. See you later!\n\n👩 <b>Emma:</b>\nSee you!\n\n<b>🗣 Новые слова</b>\n\n🔹 Have a good day! — хорошего дня!\n🔹 You too! — тебе тоже!\n🔹 See you later! — увидимся позже!\n\n<b>⭐ Запомните</b>\n\n<b>You too!</b>\n\n— естественный короткий ответ на пожелание.\n\n<b>🎧 Послушайте и повторите</b>\n\nGood morning, Adam!\nGood morning, Emma!\nHave a good day!\nYou too. See you later!\nSee you!"
+          "text": "🌱 <b>Сезон 1 • День 29</b>\n<b>Have a good day! — Хорошего дня!</b>\n\n<u>🎬 История</u>\nУтром Эмма и Адам встречаются возле дома.\nОба спешат на работу.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Adam!\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Emma!\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Have a good day!\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;You too. See you later!\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you!\n\n<u>🗣 Новые слова</u>\n🔹 Have a good day! — хорошего дня!\n🔹 You too! — тебе тоже!\n🔹 See you later! — увидимся позже!\n\n<u>⭐ Запомните</u>\n<b>You too!</b>\n— естественный короткий ответ на пожелание.\n\n<u>🎧 Послушайте и повторите</u>\nGood morning, Adam!\nGood morning, Emma!\nHave a good day!\nYou too. See you later!\nSee you!"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day29.mp3",
-          "caption": "🎧 Сезон 1 • День 29 • Утро"
+          "title": "Сезон 1 · День 29 · Утро",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1439,7 +1488,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 29</b>\n\nКто-то говорит:\n\n<b>Have a good day!</b>\n\nКак естественно ответить?"
+          "text": "☀️ <b>Практика • День 29</b>\nКто-то говорит:\n<b>Have a good day!</b>\nКак естественно ответить?"
         },
         {
           "id": "poll",
@@ -1466,12 +1515,13 @@
           "id": "audio",
           "type": "audio",
           "path": "audio/morning/day30.mp3",
-          "caption": "🎧 Сезон 1 • День 30 • Утро"
+          "title": "Сезон 1 · День 30 · Утро",
+          "performer": "Английский через истории"
         },
         {
           "id": "text",
           "type": "message",
-          "text": "🌱 <b>Сезон 1 • День 30</b>\n\n<b>One Month in New York — Один месяц в Нью-Йорке</b>\n\n<b>🎬 История</b>\n\nПрошёл месяц.\n\nЭмма и Адам снова сидят в небольшом кафе рядом с домом.\n\nНью-Йорк всё ещё огромный, но их район уже не кажется совсем незнакомым.\n\n👩 <b>Emma:</b>\nI like this area now.\n\n👨 <b>Adam:</b>\nMe too.\n\n👩 <b>Emma:</b>\nWe know the café, the supermarket, and the subway station.\n\n👨 <b>Adam:</b>\nYes, we do.\n\n👩 <b>Emma:</b>\nHave a good evening, Adam.\n\n👨 <b>Adam:</b>\nYou too. See you tomorrow!\n\n👩 <b>Emma:</b>\nSee you!\n\n<b>⭐ Главная задача</b>\n\nСначала послушайте диалог, не читая текст, и постарайтесь понять общий смысл.\n\nНе переводите каждое слово отдельно.\n\nЭмма и Адам уже понемногу освоились в новом районе и стали приятелями.\n\n<b>🎧 Послушайте диалог целиком</b>\n\nI like this area now.\nMe too.\nWe know the café, the supermarket, and the subway station.\nYes, we do.\nHave a good evening, Adam.\nYou too. See you tomorrow!\nSee you!"
+          "text": "🌱 <b>Сезон 1 • День 30</b>\n<b>One Month in New York — Один месяц в Нью-Йорке</b>\n\n<u>🎬 История</u>\nПрошёл месяц.\nЭмма и Адам снова сидят в небольшом кафе рядом с домом.\nНью-Йорк всё ещё огромный, но их район уже не кажется совсем незнакомым.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I like this area now.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We know the café, the supermarket, and the subway station.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, we do.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Have a good evening, Adam.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;You too. See you tomorrow!\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you!\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог, не читая текст, и постарайтесь понять общий смысл.\nНе переводите каждое слово отдельно.\nЭмма и Адам уже понемногу освоились в новом районе и стали приятелями.\n\n<u>🎧 Послушайте диалог целиком</u>\nI like this area now.\nMe too.\nWe know the café, the supermarket, and the subway station.\nYes, we do.\nHave a good evening, Adam.\nYou too. See you tomorrow!\nSee you!"
         }
       ]
     },
@@ -1484,13 +1534,14 @@
         {
           "id": "text",
           "type": "message",
-          "text": "☀️ <b>Практика • День 30</b>\n\n🎧 Послушайте:\n\nHave a good evening, Adam.\nYou too. See you tomorrow!\n\n👇 Что происходит?"
+          "text": "☀️ <b>Практика • День 30</b>\n\n<u>🎧 Послушайте:</u>\nHave a good evening, Adam.\nYou too. See you tomorrow!\n\n👇 Что происходит?"
         },
         {
           "id": "audio",
           "type": "audio",
           "path": "audio/practice/day30.mp3",
-          "caption": "🎧 Практика • День 30"
+          "title": "Сезон 1 · День 30 · Практика",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll",
@@ -1595,7 +1646,8 @@
           "id": "poll07_audio",
           "type": "audio",
           "path": "audio/final/final_poll_07.mp3",
-          "caption": "🎧 Итоговый опрос • Задание 7"
+          "title": "Сезон 1 · Итоговый опрос · Задание 7",
+          "performer": "Английский через истории"
         },
         {
           "id": "poll07",
@@ -1621,7 +1673,7 @@
         {
           "id": "text",
           "type": "message",
-          "text": "<b>🎉 SEASON 1 COMPLETE!</b>\n\nМесяц назад всё началось всего с нескольких коротких фраз:\n\n<b>Hi!</b>\n\n<b>I’m Emma.</b>\n\n<b>Nice to meet you.</b>\n\nА теперь вы уже можете:\n\n✓ познакомиться;\n✓ сказать, откуда вы;\n✓ рассказать, где живёте и работаете;\n✓ назвать несколько своих интересов;\n✓ спросить человека о нём самом;\n✓ спросить, где находится нужное место;\n✓ понять простое объяснение;\n✓ сказать, что вам нравится или не нравится;\n✓ поддержать небольшой разговор;\n✓ попрощаться и пожелать человеку хорошего дня.\n\nИ главное — английский уже начинает состоять не из отдельных незнакомых слов.\n\nВы начинаете понимать целые реплики.\n\nЭто только первый сезон.\n\nНо язык уже начал работать."
+          "text": "<b>🎉 SEASON 1 COMPLETE!</b>\nМесяц назад всё началось всего с нескольких коротких фраз:\n<b>Hi!</b>\n<b>I’m Emma.</b>\n<b>Nice to meet you.</b>\nА теперь вы уже можете:\n✓ познакомиться;\n✓ сказать, откуда вы;\n✓ рассказать, где живёте и работаете;\n✓ назвать несколько своих интересов;\n✓ спросить человека о нём самом;\n✓ спросить, где находится нужное место;\n✓ понять простое объяснение;\n✓ сказать, что вам нравится или не нравится;\n✓ поддержать небольшой разговор;\n✓ попрощаться и пожелать человеку хорошего дня.\nИ главное — английский уже начинает состоять не из отдельных незнакомых слов.\nВы начинаете понимать целые реплики.\nЭто только первый сезон.\nНо язык уже начал работать."
         },
         {
           "id": "image",

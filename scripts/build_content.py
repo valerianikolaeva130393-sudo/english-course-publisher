@@ -17,8 +17,12 @@ OUTPUT = ROOT / "content" / "season1.json"
 START_DATE = date(2026, 9, 1)
 TIMEZONE = "Europe/Moscow"
 CHANNEL = "@english_story_a1a2"
+COURSE_NAME = "Английский через истории"
 WEEK_IMAGES = {7: "images/week01.png", 14: "images/week02.png", 21: "images/week03.png", 28: "images/week04.png"}
 NO_PRACTICE_AUDIO = {9, 12, 18, 19, 22, 23, 25, 26, 29}
+SUBSECTION_PREFIXES = ("🎬", "🗣", "⭐", "🎧")
+DIALOGUE_PREFIXES = ("👩 ", "👨 ")
+DIALOGUE_INDENT = "&#160;" * 5
 
 
 def sha256(path: Path) -> str:
@@ -49,8 +53,49 @@ def paragraph_html(paragraph) -> str:
     return value
 
 
+def is_subsection_heading(value: str) -> bool:
+    return value.startswith(SUBSECTION_PREFIXES)
+
+
+def is_dialogue_paragraph(value: str) -> bool:
+    return value.startswith(DIALOGUE_PREFIXES)
+
+
+def format_subsection_heading(value: str) -> str:
+    value = re.sub(r"</?b>", "", value)
+    return f"<u>{value}</u>"
+
+
+def format_dialogue_paragraph(value: str) -> str:
+    lines = value.splitlines()
+    if len(lines) < 2:
+        return value
+    return "\n".join([lines[0], *(DIALOGUE_INDENT + line for line in lines[1:])])
+
+
 def join_paragraphs(paragraphs) -> str:
-    return "\n\n".join(filter(None, (paragraph_html(p) for p in paragraphs)))
+    items: list[tuple[str, str]] = []
+    for paragraph in paragraphs:
+        raw = paragraph.text.strip()
+        value = paragraph_html(paragraph)
+        if not raw or not value:
+            continue
+        if is_subsection_heading(raw):
+            value = format_subsection_heading(value)
+        if is_dialogue_paragraph(raw):
+            value = format_dialogue_paragraph(value)
+        items.append((raw, value))
+
+    output: list[str] = []
+    for index, (raw, value) in enumerate(items):
+        if index:
+            previous_raw = items[index - 1][0]
+            dialogue_boundary = is_dialogue_paragraph(raw) != is_dialogue_paragraph(previous_raw)
+            section_boundary = is_subsection_heading(raw) or raw.startswith("👇")
+            separator = "\n\n" if dialogue_boundary or section_boundary else "\n"
+            output.append(separator)
+        output.append(value)
+    return "".join(output)
 
 
 def plain_text(value: str) -> str:
@@ -135,7 +180,8 @@ def build() -> None:
                 "id": "audio",
                 "type": "audio",
                 "path": f"audio/morning/day{day:02d}.mp3",
-                "caption": f"🎧 Сезон 1 • День {day} • Утро",
+                "title": f"Сезон 1 · День {day} · Утро",
+                "performer": COURSE_NAME,
             },
         ]
         if day == 30:
@@ -169,7 +215,8 @@ def build() -> None:
                     "id": "audio",
                     "type": "audio",
                     "path": f"audio/practice/day{day:02d}.mp3",
-                    "caption": f"🎧 Практика • День {day}",
+                    "title": f"Сезон 1 · День {day} · Практика",
+                    "performer": COURSE_NAME,
                 }
             )
         practice_steps.append(make_poll("poll", question, section_texts[options_index]))
@@ -200,7 +247,8 @@ def build() -> None:
                     "id": "poll07_audio",
                     "type": "audio",
                     "path": "audio/final/final_poll_07.mp3",
-                    "caption": "🎧 Итоговый опрос • Задание 7",
+                    "title": "Сезон 1 · Итоговый опрос · Задание 7",
+                    "performer": COURSE_NAME,
                 }
             )
             question_parts = [
@@ -263,7 +311,7 @@ def build() -> None:
 
     payload = {
         "meta": {
-            "course": "Английский через истории",
+            "course": COURSE_NAME,
             "season": 1,
             "start_date": "2026-09-01",
             "end_date": "2026-09-30",
