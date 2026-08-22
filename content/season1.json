@@ -1,0 +1,1693 @@
+{
+  "meta": {
+    "course": "Английский через истории",
+    "season": 1,
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-30",
+    "timezone": "Europe/Moscow",
+    "channel": "@english_story_a1a2",
+    "source_sha256": "25ead666a4f45e19e1da109678b232b7fde6abd625d8c89f4a9a6fee1b73eb3a",
+    "audio_files": 52,
+    "image_files": 5
+  },
+  "events": [
+    {
+      "id": "day01_morning",
+      "date": "2026-09-01",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 1</b>\n\n<b>Hi! I’m Emma. — Привет! Я Эмма.</b>\n\n<b>🎬 История</b>\n\nЭмма только переехала в Нью-Йорк.\n\nВозле нового дома она замечает Адама с коробками для переезда. Похоже, он тоже здесь недавно.\n\n👩 <b>Emma:</b>\nHi! I’m Emma.\n\n👨 <b>Adam:</b>\nHi! I’m Adam.\n\n👩 <b>Emma:</b>\nNice to meet you.\n\n👨 <b>Adam:</b>\nNice to meet you too.\n\nЭмма улыбается. Похоже, у неё появился первый знакомый в новом городе.\n\n<b>🗣 Новые слова</b>\n\n🔹 Hi! — привет!\n🔹 I’m Emma. — я Эмма.\n🔹 Nice to meet you. — приятно познакомиться.\n\n<b>⭐ Запомните</b>\n\n<b>I’m = I am</b>\n\nВ обычной речи чаще говорят:\n\n<b>I’m Emma.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nHi! I’m Emma.\nHi! I’m Adam.\nNice to meet you.\nNice to meet you too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day01.mp3",
+          "caption": "🎧 Сезон 1 • День 1 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day01_practice",
+      "date": "2026-09-01",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 1</b>\n\n🎧 Послушайте и повторите:\n\nHi! I’m Emma.\nNice to meet you.\n\n👇 Ответьте в опросе ниже."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day01.mp3",
+          "caption": "🎧 Практика • День 1"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Вы впервые знакомитесь с человеком. Что лучше сказать?",
+          "options": [
+            "Hi! I’m Anna.",
+            "I’m from Chicago.",
+            "Good night."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day02_morning",
+      "date": "2026-09-02",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 2</b>\n\n<b>Where are you from? — Откуда ты?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам продолжают разговор возле дома.\n\nОказывается, оба приехали в Нью-Йорк из других городов.\n\n👨 <b>Adam:</b>\nAre you from New York?\n\n👩 <b>Emma:</b>\nNo, I’m not. I’m from Chicago.\n\n👩 <b>Emma:</b>\nWhat about you?\n\n👨 <b>Adam:</b>\nI’m from Denver.\n\n<b>🗣 Новые слова</b>\n\n🔹 Are you from New York? — ты из Нью-Йорка?\n🔹 I’m from Chicago. — я из Чикаго.\n🔹 What about you? — а ты?\n\n<b>⭐ Запомните</b>\n\nВопрос:\n\n<b>Are you from…?</b>\n\nОтвет:\n\n<b>Yes, I am.</b>\n\n<b>No, I’m not.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nAre you from New York?\nNo, I’m not. I’m from Chicago.\nWhat about you?\nI’m from Denver."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day02.mp3",
+          "caption": "🎧 Сезон 1 • День 2 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day02_practice",
+      "date": "2026-09-02",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 2</b>\n\n🎧 Послушайте и повторите:\n\nWhere are you from?\nI’m from Chicago.\n\n👇 Ответьте в опросе ниже."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day02.mp3",
+          "caption": "🎧 Практика • День 2"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Я из Денвера»?",
+          "options": [
+            "I’m Denver.",
+            "I’m from Denver.",
+            "I from Denver."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day03_morning",
+      "date": "2026-09-03",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 3</b>\n\n<b>Are you new here? — Ты здесь недавно?</b>\n\n<b>🎬 История</b>\n\nНа следующий день Эмма снова встречает Адама у дома.\n\nТеперь она уже узнаёт знакомое лицо.\n\n👩 <b>Emma:</b>\nGood morning, Adam! Are you new here too?\n\n👨 <b>Adam:</b>\nYes, I am. I’m new here.\n\n👩 <b>Emma:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 Are you new here? — ты здесь недавно?\n🔹 I’m new here. — я здесь недавно / я здесь новенький.\n🔹 Me too. — я тоже.\n\n<b>⭐ Запомните</b>\n\n<b>too = тоже</b>\n\n<b>I’m new here too.</b>\n\n— Я тоже здесь недавно.\n\n<b>🎧 Послушайте и повторите</b>\n\nGood morning, Adam! Are you new here too?\nYes, I am. I’m new here.\nMe too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day03.mp3",
+          "caption": "🎧 Сезон 1 • День 3 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day03_practice",
+      "date": "2026-09-03",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 3</b>\n\n🎧 Послушайте:\n\nAre you new here?\n\n👇 Что вы услышали?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day03.mp3",
+          "caption": "🎧 Практика • День 3"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что вы услышали?",
+          "options": [
+            "Ты здесь недавно?",
+            "Ты отсюда?",
+            "Ты здесь работаешь?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day04_morning",
+      "date": "2026-09-04",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 4</b>\n\n<b>We’re neighbors. — Мы соседи.</b>\n\n<b>🎬 История</b>\n\nЭмма замечает, что Адам входит в тот же дом.\n\nОказывается, они не просто живут в одном районе.\n\n👩 <b>Emma:</b>\nDo you live in this building too?\n\n👨 <b>Adam:</b>\nYes, I do. I live in apartment 4B.\n\n👩 <b>Emma:</b>\nI live in apartment 5A.\n\n👨 <b>Adam:</b>\nOh! We’re neighbors.\n\n<b>🗣 Новые слова</b>\n\n🔹 building — здание / дом\n🔹 apartment — квартира\n🔹 We’re neighbors. — мы соседи.\n\n<b>⭐ Запомните</b>\n\n<b>We’re = we are</b>\n\n<b>We’re neighbors.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you live in this building too?\nYes, I do. I live in apartment 4B.\nI live in apartment 5A.\nOh! We’re neighbors."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day04.mp3",
+          "caption": "🎧 Сезон 1 • День 4 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day04_practice",
+      "date": "2026-09-04",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 4</b>\n\n🎧 Послушайте и повторите:\n\nWe’re neighbors.\n\n👇 Что это значит?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day04.mp3",
+          "caption": "🎧 Практика • День 4"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что это значит?",
+          "options": [
+            "Мы коллеги.",
+            "Мы соседи.",
+            "Мы родственники."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day05_morning",
+      "date": "2026-09-05",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 5</b>\n\n<b>How are you? — Как дела?</b>\n\n<b>🎬 История</b>\n\nУтром Эмма встречает Адама возле входа.\n\nТеперь они уже разговаривают как знакомые.\n\n👩 <b>Emma:</b>\nGood morning, Adam. How are you?\n\n👨 <b>Adam:</b>\nI’m good, thanks. And you?\n\n👩 <b>Emma:</b>\nI’m good too.\n\n<b>🗣 Новые слова</b>\n\n🔹 How are you? — как дела?\n🔹 I’m good, thanks. — всё хорошо, спасибо.\n🔹 And you? — а ты?\n\n<b>⭐ Запомните</b>\n\nВ современном американском английском:\n\n<b>I’m good, thanks.</b>\n\n— естественный повседневный ответ на <b>How are you?</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nGood morning, Adam. How are you?\nI’m good, thanks. And you?\nI’m good too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day05.mp3",
+          "caption": "🎧 Сезон 1 • День 5 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day05_practice",
+      "date": "2026-09-05",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 5</b>\n\n🎧 Послушайте и повторите:\n\nHow are you?\nI’m good, thanks.\n\n👇 Ответьте в опросе."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day05.mp3",
+          "caption": "🎧 Практика • День 5"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что лучше ответить на “How are you?”",
+          "options": [
+            "I’m good, thanks.",
+            "I’m from Chicago.",
+            "Nice to meet you."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day06_morning",
+      "date": "2026-09-06",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 6</b>\n\n<b>See you later! — Увидимся позже!</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам встречаются в холле, но оба спешат.\n\nРазговор сегодня совсем короткий.\n\n👨 <b>Adam:</b>\nEmma, are you in a hurry?\n\n👩 <b>Emma:</b>\nYes, I am.\n\n👨 <b>Adam:</b>\nMe too. See you later!\n\n👩 <b>Emma:</b>\nSee you!\n\n<b>🗣 Новые слова</b>\n\n🔹 I’m in a hurry. — я спешу.\n🔹 Me too. — я тоже.\n🔹 See you later! — увидимся позже!\n🔹 See you! — увидимся!\n\n<b>🎧 Послушайте и повторите</b>\n\nEmma, are you in a hurry?\nYes, I am.\nMe too. See you later!\nSee you!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day06.mp3",
+          "caption": "🎧 Сезон 1 • День 6 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day06_practice",
+      "date": "2026-09-06",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 6</b>\n\n🎧 Послушайте:\n\nSee you later!\n\n👇 Как лучше ответить?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day06.mp3",
+          "caption": "🎧 Практика • День 6"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как лучше ответить?",
+          "options": [
+            "See you!",
+            "I’m from Denver.",
+            "Nice to meet you."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day07_morning",
+      "date": "2026-09-07",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 7</b>\n\n<b>Week 1 Review — Повторяем первую неделю</b>\n\n<b>🎬 История</b>\n\nПрошла первая неделя.\n\nЭмма и Адам уже узнают друг друга и легко обмениваются несколькими фразами.\n\n👨 <b>Adam:</b>\nGood morning, Emma. How are you?\n\n👩 <b>Emma:</b>\nI’m good, thanks. And you?\n\n👨 <b>Adam:</b>\nI’m good too.\n\n👩 <b>Emma:</b>\nAre you from New York?\n\n👨 <b>Adam:</b>\nNo, I’m not. I’m from Denver.\n\n👩 <b>Emma:</b>\nAnd I’m from Chicago.\n\n👨 <b>Adam:</b>\nNow we’re neighbors.\n\n👩 <b>Emma:</b>\nYes!\n\n<b>🗣 Повторяем</b>\n\n🔹 Hi! I’m… I’m from…\n🔹 Where are you from? — I’m from…\n🔹 How are you? — I’m good, thanks.\n🔹 We’re neighbors.\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day07.mp3",
+          "caption": "🎧 Сезон 1 • День 7 • Утро"
+        },
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week01.png"
+        }
+      ]
+    },
+    {
+      "id": "day07_practice",
+      "date": "2026-09-07",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 7</b>\n\n🎧 Послушайте:\n\n<tg-spoiler>Hi! I’m Alex. I’m from Boston.</tg-spoiler>\n\n👇 Какой вариант полностью правильный?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day07.mp3",
+          "caption": "🎧 Практика • День 7"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой вариант полностью правильный?",
+          "options": [
+            "Hi! I’m Alex. I’m from Boston.",
+            "Hi! I Alex. I Boston.",
+            "Hi! Am Alex from Boston."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day08_morning",
+      "date": "2026-09-08",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 8</b>\n\n<b>Where do you live? — Где ты живёшь?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам снова встречаются возле дома.\n\nОни начинают немного больше рассказывать о своей новой жизни.\n\n👩 <b>Emma:</b>\nWhere do you live now?\n\n👨 <b>Adam:</b>\nI live here in Brooklyn.\n\n👩 <b>Emma:</b>\nMe too. I like this area.\n\n<b>🗣 Новые слова</b>\n\n🔹 Where do you live? — где ты живёшь?\n🔹 I live in Brooklyn. — я живу в Бруклине.\n🔹 area — район / местность\n\n<b>⭐ Запомните</b>\n\nПока запоминаем вопрос целиком:\n\n<b>Where do you live?</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere do you live now?\nI live here in Brooklyn.\nMe too. I like this area."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day08.mp3",
+          "caption": "🎧 Сезон 1 • День 8 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day08_practice",
+      "date": "2026-09-08",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 8</b>\n\n🎧 Послушайте:\n\nWhere do you live?\n\n👇 Выберите правильный ответ."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day08.mp3",
+          "caption": "🎧 Практика • День 8"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "I live in Brooklyn.",
+            "I’m live Brooklyn.",
+            "I am from live Brooklyn."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day09_morning",
+      "date": "2026-09-09",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 9</b>\n\n<b>What do you do? — Чем ты занимаешься?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам заходят за кофе.\n\nРазговор переходит к работе.\n\n👩 <b>Emma:</b>\nWhat do you do?\n\n👨 <b>Adam:</b>\nI’m a project engineer. What about you?\n\n👩 <b>Emma:</b>\nI’m a marketing coordinator.\n\n<b>🗣 Новые слова</b>\n\n🔹 What do you do? — кем ты работаешь? / чем занимаешься?\n🔹 project engineer — инженер проекта\n🔹 marketing coordinator — координатор по маркетингу\n\n<b>⭐ Запомните</b>\n\n<b>What do you do?</b>\n\nВ таком разговоре означает:\n\n«Кем ты работаешь?»\n\n<b>🎧 Послушайте и повторите</b>\n\nWhat do you do?\nI’m a project engineer. What about you?\nI’m a marketing coordinator."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day09.mp3",
+          "caption": "🎧 Сезон 1 • День 9 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day09_practice",
+      "date": "2026-09-09",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 9</b>\n\n👇 Что хочет узнать человек, спрашивая:\n\n<b>What do you do?</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что хочет узнать человек, спрашивая:\nWhat do you do?",
+          "options": [
+            "Где вы живёте?",
+            "Кем вы работаете / чем занимаетесь?",
+            "Что вы делаете прямо сейчас?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day10_morning",
+      "date": "2026-09-10",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 10</b>\n\n<b>Where do you work? — Где ты работаешь?</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам выясняют, что оба работают на Манхэттене.\n\n👨 <b>Adam:</b>\nWhere do you work?\n\n👩 <b>Emma:</b>\nI work in Manhattan.\n\n👨 <b>Adam:</b>\nNice. I work in Manhattan too.\n\n<b>🗣 Новые слова</b>\n\n🔹 Where do you work? — где ты работаешь?\n🔹 I work in Manhattan. — я работаю на Манхэттене.\n🔹 work — работать\n\n<b>⭐ Запомните</b>\n\n<b>live — жить</b>\n\n<b>work — работать</b>\n\nI live in Brooklyn.\n\nI work in Manhattan.\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere do you work?\nI work in Manhattan.\nNice. I work in Manhattan too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day10.mp3",
+          "caption": "🎧 Сезон 1 • День 10 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day10_practice",
+      "date": "2026-09-10",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 10</b>\n\n🎧 Послушайте:\n\nI work in Manhattan.\n\n👇 Что это означает?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day10.mp3",
+          "caption": "🎧 Практика • День 10"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что это означает?",
+          "options": [
+            "Я живу на Манхэттене.",
+            "Я работаю на Манхэттене.",
+            "Я из Манхэттена."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day11_morning",
+      "date": "2026-09-11",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 11</b>\n\n<b>I like photography. — Мне нравится фотография.</b>\n\n<b>🎬 История</b>\n\nПосле разговора о работе Эмма и Адам переходят к более приятной теме — тому, что они любят делать в свободное время.\n\n👩 <b>Emma:</b>\nI like photography.\n\n👨 <b>Adam:</b>\nReally? I like cooking.\n\n👩 <b>Emma:</b>\nNice!\n\n<b>🗣 Новые слова</b>\n\n🔹 I like… — мне нравится…\n🔹 photography — фотография\n🔹 cooking — готовка\n\n<b>⭐ Запомните</b>\n\nПосле <b>I like</b> можно поставить предмет или занятие:\n\nI like coffee.\n\nI like music.\n\nI like photography.\n\n<b>🎧 Послушайте и повторите</b>\n\nI like photography.\nReally? I like cooking.\nNice!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day11.mp3",
+          "caption": "🎧 Сезон 1 • День 11 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day11_practice",
+      "date": "2026-09-11",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 11</b>\n\n🎧 Послушайте:\n\nI like photography.\n\n👇 Что это значит?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day11.mp3",
+          "caption": "🎧 Практика • День 11"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что это значит?",
+          "options": [
+            "Я работаю фотографом.",
+            "Мне нравится фотография.",
+            "У меня новый фотоаппарат."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day12_morning",
+      "date": "2026-09-12",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 12</b>\n\n<b>This is my office. — Это мой офис.</b>\n\n<b>🎬 История</b>\n\nЭмма показывает Адаму фотографию своего нового офиса.\n\n👩 <b>Emma:</b>\nThis is my office.\n\n👨 <b>Adam:</b>\nNice! My office is near here too.\n\n👩 <b>Emma:</b>\nWhere is your office?\n\n👨 <b>Adam:</b>\nIt’s in Midtown.\n\n<b>🗣 Новые слова</b>\n\n🔹 my — мой / моя / моё\n🔹 your — твой / ваш\n🔹 office — офис\n\n<b>⭐ Запомните</b>\n\nmy office — мой офис\n\nyour office — твой офис\n\n<b>🎧 Послушайте и повторите</b>\n\nThis is my office.\nNice! My office is near here too.\nWhere is your office?\nIt’s in Midtown."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day12.mp3",
+          "caption": "🎧 Сезон 1 • День 12 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day12_practice",
+      "date": "2026-09-12",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 12</b>\n\nКак сказать:\n\n«Это мой офис»?"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать:\n«Это мой офис»?",
+          "options": [
+            "This is my office.",
+            "This is your office.",
+            "This my is office."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day13_morning",
+      "date": "2026-09-13",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 13</b>\n\n<b>What about you? — А ты?</b>\n\n<b>🎬 История</b>\n\nЭмма замечает, что короткий вопрос может легко продолжить разговор.\n\n👨 <b>Adam:</b>\nI like cooking.\n\n👩 <b>Emma:</b>\nReally? That’s interesting.\n\n👨 <b>Adam:</b>\nWhat about you?\n\n👩 <b>Emma:</b>\nI like photography.\n\n<b>🗣 Новые слова</b>\n\n🔹 Really? — правда?\n🔹 That’s interesting. — это интересно.\n🔹 What about you? — а ты?\n\n<b>⭐ Запомните</b>\n\nНе обязательно каждый раз задавать длинный вопрос.\n\n<b>What about you?</b>\n\nпомогает вернуть вопрос собеседнику.\n\n<b>🎧 Послушайте и повторите</b>\n\nI like cooking.\nReally? That’s interesting.\nWhat about you?\nI like photography."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day13.mp3",
+          "caption": "🎧 Сезон 1 • День 13 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day13_practice",
+      "date": "2026-09-13",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 13</b>\n\n🎧 Послушайте:\n\nWhat about you?\n\n👇 Что означает эта фраза?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day13.mp3",
+          "caption": "🎧 Практика • День 13"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает эта фраза?",
+          "options": [
+            "А ты?",
+            "Где ты?",
+            "Кто ты?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day14_morning",
+      "date": "2026-09-14",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 14</b>\n\n<b>Week 2 Review — Уже можем рассказать о себе</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам встречаются в небольшом кафе возле дома.\n\nСейчас день, и каждый уже знает несколько фактов о другом.\n\n👩 <b>Emma:</b>\nGood afternoon, Adam. How are you?\n\n👨 <b>Adam:</b>\nI’m good, thanks. What about you?\n\n👩 <b>Emma:</b>\nI’m good.\n\n👨 <b>Adam:</b>\nYou work in Manhattan, right?\n\n👩 <b>Emma:</b>\nYes. I work in marketing.\n\n👨 <b>Adam:</b>\nAnd you like photography.\n\n👩 <b>Emma:</b>\nYes! What about you?\n\n👨 <b>Adam:</b>\nI like cooking.\n\n<b>🗣 Повторяем</b>\n\nWhere do you live? — I live in…\n\nWhat do you do? — I’m a…\n\nWhere do you work? — I work in…\n\nI like… What about you?\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day14.mp3",
+          "caption": "🎧 Сезон 1 • День 14 • Утро"
+        },
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week02.png"
+        }
+      ]
+    },
+    {
+      "id": "day14_practice",
+      "date": "2026-09-14",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 14</b>\n\n🎧 Послушайте:\n\nI live in Brooklyn, and I work in Manhattan.\n\n👇 Что сказал человек?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day14.mp3",
+          "caption": "🎧 Практика • День 14"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что сказал человек?",
+          "options": [
+            "Он живёт и работает в Бруклине.",
+            "Он живёт в Бруклине и работает на Манхэттене.",
+            "Он живёт в Чикаго."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day15_morning",
+      "date": "2026-09-15",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 15</b>\n\n<b>Is there a café near here? — Здесь рядом есть кафе?</b>\n\n<b>🎬 История</b>\n\nЭмма всё ещё изучает район.\n\nСегодня ей хочется найти новое место для кофе.\n\n👩 <b>Emma:</b>\nIs there a café near here?\n\n👨 <b>Adam:</b>\nYes. There’s a café on the corner.\n\n👩 <b>Emma:</b>\nGreat, thanks.\n\n<b>🗣 Новые слова</b>\n\n🔹 Is there…? — есть ли…?\n🔹 There’s… — есть…\n🔹 on the corner — на углу\n\n<b>⭐ Запомните</b>\n\n<b>There’s = there is</b>\n\nThere’s a café.\n\n— Здесь есть кафе.\n\n<b>🎧 Послушайте и повторите</b>\n\nIs there a café near here?\nYes. There’s a café on the corner.\nGreat, thanks."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day15.mp3",
+          "caption": "🎧 Сезон 1 • День 15 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day15_practice",
+      "date": "2026-09-15",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 15</b>\n\n🎧 Послушайте:\n\nIs there a café near here?\n\n👇 Выберите правильный смысл."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day15.mp3",
+          "caption": "🎧 Практика • День 15"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный смысл.",
+          "options": [
+            "Здесь рядом есть кафе?",
+            "Тебе нравится это кафе?",
+            "Где ты работаешь?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day16_morning",
+      "date": "2026-09-16",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 16</b>\n\n<b>It’s next to the pharmacy. — Это рядом с аптекой.</b>\n\n<b>🎬 История</b>\n\nТеперь Эмме нужен супермаркет.\n\nАдам уже немного лучше знает район.\n\n👩 <b>Emma:</b>\nIs there a supermarket near here?\n\n👨 <b>Adam:</b>\nYes, there is. It’s next to the pharmacy.\n\n👩 <b>Emma:</b>\nPerfect.\n\n<b>🗣 Новые слова</b>\n\n🔹 supermarket — супермаркет\n🔹 pharmacy — аптека\n🔹 next to — рядом с\n\n<b>🎧 Послушайте и повторите</b>\n\nIs there a supermarket near here?\nYes, there is. It’s next to the pharmacy.\nPerfect."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day16.mp3",
+          "caption": "🎧 Сезон 1 • День 16 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day16_practice",
+      "date": "2026-09-16",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 16</b>\n\n🎧 Послушайте:\n\nIt’s next to the pharmacy."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day16.mp3",
+          "caption": "🎧 Практика • День 16"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "It’s next to the pharmacy.",
+          "options": [
+            "Это напротив аптеки.",
+            "Это рядом с аптекой.",
+            "Это внутри аптеки."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day17_morning",
+      "date": "2026-09-17",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 17</b>\n\n<b>Is it far? — Это далеко?</b>\n\n<b>🎬 История</b>\n\nЭмма собирается ехать на работу и ищет ближайшую станцию метро.\n\n👩 <b>Emma:</b>\nWhere is the subway station?\n\n👨 <b>Adam:</b>\nIt’s near the bank.\n\n👩 <b>Emma:</b>\nIs it far?\n\n👨 <b>Adam:</b>\nNo, it’s not far.\n\n<b>🗣 Новые слова</b>\n\n🔹 subway station — станция метро\n🔹 Is it far? — это далеко?\n🔹 It’s not far. — это недалеко.\n\n<b>⭐ Запомните</b>\n\nВ американском английском:\n\n<b>subway</b>\n\nБританский вариант мы встретим позже в истории.\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere is the subway station?\nIt’s near the bank.\nIs it far?\nNo, it’s not far."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day17.mp3",
+          "caption": "🎧 Сезон 1 • День 17 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day17_practice",
+      "date": "2026-09-17",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 17</b>\n\n🎧 Послушайте:\n\nIt’s not far."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day17.mp3",
+          "caption": "🎧 Практика • День 17"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "It’s not far.",
+          "options": [
+            "Это далеко.",
+            "Это недалеко.",
+            "Это закрыто."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day18_morning",
+      "date": "2026-09-18",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 18</b>\n\n<b>It’s on Green Street. — Это на Грин-стрит.</b>\n\n<b>🎬 История</b>\n\nСегодня Эмма ищет банк.\n\n👩 <b>Emma:</b>\nWhere is the bank?\n\n👨 <b>Adam:</b>\nIt’s on Green Street.\n\n👩 <b>Emma:</b>\nNear the café?\n\n👨 <b>Adam:</b>\nYes.\n\n<b>🗣 Новые слова</b>\n\n🔹 Where is…? — где находится…?\n\n🔹 bank — банк\n🔹 street — улица\n🔹 on Green Street — на Грин-стрит\n\n<b>⭐ Запомните</b>\n\nС названиями улиц используем предлог:\n\n<b>on Green Street</b>\n\n<b>on Fifth Avenue</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere is the bank?\nIt’s on Green Street.\nNear the café?\nYes."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day18.mp3",
+          "caption": "🎧 Сезон 1 • День 18 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day18_practice",
+      "date": "2026-09-18",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 18</b>\n\nЗаполните пропуск:\n\n<b>The bank is ___ Green Street.</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Заполните пропуск:\nThe bank is ___ Green Street.",
+          "options": [
+            "on",
+            "from",
+            "with"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day19_morning",
+      "date": "2026-09-19",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 19</b>\n\n<b>There are two cafés. — Здесь есть два кафе.</b>\n\n<b>🎬 История</b>\n\nЧем больше Эмма гуляет по району, тем больше знакомых мест замечает.\n\n👩 <b>Emma:</b>\nThere are two cafés near here.\n\n👨 <b>Adam:</b>\nYes. And there’s a park too.\n\n👩 <b>Emma:</b>\nNice!\n\n<b>🗣 Новые слова</b>\n\n🔹 There are… — есть / находятся, когда объектов несколько\n🔹 park — парк\n🔹 two cafés — два кафе\n\n<b>⭐ Запомните</b>\n\nОдин объект:\n\n<b>There is a café.</b>\n\nНесколько:\n\n<b>There are two cafés.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nThere are two cafés near here.\nYes. And there’s a park too.\nNice!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day19.mp3",
+          "caption": "🎧 Сезон 1 • День 19 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day19_practice",
+      "date": "2026-09-19",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 19</b>\n\nКак правильно сказать:\n\n«Здесь есть два кафе»?"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как правильно сказать:\n«Здесь есть два кафе»?",
+          "options": [
+            "There is two cafés.",
+            "There are two cafés.",
+            "There two cafés are."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day20_morning",
+      "date": "2026-09-20",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 20</b>\n\n<b>It’s around the corner. — Это за углом.</b>\n\n<b>🎬 История</b>\n\nЭмма хочет найти книжный магазин.\n\nАдам снова приходит на помощь.\n\n👩 <b>Emma:</b>\nWhere is the bookstore?\n\n👨 <b>Adam:</b>\nIt’s around the corner, next to the café.\n\n👩 <b>Emma:</b>\nGreat, thanks!\n\n<b>🗣 Новые слова</b>\n\n🔹 bookstore — книжный магазин\n🔹 around the corner — за углом\n🔹 next to the café — рядом с кафе\n\n<b>🎧 Послушайте и повторите</b>\n\nWhere is the bookstore?\nIt’s around the corner, next to the café.\nGreat, thanks!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day20.mp3",
+          "caption": "🎧 Сезон 1 • День 20 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day20_practice",
+      "date": "2026-09-20",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 20</b>\n\n🎧 Послушайте:\n\nIt’s around the corner."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day20.mp3",
+          "caption": "🎧 Практика • День 20"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "It’s around the corner.",
+          "options": [
+            "Это очень далеко.",
+            "Это за углом.",
+            "Это наверху."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day21_morning",
+      "date": "2026-09-21",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 21</b>\n\n<b>Week 3 Review — Уже ориентируемся в районе</b>\n\n<b>🎬 История</b>\n\nЭмма выходит из метро с другой стороны улицы и снова немного путается.\n\nК счастью, она встречает Адама.\n\n👩 <b>Emma:</b>\nAdam, where is the pharmacy?\n\n👨 <b>Adam:</b>\nIt’s on Green Street, next to the supermarket.\n\n👩 <b>Emma:</b>\nIs it far?\n\n👨 <b>Adam:</b>\nNo, it’s not. It’s around the corner.\n\n👩 <b>Emma:</b>\nGreat. Thanks!\n\n<b>🗣 Повторяем</b>\n\nWhere is the pharmacy? — Где находится аптека?\n\nIs there a supermarket near here?\n\nIt’s on Green Street, next to the supermarket.\n\nIt’s around the corner. It’s not far.\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day21.mp3",
+          "caption": "🎧 Сезон 1 • День 21 • Утро"
+        },
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week03.png"
+        }
+      ]
+    },
+    {
+      "id": "day21_practice",
+      "date": "2026-09-21",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 21</b>\n\n🎧 Послушайте:\n\nThe pharmacy is on Green Street, next to the supermarket."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day21.mp3",
+          "caption": "🎧 Практика • День 21"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "The pharmacy is on Green Street, next to the supermarket.",
+          "options": [
+            "Аптека на Green Street рядом с супермаркетом.",
+            "Аптека возле дома Эммы.",
+            "Аптека внутри супермаркета."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day22_morning",
+      "date": "2026-09-22",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 22</b>\n\n<b>Do you like coffee? — Тебе нравится кофе?</b>\n\n<b>🎬 История</b>\n\nАдам и Эмма снова встречаются возле кафе.\n\nТеперь они уже могут поговорить не только о работе и районе.\n\n👨 <b>Adam:</b>\nDo you like coffee?\n\n👩 <b>Emma:</b>\nYes, I do. I like coffee a lot.\n\n👨 <b>Adam:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 Do you like…? — тебе нравится…?\n🔹 Yes, I do. — да.\n🔹 a lot — очень / сильно / много\n\n<b>⭐ Запомните</b>\n\nВопрос:\n\n<b>Do you like coffee?</b>\n\nОтвет:\n\n<b>Yes, I do.</b>\n\nили\n\n<b>No, I don’t.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like coffee?\nYes, I do. I like coffee a lot.\nMe too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day22.mp3",
+          "caption": "🎧 Сезон 1 • День 22 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day22_practice",
+      "date": "2026-09-22",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 22</b>\n\nВас спрашивают:\n\n<b>Do you like coffee?</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Вас спрашивают:\nDo you like coffee?",
+          "options": [
+            "Yes, I do.",
+            "Yes, I am.",
+            "Yes, I like do."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day23_morning",
+      "date": "2026-09-23",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 23</b>\n\n<b>I don’t like tea. — Мне не нравится чай.</b>\n\n<b>🎬 История</b>\n\nОказывается, вкусы Эммы и Адама совпадают не во всём.\n\n👩 <b>Emma:</b>\nDo you like tea?\n\n👨 <b>Adam:</b>\nNot really. I don’t like tea very much.\n\n👩 <b>Emma:</b>\nI like it.\n\n<b>🗣 Новые слова</b>\n\n🔹 I don’t like… — мне не нравится…\n🔹 Not really. — не очень.\n🔹 tea — чай\n\n<b>⭐ Запомните</b>\n\nI like coffee.\n\nI don’t like tea.\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like tea?\nNot really. I don’t like tea very much.\nI like it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day23.mp3",
+          "caption": "🎧 Сезон 1 • День 23 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day23_practice",
+      "date": "2026-09-23",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 23</b>\n\nКак сказать:\n\n«Мне не нравится чай»?"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать:\n«Мне не нравится чай»?",
+          "options": [
+            "I not like tea.",
+            "I don’t like tea.",
+            "I am don’t like tea."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day24_morning",
+      "date": "2026-09-24",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 24</b>\n\n<b>I like Italian food. — Мне нравится итальянская кухня.</b>\n\n<b>🎬 История</b>\n\nРазговор о напитках постепенно переходит к еде.\n\n👨 <b>Adam:</b>\nDo you like pizza?\n\n👩 <b>Emma:</b>\nYes, I do. I like Italian food.\n\n👨 <b>Adam:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 pizza — пицца\n🔹 Italian food — итальянская кухня\n🔹 food — еда\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like pizza?\nYes, I do. I like Italian food.\nMe too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day24.mp3",
+          "caption": "🎧 Сезон 1 • День 24 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day24_practice",
+      "date": "2026-09-24",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 24</b>\n\n🎧 Послушайте:\n\nI like Italian food."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day24.mp3",
+          "caption": "🎧 Практика • День 24"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "I like Italian food.",
+          "options": [
+            "Мне нравится итальянская кухня.",
+            "Мне нравится итальянская музыка.",
+            "Я работаю в итальянском ресторане."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day25_morning",
+      "date": "2026-09-25",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 25</b>\n\n<b>I like it. — Мне это нравится.</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам заходят в кафе, которое уже несколько раз видели неподалёку.\n\n👩 <b>Emma:</b>\nDo you like this café?\n\n👨 <b>Adam:</b>\nYes, I do. I like it.\n\n👩 <b>Emma:</b>\nMe too.\n\n<b>🗣 Новые слова</b>\n\n🔹 this café — это кафе\n🔹 I like it. — мне это нравится.\n🔹 it — это / его / её, когда говорим о предмете или месте\n\n<b>⭐ Запомните</b>\n\nЧтобы не повторять одно слово:\n\nI like this café.\n\n↓\n\nI like it.\n\n<b>🎧 Послушайте и повторите</b>\n\nDo you like this café?\nYes, I do. I like it.\nMe too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day25.mp3",
+          "caption": "🎧 Сезон 1 • День 25 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day25_practice",
+      "date": "2026-09-25",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 25</b>\n\nEmma спрашивает:\n\n<b>Do you like this café?</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Emma спрашивает:\nDo you like this café?",
+          "options": [
+            "Yes, I do. I like it.",
+            "Yes, I am café.",
+            "Yes, it do."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day26_morning",
+      "date": "2026-09-26",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 26</b>\n\n<b>That’s interesting. — Это интересно.</b>\n\n<b>🎬 История</b>\n\nЗа кофе Эмма и Адам продолжают узнавать интересы друг друга.\n\n👩 <b>Emma:</b>\nI like jazz.\n\n👨 <b>Adam:</b>\nReally? I like jazz too.\n\n👩 <b>Emma:</b>\nThat’s interesting.\n\n<b>🗣 Новые слова</b>\n\n🔹 jazz — джаз\n🔹 Really? — правда?\n🔹 That’s interesting. — это интересно.\n\n<b>⭐ Запомните</b>\n\n<b>Really?</b>\n\nВ дружеском разговоре часто просто показывает интерес:\n\n«Правда? Интересно!»\n\n<b>🎧 Послушайте и повторите</b>\n\nI like jazz.\nReally? I like jazz too.\nThat’s interesting."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day26.mp3",
+          "caption": "🎧 Сезон 1 • День 26 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day26_practice",
+      "date": "2026-09-26",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 26</b>\n\nЧто означает:\n\n<b>Really?</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает:\nReally?",
+          "options": [
+            "Правда?",
+            "Где?",
+            "Кто?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day27_morning",
+      "date": "2026-09-27",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 27</b>\n\n<b>See you tomorrow. — Увидимся завтра.</b>\n\n<b>🎬 История</b>\n\nРазговор в кафе заканчивается.\n\nТеперь Эмма и Адам уже уверены, что скоро увидятся снова.\n\n👩 <b>Emma:</b>\nI have to go.\n\n👨 <b>Adam:</b>\nOkay. See you tomorrow.\n\n👩 <b>Emma:</b>\nSee you tomorrow!\n\n<b>🗣 Новые слова</b>\n\n🔹 I have to go. — мне нужно идти.\n🔹 tomorrow — завтра\n🔹 See you tomorrow. — увидимся завтра.\n\n<b>⭐ Запомните</b>\n\nУже знакомая модель:\n\n<b>See you later.</b>\n\nТеперь:\n\n<b>See you tomorrow.</b>\n\n<b>🎧 Послушайте и повторите</b>\n\nI have to go.\nOkay. See you tomorrow.\nSee you tomorrow!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day27.mp3",
+          "caption": "🎧 Сезон 1 • День 27 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day27_practice",
+      "date": "2026-09-27",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 27</b>\n\n🎧 Послушайте:\n\nSee you tomorrow!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day27.mp3",
+          "caption": "🎧 Практика • День 27"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "See you tomorrow!",
+          "options": [
+            "Увидимся завтра!",
+            "Увидимся вечером!",
+            "Увидимся на работе!"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day28_morning",
+      "date": "2026-09-28",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 28</b>\n\n<b>Week 4 Review — Разговор уже становится настоящим</b>\n\n<b>🎬 История</b>\n\nЭмма и Адам снова сидят в знакомом кафе.\n\nЧетыре недели назад их разговор состоял почти только из имён.\n\nСегодня всё иначе.\n\n👩 <b>Emma:</b>\nHow are you?\n\n👨 <b>Adam:</b>\nI’m good, thanks. What about you?\n\n👩 <b>Emma:</b>\nI’m good. Do you like this café?\n\n👨 <b>Adam:</b>\nYes, I do. I like it.\n\n👩 <b>Emma:</b>\nMe too. I like the coffee here.\n\n👨 <b>Adam:</b>\nMe too.\n\n👩 <b>Emma:</b>\nSee you tomorrow?\n\n👨 <b>Adam:</b>\nYes. See you tomorrow!\n\n<b>🗣 Повторяем</b>\n\nDo you like…? — Yes, I do. / No, I don’t.\n\nI like… / I don’t like…\n\nReally? Me too.\n\nSee you tomorrow.\n\n<b>🎧 Послушайте и повторите</b>\n\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day28.mp3",
+          "caption": "🎧 Сезон 1 • День 28 • Утро"
+        },
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/week04.png"
+        }
+      ]
+    },
+    {
+      "id": "day28_practice",
+      "date": "2026-09-28",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 28</b>\n\n🎧 Послушайте:\n\nDo you like this café?\n\nYes, I do. I like it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day28.mp3",
+          "caption": "🎧 Практика • День 28"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Do you like this café?\nYes, I do. I like it.",
+          "options": [
+            "Адаму не нравится кафе.",
+            "Адаму нравится кафе.",
+            "Адам ищет кафе."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day29_morning",
+      "date": "2026-09-29",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 29</b>\n\n<b>Have a good day! — Хорошего дня!</b>\n\n<b>🎬 История</b>\n\nУтром Эмма и Адам встречаются возле дома.\n\nОба спешат на работу.\n\n👩 <b>Emma:</b>\nGood morning, Adam!\n\n👨 <b>Adam:</b>\nGood morning, Emma!\n\n👩 <b>Emma:</b>\nHave a good day!\n\n👨 <b>Adam:</b>\nYou too. See you later!\n\n👩 <b>Emma:</b>\nSee you!\n\n<b>🗣 Новые слова</b>\n\n🔹 Have a good day! — хорошего дня!\n🔹 You too! — тебе тоже!\n🔹 See you later! — увидимся позже!\n\n<b>⭐ Запомните</b>\n\n<b>You too!</b>\n\n— естественный короткий ответ на пожелание.\n\n<b>🎧 Послушайте и повторите</b>\n\nGood morning, Adam!\nGood morning, Emma!\nHave a good day!\nYou too. See you later!\nSee you!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day29.mp3",
+          "caption": "🎧 Сезон 1 • День 29 • Утро"
+        }
+      ]
+    },
+    {
+      "id": "day29_practice",
+      "date": "2026-09-29",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 29</b>\n\nКто-то говорит:\n\n<b>Have a good day!</b>\n\nКак естественно ответить?"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Кто-то говорит:\nHave a good day!\nКак естественно ответить?",
+          "options": [
+            "You too!",
+            "Me from Chicago.",
+            "Where is the bank?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day30_morning",
+      "date": "2026-09-30",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/morning/day30.mp3",
+          "caption": "🎧 Сезон 1 • День 30 • Утро"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱 <b>Сезон 1 • День 30</b>\n\n<b>One Month in New York — Один месяц в Нью-Йорке</b>\n\n<b>🎬 История</b>\n\nПрошёл месяц.\n\nЭмма и Адам снова сидят в небольшом кафе рядом с домом.\n\nНью-Йорк всё ещё огромный, но их район уже не кажется совсем незнакомым.\n\n👩 <b>Emma:</b>\nI like this area now.\n\n👨 <b>Adam:</b>\nMe too.\n\n👩 <b>Emma:</b>\nWe know the café, the supermarket, and the subway station.\n\n👨 <b>Adam:</b>\nYes, we do.\n\n👩 <b>Emma:</b>\nHave a good evening, Adam.\n\n👨 <b>Adam:</b>\nYou too. See you tomorrow!\n\n👩 <b>Emma:</b>\nSee you!\n\n<b>⭐ Главная задача</b>\n\nСначала послушайте диалог, не читая текст, и постарайтесь понять общий смысл.\n\nНе переводите каждое слово отдельно.\n\nЭмма и Адам уже понемногу освоились в новом районе и стали приятелями.\n\n<b>🎧 Послушайте диалог целиком</b>\n\nI like this area now.\nMe too.\nWe know the café, the supermarket, and the subway station.\nYes, we do.\nHave a good evening, Adam.\nYou too. See you tomorrow!\nSee you!"
+        }
+      ]
+    },
+    {
+      "id": "day30_practice",
+      "date": "2026-09-30",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️ <b>Практика • День 30</b>\n\n🎧 Послушайте:\n\nHave a good evening, Adam.\nYou too. See you tomorrow!\n\n👇 Что происходит?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/practice/day30.mp3",
+          "caption": "🎧 Практика • День 30"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что происходит?",
+          "options": [
+            "Люди только знакомятся.",
+            "Люди прощаются до завтра.",
+            "Люди спрашивают дорогу."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season1_final_polls",
+      "date": "2026-09-30",
+      "time": "14:00",
+      "retry_until": "16:00",
+      "steps": [
+        {
+          "id": "poll01",
+          "type": "poll",
+          "question": "Вы впервые знакомитесь с человеком. Что сказать?",
+          "options": [
+            "Hi! I’m Anna.",
+            "Hi! I Anna.",
+            "Am Anna."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll02",
+          "type": "poll",
+          "question": "Как спросить «Ты из Нью-Йорка?»",
+          "options": [
+            "Do you New York?",
+            "Are you from New York?",
+            "You are New York?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll03",
+          "type": "poll",
+          "question": "Вас спрашивают:\nWhat do you do?\nКакой ответ подходит?",
+          "options": [
+            "I’m an engineer.",
+            "I’m from Denver.",
+            "I’m next to the bank."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll04",
+          "type": "poll",
+          "question": "Как спросить, есть ли рядом аптека?",
+          "options": [
+            "Is there a pharmacy near here?",
+            "Pharmacy is near?",
+            "Are there pharmacy here?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll05",
+          "type": "poll",
+          "question": "Что означает:\nIt’s around the corner.",
+          "options": [
+            "Это далеко.",
+            "Это за углом.",
+            "Это закрыто."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll06",
+          "type": "poll",
+          "question": "Вас спрашивают:\nDo you like coffee?\nКак ответить?",
+          "options": [
+            "Yes, I am.",
+            "Yes, I do.",
+            "Yes, I like do."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll07_audio",
+          "type": "audio",
+          "path": "audio/final/final_poll_07.mp3",
+          "caption": "🎧 Итоговый опрос • Задание 7"
+        },
+        {
+          "id": "poll07",
+          "type": "poll",
+          "question": "Что нравится Эмме?",
+          "options": [
+            "Cooking.",
+            "Photography.",
+            "Basketball."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season1_congratulations",
+      "date": "2026-09-30",
+      "time": "16:00",
+      "retry_until": "18:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🎉 SEASON 1 COMPLETE!</b>\n\nМесяц назад всё началось всего с нескольких коротких фраз:\n\n<b>Hi!</b>\n\n<b>I’m Emma.</b>\n\n<b>Nice to meet you.</b>\n\nА теперь вы уже можете:\n\n✓ познакомиться;\n✓ сказать, откуда вы;\n✓ рассказать, где живёте и работаете;\n✓ назвать несколько своих интересов;\n✓ спросить человека о нём самом;\n✓ спросить, где находится нужное место;\n✓ понять простое объяснение;\n✓ сказать, что вам нравится или не нравится;\n✓ поддержать небольшой разговор;\n✓ попрощаться и пожелать человеку хорошего дня.\n\nИ главное — английский уже начинает состоять не из отдельных незнакомых слов.\n\nВы начинаете понимать целые реплики.\n\nЭто только первый сезон.\n\nНо язык уже начал работать."
+        },
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/final.png"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "audio/final/final_poll_07.mp3": "8d9c0c7d77459193b98386b22b47c69b9654e64a206d49e0a8893550a63a50c9",
+    "audio/morning/day01.mp3": "163ea25d022201104a5c375a6ddbeee4931dad62506d7c000b4859f9d2300a50",
+    "audio/morning/day02.mp3": "a654e5dfc6914b662aa0144ab89111dd51dc21128cf5581f13dbc6d460a5687e",
+    "audio/morning/day03.mp3": "5afc3988663ca5100eddb18c04afae1bc9e0730a2f5afa9155a44245f1598301",
+    "audio/morning/day04.mp3": "bb43febfea89e6ee44df1fbf0fd64e05a6a7f17ddfe8c7caad2cfcaf96866f6a",
+    "audio/morning/day05.mp3": "f6ee2436c7da8f67f969bd57e393fb7806cfa9b6d4a60ba19178bfcc32f4d224",
+    "audio/morning/day06.mp3": "a4910dccbd249b5e21204e465290e746137d6c89942693a48ef8ae428b29911d",
+    "audio/morning/day07.mp3": "b364e9752db54179e6dfb9027e18ceb479c44e4f876cb48ceadefda1760d5650",
+    "audio/morning/day08.mp3": "9298bb27f71e9365de9728bde3b6c909acb753f36192e4b569defd749401184d",
+    "audio/morning/day09.mp3": "47a96ba9cad9938b924a4eecc7bb434c51dcc4c207e0e39517a0bb211bbf0f11",
+    "audio/morning/day10.mp3": "b03ef9325e1e98d96ad53c371fe154aae59f62f9a6a1dff7b833c086694b4c77",
+    "audio/morning/day11.mp3": "94df145471e22bb2110ad7f058619e97ca8f2453a9b28c489f9442009971fb7e",
+    "audio/morning/day12.mp3": "cb88c4c414e279569ef248ebab727a10cb2b2930160ea791b805ac9f2b4ba1cc",
+    "audio/morning/day13.mp3": "b10286ae60ec9fec1131855b530f1d938d9a3ccd3d9cbd3021246ff5eb5ddf03",
+    "audio/morning/day14.mp3": "e60e95649cdc5594bce731bedc17a680e459c89825a377644ddd2099cadd3a92",
+    "audio/morning/day15.mp3": "668d10bc5b3371ddf5750abaf76d1a3de00958eaea72ea89fa40452ed524c323",
+    "audio/morning/day16.mp3": "d7d91c3d31ec86d201a77e0a7bfcd6cf0e40fbbae0f86cd1105af0d52170c117",
+    "audio/morning/day17.mp3": "a4db97bbf139400b2f21476d9b701d0046f27fbd74b2e62ea1b29e035ec263ce",
+    "audio/morning/day18.mp3": "90e7815fc1c12a80e96dee4c18c9b0e2dea78c4fe20725c008a8ef20575b5aab",
+    "audio/morning/day19.mp3": "44279290e78dd87b2c18646840ab45708ad425a1aca31db59d60a4aaf88bb5fd",
+    "audio/morning/day20.mp3": "9d058a4ed2028d1d18dcd926a342d47cce0a8c99eb07d259ac937084c325e929",
+    "audio/morning/day21.mp3": "7e22dff447a8d92f48b4e88cf638e5dbb392739cac94a1ccec3fb7b0f3228d9e",
+    "audio/morning/day22.mp3": "81ba1a266849f1cf37bb6dc25947b19f7d9f77c6540e662ce2d90db60a49b14f",
+    "audio/morning/day23.mp3": "eb2ea91d137fa004226afc207ba1c1fdf222f38d85df52ef85f5d20f86ffffd9",
+    "audio/morning/day24.mp3": "eb2b18587e51d16aad4067a970c3a130cb0f8df900b772cb4461a9ddb55d5325",
+    "audio/morning/day25.mp3": "4210fd8081d0abbb244d8c8528cda1952b9630b680ae3f85bfa623c15bc5b505",
+    "audio/morning/day26.mp3": "18388467b8cdf4df6284689ca8db8886e4f5d2b8c06df8d30ebbd71d06bd00af",
+    "audio/morning/day27.mp3": "f8b8032f274713ed7ddbcf8969e7cf5907269630df81507ffd7dd0e1f57ca3a8",
+    "audio/morning/day28.mp3": "6d3c411d988c3723a4df192a2dcd526d713dac5145b05f06c905e70bc4aed9d6",
+    "audio/morning/day29.mp3": "0d33a8a92bfa8d15bc3243778fded440678b1bd1e9163018452a7f1952ff9c8b",
+    "audio/morning/day30.mp3": "cc8df36aa1a321c7c2ca8e652047a3e2aff87c5cf8813d85073e6d56671691ed",
+    "audio/practice/day01.mp3": "b13bb3f4e205e6bd1802b3a90af1d97182cafdea260311c086c7388b550918af",
+    "audio/practice/day02.mp3": "0de74fd509762ce3af809fd8f4021fd643658536f03578a8676c9256de34c55e",
+    "audio/practice/day03.mp3": "395f6eda61eb97efc2e34440650cdef46475e181a0aeb2e3f3695e451e5f6ce6",
+    "audio/practice/day04.mp3": "66e39dd458093347968bbd2194f8bf4f6eb767305777a437e2c683fc5e138465",
+    "audio/practice/day05.mp3": "79d2092252e4d654d34e01fd09b52765397b32672c2ec19557abdcf4947e10ec",
+    "audio/practice/day06.mp3": "dd3aac5383bb0af548d0701735a78e01115bb59a4a0a763670b927ae49aae196",
+    "audio/practice/day07.mp3": "a7d371175673c2d3a79a366d7c43971a868463ea34d6a8b869407864aa6d4404",
+    "audio/practice/day08.mp3": "fcb239a5ddcd7abeb974b61def1f9b106c943991f24f36660de99f93199f75e0",
+    "audio/practice/day10.mp3": "f7b10d64e8ad219cf6f1430c0a0bf3f44c7fb41ea3fc41920ca6e74ed306b655",
+    "audio/practice/day11.mp3": "47dc12e01bd75775ab03835ae99452a4531030c2084c569b08cb09125e9758d0",
+    "audio/practice/day13.mp3": "98adb820c9f9250cf791f1fe4b62aa238f0a698379c5860c8584443170deca5c",
+    "audio/practice/day14.mp3": "3822065df4016194151248c09061dad6c4c64a53e214c86ff8078a352db57891",
+    "audio/practice/day15.mp3": "0a711f0254d16abc1be382fafb51c12ce5134f05e7bb9422539e16b5bf133807",
+    "audio/practice/day16.mp3": "30451e7df02d915910eaf5bddf81cb82379e62c5a1565cbd61a90a29da8badf1",
+    "audio/practice/day17.mp3": "b6275ea3e8995f9b04e687d2780c737315230260fb07a34f6a1abef0d324a0b4",
+    "audio/practice/day20.mp3": "84c8ce7a953ce5be75aa9d6e79039565312e5086baf79fda8ed37c5dd3dacf7e",
+    "audio/practice/day21.mp3": "59fe4c2700cc92f73358587311fc33b84538ed60a9ebbbded3faed087b92dd9c",
+    "audio/practice/day24.mp3": "23e1f4e0190d32cf6e2a2d28bb7b725c0d1a68141682aa6e36af5bce963757ee",
+    "audio/practice/day27.mp3": "95f6c3ec0316f7b9c99def4d65cacbfa4b7e97597b4a94ae99161a3b4bbf2a4e",
+    "audio/practice/day28.mp3": "4aa26a1875c2ce6a9622421eabd1bbdbc47d25ca15be1ca6425e9681dbd32f55",
+    "audio/practice/day30.mp3": "e40acd6d274a5a56d9b76206b073e0f18dc91be3b2f128b7ad6cfe2a9e96a344",
+    "images/final.png": "94c373fe3fe74ce17436f30eb513f40bcbfaa4454b56d5ae4646ad25c69010c0",
+    "images/week01.png": "63edd96831a88261e13e27a783f8c83ceea8f5b2c2a8e1372d6dcf77fb9048ea",
+    "images/week02.png": "b2b14306095c9ed0cf1d2ea049eddf83d5921e72f467c4f706825a30c66834dc",
+    "images/week03.png": "e67b388b33950faa17158f17ffaf5e3b0725ad856fec12debb860f3497c87c27",
+    "images/week04.png": "a03e9b973f838f5c251543736a50ccd506762c76c5675b64fbaaf9dccc664971"
+  }
+}

@@ -1,0 +1,107 @@
+from __future__ import annotations
+
+import hashlib
+import html
+import json
+import re
+import sys
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from publisher import due_events, validate_content  # noqa: E402
+
+
+CONTENT = ROOT / "content" / "season1.json"
+NO_PRACTICE_AUDIO = {9, 12, 18, 19, 22, 23, 25, 26, 29}
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def plain_length(value: str) -> int:
+    return len(html.unescape(re.sub(r"<[^>]+>", "", value)))
+
+
+def main() -> None:
+    content = json.loads(CONTENT.read_text(encoding="utf-8"))
+    validate_content(content)
+    meta = content["meta"]
+    events = content["events"]
+
+    assert meta["timezone"] == "Europe/Moscow"
+    assert meta["channel"] == "@english_story_a1a2"
+    assert meta["start_date"] == "2026-09-01"
+    assert meta["end_date"] == "2026-09-30"
+    assert len(events) == 62
+
+    counts = {
+        kind: sum(1 for event in events for step in event["steps"] if step["type"] == kind)
+        for kind in ("message", "audio", "photo", "poll")
+    }
+    assert counts == {"message": 61, "audio": 52, "photo": 5, "poll": 37}, counts
+    assert sum(counts.values()) == 155
+
+    for relative, expected_hash in content["assets"].items():
+        path = ROOT / relative
+        assert path.is_file(), relative
+        assert sha256(path) == expected_hash, relative
+        assert path.stat().st_size > 10_000, relative
+
+    source = ROOT / "source" / "Английский через истории — Сезон 1 — Все публикации — ФИНАЛ.docx"
+    assert sha256(source) == meta["source_sha256"]
+
+    for day in range(1, 31):
+        morning = next(event for event in events if event["id"] == f"day{day:02d}_morning")
+        practice = next(event for event in events if event["id"] == f"day{day:02d}_practice")
+        assert sum(step["type"] == "audio" for step in morning["steps"]) == 1
+        practice_has_audio = any(step["type"] == "audio" for step in practice["steps"])
+        assert practice_has_audio == (day not in NO_PRACTICE_AUDIO), day
+        assert sum(step["type"] == "poll" for step in practice["steps"]) == 1
+
+    day30 = next(event for event in events if event["id"] == "day30_morning")
+    assert [step["type"] for step in day30["steps"][:2]] == ["audio", "message"]
+
+    messages = [step["text"] for event in events for step in event["steps"] if step["type"] == "message"]
+    assert sum("<tg-spoiler>Hi! I’m Alex. I’m from Boston.</tg-spoiler>" in text for text in messages) == 1
+    assert all("||" not in text for text in messages)
+    assert all(plain_length(text) <= 4096 for text in messages)
+    assert all("Telegram Quiz Poll" not in text for text in messages)
+    assert all("📸 ФОТО" not in text for text in messages)
+    assert all("🎧 Аудио:" not in text for text in messages)
+
+    polls = [step for event in events for step in event["steps"] if step["type"] == "poll"]
+    for poll in polls:
+        assert 1 <= len(poll["question"]) <= 300
+        assert 2 <= len(poll["options"]) <= 12
+        assert len(poll["correct_option_ids"]) == 1
+        assert 0 <= poll["correct_option_ids"][0] < len(poll["options"])
+        assert all(1 <= len(option) <= 100 for option in poll["options"])
+
+    timezone = ZoneInfo("Europe/Moscow")
+    assert [e["id"] for e in due_events(content, datetime(2026, 9, 1, 7, 0, tzinfo=timezone))] == ["day01_morning"]
+    assert [e["id"] for e in due_events(content, datetime(2026, 9, 1, 12, 0, tzinfo=timezone))] == ["day01_practice"]
+    assert [e["id"] for e in due_events(content, datetime(2026, 9, 30, 14, 0, tzinfo=timezone))] == [
+        "day30_practice",
+        "season1_final_polls",
+    ]
+    assert [e["id"] for e in due_events(content, datetime(2026, 9, 30, 16, 0, tzinfo=timezone))] == [
+        "season1_final_polls",
+        "season1_congratulations",
+    ]
+    assert not due_events(content, datetime(2026, 10, 1, 7, 0, tzinfo=timezone))
+
+    print("Package QA passed: 62 events, 155 Telegram steps, 52 audio, 5 images, 37 polls")
+
+
+if __name__ == "__main__":
+    main()
