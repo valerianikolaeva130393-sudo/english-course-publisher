@@ -15,7 +15,7 @@ from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent
-CONTENT_PATH = ROOT / "content" / "season1.json"
+CONTENT_DIR = ROOT / "content"
 STATE_PATH = ROOT / "state" / "published.json"
 
 
@@ -170,6 +170,37 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_all_content() -> dict:
+    paths = sorted(CONTENT_DIR.glob("season*.json"))
+    if not paths:
+        raise FileNotFoundError("В content нет файлов season*.json")
+
+    seasons = [load_json(path) for path in paths]
+    for season in seasons:
+        validate_content(season)
+
+    timezones = {season["meta"]["timezone"] for season in seasons}
+    channels = {season["meta"]["channel"] for season in seasons}
+    if len(timezones) != 1:
+        raise ValueError(f"У сезонов разные часовые пояса: {sorted(timezones)}")
+    if len(channels) != 1:
+        raise ValueError(f"У сезонов разные каналы: {sorted(channels)}")
+
+    events = [event for season in seasons for event in season["events"]]
+    event_ids = [event["id"] for event in events]
+    if len(event_ids) != len(set(event_ids)):
+        raise ValueError("Повторяющиеся event id между сезонами")
+
+    return {
+        "meta": {
+            "timezone": next(iter(timezones)),
+            "channel": next(iter(channels)),
+            "seasons": [season["meta"]["season"] for season in seasons],
+        },
+        "events": sorted(events, key=lambda event: (event["date"], event["time"], event["id"])),
+    }
+
+
 def load_state() -> dict:
     if not STATE_PATH.exists():
         return {"version": 1, "sent": {}}
@@ -275,8 +306,7 @@ def main() -> None:
     parser.add_argument("--retry", action="store_true")
     args = parser.parse_args()
 
-    content = load_json(CONTENT_PATH)
-    validate_content(content)
+    content = load_all_content()
     timezone = ZoneInfo(content["meta"]["timezone"])
     now = datetime.fromisoformat(args.now).replace(tzinfo=timezone) if args.now else datetime.now(timezone)
 

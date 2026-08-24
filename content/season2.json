@@ -1,0 +1,1792 @@
+{
+  "meta": {
+    "course": "Английский через истории",
+    "season": 2,
+    "start_date": "2026-10-01",
+    "end_date": "2026-10-31",
+    "timezone": "Europe/Moscow",
+    "channel": "@english_story_a1a2",
+    "source_sha256": "05b64361eefe13ae9fb961b8c22c476dbe0ab55f91cac811df68e6d3603839ef",
+    "audio_files": 53,
+    "image_files": 5
+  },
+  "events": [
+    {
+      "id": "s2_day01_morning",
+      "date": "2026-10-01",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 1</b>\n<b>I get up at seven. — Я встаю в семь.</b>\n\n<u>🎬 История</u>\nНа следующее утро после их разговора у кафе Эмма и Адам встречаются в холле дома.\nНовый город постепенно превращается в обычную жизнь — с будильником, работой и утренней спешкой.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Emma. You’re up early.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I get up at seven every day.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. I get up at seven.\n\n<u>🗣 Новые слова</u>\n🔹 I get up at seven. — я встаю в семь.\n🔹 early — рано\n🔹 every day — каждый день\n\n<u>⭐ Запомните</u>\nДля привычного действия используем простую модель:\nI get up at seven every day.\nПеред точным временем используем предлог at: at seven — в семь.\n\n<u>🎧 Послушайте и повторите</u>\nGood morning, Emma. You’re up early.\nYes. I get up at seven every day.\nMe too. I get up at seven."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day01.mp3",
+          "title": "Сезон 2 · День 1 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day01_practice",
+      "date": "2026-10-01",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 1</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI get up at seven every day.\nЧто делает Эмма каждый день?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day01.mp3",
+          "title": "Сезон 2 · День 1 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает “I get up at seven”?",
+          "options": [
+            "Я завтракаю в семь.",
+            "Я встаю в семь.",
+            "Я ухожу в семь."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day02_morning",
+      "date": "2026-10-02",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 2</b>\n<b>I have breakfast at home. — Я завтракаю дома.</b>\n\n<u>🎬 История</u>\nПо дороге к выходу разговор продолжается.\nЭмма и Адам сравнивают свои простые утренние привычки.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do you have breakfast at home?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I have coffee and eggs. What about you?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I have coffee and toast.\n\n<u>🗣 Новые слова</u>\n🔹 have breakfast — завтракать\n🔹 eggs — яйца\n🔹 toast — тост\n\n<u>⭐ Запомните</u>\nВ английском говорят have breakfast — буквально «иметь завтрак», по смыслу «завтракать».\nI have breakfast at home.\n\n<u>🎧 Послушайте и повторите</u>\nDo you have breakfast at home?\nYes, I do. I have coffee and eggs. What about you?\nI have coffee and toast."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day02.mp3",
+          "title": "Сезон 2 · День 2 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day02_practice",
+      "date": "2026-10-02",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 2</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI have breakfast at home.\nВыберите правильный смысл."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day02.mp3",
+          "title": "Сезон 2 · День 2 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает “I have breakfast at home”?",
+          "options": [
+            "Я завтракаю дома.",
+            "Я работаю дома.",
+            "Я покупаю завтрак."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day03_morning",
+      "date": "2026-10-03",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 3</b>\n<b>I leave home at eight. — Я выхожу из дома в восемь.</b>\n\n<u>🎬 История</u>\nЭмма и Адам выходят из дома почти одновременно.\nУ каждого уже появился свой привычный путь на работу.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you leave home?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At eight. I take the subway to work.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I leave at eight too.\n\n<u>🗣 Новые слова</u>\n🔹 leave home — выходить из дома\n🔹 take the subway — ехать на метро\n🔹 to work — на работу\n\n<u>⭐ Запомните</u>\nВопрос о времени:\nWhat time do you leave home?\nКороткий ответ: At eight.\n\n<u>🎧 Послушайте и повторите</u>\nWhat time do you leave home?\nAt eight. I take the subway to work.\nI leave at eight too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day03.mp3",
+          "title": "Сезон 2 · День 3 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day03_practice",
+      "date": "2026-10-03",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 3</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI leave home at eight.\nВо сколько человек выходит из дома?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day03.mp3",
+          "title": "Сезон 2 · День 3 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько человек выходит из дома?",
+          "options": [
+            "В семь.",
+            "В восемь.",
+            "В девять."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day04_morning",
+      "date": "2026-10-04",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 4</b>\n<b>I start work at nine. — Я начинаю работу в девять.</b>\n\n<u>🎬 История</u>\nВечером друзья снова встречаются возле дома.\nОказывается, их рабочие дни начинаются в разное время.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you start work?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I start at eight thirty. What about you?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I start work at nine.\n\n<u>🗣 Новые слова</u>\n🔹 start work — начинать работу\n🔹 eight thirty — восемь тридцать\n🔹 at nine — в девять\n\n<u>⭐ Запомните</u>\nДля времени с минутами тоже используем at:\nat eight thirty — в 8:30\nat nine — в 9:00\n\n<u>🎧 Послушайте и повторите</u>\nWhat time do you start work?\nI start at eight thirty. What about you?\nI start work at nine."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day04.mp3",
+          "title": "Сезон 2 · День 4 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day04_practice",
+      "date": "2026-10-04",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 4</b>\nКак сказать «Я начинаю работу в девять»?"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильную фразу.",
+          "options": [
+            "I work start at nine.",
+            "I start work at nine.",
+            "I am start work at nine."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day05_morning",
+      "date": "2026-10-05",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 5</b>\n<b>I usually have lunch at twelve thirty. — Обычно я обедаю в 12:30.</b>\n\n<u>🎬 История</u>\nПосле работы Эмма и Адам встречаются в лифте.\nРазговор заходит об обеденном перерыве, и они выясняют, что обедают в разное время.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;When do you have lunch?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At twelve thirty. I usually have a sandwich.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I have lunch at one.\n\n<u>🗣 Новые слова</u>\n🔹 have lunch — обедать\n🔹 usually — обычно\n🔹 a sandwich — сэндвич\n\n<u>⭐ Запомните</u>\nUsually ставим перед основным действием:\nI usually have a sandwich.\nТак мы говорим о том, что происходит обычно.\n\n<u>🎧 Послушайте и повторите</u>\nWhen do you have lunch?\nAt twelve thirty. I usually have a sandwich.\nI have lunch at one."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day05.mp3",
+          "title": "Сезон 2 · День 5 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day05_practice",
+      "date": "2026-10-05",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 5</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI usually have lunch at twelve thirty.\nКогда человек обычно обедает?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day05.mp3",
+          "title": "Сезон 2 · День 5 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Когда человек обычно обедает?",
+          "options": [
+            "В 12:30.",
+            "В 1:30.",
+            "В 2:00."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day06_morning",
+      "date": "2026-10-06",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 6</b>\n<b>Then I go home. — Потом я иду домой.</b>\n\n<u>🎬 История</u>\nРабочий день заканчивается.\nЭмма и Адам возвращаются домой в разное время, но снова встречаются у входа.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you finish work?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At five thirty. Then I go home.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I finish at six.\n\n<u>🗣 Новые слова</u>\n🔹 finish work — заканчивать работу\n🔹 then — потом / затем\n🔹 go home — идти / ехать домой\n\n<u>⭐ Запомните</u>\nС home обычно не нужен предлог to:\nI go home. — Я иду домой.\nThen помогает соединить два действия.\n\n<u>🎧 Послушайте и повторите</u>\nWhat time do you finish work?\nAt five thirty. Then I go home.\nI finish at six."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day06.mp3",
+          "title": "Сезон 2 · День 6 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day06_practice",
+      "date": "2026-10-06",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 6</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI finish work at six. Then I go home.\nЧто человек делает после работы?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day06.mp3",
+          "title": "Сезон 2 · День 6 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что происходит после работы?",
+          "options": [
+            "Человек завтракает.",
+            "Человек идёт в офис.",
+            "Человек идёт домой."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day07_morning",
+      "date": "2026-10-07",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season2/week01.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 7</b>\n<b>Week 1 Review — Уже можем рассказать о своём дне</b>\n\n<u>🎬 История</u>\nУтром Эмма и Адам идут к метро вместе.\nЗа одну неделю их обычный рабочий день уже можно описать простыми английскими фразами.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you get up?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At seven. I have breakfast at home and leave at eight.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. I take the subway and start work at nine.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;When do you have lunch?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At twelve thirty. I finish work at six. Then I go home.\n\n<u>🗣 Повторяем</u>\n🔹 I get up at…\n🔹 I have breakfast / lunch at…\n🔹 I start / finish work at…\n🔹 Then I go home.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day07.mp3",
+          "title": "Сезон 2 · День 7 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day07_practice",
+      "date": "2026-10-07",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 7</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>I get up at seven. I have breakfast at home. I leave home at eight and start work at nine.</tg-spoiler>\nСначала послушайте без текста. Затем откройте текст только при необходимости."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day07.mp3",
+          "title": "Сезон 2 · День 7 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько человек начинает работу?",
+          "options": [
+            "В семь.",
+            "В восемь.",
+            "В девять."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day08_morning",
+      "date": "2026-10-08",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 8</b>\n<b>What time is it? — Который час?</b>\n\n<u>🎬 История</u>\nВ холле часы остановились, и Адам проверяет время у Эммы.\nСегодня особенно важно не опоздать.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time is it?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;It’s eight fifteen.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Thanks. I have time.\n\n<u>🗣 Новые слова</u>\n🔹 What time is it? — который час?\n🔹 It’s eight fifteen. — сейчас 8:15.\n🔹 I have time. — у меня есть время.\n\n<u>⭐ Запомните</u>\nЧтобы назвать время, используем It’s:\nIt’s eight fifteen.\nВ повседневной речи в США часто называют время цифрами: eight fifteen, eight thirty.\n\n<u>🎧 Послушайте и повторите</u>\nWhat time is it?\nIt’s eight fifteen.\nThanks. I have time."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day08.mp3",
+          "title": "Сезон 2 · День 8 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day08_practice",
+      "date": "2026-10-08",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 8</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhat time is it? It’s eight fifteen.\nЧто вы услышали?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day08.mp3",
+          "title": "Сезон 2 · День 8 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Который час?",
+          "options": [
+            "7:15.",
+            "8:15.",
+            "8:50."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day09_morning",
+      "date": "2026-10-09",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 9</b>\n<b>The train is at eight thirty. — Поезд в 8:30.</b>\n\n<u>🎬 История</u>\nНа станции Эмма смотрит на табло.\nДо следующего поезда ещё есть несколько минут.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time is the next train?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;It’s at eight thirty.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. We have ten minutes.\n\n<u>🗣 Новые слова</u>\n🔹 the next train — следующий поезд\n🔹 It’s at eight thirty. — он в 8:30.\n🔹 ten minutes — десять минут\n\n<u>⭐ Запомните</u>\nСобытие или транспорт тоже могут быть at + время:\nThe train is at eight thirty.\n\n<u>🎧 Послушайте и повторите</u>\nWhat time is the next train?\nIt’s at eight thirty.\nGreat. We have ten minutes."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day09.mp3",
+          "title": "Сезон 2 · День 9 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day09_practice",
+      "date": "2026-10-09",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 9</b>\nСледующий поезд в 8:30. Выберите правильную фразу."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Следующий поезд в 8:30»?",
+          "options": [
+            "The next train is at eight thirty.",
+            "The next train at eight thirty.",
+            "The next train is eight thirty at."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day10_morning",
+      "date": "2026-10-10",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 10</b>\n<b>It opens at eight. — Оно открывается в восемь.</b>\n\n<u>🎬 История</u>\nПеред работой Эмма хочет зайти в новое кафе возле станции.\nНо дверь пока закрыта.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Is the café open?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Not yet. It opens at eight.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. I have five minutes.\n\n<u>🗣 Новые слова</u>\n🔹 open — открыто / открываться\n🔹 Not yet. — ещё нет.\n🔹 It opens at eight. — оно открывается в восемь.\n\n<u>⭐ Запомните</u>\nС he, she и it в Present Simple к глаголу обычно добавляем -s:\nhe works, she lives, it opens.\nThe café = it, поэтому: The café opens at eight.\n\n<u>🎧 Послушайте и повторите</u>\nIs the café open?\nNot yet. It opens at eight.\nOkay. I have five minutes."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day10.mp3",
+          "title": "Сезон 2 · День 10 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day10_practice",
+      "date": "2026-10-10",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 10</b>\n\n<u>🎧 Послушайте и повторите:</u>\nThe café opens at eight.\nВо сколько открывается кафе?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day10.mp3",
+          "title": "Сезон 2 · День 10 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько открывается кафе?",
+          "options": [
+            "В семь.",
+            "В восемь.",
+            "В девять."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day11_morning",
+      "date": "2026-10-11",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 11</b>\n<b>It closes at seven. — Оно закрывается в семь.</b>\n\n<u>🎬 История</u>\nПосле работы Эмма снова проходит мимо кафе.\nОна хочет понять, успеет ли зайти до закрытия.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time does the café close?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;It closes at seven.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Good. It’s only six thirty.\n\n<u>🗣 Новые слова</u>\n🔹 close — закрываться\n🔹 What time does it close? — во сколько оно закрывается?\n🔹 only — только / всего лишь\n\n<u>⭐ Запомните</u>\nDo используем с I, you, we, they. Does — с he, she, it.\nWhat time do you start? / What time does it close?\nПосле does основной глагол идёт без -s: does it close, не does it closes.\n\n<u>🎧 Послушайте и повторите</u>\nWhat time does the café close?\nIt closes at seven.\nGood. It’s only six thirty."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day11.mp3",
+          "title": "Сезон 2 · День 11 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day11_practice",
+      "date": "2026-10-11",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 11</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhat time does the store close? It closes at seven.\nВо сколько закрывается магазин?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day11.mp3",
+          "title": "Сезон 2 · День 11 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько закрывается магазин?",
+          "options": [
+            "В семь.",
+            "В шесть тридцать.",
+            "В восемь."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day12_morning",
+      "date": "2026-10-12",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 12</b>\n<b>Is it open on Sunday? — Оно открыто в воскресенье?</b>\n\n<u>🎬 История</u>\nЭмма планирует купить кофе в выходной и проверяет расписание.\nАдам уже сфотографировал табличку на двери.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Is the café open on Sunday?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, it is. It’s open every day.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Thanks!\n\n<u>🗣 Новые слова</u>\n🔹 on Sunday — в воскресенье\n🔹 It’s open. — оно открыто.\n🔹 every day — каждый день\n\n<u>⭐ Запомните</u>\nС днями недели используем on:\non Sunday — в воскресенье\non Monday — в понедельник\n\n<u>🎧 Послушайте и повторите</u>\nIs the café open on Sunday?\nYes, it is. It’s open every day.\nGreat. Thanks!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day12.mp3",
+          "title": "Сезон 2 · День 12 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day12_practice",
+      "date": "2026-10-12",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 12</b>\nКафе открыто в воскресенье. Выберите правильный ответ."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Is the café open on Sunday?",
+          "options": [
+            "Yes, it is.",
+            "Yes, it does.",
+            "Yes, I am."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day13_morning",
+      "date": "2026-10-13",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 13</b>\n<b>Sorry, I’m late. — Извини, я опоздал.</b>\n\n<u>🎬 История</u>\nЭмма ждёт Адама у входа в дом, чтобы вместе забрать посылки у консьержа.\nСегодня Адам задержался на работе.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sorry, I’m late.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;No worries. I’m early today.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;You are! We have time.\n\n<u>🗣 Новые слова</u>\n🔹 I’m late. — я опоздал / опаздываю.\n🔹 No worries. — ничего страшного.\n🔹 I’m early. — я пришёл рано.\n\n<u>⭐ Запомните</u>\nЕстественная дружеская реакция на небольшое опоздание:\nSorry, I’m late. — No worries.\nВ American English No worries звучит спокойно и разговорно.\n\n<u>🎧 Послушайте и повторите</u>\nSorry, I’m late.\nNo worries. I’m early today.\nYou are! We have time."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day13.mp3",
+          "title": "Сезон 2 · День 13 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day13_practice",
+      "date": "2026-10-13",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 13</b>\n\n<u>🎧 Послушайте и повторите:</u>\nSorry, I’m late. — No worries.\nВыберите естественную реакцию."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day13.mp3",
+          "title": "Сезон 2 · День 13 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Друг говорит: “Sorry, I’m late.” Что лучше ответить?",
+          "options": [
+            "Good night.",
+            "No worries.",
+            "I’m from Brooklyn."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day14_morning",
+      "date": "2026-10-14",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season2/week02.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 14</b>\n<b>Week 2 Review — Уже понимаем время и расписание</b>\n\n<u>🎬 История</u>\nЭмма и Адам встречаются у кафе перед началом рабочего дня.\nСегодня им легко проверить время и расписание, не переходя на русский.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time is it?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;It’s seven fifty.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Is the café open?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Not yet. It opens at eight.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Good. We have ten minutes.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;And we’re early today.\n\n<u>🗣 Повторяем</u>\n🔹 What time is it? — It’s…\n🔹 What time does it open / close?\n🔹 It opens / closes at…\n🔹 Sorry, I’m late. — No worries.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day14.mp3",
+          "title": "Сезон 2 · День 14 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day14_practice",
+      "date": "2026-10-14",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 14</b>\n\n<u>🎧 Послушайте:</u>\nIt opens at eight and closes at seven.\nСначала послушайте. Что относится к открытию кафе?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day14.mp3",
+          "title": "Сезон 2 · День 14 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько кафе открывается?",
+          "options": [
+            "В восемь.",
+            "В семь.",
+            "В десять."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day15_morning",
+      "date": "2026-10-15",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 15</b>\n<b>I’m hungry. — Я голоден.</b>\n\n<u>🎬 История</u>\nПосле работы Эмма и Адам встречаются возле станции.\nДень был длинным, и оба хотят перекусить.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m hungry. What about you?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. And I’m thirsty.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;There’s a café around the corner.\n\n<u>🗣 Новые слова</u>\n🔹 I’m hungry. — я голоден / я хочу есть.\n🔹 I’m thirsty. — я хочу пить.\n\n<u>⭐ Запомните</u>\nПо-английски состояние выражаем через I’m:\nI’m hungry.\nI’m thirsty.\n\n<u>🎧 Послушайте и повторите</u>\nI’m hungry. What about you?\nMe too. And I’m thirsty.\nThere’s a café around the corner."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day15.mp3",
+          "title": "Сезон 2 · День 15 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day15_practice",
+      "date": "2026-10-15",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 15</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI’m hungry and I’m thirsty.\nЧто хочет человек?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day15.mp3",
+          "title": "Сезон 2 · День 15 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает “I’m thirsty”?",
+          "options": [
+            "Я устал.",
+            "Я голоден.",
+            "Я хочу пить."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day16_morning",
+      "date": "2026-10-16",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 16</b>\n<b>I’d like a coffee, please. — Я бы хотела кофе, пожалуйста.</b>\n\n<u>🎬 История</u>\nВ кафе Адам спрашивает, что Эмма хочет заказать.\nОна выбирает простой и вежливый вариант.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What would you like?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’d like a coffee, please.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n\n<u>🗣 Новые слова</u>\n🔹 What would you like? — что бы вы хотели?\n🔹 I’d like… — я бы хотел / хотела…\n🔹 please — пожалуйста\n\n<u>⭐ Запомните</u>\nI’d like = I would like\nВ кафе I’d like… звучит естественно и вежливо:\nI’d like a coffee, please.\n\n<u>🎧 Послушайте и повторите</u>\nWhat would you like?\nI’d like a coffee, please.\nMe too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day16.mp3",
+          "title": "Сезон 2 · День 16 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day16_practice",
+      "date": "2026-10-16",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 16</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI’d like a coffee, please.\nВыберите естественный заказ."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day16.mp3",
+          "title": "Сезон 2 · День 16 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Вы хотите заказать кофе. Что лучше сказать?",
+          "options": [
+            "I’d like a coffee, please.",
+            "I coffee like.",
+            "I am a coffee."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day17_morning",
+      "date": "2026-10-17",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 17</b>\n<b>Can I have a small coffee? — Можно мне маленький кофе?</b>\n\n<u>🎬 История</u>\nЭмма подходит к стойке.\nВ истории впервые появляется ещё один голос — бариста знакомого кафе.\n\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Hi. What can I get for you?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Can I have a small coffee, please?\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sure.\n\n<u>🗣 Новые слова</u>\n🔹 What can I get for you? — что вам принести / что вы будете?\n🔹 Can I have…? — можно мне…?\n🔹 small — маленький\n\n<u>⭐ Запомните</u>\nВ American English Can I have…? — обычная вежливая модель заказа.\nCan I have a small coffee, please?\n\n<u>🎧 Послушайте и повторите</u>\nHi. What can I get for you?\nCan I have a small coffee, please?\nSure."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day17.mp3",
+          "title": "Сезон 2 · День 17 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day17_practice",
+      "date": "2026-10-17",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 17</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhat can I get for you? — Can I have a small coffee, please?\nЧто заказывает клиент?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day17.mp3",
+          "title": "Сезон 2 · День 17 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что заказывает клиент?",
+          "options": [
+            "Большой чай.",
+            "Маленький кофе.",
+            "Сэндвич."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day18_morning",
+      "date": "2026-10-18",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 18</b>\n<b>For here or to go? — Здесь или с собой?</b>\n\n<u>🎬 История</u>\nБариста уточняет, где Эмма и Адам будут пить кофе.\nУ друзей разные планы на вечер.\n\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;For here or to go?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;For here, please.\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;And for you?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;To go, please.\n\n<u>🗣 Новые слова</u>\n🔹 for here — здесь\n🔹 to go — с собой\n🔹 And for you? — а для вас?\n\n<u>⭐ Запомните</u>\nВ американском кафе обычно спрашивают:\nFor here or to go?\nКороткий ответ: For here, please. / To go, please.\n\n<u>🎧 Послушайте и повторите</u>\nFor here or to go?\nFor here, please.\nAnd for you?\nTo go, please."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day18.mp3",
+          "title": "Сезон 2 · День 18 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day18_practice",
+      "date": "2026-10-18",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 18</b>\nВы берёте кофе с собой. Что сказать?"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "For here, please.",
+            "To go, please.",
+            "Go to here, please."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day19_morning",
+      "date": "2026-10-19",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 19</b>\n<b>Coffee with milk, please. — Кофе с молоком, пожалуйста.</b>\n\n<u>🎬 История</u>\nАдам забирает сахар, а Эмма добавляет молоко.\nОни замечают ещё одно небольшое различие в своих вкусах.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do you want milk in your coffee?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, please. But no sugar.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I like coffee with milk and sugar.\n\n<u>🗣 Новые слова</u>\n🔹 with milk — с молоком\n🔹 no sugar — без сахара / сахар не нужен\n🔹 Do you want…? — ты хочешь…?\n\n<u>⭐ Запомните</u>\nВ заказе можно сказать очень коротко:\nCoffee with milk, please.\nNo sugar, please.\n\n<u>🎧 Послушайте и повторите</u>\nDo you want milk in your coffee?\nYes, please. But no sugar.\nI like coffee with milk and sugar."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day19.mp3",
+          "title": "Сезон 2 · День 19 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day19_practice",
+      "date": "2026-10-19",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 19</b>\nВам нужен кофе с молоком, но без сахара."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой вариант подходит?",
+          "options": [
+            "Coffee with milk. No sugar, please.",
+            "Coffee no milk and sugar.",
+            "I’m coffee with milk."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day20_morning",
+      "date": "2026-10-20",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 20</b>\n<b>Anything else? — Что-нибудь ещё?</b>\n\n<u>🎬 История</u>\nПеред оплатой бариста задаёт последний короткий вопрос.\nАдам решает взять что-нибудь к кофе.\n\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Anything else?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;A bagel, please.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That’s all, thanks.\n\n<u>🗣 Новые слова</u>\n🔹 Anything else? — что-нибудь ещё?\n🔹 a bagel — бейгл\n🔹 That’s all, thanks. — это всё, спасибо.\n\n<u>⭐ Запомните</u>\nЧтобы закончить заказ, удобно сказать:\nThat’s all, thanks.\n\n<u>🎧 Послушайте и повторите</u>\nAnything else?\nA bagel, please.\nThat’s all, thanks."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day20.mp3",
+          "title": "Сезон 2 · День 20 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day20_practice",
+      "date": "2026-10-20",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 20</b>\n\n<u>🎧 Послушайте и повторите:</u>\nAnything else? — That’s all, thanks.\nКлиент хочет закончить заказ. Что он говорит?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day20.mp3",
+          "title": "Сезон 2 · День 20 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какая фраза завершает заказ?",
+          "options": [
+            "I’m hungry.",
+            "That’s all, thanks.",
+            "It opens at eight."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day21_morning",
+      "date": "2026-10-21",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season2/week03.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 21</b>\n<b>Week 3 Review — Уже можем сделать заказ в кафе</b>\n\n<u>🎬 История</u>\nЭмма и Адам снова заходят в знакомое кафе.\nТеперь короткий заказ звучит спокойно и естественно.\n\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Good afternoon. What can I get for you?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Can I have a small coffee with milk, please?\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sure. For here or to go?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;For here, please.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’d like a large coffee. No sugar, please.\n<b>🧑</b> Barista<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Anything else?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;A bagel, please. That’s all, thanks.\n\n<u>🗣 Повторяем</u>\n🔹 I’d like a large coffee, please. — Я бы хотел(а) большой кофе, пожалуйста.\n🔹 Can I have…, please?\n🔹 For here / To go, please.\n🔹 Anything else? — That’s all, thanks.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day21.mp3",
+          "title": "Сезон 2 · День 21 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day21_practice",
+      "date": "2026-10-21",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 21</b>\n\n<u>🎧 Послушайте:</u>\nFor here or to go? — To go, please. — Anything else? — That’s all, thanks.\nСначала послушайте мини-диалог. Где клиент будет пить кофе?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day21.mp3",
+          "title": "Сезон 2 · День 21 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где клиент будет пить кофе?",
+          "options": [
+            "В кафе.",
+            "Возьмёт с собой.",
+            "Дома у друга."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day22_morning",
+      "date": "2026-10-22",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 22</b>\n<b>I need milk and bread. — Мне нужны молоко и хлеб.</b>\n\n<u>🎬 История</u>\nПосле кафе друзья заходят в супермаркет возле дома.\nУ каждого короткий список обычных покупок.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I need milk and bread.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I need eggs and apples.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;We need a list.\n\n<u>🗣 Новые слова</u>\n🔹 I need… — мне нужно / нужны…\n🔹 bread — хлеб\n🔹 an apple — яблоко\n🔹 a list — список\n\n<u>⭐ Запомните</u>\nI need подходит и для одного предмета, и для нескольких:\nI need milk.\nI need eggs and apples.\n\n<u>🎧 Послушайте и повторите</u>\nI need milk and bread.\nI need eggs and apples.\nWe need a list."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day22.mp3",
+          "title": "Сезон 2 · День 22 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day22_practice",
+      "date": "2026-10-22",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 22</b>\nКак сказать «Мне нужны молоко и хлеб»?"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильную фразу.",
+          "options": [
+            "I need milk and bread.",
+            "I am need milk and bread.",
+            "I needs milk and bread."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day23_morning",
+      "date": "2026-10-23",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 23</b>\n<b>Do we have any eggs? — У нас есть яйца?</b>\n\n<u>🎬 История</u>\nУ полки с продуктами Адам проверяет список.\nОни стараются не купить то, что уже лежит в корзине.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have any eggs?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, we do. We have six.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. We also need milk.\n\n<u>🗣 Новые слова</u>\n🔹 Do we have any…? — у нас есть…?\n🔹 We have six. — у нас шесть.\n🔹 also — также / ещё\n\n<u>⭐ Запомните</u>\nВ вопросе о наличии часто используем any:\nDo we have any eggs?\nКороткий ответ: Yes, we do. / No, we don’t.\n\n<u>🎧 Послушайте и повторите</u>\nDo we have any eggs?\nYes, we do. We have six.\nGreat. We also need milk."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day23.mp3",
+          "title": "Сезон 2 · День 23 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day23_practice",
+      "date": "2026-10-23",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 23</b>\nВ корзине уже есть яйца. Выберите ответ."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Do we have any eggs?",
+          "options": [
+            "Yes, we are.",
+            "Yes, we do.",
+            "Yes, we have do."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day24_morning",
+      "date": "2026-10-24",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 24</b>\n<b>A bottle of water, please. — Бутылку воды, пожалуйста.</b>\n\n<u>🎬 История</u>\nЭмма замечает, что привычные продукты часто продаются в разной упаковке.\nОна уточняет, что именно нужно положить в корзину.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I need a bottle of water.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;And I need a carton of milk.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. The milk is right here.\n\n<u>🗣 Новые слова</u>\n🔹 a bottle of water — бутылка воды\n🔹 a carton of milk — пакет молока\n🔹 right here — прямо здесь\n\n<u>⭐ Запомните</u>\nПолезные готовые сочетания:\na bottle of water\na carton of milk\n\n<u>🎧 Послушайте и повторите</u>\nI need a bottle of water.\nAnd I need a carton of milk.\nOkay. The milk is right here."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day24.mp3",
+          "title": "Сезон 2 · День 24 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day24_practice",
+      "date": "2026-10-24",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 24</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI need a bottle of water and a carton of milk.\nЧто нужно купить?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day24.mp3",
+          "title": "Сезон 2 · День 24 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что нужно купить?",
+          "options": [
+            "Хлеб и яйца.",
+            "Бутылку воды и пакет молока.",
+            "Кофе и бейгл."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day25_morning",
+      "date": "2026-10-25",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 25</b>\n<b>How much is the milk? — Сколько стоит молоко?</b>\n\n<u>🎬 История</u>\nУ молочной полки Эмма сравнивает цены.\nАдам замечает нужный ценник.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How much is the milk?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;It’s four dollars.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. That’s fine.\n\n<u>🗣 Новые слова</u>\n🔹 How much is…? — сколько стоит…?\n🔹 four dollars — четыре доллара\n🔹 That’s fine. — нормально / подходит.\n\n<u>⭐ Запомните</u>\nО цене одного товара спрашиваем:\nHow much is the milk?\nОтвет: It’s four dollars.\n\n<u>🎧 Послушайте и повторите</u>\nHow much is the milk?\nIt’s four dollars.\nOkay. That’s fine."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day25.mp3",
+          "title": "Сезон 2 · День 25 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day25_practice",
+      "date": "2026-10-25",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 25</b>\nМолоко стоит четыре доллара."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Сколько стоит молоко?",
+          "options": [
+            "Три доллара.",
+            "Четыре доллара.",
+            "Пять долларов."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day26_morning",
+      "date": "2026-10-26",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 26</b>\n<b>How much are these apples? — Сколько стоят эти яблоки?</b>\n\n<u>🎬 История</u>\nТеперь друзья подходят к фруктам.\nДля нескольких предметов вопрос немного меняется.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How much are these apples?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;They’re three dollars a pound.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I’ll take four.\n\n<u>🗣 Новые слова</u>\n🔹 How much are these…? — сколько стоят эти…?\n🔹 a pound — фунт, мера веса в США (примерно 0,45 кг)\n🔹 I’ll take four. — я возьму четыре.\n\n<u>⭐ Запомните</u>\nО нескольких предметах:\nHow much are these apples?\nThey’re three dollars a pound.\n\n<u>🎧 Послушайте и повторите</u>\nHow much are these apples?\nThey’re three dollars a pound.\nGreat. I’ll take four."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day26.mp3",
+          "title": "Сезон 2 · День 26 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day26_practice",
+      "date": "2026-10-26",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 26</b>\nВы спрашиваете цену нескольких яблок."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой вопрос подходит?",
+          "options": [
+            "How much is these apples?",
+            "How much are these apples?",
+            "How many are these apples cost?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day27_morning",
+      "date": "2026-10-27",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 27</b>\n<b>How many apples do we need? — Сколько яблок нам нужно?</b>\n\n<u>🎬 История</u>\nЭмма сверяется со списком, прежде чем положить яблоки в корзину.\nАдам быстро считает то, что уже выбрал.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How many apples do we need?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Four. We have three.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. One more.\n\n<u>🗣 Новые слова</u>\n🔹 How many…? — сколько…?\n🔹 We have three. — у нас три.\n🔹 one more — ещё один\n\n<u>⭐ Запомните</u>\nHow many…? — для исчисляемых существительных: How many apples do we need?\nHow much…? — для неисчисляемых существительных: How much milk? / How much is it?\nКороткий ответ на How many apples…? — Four.\n\n<u>🎧 Послушайте и повторите</u>\nHow many apples do we need?\nFour. We have three.\nOkay. One more."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day27.mp3",
+          "title": "Сезон 2 · День 27 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day27_practice",
+      "date": "2026-10-27",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 27</b>\n\n<u>🎧 Послушайте и повторите:</u>\nHow many apples do we need? — Four.\nСколько яблок нужно?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day27.mp3",
+          "title": "Сезон 2 · День 27 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Сколько яблок нужно?",
+          "options": [
+            "Три.",
+            "Четыре.",
+            "Пять."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day28_morning",
+      "date": "2026-10-28",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season2/week04.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 28</b>\n<b>Week 4 Review — Уже можем сделать простую покупку</b>\n\n<u>🎬 История</u>\nКорзина почти заполнена, и Эмма с Адамом ещё раз проверяют покупки.\nТеперь знакомые фразы помогают им быстро решить обычную задачу.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have everything?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s see. Milk, bread, eggs, and apples.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How much is the milk?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;It’s four dollars.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;And how much are the apples?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;They’re three dollars a pound.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. We have everything.\n\n<u>🗣 Повторяем</u>\n🔹 Do we have everything? — У нас всё есть?\n🔹 Let’s see. We need… — Давай посмотрим. Нам нужно…\n🔹 Do we have any…? — У нас есть…?\n🔹 How much is / are…? — Сколько стоит / стоят…?\n🔹 How many… do we need?\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day28.mp3",
+          "title": "Сезон 2 · День 28 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day28_practice",
+      "date": "2026-10-28",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 28</b>\n\n<u>🎧 Послушайте:</u>\nWe need milk, bread, and four apples. Do we have everything?\nЧто есть в списке?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day28.mp3",
+          "title": "Сезон 2 · День 28 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что нужно купить?",
+          "options": [
+            "Молоко, хлеб и четыре яблока.",
+            "Кофе, сахар и три яблока.",
+            "Молоко, яйца и один бейгл."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day29_morning",
+      "date": "2026-10-29",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 29</b>\n<b>Do you need a bag? — Вам нужен пакет?</b>\n\n<u>🎬 История</u>\nУ кассы появляется ещё одна короткая повседневная ситуация.\nКассир называет сумму и спрашивает про пакет.\n\n<b>🧑</b> Cashier<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do you need a bag?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, please.\n<b>🧑</b> Cashier<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That’s twenty-two dollars.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Here you go.\n\n<u>🗣 Новые слова</u>\n🔹 a bag — пакет\n🔹 That’s twenty-two dollars. — с вас двадцать два доллара.\n🔹 Here you go. — вот, пожалуйста.\n\n<u>⭐ Запомните</u>\nНа кассе That’s… часто означает итоговую сумму:\nThat’s twenty-two dollars.\nПередавая карту, деньги или предмет, можно сказать Here you go.\n\n<u>🎧 Послушайте и повторите</u>\nDo you need a bag?\nYes, please.\nThat’s twenty-two dollars.\nHere you go."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day29.mp3",
+          "title": "Сезон 2 · День 29 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day29_practice",
+      "date": "2026-10-29",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 29</b>\nКассир спрашивает, нужен ли вам пакет."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как согласиться?",
+          "options": [
+            "Yes, I need do.",
+            "Yes, please.",
+            "Yes, I am bag."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day30_morning",
+      "date": "2026-10-30",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 30</b>\n<b>Do I have everything? — У меня всё есть?</b>\n\n<u>🎬 История</u>\nВ холле дома Эмма и Адам разбирают пакеты: у кассы часть покупок оказалась вместе.\nЭмма ещё раз проверяет всё, что нужно для её обычного завтрака.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do I have everything for breakfast?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I think so. Eggs, bread, coffee, and milk.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. What time do you have breakfast?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Usually at eight. What about you?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At seven thirty.\n\n<u>🗣 Новые слова</u>\n🔹 Do I have everything? — у меня всё есть?\n🔹 I think so. — думаю, да.\n🔹 for breakfast — к завтраку / для завтрака\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day30.mp3",
+          "title": "Сезон 2 · День 30 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day30_practice",
+      "date": "2026-10-30",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 30</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>I usually have breakfast at seven thirty. I have coffee, eggs, and toast.</tg-spoiler>\nСначала послушайте. Во сколько человек обычно завтракает?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day30.mp3",
+          "title": "Сезон 2 · День 30 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько человек завтракает?",
+          "options": [
+            "В семь.",
+            "В семь тридцать.",
+            "В восемь."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day31_morning",
+      "date": "2026-10-31",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 2 • День 31</b>\n<b>One Month of Everyday English — Месяц повседневного английского</b>\n\n<u>🎬 История</u>\nПрошёл ещё один месяц.\nЭмма и Адам сидят в знакомом кафе после обычного рабочего дня.\nТеперь они могут спокойно говорить о распорядке, времени, еде и покупках — о той самой повседневной жизни, из которой складывается новый город.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Good evening, Adam. Busy day?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;A little. What do you usually do in the morning?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I get up at seven, have breakfast, and leave home at eight.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you start work?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At nine. I have lunch at twelve thirty and finish at six.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;And now? Coffee?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I’d like a small coffee with milk.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;And a bagel?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, please. That’s all.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sounds good. Are you free this weekend?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I am. See you tomorrow?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sure. See you tomorrow.\n\n<u>🗣 Новые слова</u>\n🔹 Busy day? — Много дел сегодня?\n🔹 A little. — Немного.\n🔹 Are you free this weekend? — Ты свободен / свободна в эти выходные?\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог, не читая текст, и постарайтесь понять общий смысл.\nНе переводите каждое слово отдельно.\nПосле первого прослушивания прочитайте диалог и послушайте ещё раз.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/morning/day31.mp3",
+          "title": "Сезон 2 · День 31 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s2_day31_practice",
+      "date": "2026-10-31",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 31</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>I get up at seven. I have breakfast at home. I leave home at eight, and I start work at nine. I have lunch at twelve thirty. I finish work at six.</tg-spoiler>\nСначала послушайте без текста."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season2/practice/day31.mp3",
+          "title": "Сезон 2 · День 31 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько человек заканчивает работу?",
+          "options": [
+            "В пять.",
+            "В шесть.",
+            "В семь."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season2_final_polls",
+      "date": "2026-10-31",
+      "time": "14:00",
+      "retry_until": "16:00",
+      "steps": [
+        {
+          "id": "poll01",
+          "type": "poll",
+          "question": "Как сказать «Я встаю в семь каждый день»?",
+          "options": [
+            "I get up at seven every day.",
+            "I am get up at seven every day.",
+            "I get at seven up every day."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll02",
+          "type": "poll",
+          "question": "Что лучше спросить, если вы хотите узнать время?",
+          "options": [
+            "Where is the time?",
+            "What time is it?",
+            "How time are you?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll03",
+          "type": "poll",
+          "question": "Вы хотите заказать маленький кофе. Что сказать?",
+          "options": [
+            "Can I have a small coffee, please?",
+            "I small coffee am.",
+            "Can I small coffee?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll04",
+          "type": "poll",
+          "question": "Бариста спрашивает: “For here or to go?” Вы берёте кофе с собой.",
+          "options": [
+            "For here, please.",
+            "To go, please.",
+            "Go here, please."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll05",
+          "type": "poll",
+          "question": "Как спросить цену молока?",
+          "options": [
+            "How much is the milk?",
+            "How many is the milk?",
+            "What money the milk?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll06",
+          "type": "poll",
+          "question": "Что означает “Do we have any eggs?”",
+          "options": [
+            "Сколько стоят яйца?",
+            "У нас есть яйца?",
+            "Нам нужны яйца?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll07_audio",
+          "type": "audio",
+          "path": "audio/season2/final/final_poll_07.mp3",
+          "title": "Сезон 2 · Итоговый опрос · Задание 7",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll07",
+          "type": "poll",
+          "question": "Во сколько человек заканчивает работу?",
+          "options": [
+            "В семь.",
+            "В девять.",
+            "В шесть."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season2_congratulations",
+      "date": "2026-10-31",
+      "time": "16:00",
+      "retry_until": "18:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season2/final.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🎉 SEASON 2 COMPLETE!\n     Поздравляем!</b>\n\nВы прошли второй сезон курса.\n\nТеперь вы уже можете:\n\n✅ рассказать о своём обычном дне и расписании;\n✅ назвать время и понять часы работы;\n✅ сделать заказ в кафе;\n✅ купить продукты, спросить цену и количество;\n✅ понять простые вопросы в кафе и на кассе.\n\n<b>🏆 Вы молодец!</b>\n\nДо встречи в третьем сезоне!"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "audio/season2/final/final_poll_07.mp3": "36f555cab143ee080548828bc95306c87395c2fdb442ee278ac28e3311eb2a71",
+    "audio/season2/morning/day01.mp3": "dedaff030217a5d36391afd9dda79098d4240849d76d081d84f5df3a71b3c75c",
+    "audio/season2/morning/day02.mp3": "fed7400d10c0b15d71b5fbb3096a716c5b5a1223cfa657f42ed2d0f89df8185f",
+    "audio/season2/morning/day03.mp3": "63f67d07e282d1b3fb478c54d246c4f2037f36c1ae26ad15e5becac318c7d823",
+    "audio/season2/morning/day04.mp3": "663d111a5f686556c19b35542a34819acb376ba677900c66e52717227332aae7",
+    "audio/season2/morning/day05.mp3": "caaa3aac130c982b768c055b4e5e9a761d2b44a43df95ed6e90927631dd7508e",
+    "audio/season2/morning/day06.mp3": "ccc82e95c3beb8d5138f9b075e741801cde6cde08e6e2a064a2fd6712890c194",
+    "audio/season2/morning/day07.mp3": "ee6c51ef8999f37504a44fce3458b2b5f390bb47832bfde625dd4dc12f4399d8",
+    "audio/season2/morning/day08.mp3": "bc5b083d91a9e80bb01daf0de58fba1139f4a06e1d3cea4d17374470492a08a0",
+    "audio/season2/morning/day09.mp3": "dfb691217ab088c9675592da20a7c83c077824428ecd44f5b15ebdcad2aaa193",
+    "audio/season2/morning/day10.mp3": "e114ee2c2c5753eb3af71280b15639796a100f86ebf10373d339dc33cb1e3851",
+    "audio/season2/morning/day11.mp3": "53f268fb796fd77709cfa86bb94bf4425f8637cf6038df8f38ed5ef68577358a",
+    "audio/season2/morning/day12.mp3": "b63f9e7d9b7b40da9a304aa74bcff9bc269c87e6e1dfea7dcb233440afeea007",
+    "audio/season2/morning/day13.mp3": "638e3698bc5e1e4c8fe3ad325f6125a3dd5ff0bbf5073dee2f18f46426d163e1",
+    "audio/season2/morning/day14.mp3": "22237b5d0701d7b1fb6518905a2e8d1b0e1ea205b935da98f2080dfc367f90bc",
+    "audio/season2/morning/day15.mp3": "7bd58dbe4e21cea854bd910a02006baab757119a99ebf2c3697cb2fb6385dfe8",
+    "audio/season2/morning/day16.mp3": "dc8f7e23f8166c476976e4de7f20d174465c6f5891ad2b3b73f363d1c0b1d61e",
+    "audio/season2/morning/day17.mp3": "74cebe9d3b25c3cc2c14c9546ee0f5aeb909970f9fda8d3f907d219e3d07e415",
+    "audio/season2/morning/day18.mp3": "a9cef589f10d9f1bfb70ddd664cb23e363cfc186694c9d988c736ed52a3415fc",
+    "audio/season2/morning/day19.mp3": "a446e9ada1d14da6eeb028d14426ddec4b45912b94d528ef4cee41ed9939e2d5",
+    "audio/season2/morning/day20.mp3": "6a193ecf9a3ce094dbe8c1a687d3b568384c7237e77ab2f435e6dc5539c58563",
+    "audio/season2/morning/day21.mp3": "022399c98c37112f9abbee690b2c62d57a510a77ccfe30c27bad96f00c51c3a6",
+    "audio/season2/morning/day22.mp3": "bf971f19d5a91378de1488a129355f1c1c2662db0055a13e0dd02f9eb8955a74",
+    "audio/season2/morning/day23.mp3": "1a0e6642b82ac9792b735530e2b516e4e02d05e30b83c850d35bbc4cee0a5677",
+    "audio/season2/morning/day24.mp3": "a6758d52ad9f5693747c9a1f775c202cb2f9f4de2a12464f323eb3721f1567ad",
+    "audio/season2/morning/day25.mp3": "e6530bfb56df1c38be8cd6ff466a5a8a8880fcc68a7f0d7880b854dde04c34e8",
+    "audio/season2/morning/day26.mp3": "dcacca68e810c621dfa3213b27f3bebe45b131d4b2f471ba397010e8c68e68e4",
+    "audio/season2/morning/day27.mp3": "10669c200a0016cf5281d67bed85588e863ba1ec1afde00eeebddb229abea7b0",
+    "audio/season2/morning/day28.mp3": "f54b57cbb420ee3c8523ca7d8f67bf1cd0a47c48a7fcc6bd459b39e1d7e3a608",
+    "audio/season2/morning/day29.mp3": "1442fe48ff0d2be6194e22a73dba3899e1a31f80bc7875ff5eeaf94862ca5aeb",
+    "audio/season2/morning/day30.mp3": "c809513463e469ed8403e58ec321ecf5479b57086005776006c97cacba4ad2d3",
+    "audio/season2/morning/day31.mp3": "ed92e3d1b84fa251adce65381b016777b8b4816ed443f510a805f262bc6a28ce",
+    "audio/season2/practice/day01.mp3": "40af3b64854a5e70c6b541f76cdfbf91df325734f1c036bc58f47b31622d8cb7",
+    "audio/season2/practice/day02.mp3": "c1c898810cef35a9bcfb07b1a1fb74abcbb2142647523649b55692c8e1a010de",
+    "audio/season2/practice/day03.mp3": "b8c4caa245c16eab19a115d01eb303421f5c086b38e4883d40bc5f3fff687dad",
+    "audio/season2/practice/day05.mp3": "3e9387991c7d11087436213962de09752038f56b4677f5704aa31973afb3dbd0",
+    "audio/season2/practice/day06.mp3": "7d5c2a459ac9618b7b581f57ca79a1eeeef094575c6b9f4a76ea377bf4ab0c27",
+    "audio/season2/practice/day07.mp3": "923808b7c8831f368b11a3459797bb7048fd52862df181f0b7a1dabb5bd6928c",
+    "audio/season2/practice/day08.mp3": "358d000843fd2c36b9243442045c862c22ede0697af7d0de8a7df93acbd47854",
+    "audio/season2/practice/day10.mp3": "9b229d1623018a2adc204efb6f9a4e9bf286cae8e7059a3f53f4b09de2b124c8",
+    "audio/season2/practice/day11.mp3": "04caa06eb6940a3bb9e4a3438054471ebeed987ce11faf489611b9b3dc9d5b11",
+    "audio/season2/practice/day13.mp3": "78512871002575564195c32bd1438339339d6ef09c7aabe001bae1bc3a8eedbd",
+    "audio/season2/practice/day14.mp3": "3456efcd92e366a5a928da9f701ef9b6ef02b124ea29b774bc6e04811e3f0bfa",
+    "audio/season2/practice/day15.mp3": "f116a461c5a416650faa1e843036415dfc40e548dc5e160555ff401c1ac635e0",
+    "audio/season2/practice/day16.mp3": "bdf84e7c6165335ea37051142bec05fe7dd08ad7a2ea1081fe1d45f4d4ad4682",
+    "audio/season2/practice/day17.mp3": "77b085fa94c031b689887a730ca5f4ba747a98df03659861b9f6761ef54572d7",
+    "audio/season2/practice/day20.mp3": "3989985a665c55bf84decc89465327e7b19817efec8fc38470342596ad0c9e6f",
+    "audio/season2/practice/day21.mp3": "988aaef338b9ad51f3b0a8dde008b242a6130ab4af9965bc80eaf57cc8633a64",
+    "audio/season2/practice/day24.mp3": "bc58193a5edb575e0e68da8d1921645fc9677192991809c431897fbdb6d5b421",
+    "audio/season2/practice/day27.mp3": "ba280c7c9943b8b0344d3fd19cec5b062a07032a61f8a539ba82375172e191b3",
+    "audio/season2/practice/day28.mp3": "78b684712a128a6afddd11a934c263cfd65e9a332ea9c40cc38acaf23e99e49b",
+    "audio/season2/practice/day30.mp3": "503f83659bc19e909f00c38770dc70cb16ef95cab45237a25ecebe9a720f9fe1",
+    "audio/season2/practice/day31.mp3": "f0962ff5eaf97c471720bacc03b5cadd3d0aae654e2d04ffe88aa7fb1b8e7bad",
+    "images/season2/final.png": "60b0115fb3feb528143d0e858c7637b0b10b3d0f494ca8aa83f05a247d640a30",
+    "images/season2/week01.png": "4a2b7bfb5d9982f6769079188ccffc2141edf847ce439546be10cad39c64959f",
+    "images/season2/week02.png": "6df581f9b5995a8967b84ba24aa0d838dec365513dd59ab9e2de466fbbbfe311",
+    "images/season2/week03.png": "fa0e67aa9b1d4a41e983bb2f62616d232b29d13432f8a81d79ffafd9ca366321",
+    "images/season2/week04.png": "3b2db6005d0c3096729835f76b5847f97d291783a8178e8021317c3a90d0d580"
+  }
+}

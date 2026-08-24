@@ -1,7 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-expected_count=52
+expected_count="$(python - <<'PY'
+import json
+from pathlib import Path
+
+print(sum(
+    json.loads(path.read_text(encoding="utf-8"))["meta"]["audio_files"]
+    for path in Path("content").glob("season*.json")
+))
+PY
+)"
 repaired_count=0
 reencoded_count=0
 staging_dir="$(mktemp -d)"

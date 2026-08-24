@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_PATH = ROOT / "content" / "season1.json"
+CONTENT_DIR = ROOT / "content"
 
 
 def sha256(path: Path) -> str:
@@ -18,20 +18,33 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
-    content = json.loads(CONTENT_PATH.read_text(encoding="utf-8"))
-    audio_paths = sorted(path for path in content["assets"] if path.startswith("audio/"))
-    if len(audio_paths) != 52:
-        raise SystemExit(f"Ожидалось 52 аудиофайла, найдено {len(audio_paths)}")
-    for relative in audio_paths:
-        path = ROOT / relative
-        if not path.is_file():
-            raise FileNotFoundError(relative)
-        content["assets"][relative] = sha256(path)
-    CONTENT_PATH.write_text(
-        json.dumps(content, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-    print("Обновлены SHA-256 для 52 MP3.")
+    total = 0
+    for content_path in sorted(CONTENT_DIR.glob("season*.json")):
+        content = json.loads(content_path.read_text(encoding="utf-8"))
+        asset_paths = sorted(content["assets"])
+        audio_paths = [path for path in asset_paths if path.endswith(".mp3")]
+        image_paths = [path for path in asset_paths if path.endswith(".png")]
+        expected_audio = content["meta"]["audio_files"]
+        expected_images = content["meta"]["image_files"]
+        if len(audio_paths) != expected_audio:
+            raise SystemExit(
+                f"{content_path.name}: ожидалось {expected_audio} аудиофайлов, найдено {len(audio_paths)}"
+            )
+        if len(image_paths) != expected_images:
+            raise SystemExit(
+                f"{content_path.name}: ожидалось {expected_images} изображений, найдено {len(image_paths)}"
+            )
+        for relative in asset_paths:
+            path = ROOT / relative
+            if not path.is_file():
+                raise FileNotFoundError(relative)
+            content["assets"][relative] = sha256(path)
+        content_path.write_text(
+            json.dumps(content, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        total += len(asset_paths)
+    print(f"Обновлены SHA-256 для {total} медиафайлов.")
 
 
 if __name__ == "__main__":
