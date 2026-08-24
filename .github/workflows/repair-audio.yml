@@ -1,4 +1,4 @@
-name: Repair English course audio
+name: Repair English Course Audio
 
 on:
   workflow_dispatch:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: english-season-1-audio-repair
+  group: english-course-audio-repair
   cancel-in-progress: false
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
       - name: Re-encode all MP3 for Telegram compatibility
         run: bash scripts/repair_audio.sh
 
-      - name: Refresh audio hashes
+      - name: Refresh media hashes
         run: python scripts/refresh_asset_hashes.py
 
       - name: Verify repaired package
@@ -48,13 +48,13 @@ jobs:
 
       - name: Commit repaired audio
         run: |
-          if git diff --quiet -- audio content/season1.json; then
+          if git diff --quiet -- audio content; then
             echo "Аудиофайлы уже совместимы. Изменений нет."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio content/season1.json
+          git add audio content/season1.json content/season2.json
           git commit -m "Repair MP3 compatibility for Telegram clients"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

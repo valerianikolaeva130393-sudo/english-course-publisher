@@ -1,4 +1,4 @@
-name: Preview English Season 1
+name: Preview English Course
 
 on:
   workflow_dispatch:
@@ -16,6 +16,13 @@ on:
           - day30_morning
           - season1_final_polls
           - season1_congratulations
+          - s2_day01_morning
+          - s2_day01_practice
+          - s2_day07_morning
+          - s2_day07_practice
+          - s2_day31_morning
+          - season2_final_polls
+          - season2_congratulations
       confirm:
         description: "Введите PREVIEW"
         required: true
@@ -25,7 +32,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: english-season-1-preview
+  group: english-course-preview
   cancel-in-progress: false
 
 jobs:
@@ -49,20 +56,16 @@ jobs:
       - name: Send exact preview without changing state
         run: |
           python - <<'PY'
-          import json
           import os
           import time
-          from pathlib import Path
 
-          from publisher import TelegramClient, send_step
+          from publisher import TelegramClient, load_all_content, send_step
 
           if os.environ.get("PREVIEW_CONFIRM") != "PREVIEW":
               raise SystemExit("Введите PREVIEW в поле confirm")
 
           event_id = os.environ["PREVIEW_EVENT_ID"]
-          content = json.loads(
-              Path("content/season1.json").read_text(encoding="utf-8")
-          )
+          content = load_all_content()
           matches = [event for event in content["events"] if event["id"] == event_id]
           if len(matches) != 1:
               raise SystemExit(f"Событие не найдено: {event_id}")

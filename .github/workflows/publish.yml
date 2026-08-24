@@ -1,4 +1,4 @@
-name: Publish English Season 1
+name: Publish English Course
 
 on:
   workflow_dispatch:
@@ -38,12 +38,28 @@ on:
       timezone: "Europe/Moscow"
     - cron: "0 18 30 9 *"
       timezone: "Europe/Moscow"
+    - cron: "*/15 7-8 * 10 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 9 * 10 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/15 12-13 * 10 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 14 * 10 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/15 14-15 31 10 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 16 31 10 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/15 16-17 31 10 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 18 31 10 *"
+      timezone: "Europe/Moscow"
 
 permissions:
   contents: write
 
 concurrency:
-  group: english-season-1-publisher
+  group: english-course-publisher
   cancel-in-progress: false
 
 jobs:
