@@ -21,8 +21,7 @@ while IFS= read -r -d '' source_file; do
   target_file="$staging_dir/$relative_file"
   mkdir -p "$(dirname "$target_file")"
 
-  encoder="$(ffprobe -v error -show_entries format_tags=encoder -of default=noprint_wrappers=1:nokey=1 "$source_file")"
-  if [[ "$encoder" == Lavf* ]]; then
+  if python -c 'import sys; raise SystemExit(0 if b"Lavf" in open(sys.argv[1], "rb").read() else 1)' "$source_file"; then
     cp "$source_file" "$target_file"
     repaired_count=$((repaired_count + 1))
     continue

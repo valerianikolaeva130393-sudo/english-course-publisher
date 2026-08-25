@@ -1,0 +1,1745 @@
+{
+  "meta": {
+    "course": "Английский через истории",
+    "season": 3,
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-30",
+    "timezone": "Europe/Moscow",
+    "channel": "@english_story_a1a2",
+    "source_sha256": "b0aca77cf107c2962399cd8ac76952b909ce72db416fc4d4eeea41b4d2dc8db5",
+    "audio_files": 52,
+    "image_files": 5
+  },
+  "events": [
+    {
+      "id": "s3_day01_morning",
+      "date": "2026-11-01",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 1</b>\n<b>What do you do in your free time? — Что ты делаешь в свободное время?</b>\n\n<u>🎬 История</u>\nВ субботу утром Эмма и Адам встречаются в холле дома.\nСегодня никто не спешит на работу, и разговор впервые заходит о свободном времени.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What do you do in your free time?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I usually take pictures or go for a walk. What about you?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I usually read or listen to music.\n\n<u>🗣 Новые слова</u>\n🔹 free time — свободное время\n🔹 take pictures — фотографировать\n🔹 go for a walk — идти на прогулку\n🔹 read — читать\n\n<u>⭐ Запомните</u>\nЧтобы спросить об интересах человека:\nWhat do you do in your free time?\nОтвет можно начать с I usually…\n\n<u>🎧 Послушайте и повторите</u>\nWhat do you do in your free time?\nI usually take pictures or go for a walk. What about you?\nI usually read or listen to music."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day01.mp3",
+          "title": "Сезон 3 · День 1 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day01_practice",
+      "date": "2026-11-01",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 1</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhat do you do in your free time?\nI usually take pictures or go for a walk."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day01.mp3",
+          "title": "Сезон 3 · День 1 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Она фотографирует или гуляет.",
+            "Она работает дома.",
+            "Она ходит в спортзал."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day02_morning",
+      "date": "2026-11-02",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 2</b>\n<b>I like listening to music. — Мне нравится слушать музыку.</b>\n\n<u>🎬 История</u>\nРазговор продолжается по дороге к выходу.\nЭмма и Адам сравнивают музыкальные предпочтения.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What kind of music do you like?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I like listening to jazz. What about you?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I like pop music and jazz too.\n\n<u>🗣 Новые слова</u>\n🔹 listen to music — слушать музыку\n🔹 What kind of music do you like? — Какая музыка тебе нравится?\n🔹 pop music — поп-музыка\n\n<u>⭐ Запомните</u>\nПосле like можно назвать предмет или занятие (используем глагол с окончанием -ing):\nI like jazz.\nI like listening to music.\n\n<u>🎧 Послушайте и повторите</u>\nWhat kind of music do you like?\nI like listening to jazz. What about you?\nI like pop music and jazz too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day02.mp3",
+          "title": "Сезон 3 · День 2 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day02_practice",
+      "date": "2026-11-02",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 2</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI like listening to jazz."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day02.mp3",
+          "title": "Сезон 3 · День 2 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что вы услышали?",
+          "options": [
+            "Рок.",
+            "Джаз.",
+            "Классическая музыка."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day03_morning",
+      "date": "2026-11-03",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 3</b>\n<b>I go to the gym twice a week. — Я хожу в спортзал два раза в неделю.</b>\n\n<u>🎬 История</u>\nВозле дома Адам замечает знакомого после пробежки.\nЭмма спрашивает, как часто Адам занимается спортом.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do you go to the gym?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I go twice a week.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Nice. I usually exercise at home.\n\n<u>🗣 Новые слова</u>\n🔹 go to the gym — ходить в спортзал\n🔹 twice a week — два раза в неделю\n🔹 exercise — заниматься спортом\n\n<u>⭐ Запомните</u>\nЧтобы сказать, как часто происходит действие:\nonce a week — раз в неделю\ntwice a week — два раза в неделю\n\n<u>🎧 Послушайте и повторите</u>\nDo you go to the gym?\nYes. I go twice a week.\nNice. I usually exercise at home."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day03.mp3",
+          "title": "Сезон 3 · День 3 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day03_practice",
+      "date": "2026-11-03",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 3</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI go to the gym twice a week."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day03.mp3",
+          "title": "Сезон 3 · День 3 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Каждый день.",
+            "Два раза в неделю.",
+            "Раз в месяц."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day04_morning",
+      "date": "2026-11-04",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 4</b>\n<b>I usually read in the evening. — Обычно я читаю вечером.</b>\n\n<u>🎬 История</u>\nВечером Эмма встречает Адама у почтовых ящиков с новой книгой.\nУ каждого есть свой способ отдохнуть после рабочего дня.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I usually read in the evening. Do you like books?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do. I often read on the subway.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That’s a good idea.\n\n<u>🗣 Новые слова</u>\n🔹 in the evening — вечером\n🔹 often — часто\n🔹 a good idea — хорошая идея\n\n<u>⭐ Запомните</u>\nUsually и often обычно ставим перед действием:\nI usually read in the evening.\nI often read on the subway.\n\n<u>🎧 Послушайте и повторите</u>\nI usually read in the evening. Do you like books?\nYes, I do. I often read on the subway.\nThat’s a good idea."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day04.mp3",
+          "title": "Сезон 3 · День 4 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day04_practice",
+      "date": "2026-11-04",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 4</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI usually read in the evening."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day04.mp3",
+          "title": "Сезон 3 · День 4 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Утром.",
+            "Днём.",
+            "Вечером."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day05_morning",
+      "date": "2026-11-05",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 5</b>\n<b>Do you ever go to museums? — Ты вообще ходишь в музеи?</b>\n\n<u>🎬 История</u>\nЭмма рассматривает афишу новой выставки возле станции.\nОна хочет понять, интересны ли Адаму музеи.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do you ever go to museums?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sometimes. I like history museums.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I usually go to photography exhibits.\n\n<u>🗣 Новые слова</u>\n🔹 ever — вообще / когда-нибудь — в вопросе\n🔹 history museum — исторический музей\n🔹 sometimes — иногда\n🔹 an exhibit — выставка\n\n<u>⭐ Запомните</u>\nEver помогает спросить, бывает ли такое вообще:\nDo you ever go to museums?\nКороткий естественный ответ: Sometimes.\n\n<u>🎧 Послушайте и повторите</u>\nDo you ever go to museums?\nSometimes. I like history museums.\nI usually go to photography exhibits."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day05.mp3",
+          "title": "Сезон 3 · День 5 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day05_practice",
+      "date": "2026-11-05",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 5</b>\n\n<u>🎧 Послушайте и повторите:</u>\nDo you ever go to museums? Sometimes."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day05.mp3",
+          "title": "Сезон 3 · День 5 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает ответ “Sometimes” в этом диалоге?",
+          "options": [
+            "Иногда ходит.",
+            "Ходит каждый день.",
+            "Никогда не ходит."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day06_morning",
+      "date": "2026-11-06",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 6</b>\n<b>What’s your favorite place in Brooklyn? — Какое твоё любимое место в Бруклине?</b>\n\n<u>🎬 История</u>\nПо дороге домой друзья обсуждают места, куда любят заходить без особого плана.\nИх район постепенно становится по-настоящему знакомым.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What’s your favorite place in Brooklyn?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;The park near the river. What about you?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;The bookstore on Court Street.\n\n<u>🗣 Новые слова</u>\n🔹 favorite place — любимое место\n🔹 a bookstore — книжный магазин\n🔹 near the river — рядом с рекой\n\n<u>⭐ Запомните</u>\nУниверсальная модель для разговора о любимом:\nWhat’s your favorite place / café / music?\nОтвет можно дать очень коротко: The park near the river.\n\n<u>🎧 Послушайте и повторите</u>\nWhat’s your favorite place in Brooklyn?\nThe park near the river. What about you?\nThe bookstore on Court Street."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day06.mp3",
+          "title": "Сезон 3 · День 6 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day06_practice",
+      "date": "2026-11-06",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 6</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhat’s your favorite place in Brooklyn? The bookstore on Court Street."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day06.mp3",
+          "title": "Сезон 3 · День 6 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Музей.",
+            "Книжный магазин.",
+            "Спортзал."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day07_morning",
+      "date": "2026-11-07",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season3/week01.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 7</b>\n<b>Week 1 Review — Уже можем поговорить о свободном времени</b>\n\n<u>🎬 История</u>\nВ субботу Эмма и Адам заходят в небольшой книжный магазин с кафе.\nТеперь они уже могут поддержать простой разговор об интересах и любимых местах.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What do you do in your free time?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I usually read, listen to music, or go for a walk.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do you ever go to museums?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sometimes. What’s your favorite place in Brooklyn?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;The park near the river. I like taking pictures there.\n\n<u>🗣 Повторяем</u>\n🔹 In my free time, I…\n🔹 I like listening to… / I like taking pictures.\n🔹 I usually… / I sometimes…\n🔹 What’s your favorite…?\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day07.mp3",
+          "title": "Сезон 3 · День 7 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day07_practice",
+      "date": "2026-11-07",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 7</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>In my free time, I usually read or listen to music. Sometimes I go to a museum.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day07.mp3",
+          "title": "Сезон 3 · День 7 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что человек иногда делает?",
+          "options": [
+            "Ходит в спортзал.",
+            "Ходит в музей.",
+            "Фотографирует дома."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day08_morning",
+      "date": "2026-11-08",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 8</b>\n<b>Would you like to get coffee? — Хочешь выпить кофе?</b>\n\n<u>🎬 История</u>\nПосле книжного магазина Эмма предлагает продолжить прогулку.\nОна использует вежливое приглашение, которое подходит и знакомым, и новым друзьям.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Would you like to get coffee this afternoon?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sure. That sounds good.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Let’s go to the café near the park.\n\n<u>🗣 Новые слова</u>\n🔹 Would you like to…? — хочешь / хотели бы вы…?\n🔹 get coffee — выпить кофе / сходить за кофе\n🔹 That sounds good. — звучит хорошо.\n🔹 Let’s go — давай сходим\n\n<u>⭐ Запомните</u>\nWould you like to…? — вежливое и естественное приглашение:\nWould you like to get coffee?\nПростой положительный ответ: Sure. That sounds good.\n\n<u>🎧 Послушайте и повторите</u>\nWould you like to get coffee this afternoon?\nSure. That sounds good.\nGreat. Let’s go to the café near the park."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day08.mp3",
+          "title": "Сезон 3 · День 8 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day08_practice",
+      "date": "2026-11-08",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 8</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWould you like to get coffee? Sure. That sounds good."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day08.mp3",
+          "title": "Сезон 3 · День 8 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает ответ “Sure. That sounds good” в этой ситуации?",
+          "options": [
+            "Да, он согласен.",
+            "Нет, он занят.",
+            "Он не любит кофе."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day09_morning",
+      "date": "2026-11-09",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 9</b>\n<b>Yes, I’d love to. — Да, с удовольствием.</b>\n\n<u>🎬 История</u>\nВ кафе Адам замечает афишу небольшой фотовыставки.\nНа этот раз приглашение получает Эмма.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Would you like to go to the photo exhibit on Saturday?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I’d love to.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. It’s near the park.\n\n<u>🗣 Новые слова</u>\n🔹 I’d love to. — с удовольствием.\n🔹 a photo exhibit — фотовыставка\n🔹 on Saturday — в субботу\n\n<u>⭐ Запомните</u>\nI’d love to — тёплый и естественный ответ на приглашение.\nПолная форма: I would love to.\nВ обычной речи чаще звучит сокращённая форма I’d.\n\n<u>🎧 Послушайте и повторите</u>\nWould you like to go to the photo exhibit on Saturday?\nYes, I’d love to.\nGreat. It’s near the park."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day09.mp3",
+          "title": "Сезон 3 · День 9 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day09_practice",
+      "date": "2026-11-09",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 9</b>\nВас приглашают на фотовыставку, и вы хотите пойти."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как лучше ответить?",
+          "options": [
+            "Yes, I love.",
+            "Yes, I’d love to.",
+            "Yes, I’d visit."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day10_morning",
+      "date": "2026-11-10",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 10</b>\n<b>Are you free on Saturday? — Ты свободен / свободна в субботу?</b>\n\n<u>🎬 История</u>\nВ понедельник друзья снова встречаются у лифта.\nАдам хочет предложить ещё один вариант на следующие выходные.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Are you free on Saturday?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I am. Why?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;There’s a jazz concert in the park.\n\n<u>🗣 Новые слова</u>\n🔹 Are you free…? — ты свободен / свободна…?\n🔹 Why? — почему?\n🔹 a jazz concert — джазовый концерт\n\n<u>⭐ Запомните</u>\nЧтобы сначала проверить, свободен ли человек:\nAre you free on Saturday?\nОтвет: Yes, I am. / No, I’m not.\n\n<u>🎧 Послушайте и повторите</u>\nAre you free on Saturday?\nYes, I am. Why?\nThere’s a jazz concert in the park."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day10.mp3",
+          "title": "Сезон 3 · День 10 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day10_practice",
+      "date": "2026-11-10",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 10</b>\n\n<u>🎧 Послушайте и повторите:</u>\nAre you free on Saturday? Yes, I am."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day10.mp3",
+          "title": "Сезон 3 · День 10 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Да, свободен.",
+            "Нет, работает.",
+            "Об этом не сказано."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day11_morning",
+      "date": "2026-11-11",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 11</b>\n<b>Sorry, I can’t. — Извини, я не могу.</b>\n\n<u>🎬 История</u>\nЧерез несколько дней Эмма предлагает встретиться после работы.\nУ Адама уже есть дела, но отказ звучит спокойно и дружелюбно.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Would you like to get coffee on Friday?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sorry, I can’t. I work late on Friday.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;No problem.\n\n<u>🗣 Новые слова</u>\n🔹 on Friday — в пятницу\n🔹 Sorry, I can’t. — извини, я не могу.\n🔹 work late — работать допоздна\n🔹 No problem. — ничего страшного.\n\n<u>⭐ Запомните</u>\nВежливый короткий отказ:\nSorry, I can’t.\nПри желании можно добавить простую причину: I work late.\n\n<u>🎧 Послушайте и повторите</u>\nWould you like to get coffee on Friday?\nSorry, I can’t. I work late on Friday.\nNo problem."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day11.mp3",
+          "title": "Сезон 3 · День 11 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day11_practice",
+      "date": "2026-11-11",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 11</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWould you like to get coffee on Friday? Sorry, I can’t. I work late."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day11.mp3",
+          "title": "Сезон 3 · День 11 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Он не любит кофе.",
+            "Он работает допоздна.",
+            "Он уезжает из города."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day12_morning",
+      "date": "2026-11-12",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 12</b>\n<b>Maybe another day? — Может быть, в другой день?</b>\n\n<u>🎬 История</u>\nАдам не хочет, чтобы отказ завершил разговор.\nДрузья сразу ищут другой удобный день.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I can’t go on Friday. Maybe another day?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How about Sunday afternoon?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sunday works for me.\n\n<u>🗣 Новые слова</u>\n🔹 another day — другой день\n🔹 Sunday afternoon — воскресенье днём\n🔹 How about…? — как насчёт…?\n🔹 works for me — мне подходит\n\n<u>⭐ Запомните</u>\nПосле отказа можно сразу предложить другой вариант:\nMaybe another day?\nHow about Sunday afternoon?\n\n<u>🎧 Послушайте и повторите</u>\nI can’t go on Friday. Maybe another day?\nHow about Sunday afternoon?\nSunday works for me."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day12.mp3",
+          "title": "Сезон 3 · День 12 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day12_practice",
+      "date": "2026-11-12",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 12</b>\nВоскресенье подходит. Выберите естественный ответ."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Воскресенье мне подходит»?",
+          "options": [
+            "Sunday works for me.",
+            "Sunday works me.",
+            "I work Sunday for me."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day13_morning",
+      "date": "2026-11-13",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 13</b>\n<b>Let’s meet at two. — Давай встретимся в два.</b>\n\n<u>🎬 История</u>\nДень выбран, осталось договориться о времени и месте.\nТеперь план становится конкретным.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you want to meet?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s meet at two.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At the café near the park?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. See you there.\n\n<u>🗣 Новые слова</u>\n🔹 Let’s meet… — давай встретимся…\n🔹 at two — в два часа\n🔹 See you there. — увидимся там.\n\n<u>⭐ Запомните</u>\nЧтобы предложить сделать что-то вместе, используем Let’s + действие:\nLet’s meet at two.\nДля точного времени по-прежнему нужен предлог at.\n\n<u>🎧 Послушайте и повторите</u>\nWhat time do you want to meet?\nLet’s meet at two.\nAt the café near the park?\nYes. See you there."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day13.mp3",
+          "title": "Сезон 3 · День 13 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day13_practice",
+      "date": "2026-11-13",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 13</b>\n\n<u>🎧 Послушайте и повторите:</u>\nLet’s meet at two at the café near the park."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day13.mp3",
+          "title": "Сезон 3 · День 13 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "В два, в кафе возле парка.",
+            "В три, в парке.",
+            "В два, у метро."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day14_morning",
+      "date": "2026-11-14",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season3/week02.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 14</b>\n<b>Week 2 Review — Уже можем пригласить и договориться о встрече</b>\n\n<u>🎬 История</u>\nВ знакомом кафе Эмма и Адам сверяют планы на воскресенье.\nКороткого разговора уже достаточно, чтобы пригласить, ответить и выбрать время.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Are you free on Sunday afternoon?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I am.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Would you like to go to the photo exhibit?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’d love to. What time do you want to meet?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s meet at two at the café.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me. See you there.\n\n<u>🗣 Повторяем</u>\n🔹 Would you like to…? — I’d love to. / Sure.\n🔹 Sorry, I can’t. Maybe another day?\n🔹 Are you free on…?\n🔹 Let’s meet at… / That works for me.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day14.mp3",
+          "title": "Сезон 3 · День 14 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day14_practice",
+      "date": "2026-11-14",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 14</b>\n\n<u>🎧 Послушайте:</u>\nWould you like to go to the photo exhibit on Sunday? I’d love to. Let’s meet at two."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day14.mp3",
+          "title": "Сезон 3 · День 14 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Когда они встретятся?",
+          "options": [
+            "В субботу в два.",
+            "В воскресенье в два.",
+            "В воскресенье в пять."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day15_morning",
+      "date": "2026-11-15",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 15</b>\n<b>What are you doing this weekend? — Что ты делаешь в эти выходные?</b>\n\n<u>🎬 История</u>\nПосле выставки друзья обсуждают следующие выходные.\nТеперь разговор касается уже запланированных дел.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What are you doing this weekend?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m visiting a museum on Saturday.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Nice. Which museum?\n\n<u>🗣 Новые слова</u>\n🔹 this weekend — в эти выходные\n🔹 I’m visiting… — я собираюсь посетить…\n🔹 Which…? — какой / который…?\n\n<u>⭐ Запомните</u>\nО конкретном уже запланированном деле можно сказать:\nI’m visiting a museum on Saturday.\nЗдесь форма I’m visiting говорит о плане на ближайшее будущее.\n\n<u>🎧 Послушайте и повторите</u>\nWhat are you doing this weekend?\nI’m visiting a museum on Saturday.\nNice. Which museum?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day15.mp3",
+          "title": "Сезон 3 · День 15 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day15_practice",
+      "date": "2026-11-15",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 15</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhat are you doing this weekend? I’m visiting a museum on Saturday."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day15.mp3",
+          "title": "Сезон 3 · День 15 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Посещение музея.",
+            "Поход в спортзал.",
+            "Работа в кафе."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day16_morning",
+      "date": "2026-11-16",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 16</b>\n<b>I’m going to a concert on Friday. — В пятницу я иду на концерт.</b>\n\n<u>🎬 История</u>\nЭмма спрашивает о планах Адама на конец недели.\nУ него уже есть билет на небольшое выступление в Бруклине.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What are you doing on Friday?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m going to a jazz concert.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That sounds fun.\n\n<u>🗣 Новые слова</u>\n🔹 I’m going to… — я иду / собираюсь пойти…\n🔹 That sounds fun — это звучит интересно / весело\n\n<u>⭐ Запомните</u>\nДля конкретного плана с местом или событием:\nI’m going to a concert on Friday.\nДень недели используется с on.\n\n<u>🎧 Послушайте и повторите</u>\nWhat are you doing on Friday?\nI’m going to a jazz concert.\nThat sounds fun."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day16.mp3",
+          "title": "Сезон 3 · День 16 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day16_practice",
+      "date": "2026-11-16",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 16</b>\n\n<u>🎧 Послушайте и повторите:</u>\nI’m going to a jazz concert on Friday."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day16.mp3",
+          "title": "Сезон 3 · День 16 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "В музей.",
+            "На джазовый концерт.",
+            "В книжный магазин."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day17_morning",
+      "date": "2026-11-17",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 17</b>\n<b>Do you want to come? — Хочешь пойти со мной?</b>\n\n<u>🎬 История</u>\nПоявляется ещё один бесплатный концерт в воскресенье.\nНа этот раз Адам предлагает Эмме присоединиться.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;There’s a free concert on Sunday. Do you want to come?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sure. I’d love to.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I can check the time.\n\n<u>🗣 Новые слова</u>\n🔹 a free concert — бесплатный концерт\n🔹 Do you want to come? — хочешь пойти / присоединиться?\n🔹 check the time — уточнить время\n\n<u>⭐ Запомните</u>\nDo you want to come? — дружеское приглашение присоединиться.\nБолее вежливый вариант уже знаком: Would you like to come?\n\n<u>🎧 Послушайте и повторите</u>\nThere’s a free concert on Sunday. Do you want to come?\nSure. I’d love to.\nGreat. I can check the time."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day17.mp3",
+          "title": "Сезон 3 · День 17 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day17_practice",
+      "date": "2026-11-17",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 17</b>\n\n<u>🎧 Послушайте и повторите:</u>\nThere’s a free concert on Sunday. Do you want to come? Sure. I’d love to."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day17.mp3",
+          "title": "Сезон 3 · День 17 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Да, приняла.",
+            "Нет, отказалась.",
+            "Она ещё не решила."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day18_morning",
+      "date": "2026-11-18",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 18</b>\n<b>What time do you want to meet? — Во сколько ты хочешь встретиться?</b>\n\n<u>🎬 История</u>\nДрузья открывают расписание концерта на телефоне.\nОни выбирают время без длинных обсуждений.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you want to meet?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How about five thirty?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me.\n\n<u>🗣 Новые слова</u>\n🔹 What time do you want to meet? — во сколько ты хочешь встретиться?\n🔹 How about five thirty? — как насчёт 5:30?\n🔹 That works for me. — мне подходит.\n\n<u>⭐ Запомните</u>\nУдобная модель для согласования времени:\nWhat time do you want to meet?\nHow about five thirty? — That works for me.\n\n<u>🎧 Послушайте и повторите</u>\nWhat time do you want to meet?\nHow about five thirty?\nThat works for me."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day18.mp3",
+          "title": "Сезон 3 · День 18 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day18_practice",
+      "date": "2026-11-18",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 18</b>\nВам предлагают встретиться в 5:30, и время подходит."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как ответить естественно?",
+          "options": [
+            "That works me.",
+            "That works for me.",
+            "That time is work."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day19_morning",
+      "date": "2026-11-19",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 19</b>\n<b>Where do you want to meet? — Где ты хочешь встретиться?</b>\n\n<u>🎬 История</u>\nСо временем всё ясно, но у концертной площадки несколько входов.\nЭмма предлагает понятное место рядом с метро.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Where do you want to meet?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;At the subway entrance?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Perfect. See you there.\n\n<u>🗣 Новые слова</u>\n🔹 Where do you want to meet? — где ты хочешь встретиться?\n🔹 the subway entrance — вход в метро\n🔹 Perfect. — отлично / идеально.\n\n<u>⭐ Запомните</u>\nДля места встречи:\nWhere do you want to meet?\nКороткий ответ: At the subway entrance.\n\n<u>🎧 Послушайте и повторите</u>\nWhere do you want to meet?\nAt the subway entrance?\nPerfect. See you there."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day19.mp3",
+          "title": "Сезон 3 · День 19 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day19_practice",
+      "date": "2026-11-19",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 19</b>\nДрузья встретятся у входа в метро."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой ответ подходит на вопрос “Where do you want to meet?”",
+          "options": [
+            "At the subway entrance.",
+            "At five thirty.",
+            "On Sunday."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day20_morning",
+      "date": "2026-11-20",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 20</b>\n<b>I can send you the address. — Я могу отправить тебе адрес.</b>\n\n<u>🎬 История</u>\nАдам нашёл место встречи, но не уверен, где находится сама площадка.\nЭмма уже сохранила адрес и предлагает помочь.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Do you have the address?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I can send it to you.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Thanks. That’s helpful.\n\n<u>🗣 Новые слова</u>\n🔹 an address — адрес\n🔹 send it to you — отправить это тебе\n🔹 helpful — полезно / полезный\n\n<u>⭐ Запомните</u>\nCan помогает предложить простое действие или помощь:\nI can send you the address.\nПосле глагола can действие используется без to: can send.\n\n<u>🎧 Послушайте и повторите</u>\nDo you have the address?\nYes. I can send it to you.\nThanks. That’s helpful."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day20.mp3",
+          "title": "Сезон 3 · День 20 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day20_practice",
+      "date": "2026-11-20",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 20</b>\n\n<u>🎧 Послушайте и повторите:</u>\nDo you have the address? Yes. I can send it to you."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day20.mp3",
+          "title": "Сезон 3 · День 20 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Билет.",
+            "Адрес.",
+            "Фотографию."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day21_morning",
+      "date": "2026-11-21",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season3/week03.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 21</b>\n<b>Week 3 Review — Уже можем обсудить планы на выходные</b>\n\n<u>🎬 История</u>\nВ воскресенье Эмма и Адам встречаются у входа в метро перед концертом.\nВсе детали удалось согласовать короткими знакомыми фразами.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What are you doing next weekend?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m visiting a friend on Saturday.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;There’s a free concert on Sunday. Do you want to come?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sure. What time do you want to meet?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How about five thirty at the subway entrance?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me. See you there.\n\n<u>🗣 Повторяем</u>\n🔹 What are you doing this weekend? — I’m visiting…\n🔹 Do you want to come? — Sure. I’d love to.\n🔹 What time / Where do you want to meet?\n🔹 How about…? — That works for me.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day21.mp3",
+          "title": "Сезон 3 · День 21 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day21_practice",
+      "date": "2026-11-21",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 21</b>\n\n<u>🎧 Послушайте:</u>\nLet’s meet at five thirty at the subway entrance. That works for me."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day21.mp3",
+          "title": "Сезон 3 · День 21 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где встретятся друзья?",
+          "options": [
+            "В кафе.",
+            "У входа в метро.",
+            "В книжном магазине."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day22_morning",
+      "date": "2026-11-22",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 22</b>\n<b>This is my neighbor, Camila. — Это моя соседка Камила.</b>\n\n<u>🎬 История</u>\nНа следующий день Эмма встречает в холле соседку Камилу.\nВ этот момент из лифта выходит Адам, и круг знакомых становится немного шире.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Adam, this is my neighbor, Camila.\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Nice to meet you, Adam.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Nice to meet you too.\n\n<u>🗣 Новые слова</u>\n🔹 This is… — это… — при знакомстве\n🔹 my neighbor — моя соседка / мой сосед\n🔹 Nice to meet you. — приятно познакомиться.\n\n<u>⭐ Запомните</u>\nЧтобы представить людей друг другу:\nAdam, this is my neighbor, Camila.\nОтвет: Nice to meet you. — Nice to meet you too.\n\n<u>🎧 Послушайте и повторите</u>\nAdam, this is my neighbor, Camila.\nNice to meet you, Adam.\nNice to meet you too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day22.mp3",
+          "title": "Сезон 3 · День 22 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day22_practice",
+      "date": "2026-11-22",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 22</b>\nЭмма представляет свою соседку Камилу."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какую фразу должна сказать Эмма?",
+          "options": [
+            "Adam, this is my neighbor, Camila.",
+            "Adam, she my neighbor Camila.",
+            "Adam, it is neighbor Camila."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day23_morning",
+      "date": "2026-11-23",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 23</b>\n<b>How do you know Emma? — Откуда ты знаешь Эмму?</b>\n\n<u>🎬 История</u>\nЗнакомство продолжается в холле.\nКамила хочет понять, как Эмма и Адам познакомились.\n\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How do you know Emma?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;We’re neighbors. We live in the same building.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Adam lives in apartment 4B.\n\n<u>🗣 Новые слова</u>\n🔹 How do you know…? — откуда ты знаешь…?\n🔹 We’re neighbors. — мы соседи.\n🔹 the same building — один и тот же дом\n\n<u>⭐ Запомните</u>\nВопрос о знакомстве людей:\nHow do you know Emma?\nПростой ответ: We’re neighbors.\n\n<u>🎧 Послушайте и повторите</u>\nHow do you know Emma?\nWe’re neighbors. We live in the same building.\nAdam lives in apartment 4B."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day23.mp3",
+          "title": "Сезон 3 · День 23 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day23_practice",
+      "date": "2026-11-23",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 23</b>\nАдам и Эмма живут в одном доме."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как лучше ответить на вопрос “How do you know Emma?”",
+          "options": [
+            "We know in work.",
+            "We’re neighbors.",
+            "We are the same apartment."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day24_morning",
+      "date": "2026-11-24",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 24</b>\n<b>What do you do? — Кем ты работаешь?</b>\n\n<u>🎬 История</u>\nТрое соседей заходят в кафе на первом этаже.\nРазговор естественно переходит к работе.\n\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What do you do, Adam?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m a project engineer. What about you?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m a graphic designer.\n\n<u>🗣 Новые слова</u>\n🔹 What do you do? — кем ты работаешь?\n🔹 a project engineer — инженер проекта\n🔹 a graphic designer — графический дизайнер\n\n<u>⭐ Запомните</u>\nWhat do you do? в разговоре часто означает «Кем ты работаешь?»\nОтвет: I’m a project engineer. / I’m a graphic designer.\n\n<u>🎧 Послушайте и повторите</u>\nWhat do you do, Adam?\nI’m a project engineer. What about you?\nI’m a graphic designer."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day24.mp3",
+          "title": "Сезон 3 · День 24 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day24_practice",
+      "date": "2026-11-24",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 24</b>\n\n<u>🎧 Послушайте и повторите:</u>\nWhat do you do? I’m a graphic designer."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day24.mp3",
+          "title": "Сезон 3 · День 24 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Выберите правильный ответ.",
+          "options": [
+            "Инженером.",
+            "Графическим дизайнером.",
+            "Маркетологом."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day25_morning",
+      "date": "2026-11-25",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 25</b>\n<b>Are you from New York? — Ты из Нью-Йорка?</b>\n\n<u>🎬 История</u>\nЗа кофе Адам узнаёт Камилу немного лучше.\nОказывается, Нью-Йорк стал новым городом не только для Эммы и Адама.\n\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Are you from New York?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;No, I’m from Miami. I live in Brooklyn now.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Nice. I love Miami.\n\n<u>🗣 Новые слова\n🔹 Miami — Майами\n🔹 now — сейчас / теперь</u>\n\n<u>⭐ Запомните</u>\nУже знакомый вопрос помогает поддержать новое знакомство:\nAre you from New York?\nОтвет: No, I’m from Miami.\n\n<u>🎧 Послушайте и повторите</u>\nAre you from New York?\nNo, I’m from Miami. I live in Brooklyn now.\nNice. I love Miami."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day25.mp3",
+          "title": "Сезон 3 · День 25 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day25_practice",
+      "date": "2026-11-25",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 25</b>\nКамила из Майами."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой ответ соответствует диалогу?",
+          "options": [
+            "She’s from New York.",
+            "She’s from Miami.",
+            "She’s from Chicago."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day26_morning",
+      "date": "2026-11-26",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 26</b>\n<b>What do you like to do on weekends? — Что ты любишь делать по выходным?</b>\n\n<u>🎬 История</u>\nТеперь разговор касается выходных.\nУ Камилы быстро находится общий интерес с Эммой.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What do you like to do on weekends?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I like dancing and trying new restaurants.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Emma loves new cafés.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That’s true.\n\n<u>🗣 Новые слова</u>\n🔹 on weekends — по выходным\n🔹 dancing — танцы\n🔹 try new restaurants — пробовать новые рестораны\n\n<u>⭐ Запомните</u>\nПосле like можно назвать несколько занятий:\nI like dancing and trying new restaurants.\nДля привычных выходных используем on weekends.\n\n<u>🎧 Послушайте и повторите</u>\nWhat do you like to do on weekends?\nI like dancing and trying new restaurants.\nEmma loves new cafés.\nThat’s true."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day26.mp3",
+          "title": "Сезон 3 · День 26 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day26_practice",
+      "date": "2026-11-26",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 26</b>\nКамила любит танцевать и пробовать новые рестораны."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какая фраза подходит?",
+          "options": [
+            "I like dancing and trying new restaurants.",
+            "I like dance and try new restaurants now.",
+            "I am like new restaurants dancing."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day27_morning",
+      "date": "2026-11-27",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 27</b>\n<b>It was nice talking to you. — Было приятно пообщаться.</b>\n\n<u>🎬 История</u>\nКамила собирается уходить, и разговор естественно завершается.\nЭмма предлагает всем встретиться ещё раз уже на выходных.\n\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;It was nice talking to you.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;You too.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;See you at the café tomorrow?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sure. See you tomorrow.\n\n<u>🗣 Новые слова</u>\n🔹 It was nice talking to you. — было приятно пообщаться.\n🔹 You too. — мне тоже / взаимно.\n\n<u>⭐ Запомните</u>\nЕстественная фраза в конце нового знакомства:\nIt was nice talking to you.\nКороткий ответ: You too.\n\n<u>🎧 Послушайте и повторите</u>\nIt was nice talking to you.\nYou too.\nSee you at the café tomorrow?\nSure. See you tomorrow."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day27.mp3",
+          "title": "Сезон 3 · День 27 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day27_practice",
+      "date": "2026-11-27",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 27</b>\n\n<u>🎧 Послушайте и повторите:</u>\nIt was nice talking to you. You too. See you tomorrow."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day27.mp3",
+          "title": "Сезон 3 · День 27 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что означает “It was nice talking to you”?",
+          "options": [
+            "Мне нужно поговорить с тобой.",
+            "Было приятно пообщаться.",
+            "Я не хочу разговаривать."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day28_morning",
+      "date": "2026-11-28",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season3/week04.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 28</b>\n<b>Week 4 Review — Уже можем познакомить людей и поддержать разговор</b>\n\n<u>🎬 История</u>\nНа следующий день Эмма, Адам и Камила встречаются в знакомом кафе.\nТеперь обычное знакомство легко превращается в спокойный дружеский разговор.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Camila, this is my friend Adam.\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Nice to meet you. What do you do?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m a project engineer. What about you?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m a graphic designer.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What do you like to do on weekends?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I like dancing and trying new restaurants.\n\n<u>🗣 Повторяем</u>\n🔹 This is my friend / neighbor…\n🔹 How do you know…? — We’re neighbors.\n🔹 What do you do? — I’m a…\n🔹 What do you like to do on weekends?\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day28.mp3",
+          "title": "Сезон 3 · День 28 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day28_practice",
+      "date": "2026-11-28",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 28</b>\n\n<u>🎧 Послушайте:</u>\nThis is my friend Camila. She’s a graphic designer. She likes dancing and trying new restaurants."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day28.mp3",
+          "title": "Сезон 3 · День 28 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Кем работает Камила?",
+          "options": [
+            "Инженером.",
+            "Графическим дизайнером.",
+            "Фотографом."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day29_morning",
+      "date": "2026-11-29",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 29</b>\n<b>Let’s get coffee first. — Давайте сначала выпьем кофе.</b>\n\n<u>🎬 История</u>\nВ субботу трое друзей встречаются у небольшого рынка выходного дня в Бруклине.\nНикакой сложной программы нет — только несколько простых идей на день.\n\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning! Are we ready?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. What do you want to do first?\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s get coffee, then walk through the market.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Sounds good.\n\n<u>🗣 Новые слова</u>\n🔹 Are we ready? — мы готовы?\n🔹 first — сначала\n🔹 walk through the market — пройтись по рынку\n\n<u>⭐ Запомните</u>\nFirst и then помогают назвать простой порядок действий:\nFirst, let’s get coffee. Then we can walk through the market.\n\n<u>🎧 Послушайте и повторите</u>\nGood morning! Are we ready?\nYes. What do you want to do first?\nLet’s get coffee, then walk through the market.\nSounds good."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day29.mp3",
+          "title": "Сезон 3 · День 29 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day29_practice",
+      "date": "2026-11-29",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 29</b>\nСначала друзья хотят выпить кофе."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какое действие будет первым?",
+          "options": [
+            "Посещение музея.",
+            "Кофе.",
+            "Концерт."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day30_morning",
+      "date": "2026-11-30",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 3 • День 30</b>\n<b>One Month of Friends &amp; Plans — Месяц дружеских встреч и планов</b>\n\n<u>🎬 История</u>\nПосле прогулки по рынку Эмма, Адам и Камила заходят в знакомое кафе.\nЗа месяц обычные разговоры превратились в настоящие планы, а в истории появилась новая подруга.\n\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Today was fun.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I like this market.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. What are you doing next weekend?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’m visiting a friend on Saturday.\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;Would you like to get coffee on Sunday?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;I’d love to.\n<b>👨</b> Adam<b>:</b>\n&#160;&#160;&#160;&#160;&#160;What time do you want to meet?\n<b>👩</b> Emma<b>:</b>\n&#160;&#160;&#160;&#160;&#160;How about two?\n<b>👩</b> Camila<b>:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me. See you there.\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог, не читая текст, и постарайтесь понять общий смысл.\nНе переводите каждое слово отдельно.\nПосле первого прослушивания прочитайте диалог и послушайте ещё раз.\n\n<u>🗣 Новые слова</u>\n🔹 Today was fun. — сегодня было весело.\n🔹 market — рынок\n🔹 next weekend — в следующие выходные\n🔹 See you there. — увидимся там.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/morning/day30.mp3",
+          "title": "Сезон 3 · День 30 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s3_day30_practice",
+      "date": "2026-11-30",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 30</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>I’m visiting a friend on Saturday. On Sunday, I’m meeting Emma and Adam for coffee at two.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/practice/day30.mp3",
+          "title": "Сезон 3 · День 30 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Когда друзья встретятся за кофе?",
+          "options": [
+            "В субботу в два.",
+            "В воскресенье в два.",
+            "В воскресенье в пять."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season3_final_polls",
+      "date": "2026-11-30",
+      "time": "14:00",
+      "retry_until": "16:00",
+      "steps": [
+        {
+          "id": "poll01",
+          "type": "poll",
+          "question": "Как спросить человека, что он делает в свободное время?",
+          "options": [
+            "What do you do in your free time?",
+            "What you do free time?",
+            "Where is your free time?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll02",
+          "type": "poll",
+          "question": "Как вежливо пригласить человека выпить кофе?",
+          "options": [
+            "You get coffee?",
+            "Would you like to get coffee?",
+            "Do coffee with me."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll03",
+          "type": "poll",
+          "question": "Вы хотите принять приглашение. Как ответить?",
+          "options": [
+            "I’d love to.",
+            "I love it to.",
+            "I’d like yes."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll04",
+          "type": "poll",
+          "question": "Вы не можете встретиться сегодня, но хотите предложить другой день.",
+          "options": [
+            "No. Another.",
+            "Sorry, I can’t. Maybe another day?",
+            "I don’t meet today."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll05",
+          "type": "poll",
+          "question": "Как спросить, свободен ли человек в субботу?",
+          "options": [
+            "Are you free on Saturday?",
+            "Do you free at Saturday?",
+            "Are Saturday free?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll06",
+          "type": "poll",
+          "question": "Как представить свою соседку Камилу?",
+          "options": [
+            "She is neighbor Camila.",
+            "This is my neighbor, Camila.",
+            "It is my Camila neighbor."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll07_audio",
+          "type": "audio",
+          "path": "audio/season3/final/final_poll_07.mp3",
+          "title": "Сезон 3 · Итоговый опрос · Задание 7",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll07",
+          "type": "poll",
+          "question": "Когда человек идёт в музей?",
+          "options": [
+            "В субботу.",
+            "В воскресенье.",
+            "В понедельник."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season3_congratulations",
+      "date": "2026-11-30",
+      "time": "16:00",
+      "retry_until": "18:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season3/final.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🎉 SEASON 3 COMPLETE!\n     Поздравляем!</b>\n\nВы прошли третий сезон курса.\n\nТеперь вы уже можете:\n\n✅ рассказать о своих интересах и свободном времени;\n✅ пригласить человека на кофе, выставку или концерт;\n✅ принять или вежливо отклонить приглашение;\n✅ договориться о дне, времени и месте встречи;\n✅ рассказать о планах на выходные;\n✅ представить людей и поддержать короткий дружеский разговор.\n\n<b>🏆 Вы молодец!</b>\n\nДо встречи в четвёртом сезоне!"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "audio/season3/final/final_poll_07.mp3": "705004b97b60ccc130a7c2b0e9ef2263e6c25237d1e7ec9e876e66f8da64d870",
+    "audio/season3/morning/day01.mp3": "847eae0b7f78b019bdcb09009c5332d883b1959ca7d27fe3a3ba9be1acd327e5",
+    "audio/season3/morning/day02.mp3": "74400a259a02af2bed4530b6d3558fce2cda0b11eb089468e86866ec7d4fa644",
+    "audio/season3/morning/day03.mp3": "2ef07c9f33228cfcbef360d3e9329a2a7afc682fd1381b58a5b545696a1b3c58",
+    "audio/season3/morning/day04.mp3": "4b8f6c6155b584e3860453a46c7177d68b445081610ed8e8de718fb868c122f7",
+    "audio/season3/morning/day05.mp3": "cdf2656acc820772743dfe4791e4ff5e7c2e31af18a1958d297f0d8ea44b33b6",
+    "audio/season3/morning/day06.mp3": "2606611ec7da5b5db919f9a72851f17c1d8c57e0ad02e0e6d31d7770263a830d",
+    "audio/season3/morning/day07.mp3": "303f7cc1fe0b494887d36e7de38597935dbc850de054cb1d4d73c9c74986990e",
+    "audio/season3/morning/day08.mp3": "bcd5c68830340e9e992fa9a512f97748b22d4c43e9fe6e27f4930b018c7d267b",
+    "audio/season3/morning/day09.mp3": "861921ce4dc978e2d9d37e3176178e698ede4a6686ffc2aad61a605b2863b71e",
+    "audio/season3/morning/day10.mp3": "19ef69524ee6a4a8a9a9255980534b326798ff9b07472ec1f6d0497ae5f7de3b",
+    "audio/season3/morning/day11.mp3": "a848096847eef9870d78ffc6e39add378f218c95ffd786c060959dea1b0f97e7",
+    "audio/season3/morning/day12.mp3": "94c3ea32ba81df341abf718d594caf298af7906208deec247f53296cdcf92d4a",
+    "audio/season3/morning/day13.mp3": "65d092c53eeccb78d23c52f8b42cb56f1816540d76c43abdc51528b565c3dec7",
+    "audio/season3/morning/day14.mp3": "175fc16b2c26a9b82439cc69948e33b15a09939362ce2321f9cdabe632d814ac",
+    "audio/season3/morning/day15.mp3": "f003ece1e9abbffab6977ae9d53400a808f0445d01d4550be97a2680d3675ec5",
+    "audio/season3/morning/day16.mp3": "416d0fb1262a2dfe506b7b79bc7f71405d30d1f8ff9a2403e1f89813af3cb922",
+    "audio/season3/morning/day17.mp3": "e3650554034c1df37184ae7ffc0e518838040bfb4cfad8d77b6887d95c51689f",
+    "audio/season3/morning/day18.mp3": "d54ff145eabe7bcf8ce610ad74010216ec01602e4b5e56dd8e7c08213ec6ebed",
+    "audio/season3/morning/day19.mp3": "1dcb91bf58db85831b56f4d56d8ff99a167aa8adc95621aa61587608b38ad914",
+    "audio/season3/morning/day20.mp3": "106d5ff30aa912347a9808ec51f36c9df2f6f7bea882aa1a38aa7592f879d67b",
+    "audio/season3/morning/day21.mp3": "afbb786bebddecae8d79799a3ceb5db4a9510ab071674dd6621f5a83973527f4",
+    "audio/season3/morning/day22.mp3": "f592beece3db631ef1819861f03aa2e847d4ac327c7483261138c9922beee6d3",
+    "audio/season3/morning/day23.mp3": "8e19b61d3db1928326b4968663ac7d086fbdab56a0d355408f1af084b0df3ea4",
+    "audio/season3/morning/day24.mp3": "7ea37038220c7deee81afc62341ded38ef436c7b0e83ea84f2ddf70bd937ee71",
+    "audio/season3/morning/day25.mp3": "8417533a8c3679a9cd92d438f8feaf4462628cba9cbe216fd2e6f3a3ddc8f311",
+    "audio/season3/morning/day26.mp3": "510082228c256635e176fb74dbf5203231a3d55a6b1dcda4a1a70f3cfc698843",
+    "audio/season3/morning/day27.mp3": "009708cb385811060709ebd19b66199f632a0ca1c51dacfa724d290ef1e812ae",
+    "audio/season3/morning/day28.mp3": "65b024d8f26999fcbbe338f544c52ca573f67b8e437c16198d110d658379ebc6",
+    "audio/season3/morning/day29.mp3": "b95327000cc1ffbf1092b6ee1c0f331851ff23a59d39c1331abaa524690c2e8f",
+    "audio/season3/morning/day30.mp3": "62ab5c2c304fa007c8b963f8dc3feef6d2ba5d686702e4bb0fdd2e91c242fa57",
+    "audio/season3/practice/day01.mp3": "93e25865237c2f555e8c3ef00b5a98d87d9d8f2c9541fbbdeedf51551cb27c7c",
+    "audio/season3/practice/day02.mp3": "47d5bf17f9bbe3527ec50ff7c1d91b7c88202b173b5dbc07afbbd8d4e4368227",
+    "audio/season3/practice/day03.mp3": "ea5eba44cc1641091b079df342eeb8d10945ac3b86e21882e1a903b6b64576b0",
+    "audio/season3/practice/day04.mp3": "bb7ef0648238249968a2661bb97c7f15da07c21b9139013ed8dbfb22b87deff9",
+    "audio/season3/practice/day05.mp3": "ffb82bf3162bcce9a8f347c80066d539889df9ef007cf1d3591f0a9953ed40b6",
+    "audio/season3/practice/day06.mp3": "bebd6baefede4b702b8f8110d343f9376d01146ad828d0f4bf3395edab7375e4",
+    "audio/season3/practice/day07.mp3": "84afd4be6b4cec6089aa63747c0188f148074b47295d24115364b8b95a28ffd9",
+    "audio/season3/practice/day08.mp3": "4372dcc8df47c33b3028f593e44403a40e3c934f6107e7c91119973f09079d04",
+    "audio/season3/practice/day10.mp3": "e5cb2f46d623def0383bb1693a4b532d8b127ff87da1223ce9e3d4f3cfd92e0f",
+    "audio/season3/practice/day11.mp3": "64bc4dd17612e691ae9ad6b83237ad38f293c0bac0b62a67ef1601b277885551",
+    "audio/season3/practice/day13.mp3": "1e3e0204a804192ea6f93ef9c8779a774dbbce48f119a7a875dba767d4a4dfef",
+    "audio/season3/practice/day14.mp3": "9f6d3279a34b4a39af1853bbc97161bbb76912bf1ffc5fee16d9c80bc5c06c8e",
+    "audio/season3/practice/day15.mp3": "7a0d058bdfddb759f53d54b835c802e7bf9e72d92088f200360af0eb1ae357aa",
+    "audio/season3/practice/day16.mp3": "d6f3f356b751b3e7594fb0a126e1bdda48282c9e39bc774aa7f8321fbd21deef",
+    "audio/season3/practice/day17.mp3": "4b06426b5ba801a16e06070dda121d12f93d4f9f8a0a91057cdef79146046da7",
+    "audio/season3/practice/day20.mp3": "b70359db372f9e9d89cebf1addfb3532eed879df952132e38f8003d4ab840ae2",
+    "audio/season3/practice/day21.mp3": "9b4b758de6dde68b6f39f469eafb72f86c34215bd799efa6b9f6f946c386537d",
+    "audio/season3/practice/day24.mp3": "e8e5f10d2dd110f9614ef254e4a15b285041214f8aeb95ce195b7b472631dcbd",
+    "audio/season3/practice/day27.mp3": "43bc7aa260ea4fd3145509d7a21a1670b395652a421d80946705d6f5a10839a2",
+    "audio/season3/practice/day28.mp3": "97f15e8fb12040e9dc8adfca067756550849cd948a58e721cc35f518ebc696c6",
+    "audio/season3/practice/day30.mp3": "ebf0f7398379f40620e2664323d0c7b04ac3dcd858314f5507ab3ee13b7848a3",
+    "images/season3/final.png": "84a40bd7d04b55273939c2619214bcffb721dc6144aac7ea620798214a43159f",
+    "images/season3/week01.png": "002814887473792fe7a83d725e4c2bcda0e0e263156667ae0a9ae2d3937fe68b",
+    "images/season3/week02.png": "3651e8cbe840e9b89772fcd965761d8ca816d3fe9c8e2e92a5c881e51a9b615f",
+    "images/season3/week03.png": "15441df3246ee56ca3a280d04c2ffe28cd1282fb3dd299ba93b01b6afacc2350",
+    "images/season3/week04.png": "21c8598222c3bc8abf8ccd501bbf3034f7a4a9064c018cd9f60655ad6a62fbdd"
+  }
+}
