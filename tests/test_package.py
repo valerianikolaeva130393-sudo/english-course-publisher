@@ -141,6 +141,21 @@ def verify_daily_events(
         assert "\n\n<u>🗣 " in morning_message or "\n\n<u>⭐ Главная задача</u>" in morning_message
 
 
+def verify_bold_dialogue_speakers(content: dict) -> None:
+    speaker_line = re.compile(r"^(👩|👨|🧑) <b>[^:\n]+:</b>$")
+    dialogue_labels: list[str] = []
+    for event in content["events"]:
+        for step in event["steps"]:
+            if step["type"] != "message":
+                continue
+            for line in step["text"].splitlines():
+                plain_line = re.sub(r"<[^>]+>", "", line)
+                if plain_line.startswith(("👩 ", "👨 ", "🧑 ")):
+                    dialogue_labels.append(line)
+    assert dialogue_labels
+    assert all(speaker_line.fullmatch(line) for line in dialogue_labels), dialogue_labels[:5]
+
+
 def verify_season1(content: dict) -> None:
     meta = content["meta"]
     assert meta["season"] == 1
@@ -197,6 +212,7 @@ def verify_season2(content: dict) -> None:
         event_prefix="s2_",
         no_practice_audio=SEASON2_NO_PRACTICE_AUDIO,
     )
+    verify_bold_dialogue_speakers(content)
 
     events = event_map(content)
     assert [step["type"] for step in events["season2_congratulations"]["steps"]] == ["photo", "message"]
@@ -242,6 +258,7 @@ def verify_season3(content: dict) -> None:
         event_prefix="s3_",
         no_practice_audio=SEASON3_NO_PRACTICE_AUDIO,
     )
+    verify_bold_dialogue_speakers(content)
 
     events = event_map(content)
     assert [step["type"] for step in events["season3_congratulations"]["steps"]] == ["photo", "message"]
