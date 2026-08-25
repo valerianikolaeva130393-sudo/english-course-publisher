@@ -23,6 +23,13 @@ on:
           - s2_day31_morning
           - season2_final_polls
           - season2_congratulations
+          - s3_day01_morning
+          - s3_day01_practice
+          - s3_day07_morning
+          - s3_day07_practice
+          - s3_day30_morning
+          - season3_final_polls
+          - season3_congratulations
       confirm:
         description: "Введите PREVIEW"
         required: true
