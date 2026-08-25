@@ -75,7 +75,11 @@ def format_dialogue_paragraph(value: str) -> str:
     lines = value.splitlines()
     if len(lines) < 2:
         return value
-    return "\n".join([lines[0], *(DIALOGUE_INDENT + line for line in lines[1:])])
+    speaker_line = re.sub(r"</?b>", "", lines[0])
+    speaker_match = re.fullmatch(r"(👩|👨|🧑)\s+([^:\n]+):", speaker_line)
+    if speaker_match:
+        speaker_line = f"{speaker_match.group(1)} <b>{speaker_match.group(2)}:</b>"
+    return "\n".join([speaker_line, *(DIALOGUE_INDENT + line for line in lines[1:])])
 
 
 def join_paragraphs(paragraphs) -> str:
