@@ -9,6 +9,7 @@ on:
         type: choice
         default: day01_morning
         options:
+          - course_welcome
           - day01_morning
           - day01_practice
           - day07_morning
@@ -85,6 +86,9 @@ jobs:
           print(f"Предпросмотр {event_id}: {len(event['steps'])} сообщений")
 
           for step in event["steps"]:
+              if step["type"] in {"pin", "link_button"}:
+                  print(f"Пропущено безопасным предпросмотром: {step['id']} ({step['type']})")
+                  continue
               result = send_step(client, step)
               print(f"Отправлено {step['id']}: message_id={result.get('message_id')}")
               time.sleep(1)

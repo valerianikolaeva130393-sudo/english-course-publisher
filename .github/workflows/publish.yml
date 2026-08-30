@@ -22,6 +22,10 @@ on:
         required: false
         type: string
   schedule:
+    - cron: "*/15 18-19 31 8 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 20 31 8 *"
+      timezone: "Europe/Moscow"
     - cron: "*/15 7-8 * 9 *"
       timezone: "Europe/Moscow"
     - cron: "0 9 * 9 *"
