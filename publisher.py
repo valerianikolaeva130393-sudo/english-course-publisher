@@ -108,6 +108,8 @@ class TelegramClient:
             raise TelegramError("Бот не является администратором канала", 403)
         if member.get("status") == "administrator" and member.get("can_post_messages") is False:
             raise TelegramError("У бота нет права публиковать сообщения", 403)
+        if member.get("status") == "administrator" and member.get("can_edit_messages") is False:
+            raise TelegramError("У бота нет права редактировать и закреплять сообщения", 403)
         return bot, chat, member
 
     def send_message(self, text: str) -> dict:
@@ -165,28 +167,53 @@ class TelegramClient:
             },
         )
 
+    def pin_message(self, message_id: int) -> dict:
+        result = self.json_call(
+            "pinChatMessage",
+            {
+                "chat_id": self.chat_id,
+                "message_id": message_id,
+                "disable_notification": False,
+            },
+        )
+        if result is not True:
+            raise TelegramError("Telegram не подтвердил закрепление сообщения")
+        return {"message_id": message_id}
+
+    def add_link_button(self, message_id: int, label: str, url: str) -> dict:
+        return self.json_call(
+            "editMessageReplyMarkup",
+            {
+                "chat_id": self.chat_id,
+                "message_id": message_id,
+                "reply_markup": {
+                    "inline_keyboard": [[{"text": label, "url": url}]],
+                },
+            },
+        )
+
 
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
 def load_all_content() -> dict:
-    paths = sorted(CONTENT_DIR.glob("season*.json"))
+    paths = sorted(CONTENT_DIR.glob("*.json"))
     if not paths:
-        raise FileNotFoundError("В content нет файлов season*.json")
+        raise FileNotFoundError("В content нет файлов публикаций")
 
-    seasons = [load_json(path) for path in paths]
-    for season in seasons:
-        validate_content(season)
+    publications = [load_json(path) for path in paths]
+    for publication in publications:
+        validate_content(publication)
 
-    timezones = {season["meta"]["timezone"] for season in seasons}
-    channels = {season["meta"]["channel"] for season in seasons}
+    timezones = {publication["meta"]["timezone"] for publication in publications}
+    channels = {publication["meta"]["channel"] for publication in publications}
     if len(timezones) != 1:
         raise ValueError(f"У сезонов разные часовые пояса: {sorted(timezones)}")
     if len(channels) != 1:
         raise ValueError(f"У сезонов разные каналы: {sorted(channels)}")
 
-    events = [event for season in seasons for event in season["events"]]
+    events = [event for publication in publications for event in publication["events"]]
     event_ids = [event["id"] for event in events]
     if len(event_ids) != len(set(event_ids)):
         raise ValueError("Повторяющиеся event id между сезонами")
@@ -195,7 +222,11 @@ def load_all_content() -> dict:
         "meta": {
             "timezone": next(iter(timezones)),
             "channel": next(iter(channels)),
-            "seasons": [season["meta"]["season"] for season in seasons],
+            "seasons": sorted(
+                publication["meta"]["season"]
+                for publication in publications
+                if "season" in publication["meta"]
+            ),
         },
         "events": sorted(events, key=lambda event: (event["date"], event["time"], event["id"])),
     }
@@ -221,7 +252,17 @@ def step_key(event: dict, step: dict) -> str:
     return f'{event["id"]}:{step["id"]}'
 
 
-def send_step(client: TelegramClient, step: dict) -> dict:
+def state_message_id(state: dict | None, key: str) -> int:
+    if state is None:
+        raise RuntimeError(f"Для действия требуется состояние публикаций: {key}")
+    record = state.get("sent", {}).get(key)
+    message_id = record.get("message_id") if isinstance(record, dict) else None
+    if not isinstance(message_id, int):
+        raise RuntimeError(f"Не найден message_id опубликованного шага: {key}")
+    return message_id
+
+
+def send_step(client: TelegramClient, step: dict, state: dict | None = None) -> dict:
     kind = step["type"]
     if kind == "message":
         return client.send_message(step["text"])
@@ -236,6 +277,14 @@ def send_step(client: TelegramClient, step: dict) -> dict:
         return client.send_photo(ROOT / step["path"], step.get("caption", ""))
     if kind == "poll":
         return client.send_poll(step)
+    if kind == "pin":
+        return client.pin_message(state_message_id(state, step["message_key"]))
+    if kind == "link_button":
+        message_id = state_message_id(state, step["message_key"])
+        target_message_id = state_message_id(state, step["target_message_key"])
+        username = step["channel_username"].lstrip("@")
+        url = f"https://t.me/{username}/{target_message_id}"
+        return client.add_link_button(message_id, step["label"], url)
     raise ValueError(f"Неизвестный тип шага: {kind}")
 
 
@@ -264,7 +313,7 @@ def publish_event(client: TelegramClient, event: dict, state: dict, timezone: Zo
         key = step_key(event, step)
         try:
             print(f"Отправка {key} ({step['type']})")
-            result = send_step(client, step)
+            result = send_step(client, step, state)
             state["sent"][key] = {
                 "message_id": result.get("message_id"),
                 "sent_at": datetime.now(timezone).isoformat(timespec="seconds"),
@@ -285,6 +334,7 @@ def publish_event(client: TelegramClient, event: dict, state: dict, timezone: Zo
 
 
 def validate_content(content: dict) -> None:
+    allowed_types = {"message", "audio", "photo", "poll", "pin", "link_button"}
     event_ids = [event["id"] for event in content["events"]]
     if len(event_ids) != len(set(event_ids)):
         raise ValueError("Повторяющиеся event id")
@@ -293,8 +343,17 @@ def validate_content(content: dict) -> None:
         if len(step_ids) != len(set(step_ids)):
             raise ValueError(f"Повторяющиеся step id в {event['id']}")
         for step in event["steps"]:
+            if step.get("type") not in allowed_types:
+                raise ValueError(f"Неизвестный тип шага в {event['id']}: {step.get('type')}")
             if "path" in step and not (ROOT / step["path"]).is_file():
                 raise FileNotFoundError(step["path"])
+            if step["type"] == "pin" and not step.get("message_key"):
+                raise ValueError(f"Для pin не указан message_key: {event['id']}")
+            if step["type"] == "link_button":
+                required = {"message_key", "target_message_key", "channel_username", "label"}
+                missing = sorted(required - set(step))
+                if missing:
+                    raise ValueError(f"Для link_button не указаны поля {missing}: {event['id']}")
 
 
 def main() -> None:
