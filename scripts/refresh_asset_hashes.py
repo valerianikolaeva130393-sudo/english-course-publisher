@@ -19,7 +19,7 @@ def sha256(path: Path) -> str:
 
 def main() -> None:
     total = 0
-    for content_path in sorted(CONTENT_DIR.glob("season*.json")):
+    for content_path in sorted(CONTENT_DIR.glob("*.json")):
         content = json.loads(content_path.read_text(encoding="utf-8"))
         asset_paths = sorted(content["assets"])
         audio_paths = [path for path in asset_paths if path.endswith(".mp3")]
