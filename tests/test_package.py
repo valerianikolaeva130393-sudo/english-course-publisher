@@ -14,15 +14,17 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from publisher import due_events, load_all_content, validate_content  # noqa: E402
+from publisher import due_events, load_all_content, send_step, validate_content  # noqa: E402
 
 
+LAUNCH_PATH = ROOT / "content" / "launch.json"
 SEASON1_PATH = ROOT / "content" / "season1.json"
 SEASON2_PATH = ROOT / "content" / "season2.json"
 SEASON3_PATH = ROOT / "content" / "season3.json"
 SEASON1_SOURCE = ROOT / "source" / "Английский через истории — Сезон 1 — Все публикации — ФИНАЛ.docx"
 SEASON2_SOURCE = ROOT / "source" / "Сезон 2_Все публикации_Английский через истории_ФИНАЛ.docx"
 SEASON3_SOURCE = ROOT / "source" / "Сезон 3_Все публикации_Английский через истории_ФИНАЛ.docx"
+WELCOME_IMAGE = ROOT / "images" / "welcome.png"
 SEASON1_NO_PRACTICE_AUDIO = {9, 12, 18, 19, 22, 23, 25, 26, 29}
 SEASON2_NO_PRACTICE_AUDIO = {4, 9, 12, 18, 19, 22, 23, 25, 26, 29}
 SEASON3_NO_PRACTICE_AUDIO = {9, 12, 18, 19, 22, 23, 25, 26, 29}
@@ -94,6 +96,64 @@ def verify_common(content: dict, expected_counts: dict[str, int]) -> None:
         assert len(poll["correct_option_ids"]) == 1
         assert 0 <= poll["correct_option_ids"][0] < len(poll["options"])
         assert all(1 <= len(option) <= 100 for option in poll["options"])
+
+
+def verify_launch(content: dict) -> None:
+    validate_content(content)
+    meta = content["meta"]
+    assert meta["kind"] == "launch"
+    assert meta["timezone"] == "Europe/Moscow"
+    assert meta["channel"] == "@english_story_a1a2"
+    assert meta["start_date"] == "2026-08-31"
+    assert meta["end_date"] == "2026-09-01"
+    assert meta["audio_files"] == 0
+    assert meta["image_files"] == 1
+    assert content["assets"] == {"images/welcome.png": sha256(WELCOME_IMAGE)}
+
+    events = event_map(content)
+    assert set(events) == {"course_welcome", "course_start_button"}
+    welcome = events["course_welcome"]
+    assert welcome["date"] == "2026-08-31"
+    assert welcome["time"] == "18:00"
+    assert welcome["retry_until"] == "20:00"
+    assert [step["type"] for step in welcome["steps"]] == ["photo", "pin"]
+    assert welcome["steps"][0]["caption"] == (
+        "🌱 Добро пожаловать в курс «Английский через истории»!\n"
+        "Первый урок выйдет завтра, 1 сентября 2026."
+    )
+    assert welcome["steps"][1]["message_key"] == "course_welcome:photo"
+
+    start_button = events["course_start_button"]
+    assert start_button["date"] == "2026-09-01"
+    assert start_button["time"] == "07:01"
+    assert start_button["retry_until"] == "09:00"
+    assert [step["type"] for step in start_button["steps"]] == ["link_button"]
+    button = start_button["steps"][0]
+    assert button["message_key"] == "course_welcome:photo"
+    assert button["target_message_key"] == "day01_morning:text"
+    assert button["channel_username"] == "english_story_a1a2"
+    assert button["label"] == "🚀 Начать с Дня 1"
+
+    class FakeClient:
+        def pin_message(self, message_id: int) -> dict:
+            assert message_id == 501
+            return {"message_id": message_id}
+
+        def add_link_button(self, message_id: int, label: str, url: str) -> dict:
+            assert message_id == 501
+            assert label == "🚀 Начать с Дня 1"
+            assert url == "https://t.me/english_story_a1a2/777"
+            return {"message_id": message_id}
+
+    state = {
+        "sent": {
+            "course_welcome:photo": {"message_id": 501},
+            "day01_morning:text": {"message_id": 777},
+        }
+    }
+    fake_client = FakeClient()
+    assert send_step(fake_client, welcome["steps"][1], state)["message_id"] == 501
+    assert send_step(fake_client, button, state)["message_id"] == 501
 
 
 def verify_daily_events(
@@ -293,8 +353,15 @@ def verify_season3(content: dict) -> None:
     assert congratulations.endswith("До встречи в четвёртом сезоне!")
 
 
-def verify_schedule(season1: dict, season2: dict, season3: dict) -> None:
+def verify_schedule(launch: dict, season1: dict, season2: dict, season3: dict) -> None:
     timezone = ZoneInfo("Europe/Moscow")
+    assert not due_events(launch, datetime(2026, 8, 31, 17, 59, tzinfo=timezone))
+    assert [e["id"] for e in due_events(launch, datetime(2026, 8, 31, 18, 0, tzinfo=timezone))] == [
+        "course_welcome"
+    ]
+    assert [e["id"] for e in due_events(launch, datetime(2026, 9, 1, 7, 1, tzinfo=timezone))] == [
+        "course_start_button"
+    ]
     assert [e["id"] for e in due_events(season1, datetime(2026, 9, 1, 7, 0, tzinfo=timezone))] == [
         "day01_morning"
     ]
@@ -324,24 +391,26 @@ def verify_schedule(season1: dict, season2: dict, season3: dict) -> None:
 
 
 def main() -> None:
+    launch = load(LAUNCH_PATH)
     season1 = load(SEASON1_PATH)
     season2 = load(SEASON2_PATH)
     season3 = load(SEASON3_PATH)
+    verify_launch(launch)
     verify_season1(season1)
     verify_season2(season2)
     verify_season3(season3)
-    verify_schedule(season1, season2, season3)
+    verify_schedule(launch, season1, season2, season3)
 
     combined = load_all_content()
     assert combined["meta"]["seasons"] == [1, 2, 3]
-    assert len(combined["events"]) == 188
-    assert len({event["id"] for event in combined["events"]}) == 188
-    assert combined["events"][0]["date"] == "2026-09-01"
+    assert len(combined["events"]) == 190
+    assert len({event["id"] for event in combined["events"]}) == 190
+    assert combined["events"][0]["date"] == "2026-08-31"
     assert combined["events"][-1]["date"] == "2026-11-30"
 
     print(
-        "Package QA passed: 3 seasons, 188 events, 469 Telegram steps, "
-        "157 audio, 15 images, 112 polls"
+        "Package QA passed: launch + 3 seasons, 190 events, 472 Telegram steps, "
+        "157 audio, 16 images, 112 polls"
     )
 
 
