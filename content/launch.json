@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "course": "Английский через истории",
+    "kind": "launch",
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-01",
+    "timezone": "Europe/Moscow",
+    "channel": "@english_story_a1a2",
+    "audio_files": 0,
+    "image_files": 1
+  },
+  "events": [
+    {
+      "id": "course_welcome",
+      "date": "2026-08-31",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "photo",
+          "type": "photo",
+          "path": "images/welcome.png",
+          "caption": "🌱 Добро пожаловать в курс «Английский через истории»!\nПервый урок выйдет завтра, 1 сентября 2026."
+        },
+        {
+          "id": "pin",
+          "type": "pin",
+          "message_key": "course_welcome:photo"
+        }
+      ]
+    },
+    {
+      "id": "course_start_button",
+      "date": "2026-09-01",
+      "time": "07:01",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "button",
+          "type": "link_button",
+          "message_key": "course_welcome:photo",
+          "target_message_key": "day01_morning:text",
+          "channel_username": "english_story_a1a2",
+          "label": "🚀 Начать с Дня 1"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "images/welcome.png": "d7de6ada42c5ad482054eb34505c32cb813bc53761ba1d5e4b5d11ce8a0f7087"
+  }
+}
