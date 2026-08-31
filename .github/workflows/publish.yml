@@ -3,74 +3,125 @@ name: Publish English Course
 on:
   workflow_dispatch:
     inputs:
-      mode:
-        description: "Режим запуска"
+      action:
+        description: "Что опубликовать или проверить"
         required: true
         type: choice
-        default: validate
+        default: check
         options:
-          - validate
+          - check
+          - welcome
+          - morning
+          - practice
+          - final_polls
+          - congratulations
+          - start_button
+      publication:
+        description: "official — настоящая публикация; test — без записи состояния"
+        required: true
+        type: choice
+        default: official
+        options:
+          - official
           - test
-          - preview
-          - event
-      event_id:
-        description: "Только для mode=event, например day01_morning"
-        required: false
-        type: string
-      confirm:
-        description: "Для mode=event введите PUBLISH"
-        required: false
-        type: string
+      day:
+        description: "Номер дня. 0 = сегодняшний календарный день"
+        required: true
+        type: choice
+        default: "0"
+        options:
+          - "0"
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
+          - "6"
+          - "7"
+          - "8"
+          - "9"
+          - "10"
+          - "11"
+          - "12"
+          - "13"
+          - "14"
+          - "15"
+          - "16"
+          - "17"
+          - "18"
+          - "19"
+          - "20"
+          - "21"
+          - "22"
+          - "23"
+          - "24"
+          - "25"
+          - "26"
+          - "27"
+          - "28"
+          - "29"
+          - "30"
+          - "31"
+      season:
+        description: "Сезон для ручного запуска. 0 = определить автоматически"
+        required: true
+        type: choice
+        default: "0"
+        options:
+          - "0"
+          - "1"
+          - "2"
+          - "3"
   schedule:
-    - cron: "*/15 18-19 31 8 *"
+    - cron: "*/5 18-19 31 8 *"
       timezone: "Europe/Moscow"
     - cron: "0 20 31 8 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 7-8 * 9 *"
+    - cron: "*/5 7-8 * 9 *"
       timezone: "Europe/Moscow"
     - cron: "0 9 * 9 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 12-13 * 9 *"
+    - cron: "*/5 12-13 * 9 *"
       timezone: "Europe/Moscow"
     - cron: "0 14 * 9 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 14-15 30 9 *"
+    - cron: "*/5 14-15 30 9 *"
       timezone: "Europe/Moscow"
     - cron: "0 16 30 9 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 16-17 30 9 *"
+    - cron: "*/5 16-17 30 9 *"
       timezone: "Europe/Moscow"
     - cron: "0 18 30 9 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 7-8 * 10 *"
+    - cron: "*/5 7-8 * 10 *"
       timezone: "Europe/Moscow"
     - cron: "0 9 * 10 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 12-13 * 10 *"
+    - cron: "*/5 12-13 * 10 *"
       timezone: "Europe/Moscow"
     - cron: "0 14 * 10 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 14-15 31 10 *"
+    - cron: "*/5 14-15 31 10 *"
       timezone: "Europe/Moscow"
     - cron: "0 16 31 10 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 16-17 31 10 *"
+    - cron: "*/5 16-17 31 10 *"
       timezone: "Europe/Moscow"
     - cron: "0 18 31 10 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 7-8 * 11 *"
+    - cron: "*/5 7-8 * 11 *"
       timezone: "Europe/Moscow"
     - cron: "0 9 * 11 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 12-13 * 11 *"
+    - cron: "*/5 12-13 * 11 *"
       timezone: "Europe/Moscow"
     - cron: "0 14 * 11 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 14-15 30 11 *"
+    - cron: "*/5 14-15 30 11 *"
       timezone: "Europe/Moscow"
     - cron: "0 16 30 11 *"
       timezone: "Europe/Moscow"
-    - cron: "*/15 16-17 30 11 *"
+    - cron: "*/5 16-17 30 11 *"
       timezone: "Europe/Moscow"
     - cron: "0 18 30 11 *"
       timezone: "Europe/Moscow"
@@ -90,9 +141,10 @@ jobs:
       PYTHONUNBUFFERED: "1"
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      MANUAL_MODE: ${{ inputs.mode }}
-      MANUAL_EVENT_ID: ${{ inputs.event_id }}
-      MANUAL_CONFIRM: ${{ inputs.confirm }}
+      MANUAL_ACTION: ${{ inputs.action }}
+      MANUAL_PUBLICATION: ${{ inputs.publication }}
+      MANUAL_DAY: ${{ inputs.day }}
+      MANUAL_SEASON: ${{ inputs.season }}
 
     steps:
       - name: Checkout repository
@@ -105,10 +157,14 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             python publisher.py --mode scheduled --retry
-          elif [ "$MANUAL_MODE" = "event" ]; then
-            python publisher.py --mode event --event-id "$MANUAL_EVENT_ID" --confirm "$MANUAL_CONFIRM" --retry
           else
-            python publisher.py --mode "$MANUAL_MODE"
+            python publisher.py \
+              --mode manual \
+              --action "$MANUAL_ACTION" \
+              --publication "$MANUAL_PUBLICATION" \
+              --day "$MANUAL_DAY" \
+              --season "$MANUAL_SEASON" \
+              --retry
           fi
 
       - name: Persist publication state
