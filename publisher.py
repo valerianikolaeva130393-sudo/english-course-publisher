@@ -109,7 +109,12 @@ class TelegramClient:
         if member.get("status") == "administrator" and member.get("can_post_messages") is False:
             raise TelegramError("У бота нет права публиковать сообщения", 403)
         if member.get("status") == "administrator" and member.get("can_edit_messages") is False:
-            raise TelegramError("У бота нет права редактировать и закреплять сообщения", 403)
+            raise TelegramError(
+                "У бота нет права редактировать и закреплять сообщения. "
+                "Откройте в Telegram: канал → Управление каналом → "
+                "Администраторы → бот → включите «Редактирование сообщений»",
+                403,
+            )
         return bot, chat, member
 
     def send_message(self, text: str) -> dict:
@@ -303,6 +308,47 @@ def remaining_steps(event: dict, state: dict) -> list[dict]:
     return [step for step in event["steps"] if step_key(event, step) not in sent]
 
 
+def resolve_manual_event_id(action: str, season: int, day: int, now: datetime) -> str:
+    if action == "welcome":
+        return "course_welcome"
+    if action == "start_button":
+        return "course_start_button"
+
+    if season == 0:
+        season_by_month = {9: 1, 10: 2, 11: 3}
+        if now.year != 2026 or now.month not in season_by_month:
+            raise SystemExit("Не удалось определить сезон автоматически. Выберите сезон 1, 2 или 3.")
+        season = season_by_month[now.month]
+    if season not in {1, 2, 3}:
+        raise SystemExit("Сезон должен быть 1, 2 или 3.")
+
+    if action in {"morning", "practice"}:
+        if day == 0:
+            day = now.day
+        maximum_day = 31 if season == 2 else 30
+        if not 1 <= day <= maximum_day:
+            raise SystemExit(f"Для сезона {season} выберите день от 1 до {maximum_day}.")
+        prefix = {1: "", 2: "s2_", 3: "s3_"}[season]
+        return f"{prefix}day{day:02d}_{action}"
+
+    if action == "final_polls":
+        return f"season{season}_final_polls"
+    if action == "congratulations":
+        return f"season{season}_congratulations"
+    raise SystemExit(f"Неизвестное действие ручного запуска: {action}")
+
+
+def publish_test_event(client: TelegramClient, event: dict) -> None:
+    """Send a disposable preview without pinning, editing or changing state."""
+    for step in event["steps"]:
+        if step["type"] in {"pin", "link_button"}:
+            print(f"Тест: пропущено действие {step['id']} ({step['type']})")
+            continue
+        result = send_step(client, step)
+        print(f"Тест: отправлено {step['id']}, message_id={result.get('message_id')}")
+        time.sleep(1)
+
+
 def publish_event(client: TelegramClient, event: dict, state: dict, timezone: ZoneInfo, retry: bool) -> None:
     while True:
         pending = remaining_steps(event, state)
@@ -358,9 +404,21 @@ def validate_content(content: dict) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["scheduled", "validate", "test", "preview", "event"], default="scheduled")
+    parser.add_argument(
+        "--mode",
+        choices=["scheduled", "validate", "test", "preview", "event", "manual"],
+        default="scheduled",
+    )
     parser.add_argument("--event-id", default="")
     parser.add_argument("--confirm", default="")
+    parser.add_argument(
+        "--action",
+        choices=["check", "welcome", "morning", "practice", "final_polls", "congratulations", "start_button"],
+        default="check",
+    )
+    parser.add_argument("--publication", choices=["official", "test"], default="official")
+    parser.add_argument("--day", type=int, default=0)
+    parser.add_argument("--season", type=int, default=0)
     parser.add_argument("--now", default="", help="Тестовая дата/время ISO, например 2026-09-01T07:00")
     parser.add_argument("--retry", action="store_true")
     args = parser.parse_args()
@@ -377,6 +435,28 @@ def main() -> None:
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
     client = TelegramClient(token, chat_id)
+
+    if args.mode == "manual":
+        if args.action == "check":
+            bot, chat, member = client.validate()
+            print(f"Бот: @{bot.get('username', '')}")
+            print(f"Канал: {chat.get('title', '')} ({chat.get('id', '')})")
+            print(f"Права: {member.get('status', '')}; публикация и закрепление разрешены")
+            return
+
+        event_id = resolve_manual_event_id(args.action, args.season, args.day, now)
+        matches = [event for event in content["events"] if event["id"] == event_id]
+        if len(matches) != 1:
+            raise SystemExit(f"Событие не найдено: {event_id}")
+        event = matches[0]
+        if args.publication == "test":
+            publish_test_event(client, event)
+            print("Тест завершён. state/published.json не изменён.")
+            return
+
+        state = load_state()
+        publish_event(client, event, state, timezone, args.retry)
+        return
 
     if args.mode == "validate":
         bot, chat, member = client.validate()
