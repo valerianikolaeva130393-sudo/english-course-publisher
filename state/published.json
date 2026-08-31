@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "sent": {}
+  "sent": {
+    "course_welcome:photo": {
+      "message_id": 78,
+      "sent_at": "2026-08-31T22:53:08+03:00"
+    },
+    "course_welcome:pin": {
+      "message_id": 78,
+      "sent_at": "2026-08-31T22:53:10+03:00"
+    }
+  }
 }
