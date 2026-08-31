@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from publisher import due_events, load_all_content, send_step, validate_content  # noqa: E402
+from publisher import due_events, load_all_content, resolve_manual_event_id, send_step, validate_content  # noqa: E402
 
 
 LAUNCH_PATH = ROOT / "content" / "launch.json"
@@ -390,6 +390,28 @@ def verify_schedule(launch: dict, season1: dict, season2: dict, season3: dict) -
     assert not due_events(season3, datetime(2026, 12, 1, 7, 0, tzinfo=timezone))
 
 
+def verify_manual_controls() -> None:
+    timezone = ZoneInfo("Europe/Moscow")
+    september = datetime(2026, 9, 7, 12, 0, tzinfo=timezone)
+    october = datetime(2026, 10, 31, 16, 0, tzinfo=timezone)
+    november = datetime(2026, 11, 30, 16, 0, tzinfo=timezone)
+
+    assert resolve_manual_event_id("welcome", 0, 0, september) == "course_welcome"
+    assert resolve_manual_event_id("start_button", 0, 0, september) == "course_start_button"
+    assert resolve_manual_event_id("morning", 0, 0, september) == "day07_morning"
+    assert resolve_manual_event_id("practice", 2, 1, september) == "s2_day01_practice"
+    assert resolve_manual_event_id("final_polls", 0, 0, october) == "season2_final_polls"
+    assert resolve_manual_event_id("congratulations", 0, 0, november) == "season3_congratulations"
+
+    workflow = (ROOT / ".github" / "workflows" / "publish.yml").read_text(encoding="utf-8")
+    assert "*/15" not in workflow
+    assert workflow.count('cron: "*/5') == 13
+    assert "MANUAL_EVENT_ID" not in workflow
+    assert "MANUAL_CONFIRM" not in workflow
+    for option in ("check", "welcome", "morning", "practice", "final_polls", "congratulations", "start_button"):
+        assert f"- {option}" in workflow
+
+
 def main() -> None:
     launch = load(LAUNCH_PATH)
     season1 = load(SEASON1_PATH)
@@ -400,6 +422,7 @@ def main() -> None:
     verify_season2(season2)
     verify_season3(season3)
     verify_schedule(launch, season1, season2, season3)
+    verify_manual_controls()
 
     combined = load_all_content()
     assert combined["meta"]["seasons"] == [1, 2, 3]
