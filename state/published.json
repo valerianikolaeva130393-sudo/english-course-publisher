@@ -8,6 +8,14 @@
     "course_welcome:pin": {
       "message_id": 78,
       "sent_at": "2026-08-31T22:53:10+03:00"
+    },
+    "day01_morning:text": {
+      "message_id": 80,
+      "sent_at": "2026-09-01T07:38:01+03:00"
+    },
+    "day01_morning:audio": {
+      "message_id": 81,
+      "sent_at": "2026-09-01T07:38:03+03:00"
     }
   }
 }
