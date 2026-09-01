@@ -16,6 +16,10 @@
     "day01_morning:audio": {
       "message_id": 81,
       "sent_at": "2026-09-01T07:38:03+03:00"
+    },
+    "course_start_button:button": {
+      "message_id": 78,
+      "sent_at": "2026-09-01T07:39:44+03:00"
     }
   }
 }
