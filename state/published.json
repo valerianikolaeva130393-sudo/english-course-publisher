@@ -32,6 +32,14 @@
     "day01_practice:poll": {
       "message_id": 84,
       "sent_at": "2026-09-01T13:58:57+03:00"
+    },
+    "day02_morning:text": {
+      "message_id": 85,
+      "sent_at": "2026-09-02T08:28:15+03:00"
+    },
+    "day02_morning:audio": {
+      "message_id": 86,
+      "sent_at": "2026-09-02T08:28:18+03:00"
     }
   }
 }
