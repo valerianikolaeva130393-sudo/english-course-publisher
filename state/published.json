@@ -60,6 +60,18 @@
     "day03_morning:audio": {
       "message_id": 91,
       "sent_at": "2026-09-03T09:41:25+03:00"
+    },
+    "day03_practice:text": {
+      "message_id": 92,
+      "sent_at": "2026-09-03T13:51:40+03:00"
+    },
+    "day03_practice:audio": {
+      "message_id": 93,
+      "sent_at": "2026-09-03T13:51:42+03:00"
+    },
+    "day03_practice:poll": {
+      "message_id": 94,
+      "sent_at": "2026-09-03T13:51:43+03:00"
     }
   }
 }
