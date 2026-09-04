@@ -6,7 +6,7 @@
     "end_date": "2026-10-31",
     "timezone": "Europe/Moscow",
     "channel": "@english_story_a1a2",
-    "source_sha256": "05b64361eefe13ae9fb961b8c22c476dbe0ab55f91cac811df68e6d3603839ef",
+    "source_sha256": "595b61b7139c5a7f1ca843772528bfd82b1a55b6ed3be34da5fb184d3f78aff2",
     "audio_files": 53,
     "image_files": 5
   },
@@ -381,6 +381,19 @@
       ]
     },
     {
+      "id": "s2_day07_bonus",
+      "date": "2026-10-07",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I leave home at eight.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Then why are you always late?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Coffee."
+        }
+      ]
+    },
+    {
       "id": "s2_day08_morning",
       "date": "2026-10-08",
       "time": "07:00",
@@ -739,6 +752,19 @@
           "correct_option_ids": [
             0
           ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day14_bonus",
+      "date": "2026-10-14",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We’re ten minutes early.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Coffee?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;The café is closed.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Not great."
         }
       ]
     },
@@ -1105,6 +1131,19 @@
       ]
     },
     {
+      "id": "s2_day21_bonus",
+      "date": "2026-10-21",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n🧑 <b>Barista:</b>\n&#160;&#160;&#160;&#160;&#160;Anything else?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;That’s all, thanks.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;What about your bagel?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Right. One bagel, please."
+        }
+      ]
+    },
+    {
       "id": "s2_day22_morning",
       "date": "2026-10-22",
       "time": "07:00",
@@ -1449,6 +1488,19 @@
           "correct_option_ids": [
             0
           ]
+        }
+      ]
+    },
+    {
+      "id": "s2_day28_bonus",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have everything?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Milk, bread, eggs, and apples.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And coffee?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;We need coffee."
         }
       ]
     },

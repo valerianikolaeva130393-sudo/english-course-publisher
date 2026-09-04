@@ -6,8 +6,8 @@
     "end_date": "2026-11-30",
     "timezone": "Europe/Moscow",
     "channel": "@english_story_a1a2",
-    "source_sha256": "b0aca77cf107c2962399cd8ac76952b909ce72db416fc4d4eeea41b4d2dc8db5",
-    "audio_files": 52,
+    "source_sha256": "57436fadf18be1e1a3b528e31762e42bc5c3e31e5e877b2f72bfa70a119124a5",
+    "audio_files": 53,
     "image_files": 5
   },
   "events": [
@@ -388,6 +388,19 @@
       ]
     },
     {
+      "id": "s3_day07_bonus",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like books or coffee?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Books.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Really?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Books with coffee."
+        }
+      ]
+    },
+    {
       "id": "s3_day08_morning",
       "date": "2026-11-08",
       "time": "07:00",
@@ -746,6 +759,26 @@
           "correct_option_ids": [
             1
           ]
+        }
+      ]
+    },
+    {
+      "id": "s3_day14_bonus",
+      "date": "2026-11-14",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🎙 Голосовое сообщение от Эммы</b>\nСначала послушайте сообщение без текста. Затем откройте подсказку только при необходимости.\n<tg-spoiler>Hi! It’s Emma. Adam and I are going to a photo exhibit on Sunday. We’re meeting at two at the café. Would you like to come with us?</tg-spoiler>\n💬 Ответьте Эмме вслух: <b>I’d love to. / Sorry, I can’t.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season3/bonus/day14_emma.mp3",
+          "title": "Сезон 3 · День 14 · Голосовое от Эммы",
+          "performer": "Английский через истории"
         }
       ]
     },
@@ -1112,6 +1145,19 @@
       ]
     },
     {
+      "id": "s3_day21_bonus",
+      "date": "2026-11-21",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is the concert free?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I’ll buy the coffee.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;That is not free."
+        }
+      ]
+    },
+    {
       "id": "s3_day22_morning",
       "date": "2026-11-22",
       "time": "07:00",
@@ -1460,6 +1506,19 @@
       ]
     },
     {
+      "id": "s3_day28_bonus",
+      "date": "2026-11-28",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;I like trying new restaurants.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Adam, you like every restaurant.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Especially this one."
+        }
+      ]
+    },
+    {
       "id": "s3_day29_morning",
       "date": "2026-11-29",
       "time": "07:00",
@@ -1684,6 +1743,7 @@
     }
   ],
   "assets": {
+    "audio/season3/bonus/day14_emma.mp3": "db51e1380608e829a500af27563eebf6754e98b07b95ce5ec064e5c5bd7d3b21",
     "audio/season3/final/final_poll_07.mp3": "705004b97b60ccc130a7c2b0e9ef2263e6c25237d1e7ec9e876e66f8da64d870",
     "audio/season3/morning/day01.mp3": "847eae0b7f78b019bdcb09009c5332d883b1959ca7d27fe3a3ba9be1acd327e5",
     "audio/season3/morning/day02.mp3": "74400a259a02af2bed4530b6d3558fce2cda0b11eb089468e86866ec7d4fa644",

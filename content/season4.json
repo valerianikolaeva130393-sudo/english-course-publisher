@@ -1,0 +1,1852 @@
+{
+  "meta": {
+    "course": "Английский через истории",
+    "season": 4,
+    "start_date": "2026-12-01",
+    "end_date": "2026-12-31",
+    "timezone": "Europe/Moscow",
+    "channel": "@english_story_a1a2",
+    "source_sha256": "4b6884a02ecd7ae88aa81c1ad83aefb614e7d3c1e7fc78648e99ca5441094dff",
+    "audio_files": 54,
+    "image_files": 5
+  },
+  "events": [
+    {
+      "id": "s4_day01_morning",
+      "date": "2026-12-01",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 1</b>\n<b>Where is the pharmacy? — Где находится аптека?</b>\n\n<u>🎬 История</u>\nВ начале декабря Камила встречает Эмму и Адама возле метро.\nЕй нужна аптека, и знакомый район становится первой городской задачей месяца.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Where is the pharmacy?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;It’s next to the bank.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Is it far?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No, it isn’t.\n\n<u>🗣 Новые слова</u>\n🔹 pharmacy — аптека\n🔹 next to — рядом с\n🔹 bank — банк\n\n<u>⭐ Запомните</u>\nЧтобы спросить, где находится место: Where is the pharmacy?\nЧтобы назвать соседний объект: It’s next to the bank.\n\n<u>🎧 Послушайте и повторите</u>\nWhere is the pharmacy?\nIt’s next to the bank.\nIs it far?\nNo, it isn’t."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day01.mp3",
+          "title": "Сезон 4 · День 1 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day01_practice",
+      "date": "2026-12-01",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 1</b>\n\n<u>🎧 Послушайте:</u>\nWhere is the pharmacy? It’s next to the bank."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day01.mp3",
+          "title": "Сезон 4 · День 1 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где находится аптека?",
+          "options": [
+            "Напротив банка.",
+            "Рядом с банком.",
+            "Между кафе и магазином."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day02_morning",
+      "date": "2026-12-02",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 2</b>\n<b>Is there a café near here? — Здесь поблизости есть кафе?</b>\n\n<u>🎬 История</u>\nПосле аптеки друзья ищут место, где можно согреться кофе.\nКамила замечает книжный магазин, а Эмма спрашивает о кафе.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is there a café near here?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s across from the bookstore.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I can see it.\n\n<u>🗣 Новые слова</u>\n🔹 near here — поблизости\n🔹 across from — напротив\n🔹 bookstore — книжный магазин\n\n<u>⭐ Запомните</u>\nIs there…? помогает спросить, есть ли поблизости одно место.\nThere is часто сокращается до There’s: There’s a café across from the bookstore.\n\n<u>🎧 Послушайте и повторите</u>\nIs there a café near here?\nYes. It’s across from the bookstore.\nGreat. I can see it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day02.mp3",
+          "title": "Сезон 4 · День 2 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day02_practice",
+      "date": "2026-12-02",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 2</b>\n\n<u>🎧 Послушайте:</u>\nIs there a café near here? Yes. It’s across from the bookstore."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day02.mp3",
+          "title": "Сезон 4 · День 2 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что находится напротив книжного магазина?",
+          "options": [
+            "Кафе.",
+            "Аптека.",
+            "Банк."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day03_morning",
+      "date": "2026-12-03",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 3</b>\n<b>It’s between the café and the bank. — Это между кафе и банком.</b>\n\n<u>🎬 История</u>\nУ входа в кафе Адам видит карту района.\nТеперь друзья ищут небольшой почтовый пункт между уже знакомыми местами.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Where is the post office?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;It’s between the café and the bank.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Oh, I see it now.\n\n<u>🗣 Новые слова</u>\n🔹 post office — почта\n🔹 between — между\n🔹 I see it. — Я вижу.\n\n<u>⭐ Запомните</u>\nBetween используем, когда место находится между двумя объектами:\nIt’s between the café and the bank.\n\n<u>🎧 Послушайте и повторите</u>\nWhere is the post office?\nIt’s between the café and the bank.\nOh, I see it now."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day03.mp3",
+          "title": "Сезон 4 · День 3 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day03_practice",
+      "date": "2026-12-03",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 3</b>\n\n<u>🎧 Послушайте:</u>\nThe post office is between the café and the bank."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day03.mp3",
+          "title": "Сезон 4 · День 3 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где находится почта?",
+          "options": [
+            "За банком.",
+            "Между кафе и банком.",
+            "Рядом с аптекой."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day04_morning",
+      "date": "2026-12-04",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 4</b>\n<b>It’s on the corner. — Это на углу.</b>\n\n<u>🎬 История</u>\nЭмме нужен банкомат перед поездкой в Манхэттен.\nАдам замечает его на углу рядом с перекрёстком.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is there an ATM near here?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s on the corner.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Next to the bakery?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;That’s right.\n\n<u>🗣 Новые слова</u>\n🔹 ATM — банкомат\n🔹 on the corner — на углу\n🔹 That’s right. — Верно.\n\n<u>⭐ Запомните</u>\nOn the corner — полезная готовая модель для места на углу:\nThe ATM is on the corner.\n\n<u>🎧 Послушайте и повторите</u>\nIs there an ATM near here?\nYes. It’s on the corner.\nNext to the bakery?\nThat’s right."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day04.mp3",
+          "title": "Сезон 4 · День 4 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day04_practice",
+      "date": "2026-12-04",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 4</b>\n\n<u>🎧 Послушайте:</u>\nThe ATM is on the corner, next to the bakery."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day04.mp3",
+          "title": "Сезон 4 · День 4 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где находится банкомат?",
+          "options": [
+            "На углу.",
+            "Между двумя кафе.",
+            "В книжном магазине."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day05_morning",
+      "date": "2026-12-05",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 5</b>\n<b>There are two cafés. — Здесь два кафе.</b>\n\n<u>🎬 История</u>\nДрузья договариваются встретиться после работы.\nНо на нужной улице два кафе, поэтому Эмма уточняет место.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is there a café on Pine Street?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;There are two cafés.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s meet at the café next to the pharmacy.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Perfect.\n\n<u>🗣 Новые слова</u>\n🔹 There are… — есть / находятся (несколько)\n🔹 two cafés — два кафе\n🔹 Perfect. — Отлично.\n\n<u>⭐ Запомните</u>\nThere is — для одного места: There is a café.\nThere are — для нескольких: There are two cafés.\n\n<u>🎧 Послушайте и повторите</u>\nIs there a café on Pine Street?\nThere are two cafés.\nLet’s meet at the café next to the pharmacy.\nPerfect."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day05.mp3",
+          "title": "Сезон 4 · День 5 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day05_practice",
+      "date": "2026-12-05",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 5</b>\n\n<u>🎧 Послушайте:</u>\nThere are two cafés on Pine Street. Let’s meet at the café next to the pharmacy."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day05.mp3",
+          "title": "Сезон 4 · День 5 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "У какого кафе встретятся друзья?",
+          "options": [
+            "У кафе возле банка.",
+            "У кафе возле аптеки.",
+            "У кафе на вокзале."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day06_morning",
+      "date": "2026-12-06",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 6</b>\n<b>What’s across from the park? — Что находится напротив парка?</b>\n\n<u>🎬 История</u>\nКамила помогает друзьям выбрать место для воскресной прогулки.\nОни сверяют карту и уточняют, где находится вход на зимний рынок.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;What’s across from the park?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;A small museum.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And the market entrance is next to the museum.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Good. Let’s meet there.\n\n<u>🗣 Новые слова</u>\n🔹 What’s across from…? — Что находится напротив…?\n🔹 museum — музей\n🔹 market entrance — вход на рынок\n\n<u>⭐ Запомните</u>\nЧтобы проверить ориентир, можно спросить: What’s across from the park?\nВ ответ достаточно назвать место: A small museum.\n\n<u>🎧 Послушайте и повторите</u>\nWhat’s across from the park?\nA small museum.\nThe market entrance is next to the museum.\nLet’s meet there."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day06.mp3",
+          "title": "Сезон 4 · День 6 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day06_practice",
+      "date": "2026-12-06",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 6</b>\n\n<u>🎧 Послушайте:</u>\nThe museum is across from the park. The market entrance is next to the museum."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day06.mp3",
+          "title": "Сезон 4 · День 6 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что находится напротив парка?",
+          "options": [
+            "Аптека.",
+            "Кафе.",
+            "Музей."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day07_morning",
+      "date": "2026-12-07",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season4/week01.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 7</b>\n<b>Week 1 Review — Уже можем находить места в городе</b>\n\n<u>🎬 История</u>\nВ субботу Эмма, Адам и Камила встречаются у карты зимнего рынка в Бруклине.\nТеперь они могут найти нужное место по простым городским ориентирам.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Is there a café near here?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s across from the bookstore.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;And the market entrance is next to the café.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;What’s between the bank and the pharmacy?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;A small bakery.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I know this area now.\n\n<u>🗣 Повторяем</u>\n🔹 Where is…? / Is there… near here?\n🔹 It’s next to… / across from…\n🔹 It’s between… and…\n🔹 It’s on the corner.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day07.mp3",
+          "title": "Сезон 4 · День 7 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day07_practice",
+      "date": "2026-12-07",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 7</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>There is a café across from the bookstore. The market entrance is next to the café.</tg-spoiler>\nСначала послушайте без текста. Затем откройте подсказку только при необходимости."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day07.mp3",
+          "title": "Сезон 4 · День 7 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где находится вход на рынок?",
+          "options": [
+            "Напротив банка.",
+            "Рядом с кафе.",
+            "Между аптекой и почтой."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day07_bonus",
+      "date": "2026-12-07",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Is the bakery next to the market?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How do you know?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I can smell the bread."
+        }
+      ]
+    },
+    {
+      "id": "s4_day08_morning",
+      "date": "2026-12-08",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 8</b>\n<b>Go straight. — Идите прямо.</b>\n\n<u>🎬 История</u>\nВ понедельник Эмма ищет новый копировальный центр для работы.\nТелефон почти разрядился, и Камила объясняет первый отрезок пути.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How do I get to the copy shop?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Go straight for two blocks.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Two blocks. Got it.\n\n<u>🗣 Новые слова</u>\n🔹 How do I get to…? — Как добраться до…?\n🔹 Go straight for two blocks. — Идите прямо два квартала.\n🔹 Got it. — Понял(а). / Ясно.\n\n<u>⭐ Запомните</u>\nВ коротких указаниях действие ставим первым: Go straight.\nВежливость создаёт спокойный тон; слово you обычно не нужно.\n\n<u>🎧 Послушайте и повторите</u>\nHow do I get to the copy shop?\nGo straight for two blocks.\nTwo blocks. Got it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day08.mp3",
+          "title": "Сезон 4 · День 8 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day08_practice",
+      "date": "2026-12-08",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 8</b>\n\n<u>🎧 Послушайте:</u>\nGo straight for two blocks."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day08.mp3",
+          "title": "Сезон 4 · День 8 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что нужно сделать?",
+          "options": [
+            "Идти прямо два квартала.",
+            "Повернуть направо.",
+            "Перейти на другую линию."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day09_morning",
+      "date": "2026-12-09",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 9</b>\n<b>Turn left at the bank. — Поверните налево у банка.</b>\n\n<u>🎬 История</u>\nЭмма проходит два квартала и звонит Камиле ещё раз.\nСледующий ориентир — знакомый банк на перекрёстке.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m at the bank now.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Turn left at the bank.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Left. Thank you!\n\n<u>🗣 Новые слова</u>\n🔹 turn left — поверните налево\n🔹 at the bank — у банка\n🔹 left — лево / налево\n\n<u>⭐ Запомните</u>\nTurn left — короткое указание направления.\nAt указывает на точку-ориентир, возле которой нужно выполнить действие: Turn left at the bank — дойдите до банка и поверните налево.\n\n<u>🎧 Послушайте и повторите</u>\nI’m at the bank now.\nTurn left at the bank.\nLeft. Thank you!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day09.mp3",
+          "title": "Сезон 4 · День 9 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day09_practice",
+      "date": "2026-12-09",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 9</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Поверните налево у банка»?",
+          "options": [
+            "Turn right at the bank.",
+            "Turn left at the bank.",
+            "Go straight at the bank."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day10_morning",
+      "date": "2026-12-10",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 10</b>\n<b>Turn right after the café. — Поверните направо после кафе.</b>\n\n<u>🎬 История</u>\nАдам присоединяется к разговору и узнаёт улицу по описанию.\nОн добавляет ещё один простой шаг маршрута.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Can you see the café?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I can.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Turn right after the café.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. I’m almost there.\n\n<u>🗣 Новые слова</u>\n🔹 turn right — поверните направо\n🔹 after — после\n🔹 almost there — почти на месте\n\n<u>⭐ Запомните</u>\nTurn right — поверните направо.\nДействие + after + ориентир: Turn right after the café — пройдите кафе и после него поверните направо.\n\n<u>🎧 Послушайте и повторите</u>\nCan you see the café?\nYes, I can.\nTurn right after the café.\nI’m almost there."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day10.mp3",
+          "title": "Сезон 4 · День 10 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day10_practice",
+      "date": "2026-12-10",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 10</b>\n\n<u>🎧 Послушайте:</u>\nTurn right after the café. The copy shop is on your left."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day10.mp3",
+          "title": "Сезон 4 · День 10 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Когда нужно повернуть направо?",
+          "options": [
+            "Перед кафе.",
+            "После кафе.",
+            "У метро."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day11_morning",
+      "date": "2026-12-11",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 11</b>\n<b>Take the second street on the right. — Поверните на вторую улицу справа.</b>\n\n<u>🎬 История</u>\nНа следующий день Эмма уже сама помогает Адаму найти фотомагазин.\nОна считает перекрёстки и даёт точное указание.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Which street should I take?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Take the second street on the right.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;The second street?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Then go straight.\n\n<u>🗣 Новые слова</u>\n🔹 take the second street — поверните на вторую улицу\n🔹 on the right — справа\n🔹 Which street should I take? — На какую улицу мне свернуть?\n\n<u>⭐ Запомните</u>\nWhich помогает выбрать один вариант из нескольких: Which street should I take?\nВ маршруте take a street означает «свернуть / выйти на нужную улицу»: Take the second street on the right.\n\n<u>🎧 Послушайте и повторите</u>\nWhich street should I take?\nTake the second street on the right.\nThe second street?\nYes. Then go straight."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day11.mp3",
+          "title": "Сезон 4 · День 11 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day11_practice",
+      "date": "2026-12-11",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 11</b>\n\n<u>🎧 Послушайте:</u>\nTake the second street on the right. Then go straight."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day11.mp3",
+          "title": "Сезон 4 · День 11 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "На какую улицу нужно повернуть?",
+          "options": [
+            "На первую слева.",
+            "На вторую справа.",
+            "На третью справа."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day12_morning",
+      "date": "2026-12-12",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 12</b>\n<b>It’s on your left. — Это будет слева от вас.</b>\n\n<u>🎬 История</u>\nАдам уже на нужной улице, но не видит маленькую вывеску.\nЭмма называет последнюю точку маршрута.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m on Green Street.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Good. The photo shop is on your left.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Next to the bakery?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Exactly.\n\n<u>🗣 Новые слова</u>\n🔹 on your left — слева от вас\n🔹 photo shop — фотомагазин\n🔹 Exactly. — Именно.\n\n<u>⭐ Запомните</u>\nOn your left / on your right показывают, с какой стороны будет место.\nThe photo shop is on your left.\n\n<u>🎧 Послушайте и повторите</u>\nI’m on Green Street.\nThe photo shop is on your left.\nNext to the bakery?\nExactly."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day12.mp3",
+          "title": "Сезон 4 · День 12 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day12_practice",
+      "date": "2026-12-12",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 12</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Фотомагазин будет слева от вас»?",
+          "options": [
+            "The photo shop is on your left.",
+            "The photo shop is on your right.",
+            "The photo shop is on the corner."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day13_morning",
+      "date": "2026-12-13",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 13</b>\n<b>You can’t miss it. — Вы точно не пропустите.</b>\n\n<u>🎬 История</u>\nВ пятницу Камила объясняет друзьям путь к яркой городской ярмарке.\nБольшая светящаяся вывеска делает последний ориентир особенно простым.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Go straight and turn left at the bank.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is the entrance on the right?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It has a big blue sign. You can’t miss it.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Perfect.\n\n<u>🗣 Новые слова</u>\n🔹 You can’t miss it. — Вы точно не пропустите.\n🔹 entrance — вход\n🔹 sign — вывеска / знак\n\n<u>⭐ Запомните</u>\nYou can’t miss it — готовая дружелюбная фраза: место легко заметить.\nОна не означает буквальный запрет.\n\n<u>🎧 Послушайте и повторите</u>\nGo straight and turn left at the bank.\nIs the entrance on the right?\nYes. You can’t miss it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day13.mp3",
+          "title": "Сезон 4 · День 13 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day13_practice",
+      "date": "2026-12-13",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 13</b>\n\n<u>🎧 Послушайте:</u>\nGo straight, turn left at the bank, and look for a big blue sign. You can’t miss it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day13.mp3",
+          "title": "Сезон 4 · День 13 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Почему вход легко найти?",
+          "options": [
+            "Он рядом с метро.",
+            "У него большая синяя вывеска.",
+            "Там играет музыка."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day14_morning",
+      "date": "2026-12-14",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season4/week02.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 14</b>\n<b>Week 2 Review — Уже можем спросить и объяснить дорогу</b>\n\n<u>🎬 История</u>\nВ воскресенье трое друзей идут на зимнюю ярмарку.\nЭмма ведёт их по маршруту без помощи карты.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;How do we get to the market?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Go straight for two blocks and turn right after the café.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Then what?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Take the second street on the left. The entrance is on your right.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Is it easy to see?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. You can’t miss it.\n\n<u>🗣 Повторяем</u>\n🔹 How do I / we get to…?\n🔹 Go straight. Turn left / right.\n🔹 Take the second street on the…\n🔹 It’s on your left / right.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day14.mp3",
+          "title": "Сезон 4 · День 14 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day14_practice",
+      "date": "2026-12-14",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 14</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>Go straight for two blocks. Turn right after the café. The market entrance is on your left.</tg-spoiler>\nСначала послушайте без текста. Затем откройте подсказку только при необходимости."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day14.mp3",
+          "title": "Сезон 4 · День 14 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где будет вход на рынок?",
+          "options": [
+            "Слева.",
+            "Справа.",
+            "Напротив кафе."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day14_bonus",
+      "date": "2026-12-14",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Turn right after the café.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Can we stop at the café first?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We are looking for the market.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Coffee helps me find places."
+        }
+      ]
+    },
+    {
+      "id": "s4_day15_morning",
+      "date": "2026-12-15",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 15</b>\n<b>Which train should I take? — На какой поезд мне сесть?</b>\n\n<u>🎬 История</u>\nДрузья хотят увидеть зимнюю выставку в Манхэттене.\nУ входа в метро Эмма уточняет нужную линию.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Which train should I take?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Take the A train.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;From this station?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. The entrance is across the street.\n\n<u>🗣 Новые слова</u>\n🔹 Which train…? — Какой поезд…?\n🔹 take the A train — сесть на поезд линии A\n🔹 station — станция\n\n<u>⭐ Запомните</u>\nWhich помогает выбрать один вариант: Which train should I take?\nВ ответ используем знакомую короткую модель: Take the A train.\n\n<u>🎧 Послушайте и повторите</u>\nWhich train should I take?\nTake the A train.\nFrom this station?\nYes."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day15.mp3",
+          "title": "Сезон 4 · День 15 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day15_practice",
+      "date": "2026-12-15",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 15</b>\n\n<u>🎧 Послушайте:</u>\nWhich train should I take? Take the A train."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day15.mp3",
+          "title": "Сезон 4 · День 15 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "На какой поезд нужно сесть?",
+          "options": [
+            "На поезд A.",
+            "На поезд C.",
+            "На автобус."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day16_morning",
+      "date": "2026-12-16",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 16</b>\n<b>Where do I change trains? — Где мне сделать пересадку?</b>\n\n<u>🎬 История</u>\nНа платформе Камила замечает, что прямого маршрута нет.\nАдам объясняет, где нужно перейти на другую линию.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Where do I change trains?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Change at Fulton Street.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Which train do I take then?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Take the 4 train.\n\n<u>🗣 Новые слова</u>\n🔹 change trains — сделать пересадку / пересесть на другой поезд\n🔹 change at… — пересесть на станции…\n🔹 then — затем\n\n<u>⭐ Запомните</u>\nWhere do I change trains? — готовый вопрос о месте пересадки.\nВ коротком ответе: Change at Fulton Street.\n\n<u>🎧 Послушайте и повторите</u>\nWhere do I change trains?\nChange at Fulton Street.\nWhich train do I take then?\nTake the 4 train."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day16.mp3",
+          "title": "Сезон 4 · День 16 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day16_practice",
+      "date": "2026-12-16",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 16</b>\n\n<u>🎧 Послушайте:</u>\nChange at Fulton Street. Then take the 4 train."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day16.mp3",
+          "title": "Сезон 4 · День 16 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где нужно сделать пересадку?",
+          "options": [
+            "На Union Street.",
+            "На Fulton Street.",
+            "На конечной станции."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day17_morning",
+      "date": "2026-12-17",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 17</b>\n<b>How long does it take? — Сколько времени это занимает?</b>\n\n<u>🎬 История</u>\nДо встречи ещё есть время, но Эмма хочет рассчитать дорогу.\nКамила проверяет маршрут и называет примерную длительность.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How long does it take?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;About twenty-five minutes.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Good. We have time.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s go.\n\n<u>🗣 Новые слова</u>\n🔹 How long does it take? — Сколько времени это занимает?\n🔹 about — примерно\n🔹 twenty-five minutes — двадцать пять минут\n\n<u>⭐ Запомните</u>\nHow long does it take? спрашивает о длительности поездки.\nКороткий естественный ответ: About twenty-five minutes.\n\n<u>🎧 Послушайте и повторите</u>\nHow long does it take?\nAbout twenty-five minutes.\nGood. We have time.\nLet’s go."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day17.mp3",
+          "title": "Сезон 4 · День 17 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day17_practice",
+      "date": "2026-12-17",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 17</b>\n\n<u>🎧 Послушайте:</u>\nThe trip takes about twenty-five minutes."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day17.mp3",
+          "title": "Сезон 4 · День 17 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Сколько длится поездка?",
+          "options": [
+            "Около пятнадцати минут.",
+            "Около двадцати пяти минут.",
+            "Около часа."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day18_morning",
+      "date": "2026-12-18",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 18</b>\n<b>Where can I buy a ticket? — Где можно купить билет?</b>\n\n<u>🎬 История</u>\nВечером друзья заходят на Центральный вокзал, чтобы узнать маршрут на выходные.\nЭмма видит несколько автоматов и обращается к сотруднику.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Excuse me. Where can I buy a ticket?\n🧑 <b>Clerk:</b>\n&#160;&#160;&#160;&#160;&#160;At the ticket machine over there.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Thank you.\n🧑 <b>Clerk:</b>\n&#160;&#160;&#160;&#160;&#160;You’re welcome.\n\n<u>🗣 Новые слова</u>\n🔹 ticket — билет\n🔹 ticket machine — билетный автомат\n🔹 over there — вон там\n\n<u>⭐ Запомните</u>\nWhere can I…? — Где я могу…? Вежливая модель вопроса о возможности.\nWhere can I buy a ticket?\n\n<u>🎧 Послушайте и повторите</u>\nExcuse me. Where can I buy a ticket?\nAt the ticket machine over there.\nThank you.\nYou’re welcome."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day18.mp3",
+          "title": "Сезон 4 · День 18 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day18_practice",
+      "date": "2026-12-18",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 18</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как спросить «Где можно купить билет»?",
+          "options": [
+            "Where I can buy a ticket?",
+            "Where can I buy a ticket?",
+            "Where can buy a ticket?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day19_morning",
+      "date": "2026-12-19",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 19</b>\n<b>One-way or round-trip? — В одну сторону или туда и обратно?</b>\n\n<u>🎬 История</u>\nУ автомата Камила помогает выбрать тип билета.\nДрузья планируют вернуться в город в тот же вечер.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do we need one-way tickets?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. We need round-trip tickets.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;That’s right. We’re coming back tonight.\n\n<u>🗣 Новые слова</u>\n🔹 one-way ticket — билет в одну сторону\n🔹 round-trip ticket — билет туда и обратно\n🔹 come back tonight — вернуться сегодня вечером\n\n<u>⭐ Запомните</u>\nВ американском английском round-trip ticket — билет туда и обратно.\nOne-way ticket — только в одну сторону.\nWe’re coming back tonight — знакомый Present Continuous для конкретного ближайшего плана: мы возвращаемся сегодня вечером.\n\n<u>🎧 Послушайте и повторите</u>\nDo we need one-way tickets?\nNo. We need round-trip tickets.\nThat’s right. We’re coming back tonight."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day19.mp3",
+          "title": "Сезон 4 · День 19 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day19_practice",
+      "date": "2026-12-19",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 19</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Нам нужны билеты туда и обратно»?",
+          "options": [
+            "We need one-way tickets.",
+            "We need round-trip tickets.",
+            "We need return back tickets."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day20_morning",
+      "date": "2026-12-20",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 20</b>\n<b>I’d like a round-trip ticket. — Я хотел(а) бы билет туда и обратно.</b>\n\n<u>🎬 История</u>\nЭмма решает купить билет сама.\nЗнакомая модель I’d like помогает спокойно обратиться к сотруднику.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’d like a round-trip ticket, please.\n🧑 <b>Clerk:</b>\n&#160;&#160;&#160;&#160;&#160;Where to?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Tarrytown, please.\n🧑 <b>Clerk:</b>\n&#160;&#160;&#160;&#160;&#160;That’s eighteen dollars.\n\n<u>🗣 Новые слова</u>\n🔹 I’d like… — Я хотел(а) бы…\n🔹 Where to? — Куда?\n🔹 eighteen dollars — восемнадцать долларов\n\n<u>⭐ Запомните</u>\nI’d like… уже знакомо по кафе и так же работает при покупке билета.\nI’d like a round-trip ticket, please.\n\n<u>🎧 Послушайте и повторите</u>\nI’d like a round-trip ticket, please.\nWhere to?\nTarrytown, please.\nThat’s eighteen dollars."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day20.mp3",
+          "title": "Сезон 4 · День 20 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day20_practice",
+      "date": "2026-12-20",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 20</b>\n\n<u>🎧 Послушайте:</u>\nI’d like a round-trip ticket to Tarrytown, please."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day20.mp3",
+          "title": "Сезон 4 · День 20 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что покупает Эмма?",
+          "options": [
+            "Билет на автобус.",
+            "Билет в одну сторону.",
+            "Билет туда и обратно."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day21_morning",
+      "date": "2026-12-21",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season4/week03.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 21</b>\n<b>Week 3 Review — Уже можем выбрать транспорт и купить билет</b>\n\n<u>🎬 История</u>\nВ субботу Эмма, Адам и Камила встречаются в большом зале Центрального вокзала.\nОни сами проверяют маршрут, пересадку, время в пути и покупают билеты.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Which train should we take?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Take the train to Tarrytown.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do we change trains?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No, we don’t.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How long does it take?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;About forty minutes.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I’d like a round-trip ticket, please.\n\n<u>🗣 Повторяем</u>\n🔹 Which train should I take?\n🔹 Where do I change trains?\n🔹 How long does it take?\n🔹 I’d like a round-trip ticket, please.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day21.mp3",
+          "title": "Сезон 4 · День 21 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day21_practice",
+      "date": "2026-12-21",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 21</b>\n\n<u>🎧 Послушайте:</u>\nThe trip takes about forty minutes. We need round-trip tickets."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day21.mp3",
+          "title": "Сезон 4 · День 21 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Сколько длится поездка?",
+          "options": [
+            "Около двадцати минут.",
+            "Около сорока минут.",
+            "Около двух часов."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day21_bonus",
+      "date": "2026-12-21",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<i>🔎 Пасхалка недели: найдите на фото выражение из уроков этой недели. Что оно означает?</i>"
+        }
+      ]
+    },
+    {
+      "id": "s4_day22_morning",
+      "date": "2026-12-22",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 22</b>\n<b>This scarf or that scarf? — Этот шарф или тот шарф?</b>\n\n<u>🎬 История</u>\nПосле поездки друзья заходят в небольшой магазин одежды.\nКамила ищет тёплый шарф и сравнивает два варианта.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;This scarf is nice.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, but that scarf is warmer.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;The blue one?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, that one.\n\n<u>🗣 Новые слова</u>\n🔹 this / that — этот / тот (предмет рядом / дальше)\n🔹 scarf — шарф\n🔹 warmer — теплее (warm – теплый)\n\n<u>⭐ Запомните</u>\nThis — предмет рядом с нами: this scarf.\nThat — предмет дальше: that scarf.\n\n<u>🎧 Послушайте и повторите</u>\nThis scarf is nice.\nThat scarf is warmer.\nThe blue one?\nYes, that one."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day22.mp3",
+          "title": "Сезон 4 · День 22 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day22_practice",
+      "date": "2026-12-22",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 22</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Тот шарф теплее»?",
+          "options": [
+            "This scarf is warmer.",
+            "That scarf is warmer.",
+            "Those scarf is warmer."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day23_morning",
+      "date": "2026-12-23",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 23</b>\n<b>These gloves are warmer. — Эти перчатки теплее.</b>\n\n<u>🎬 История</u>\nНа соседней полке лежат перчатки разных цветов.\nТеперь Камила сравнивает несколько предметов, которые находятся рядом.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like these gloves?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. These are warmer.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;What about those gloves?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Those are too big.\n\n<u>🗣 Новые слова</u>\n🔹 these — эти (рядом)\n🔹 those — те (дальше)\n🔹 gloves — перчатки\n\n<u>⭐ Запомните</u>\nThese — несколько предметов рядом: these gloves.\nThose — несколько предметов дальше: those gloves.\n\n<u>🎧 Послушайте и повторите</u>\nDo you like these gloves?\nThese are warmer.\nWhat about those gloves?\nThose are too big."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day23.mp3",
+          "title": "Сезон 4 · День 23 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day23_practice",
+      "date": "2026-12-23",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 23</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Те перчатки слишком большие»?",
+          "options": [
+            "These gloves is too big.",
+            "That gloves are too big.",
+            "Those gloves are too big."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day24_morning",
+      "date": "2026-12-24",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 24</b>\n<b>This one is cheaper. — Этот вариант дешевле.</b>\n\n<u>🎬 История</u>\nЭмма находит два похожих шарфа с разными ценами.\nОна использует короткое one, чтобы не повторять слово scarf.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How much is the green scarf?\n🧑 <b>Sales assistant:</b>\n&#160;&#160;&#160;&#160;&#160;It’s thirty dollars.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And the gray one?\n🧑 <b>Sales assistant:</b>\n&#160;&#160;&#160;&#160;&#160;It’s twenty-five. This one is cheaper.\n\n<u>🗣 Новые слова</u>\n🔹 cheaper — дешевле (cheap — дешёвый)\n🔹 the gray one — серый вариант\n🔹 price — цена\n\n<u>⭐ Запомните</u>\nOne заменяет уже названный предмет: the gray one.\nCheaper помогает сравнить цену: This one is cheaper.\n\n<u>🎧 Послушайте и повторите</u>\nHow much is the green scarf?\nIt’s thirty dollars.\nAnd the gray one?\nIt’s twenty-five. This one is cheaper."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day24.mp3",
+          "title": "Сезон 4 · День 24 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day24_practice",
+      "date": "2026-12-24",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 24</b>\n\n<u>🎧 Послушайте:</u>\nThe green scarf is thirty dollars. The gray one is twenty-five dollars."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day24.mp3",
+          "title": "Сезон 4 · День 24 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой шарф дешевле?",
+          "options": [
+            "Зелёный.",
+            "Серый.",
+            "Они стоят одинаково."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day25_morning",
+      "date": "2026-12-25",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 25</b>\n<b>That one is better. — Тот вариант лучше.</b>\n\n<u>🎬 История</u>\nАдам выбирает между двумя парами зимних перчаток.\nЦена почти одинаковая, поэтому друзья сравнивают качество.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;These gloves are cheaper.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, but those are warmer.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I think that pair is better.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I agree.\n\n<u>🗣 Новые слова</u>\n🔹 better — лучше\n🔹 pair — пара\n🔹 I agree. — Я согласен / согласна.\n\n<u>⭐ Запомните</u>\nGood меняется на better, когда сравниваем два варианта.\nThat one is better. — Тот вариант лучше.\n\n<u>🎧 Послушайте и повторите</u>\nThese gloves are cheaper.\nThose are warmer.\nI think that pair is better.\nI agree."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day25.mp3",
+          "title": "Сезон 4 · День 25 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day25_practice",
+      "date": "2026-12-25",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 25</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Та пара лучше»?",
+          "options": [
+            "This pair is better.",
+            "That pair is better.",
+            "Those pair are better."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day26_morning",
+      "date": "2026-12-26",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 26</b>\n<b>Do you have this in a larger size? — У вас есть это большего размера?</b>\n\n<u>🎬 История</u>\nКамила примеряет тёплую куртку, но она немного мала.\nОна спокойно просит другой размер и цвет.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do you have this in a larger size?\n🧑 <b>Sales assistant:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. What color would you like?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do you have this in black?\n🧑 <b>Sales assistant:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, we do.\n\n<u>🗣 Новые слова</u>\n🔹 larger size — больший размер\n🔹 in black — в чёрном цвете\n🔹 color — цвет\n\n<u>⭐ Запомните</u>\nDo you have this in…? помогает спросить размер или цвет.\nDo you have this in a larger size? / Do you have this in black?\n\n<u>🎧 Послушайте и повторите</u>\nDo you have this in a larger size?\nWhat color would you like?\nDo you have this in black?\nYes, we do."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day26.mp3",
+          "title": "Сезон 4 · День 26 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day26_practice",
+      "date": "2026-12-26",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 26</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как спросить «У вас есть это в чёрном цвете»?",
+          "options": [
+            "Do you have this in black?",
+            "Do you have this black?",
+            "Are you have this in black?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day27_morning",
+      "date": "2026-12-27",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 27</b>\n<b>Can I try this on? — Можно это примерить?</b>\n\n<u>🎬 История</u>\nПродавец приносит чёрную куртку нужного размера.\nКамила примеряет её и принимает решение.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Can I try this on?\n🧑 <b>Sales assistant:</b>\n&#160;&#160;&#160;&#160;&#160;Of course. The fitting room is over there.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;It looks great.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;It’s comfortable. I’ll take it.\n\n<u>🗣 Новые слова</u>\n🔹 try this on — примерить это\n🔹 fitting room — примерочная\n🔹 comfortable — удобный / комфортный\n🔹 I’ll take it. — Я беру.\n\n<u>⭐ Запомните</u>\nCan I try this on? — вежливый вопрос в магазине одежды.\nI’ll take it — короткая готовая фраза при покупке.\n\n<u>🎧 Послушайте и повторите</u>\nCan I try this on?\nThe fitting room is over there.\nIt looks great.\nIt’s comfortable. I’ll take it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day27.mp3",
+          "title": "Сезон 4 · День 27 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day27_practice",
+      "date": "2026-12-27",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 27</b>\n\n<u>🎧 Послушайте:</u>\nCan I try this on? It’s comfortable. I’ll take it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day27.mp3",
+          "title": "Сезон 4 · День 27 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что решила Камила?",
+          "options": [
+            "Попросить другой цвет.",
+            "Купить куртку.",
+            "Вернуть перчатки."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day28_morning",
+      "date": "2026-12-28",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season4/week04.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 28</b>\n<b>Week 4 Review — Уже можем выбрать и купить одежду</b>\n\n<u>🎬 История</u>\nВ воскресенье трое друзей снова заходят в магазин перед прогулкой.\nТеперь они уверенно показывают нужные вещи, сравнивают их и просят размер.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like this scarf or that one?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;That one is better, but this one is cheaper.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;What about these gloves?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;They’re nice. Do you have them in a larger size?\n🧑 <b>Sales assistant:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Here you go.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Can I try them on?\n\n<u>🗣 Повторяем</u>\n🔹 this / that / these / those\n🔹 This one is cheaper. / That one is better.\n🔹 Do you have this in a larger size / in black?\n🔹 Can I try this on? / I’ll take it.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day28.mp3",
+          "title": "Сезон 4 · День 28 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day28_practice",
+      "date": "2026-12-28",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 28</b>\n\n<u>🎧 Послушайте:</u>\nThat scarf is better, but this one is cheaper. Do you have these gloves in a larger size?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day28.mp3",
+          "title": "Сезон 4 · День 28 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что нужно Камиле?",
+          "options": [
+            "Шарф другого цвета.",
+            "Перчатки большего размера.",
+            "Более дорогая куртка."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day28_bonus",
+      "date": "2026-12-28",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;This scarf is cheaper.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And that one is warmer.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I have a solution: two scarves.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Adam, that is shopping, not a solution."
+        }
+      ]
+    },
+    {
+      "id": "s4_day29_morning",
+      "date": "2026-12-29",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 29</b>\n<b>How do I get to the department store? — Как добраться до универмага?</b>\n\n<u>🎬 История</u>\nПеред последней встречей месяца Эмма получает сообщение от Камилы.\nКамила уже в Манхэттене, но вышла не на той стороне станции.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;How do I get to the department store?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Go straight and turn left at the bank.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Is it on my right?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s across from the subway entrance.\n\n<u>🗣 Новые слова</u>\n🔹 department store — универмаг\n🔹 subway entrance — вход в метро\n🔹 on my right — справа от меня\n\n<u>⭐ Запомните</u>\nЗнакомые модели можно соединить в короткий маршрут:\nGo straight. Turn left. It’s across from the subway entrance.\n\n<u>🎧 Послушайте и повторите</u>\nHow do I get to the department store?\nGo straight and turn left at the bank.\nIt’s across from the subway entrance."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day29.mp3",
+          "title": "Сезон 4 · День 29 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day29_practice",
+      "date": "2026-12-29",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 29</b>"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Универмаг находится напротив входа в метро»?",
+          "options": [
+            "The department store is next to the subway entrance.",
+            "The department store is across from the subway entrance.",
+            "The department store is between two cafés."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day30_morning",
+      "date": "2026-12-30",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 30</b>\n<b>City Challenge — Самостоятельная городская задача</b>\n\n<u>🎬 История</u>\nКамила находит универмаг, а Эмма и Адам едут к ней на метро.\nКаждый решает свою часть задачи: маршрут, транспорт и покупка.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Which train should we take?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Take the 2 train and change at Times Square.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;How long does it take?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;About thirty minutes.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;I’m at the store. This coat is cheaper, but that one is better.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Can you try it on?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I’ll take the black one.\n\n<u>🗣 Новые слова</u>\n🔹 city challenge — городская задача\n🔹 coat — пальто\n🔹 the black one — чёрный вариант\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог, не читая текст, и определите три действия: какой поезд выбрать, где сделать пересадку и что купить.\nНе переводите каждое слово. После первого прослушивания откройте диалог и проверьте себя.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day30.mp3",
+          "title": "Сезон 4 · День 30 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day30_practice",
+      "date": "2026-12-30",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 30</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>Take the 2 train and change at Times Square. The trip takes about thirty minutes.</tg-spoiler>\nСначала послушайте без текста. Затем откройте подсказку только при необходимости."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day30.mp3",
+          "title": "Сезон 4 · День 30 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где нужно сделать пересадку?",
+          "options": [
+            "На Fulton Street.",
+            "На Times Square.",
+            "У универмага."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4_day31_morning",
+      "date": "2026-12-31",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🌱 Сезон 4 • День 31</b>\n<b>One Month Around the City — Месяц уверенности в городе</b>\n\n<u>🎬 История</u>\nВ последний вечер декабря Эмма, Адам и Камила выходят из универмага на оживлённую улицу.\nТеперь городские задачи складываются в один спокойный разговор: найти место, выбрать маршрут и сделать покупку.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Is there a café near here?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s across from the bookstore.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;How do we get there?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Go straight and take the second street on the right. It’s on your left.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Should we take the subway?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. It’s only two blocks.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Good. I have my new coat, and I’m ready for coffee.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;That coat is better.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;And the café is cheaper.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Coffee is better after shopping.\n\n<u>🗣 Новые слова</u>\n🔹 ready for… — готов(а) к…\n🔹 only two blocks — всего два квартала\n🔹 after shopping — после покупок\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог без текста и поймите общий план друзей.\nЗатем откройте текст и найдите знакомые модели места, направления и сравнения.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/morning/day31.mp3",
+          "title": "Сезон 4 · День 31 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s4_day31_practice",
+      "date": "2026-12-31",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>☀️ Практика • День 31</b>\n\n<u>🎧 Послушайте:</u>\n<tg-spoiler>Go straight and take the second street on the right. The café is across from the bookstore.</tg-spoiler>\nСначала послушайте без текста. Затем откройте подсказку только при необходимости."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season4/practice/day31.mp3",
+          "title": "Сезон 4 · День 31 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где находится кафе?",
+          "options": [
+            "Рядом с универмагом.",
+            "Напротив книжного магазина.",
+            "На станции метро."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season4_final_polls",
+      "date": "2026-12-31",
+      "time": "14:00",
+      "retry_until": "16:00",
+      "steps": [
+        {
+          "id": "poll01",
+          "type": "poll",
+          "question": "Как спросить, есть ли поблизости аптека?",
+          "options": [
+            "Is there a pharmacy near here?",
+            "Where pharmacy near?",
+            "Does a pharmacy here?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll02",
+          "type": "poll",
+          "question": "Что означает “It’s across from the bank”?",
+          "options": [
+            "Это рядом с банком.",
+            "Это напротив банка.",
+            "Это внутри банка."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll03",
+          "type": "poll",
+          "question": "Как сказать «Поверните направо после кафе»?",
+          "options": [
+            "Go right in the café.",
+            "Turn right after the café.",
+            "Take café on the right."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll04",
+          "type": "poll",
+          "question": "Как спросить, где сделать пересадку?",
+          "options": [
+            "Where do I change trains?",
+            "Where I change the train?",
+            "What train changes me?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll05",
+          "type": "poll",
+          "question": "Вы хотите билет туда и обратно. Что сказать?",
+          "options": [
+            "I’d like a back ticket.",
+            "I’d like a round-trip ticket, please.",
+            "I want two-way train."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll06",
+          "type": "poll",
+          "question": "Как попросить больший размер?",
+          "options": [
+            "Do you have this more big?",
+            "Do you have this in a larger size?",
+            "Is this size large me?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll07_audio",
+          "type": "audio",
+          "path": "audio/season4/final/final_poll_07.mp3",
+          "title": "Сезон 4 · Итоговый опрос · Задание 7",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll07",
+          "type": "poll",
+          "question": "Где нужно сделать пересадку?",
+          "options": [
+            "У банка.",
+            "На Fulton Street.",
+            "Через двадцать пять минут."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season4_congratulations",
+      "date": "2026-12-31",
+      "time": "16:00",
+      "retry_until": "18:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season4/final.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🎉 SEASON 4 COMPLETE!\n     Поздравляем!</b>\n\nВы прошли четвёртый сезон курса.\n\n<b>Теперь вы уже можете:</b>\n\n✅ найти и описать место, спросить дорогу и понять короткий маршрут;\n✅ объяснить дорогу: идти прямо, повернуть и назвать сторону;\n✅ выбрать поезд, уточнить пересадку и время в пути;\n✅ купить билет в одну сторону или туда и обратно;\n✅ выбрать одежду: сравнить вещи, попросить размер или цвет, примерить и купить.\n\n<b>🏆 Вы молодец!</b>\n\nДо встречи в пятом сезоне!"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "audio/season4/final/final_poll_07.mp3": "be394c462f035edcaaf6a221403e08fc642a6568d58c0457f032a05b45d2508e",
+    "audio/season4/morning/day01.mp3": "eb78369441180b54caaffa48f3f7536ecdbdac4718d1490f830f26012c65a248",
+    "audio/season4/morning/day02.mp3": "3367dde7ec6103c9fb69d08327132b6ed94801539b0629b0bb4d0c236c4338a4",
+    "audio/season4/morning/day03.mp3": "2cfb06e3cd2d7bd638a5135e4bb88fc1cb670253d183a10860d11559dff3f431",
+    "audio/season4/morning/day04.mp3": "c9c60593849ab34305a05713e492c220fad6d2e689c8100b9d615d809691b681",
+    "audio/season4/morning/day05.mp3": "50043b91c3f44dd38fe902536b16e69ada92abb9e9d347ce7508b58116832a9f",
+    "audio/season4/morning/day06.mp3": "fc84ffd52dbfa6bc59c2801c848e45efa03358b237a9ce5a9449fa6da64074c8",
+    "audio/season4/morning/day07.mp3": "4a5298ab000be1ad5f4261eafc3dc00dab0e9b6454381b5ae0da45eaa3bdcc96",
+    "audio/season4/morning/day08.mp3": "69c509b30299645ac133b5d3e79b6db4b065542adda68091c9fb3da8d233747f",
+    "audio/season4/morning/day09.mp3": "0db8f9d9ff220986024bcfec1bff4126a565cbcb4dd733a3594ad7967b381ff0",
+    "audio/season4/morning/day10.mp3": "a1b5fe846cf2cce0eae181aa8a9ca0b342558d4348c674ec3195b39488d0547a",
+    "audio/season4/morning/day11.mp3": "31e76dd875a993e4f3aab2506643196ff803e4a022d78582efdaea84b9698e24",
+    "audio/season4/morning/day12.mp3": "2e0ecb3a5bd691bd7dc59de8845d468d8ee29fd8c73a39e9b3d194cacb29caef",
+    "audio/season4/morning/day13.mp3": "44901cb2abe55e44c9a3313b33b4845674b84180ebdeddc1a8129f0a090bc7ac",
+    "audio/season4/morning/day14.mp3": "0037b2342cdb415a9b23a55188dfec81ed746bddf82e41b6645251aec7403a71",
+    "audio/season4/morning/day15.mp3": "d64e90651d39643769b409a99e385e2d359fb568f8a58ba372007e3bdc96727d",
+    "audio/season4/morning/day16.mp3": "30eaf85ff2bda35de19c655f1ab9cabe10cd380d190dacf05fddcf9c0877b896",
+    "audio/season4/morning/day17.mp3": "82729dfc1e799b4539756309dfff3e1e920875b87ea6a9b482a1a72a8d272061",
+    "audio/season4/morning/day18.mp3": "30d1e987e00308680e3c38ff00faa4f78faa3795467cbfd50c2e107ad1a16ed1",
+    "audio/season4/morning/day19.mp3": "b39b451bc4a974116edf7c27ee18ebdc563de74d8c75776a6046fe5d44430c08",
+    "audio/season4/morning/day20.mp3": "f193084d74ce7ffb9437cfb2e1864e95702189a5296eea365c15acad4284c881",
+    "audio/season4/morning/day21.mp3": "c827be152af75f6b29d29af591bf3b618049f605f984195595f29bb4e81ce0d8",
+    "audio/season4/morning/day22.mp3": "7f736873b48bcd5e4652095d2b1ea4bcd908e09d53c8323096d2c0bfbc29fbc6",
+    "audio/season4/morning/day23.mp3": "456d369caa86935933738ab98a14d04399643fbdc78dc7b34294d6976c02935f",
+    "audio/season4/morning/day24.mp3": "cada3872c7001ecdfc96739881a78ca4a485801f11aabd7961c21526591c94d3",
+    "audio/season4/morning/day25.mp3": "ec325c4efb58e97a988e2f6c12679dcc877b43bbc3240d88c539409768dcca3c",
+    "audio/season4/morning/day26.mp3": "0d6897676675a6fe3319adb6c77cf350f564076b7ff1d87fb73369c21896143f",
+    "audio/season4/morning/day27.mp3": "480624b0220bc9842f9db3b268a9282337067bb5bad38cb5e69501c732139e88",
+    "audio/season4/morning/day28.mp3": "4b5b8bb6248816d48b33b920a1ec7f5147a469863719c54c0bf3093f6a1c657b",
+    "audio/season4/morning/day29.mp3": "23e4af39dac8bb1ded776323a481c227f754245f2f19fde4d05db1051b00664b",
+    "audio/season4/morning/day30.mp3": "f02c0853fa3242d919f30537872834b0fda6307fb98de4a315c67e07fa326435",
+    "audio/season4/morning/day31.mp3": "b372f04ba35ff7fe575c526495d03c774acbf301f7e894e5f4ec3b07b0de612f",
+    "audio/season4/practice/day01.mp3": "5420ba6c5495e5af2fc065b275e5e50551fcc2c02adc3fb249dfc2848fda86e9",
+    "audio/season4/practice/day02.mp3": "6c13de2daa4ad671c08a9ca05acbb58ef4d722adfe72f33ed5f671a93e7ec6fd",
+    "audio/season4/practice/day03.mp3": "87becb14495b44274da4bec8d627ea8225b03f982635b5cc6c273f06eba27366",
+    "audio/season4/practice/day04.mp3": "18b23686f0b33c9e59e9ed185ecced7173038286e048aaa88f95a439bcebefba",
+    "audio/season4/practice/day05.mp3": "7067c8bcc65e6e2f961505bcfb86d5bfbc0e3010ebac76f78860d46e25d462ea",
+    "audio/season4/practice/day06.mp3": "7ed7e594452f5060aac7990a18d394a2165b5f3b8bdf098ea1243ee2650cae69",
+    "audio/season4/practice/day07.mp3": "1b5193a56cbaf549b1d90adac4eb709ffbdddca13d334a71fc877c2af0c38dfb",
+    "audio/season4/practice/day08.mp3": "8ba9f06a84f7625bd3681bdf4bfd0c1b4169e7c40d6853c277979d3f4cda2904",
+    "audio/season4/practice/day10.mp3": "8a5c28e4bc43c5c1818414be1523daa6928c23eaf5978f9d08d3d2a06b4e6fa2",
+    "audio/season4/practice/day11.mp3": "34b00a12d64f41e20a568de6ac39e89f9ee581c13977d32d59cf0d7a52a0cea5",
+    "audio/season4/practice/day13.mp3": "a96fec7cffe9c87bdf2165db8d6af17ec91dd2b375d6a827ea090dbea0aa9ca5",
+    "audio/season4/practice/day14.mp3": "7e0b6af83b3c3942bdee8d6b7ee2e9bdae05b6dcf1528a8a961fc7dcd0890e36",
+    "audio/season4/practice/day15.mp3": "db821ba8a5b7cde72e6236ae3958a843707366a9125c5316863bb37f0f0c3b07",
+    "audio/season4/practice/day16.mp3": "20e5230242512daf25fc71ea54988481f57402d9f2b80a7205fce3af31d781d4",
+    "audio/season4/practice/day17.mp3": "7986fd95dce80fa5aa103700bad4a82f4c186fe544c744aece6088cad7c139ce",
+    "audio/season4/practice/day20.mp3": "91fb5a2aff2c662c106322d548971cade81699f395a824b2216d1b35677d1e1e",
+    "audio/season4/practice/day21.mp3": "3871c6c13605804e1deacdf4b86ae348cd60e2a8a344f9da6bfb2948fba1e760",
+    "audio/season4/practice/day24.mp3": "cc70377b6d8b810d6efc7769eb9c322342df23c1de521d0f62bd69c051dc7f95",
+    "audio/season4/practice/day27.mp3": "96e305711c6f831eb7ef3dbe43ba301172af173b4321281b39cdfa76427d384f",
+    "audio/season4/practice/day28.mp3": "65932cdc43934e64d57634fc4d8ead42623d30e5c529d94c5b5ec97a25685fda",
+    "audio/season4/practice/day30.mp3": "695c98a2390c7d37964c65e820ade8698d1e1b1ee3942a2bf298572bf33b869e",
+    "audio/season4/practice/day31.mp3": "de25d8124476c5419810e371fdcbdf97edb1b2885f61b22e46cdecafcce8c1d2",
+    "images/season4/final.png": "2dbc72f3315e87d22286d283357100debdf77b81b87b8a938984361f051fc5f3",
+    "images/season4/week01.png": "5624b30648b581217e953e4d99566bdcddf7e6b96e5f98c424763010f8177f13",
+    "images/season4/week02.png": "fcdc3d8b10a5053d2933a4e709590f70b8d04ddb2f3ac6a67b3ba30eecdddd71",
+    "images/season4/week03.png": "948028fa3be1b85c94610eae840caf80d7d9111abc726ba39f2341620c05bde4",
+    "images/season4/week04.png": "b2dc173f2b653d906d68d5cfa54c215067611f7c336fb25ceb542ee338e49f55"
+  }
+}
