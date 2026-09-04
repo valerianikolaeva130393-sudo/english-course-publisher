@@ -80,6 +80,18 @@
     "day04_morning:audio": {
       "message_id": 96,
       "sent_at": "2026-09-04T08:28:38+03:00"
+    },
+    "day04_practice:text": {
+      "message_id": 97,
+      "sent_at": "2026-09-04T12:43:25+03:00"
+    },
+    "day04_practice:audio": {
+      "message_id": 98,
+      "sent_at": "2026-09-04T12:43:27+03:00"
+    },
+    "day04_practice:poll": {
+      "message_id": 99,
+      "sent_at": "2026-09-04T12:43:28+03:00"
     }
   }
 }
