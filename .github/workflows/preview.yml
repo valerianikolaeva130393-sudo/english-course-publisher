@@ -31,6 +31,23 @@ on:
           - s3_day30_morning
           - season3_final_polls
           - season3_congratulations
+          - s2_day07_bonus
+          - s2_day14_bonus
+          - s2_day21_bonus
+          - s2_day28_bonus
+          - s3_day07_bonus
+          - s3_day14_bonus
+          - s3_day21_bonus
+          - s3_day28_bonus
+          - s4_day07_bonus
+          - s4_day14_bonus
+          - s4_day21_bonus
+          - s4_day28_bonus
+          - s4_day01_morning
+          - s4_day01_practice
+          - s4_day21_morning
+          - season4_final_polls
+          - season4_congratulations
       confirm:
         description: "Введите PREVIEW"
         required: true

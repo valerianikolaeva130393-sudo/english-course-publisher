@@ -13,6 +13,7 @@ on:
           - welcome
           - morning
           - practice
+          - bonus
           - final_polls
           - congratulations
           - start_button
@@ -72,6 +73,7 @@ on:
           - "1"
           - "2"
           - "3"
+          - "4"
   schedule:
     - cron: "*/5 18-19 31 8 *"
       timezone: "Europe/Moscow"
@@ -124,6 +126,27 @@ on:
     - cron: "*/5 16-17 30 11 *"
       timezone: "Europe/Moscow"
     - cron: "0 18 30 11 *"
+      timezone: "Europe/Moscow"
+
+    - cron: "*/5 7-8 * 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 9 * 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/5 12-13 * 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 14 * 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/5 14-15 31 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 16 31 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/5 16-17 31 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 18 31 12 *"
+      timezone: "Europe/Moscow"
+    - cron: "*/5 18-19 7,14,21,28 10-12 *"
+      timezone: "Europe/Moscow"
+    - cron: "0 20 7,14,21,28 10-12 *"
       timezone: "Europe/Moscow"
 
 permissions:
