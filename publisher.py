@@ -315,20 +315,20 @@ def resolve_manual_event_id(action: str, season: int, day: int, now: datetime) -
         return "course_start_button"
 
     if season == 0:
-        season_by_month = {9: 1, 10: 2, 11: 3}
+        season_by_month = {9: 1, 10: 2, 11: 3, 12: 4}
         if now.year != 2026 or now.month not in season_by_month:
-            raise SystemExit("Не удалось определить сезон автоматически. Выберите сезон 1, 2 или 3.")
+            raise SystemExit("Не удалось определить сезон автоматически. Выберите сезон 1, 2, 3 или 4.")
         season = season_by_month[now.month]
-    if season not in {1, 2, 3}:
-        raise SystemExit("Сезон должен быть 1, 2 или 3.")
+    if season not in {1, 2, 3, 4}:
+        raise SystemExit("Сезон должен быть 1, 2, 3 или 4.")
 
-    if action in {"morning", "practice"}:
+    if action in {"morning", "practice", "bonus"}:
         if day == 0:
             day = now.day
-        maximum_day = 31 if season == 2 else 30
+        maximum_day = 31 if season in {2, 4} else 30
         if not 1 <= day <= maximum_day:
             raise SystemExit(f"Для сезона {season} выберите день от 1 до {maximum_day}.")
-        prefix = {1: "", 2: "s2_", 3: "s3_"}[season]
+        prefix = {1: "", 2: "s2_", 3: "s3_", 4: "s4_"}[season]
         return f"{prefix}day{day:02d}_{action}"
 
     if action == "final_polls":
@@ -413,7 +413,7 @@ def main() -> None:
     parser.add_argument("--confirm", default="")
     parser.add_argument(
         "--action",
-        choices=["check", "welcome", "morning", "practice", "final_polls", "congratulations", "start_button"],
+        choices=["check", "welcome", "morning", "practice", "bonus", "final_polls", "congratulations", "start_button"],
         default="check",
     )
     parser.add_argument("--publication", choices=["official", "test"], default="official")
