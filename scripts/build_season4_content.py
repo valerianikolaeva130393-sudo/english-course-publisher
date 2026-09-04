@@ -11,20 +11,20 @@ from docx import Document
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "source" / "Сезон 2_Все публикации_Английский через истории_ФИНАЛ.docx"
-OUTPUT = ROOT / "content" / "season2.json"
+SOURCE = ROOT / "source" / "Сезон 4_Все публикации_Английский через истории_ФИНАЛ.docx"
+OUTPUT = ROOT / "content" / "season4.json"
 
-START_DATE = date(2026, 10, 1)
+START_DATE = date(2026, 12, 1)
 TIMEZONE = "Europe/Moscow"
 CHANNEL = "@english_story_a1a2"
 COURSE_NAME = "Английский через истории"
 WEEK_IMAGES = {
-    7: "images/season2/week01.png",
-    14: "images/season2/week02.png",
-    21: "images/season2/week03.png",
-    28: "images/season2/week04.png",
+    7: "images/season4/week01.png",
+    14: "images/season4/week02.png",
+    21: "images/season4/week03.png",
+    28: "images/season4/week04.png",
 }
-NO_PRACTICE_AUDIO = {4, 9, 12, 18, 19, 22, 23, 25, 26, 29}
+NO_PRACTICE_AUDIO = {9, 12, 18, 19, 22, 23, 25, 26, 29}
 SUBSECTION_PREFIXES = ("🎬", "🗣", "⭐", "🎧")
 DIALOGUE_PREFIXES = ("👩 ", "👨 ", "🧑 ")
 DIALOGUE_INDENT = "&#160;" * 5
@@ -173,8 +173,8 @@ def build() -> None:
             day_starts[int(match.group(1))] = index
     assert sorted(day_starts) == list(range(1, 32))
 
-    final_polls_start = texts.index("31 ОКТЯБРЯ • 14:00")
-    congrats_start = texts.index("31 ОКТЯБРЯ • 16:00")
+    final_polls_start = texts.index("31 ДЕКАБРЯ • 14:00")
+    congrats_start = texts.index("31 ДЕКАБРЯ • 16:00")
     events: list[dict] = []
 
     for day in range(1, 32):
@@ -184,7 +184,7 @@ def build() -> None:
         section_texts = [p.text.strip() for p in section]
         event_date = (START_DATE + timedelta(days=day - 1)).isoformat()
 
-        morning_start = next(i for i, value in enumerate(section_texts) if value.startswith("🌱 Сезон 2"))
+        morning_start = next(i for i, value in enumerate(section_texts) if value.startswith("🌱 Сезон 4"))
         morning_audio_marker = next(i for i, value in enumerate(section_texts) if value.startswith("🎧 Аудио:"))
         morning_text = join_paragraphs(section[morning_start:morning_audio_marker])
         morning_steps = [
@@ -192,8 +192,8 @@ def build() -> None:
             {
                 "id": "audio",
                 "type": "audio",
-                "path": f"audio/season2/morning/day{day:02d}.mp3",
-                "title": f"Сезон 2 · День {day} · Утро",
+                "path": f"audio/season4/morning/day{day:02d}.mp3",
+                "title": f"Сезон 4 · День {day} · Утро",
                 "performer": COURSE_NAME,
             },
         ]
@@ -201,7 +201,7 @@ def build() -> None:
             morning_steps.insert(0, {"id": "image", "type": "photo", "path": WEEK_IMAGES[day]})
         events.append(
             {
-                "id": f"s2_day{day:02d}_morning",
+                "id": f"s4_day{day:02d}_morning",
                 "date": event_date,
                 "time": "07:00",
                 "retry_until": "09:00",
@@ -219,21 +219,21 @@ def build() -> None:
         practice_text = join_paragraphs([p for p in section[practice_start:poll_label] if not p.text.strip().startswith("🎧 Аудио:")])
         question = practice_question(section, practice_start, poll_label, options_index)
         practice_steps = [{"id": "text", "type": "message", "text": practice_text}]
-        practice_audio = ROOT / f"audio/season2/practice/day{day:02d}.mp3"
+        practice_audio = ROOT / f"audio/season4/practice/day{day:02d}.mp3"
         if practice_audio.exists():
             practice_steps.append(
                 {
                     "id": "audio",
                     "type": "audio",
-                    "path": f"audio/season2/practice/day{day:02d}.mp3",
-                    "title": f"Сезон 2 · День {day} · Практика",
+                    "path": f"audio/season4/practice/day{day:02d}.mp3",
+                    "title": f"Сезон 4 · День {day} · Практика",
                     "performer": COURSE_NAME,
                 }
             )
         practice_steps.append(make_poll("poll", question, section_texts[options_index]))
         events.append(
             {
-                "id": f"s2_day{day:02d}_practice",
+                "id": f"s4_day{day:02d}_practice",
                 "date": event_date,
                 "time": "12:00",
                 "retry_until": "14:00",
@@ -248,7 +248,11 @@ def build() -> None:
             steps = [{"id": "text", "type": "message", "text": join_paragraphs(body)}]
             if 2 == 3 and day == 14:
                 steps.append({"id": "audio", "type": "audio", "path": "audio/season3/bonus/day14_emma.mp3", "title": "Сезон 3 · День 14 · Голосовое от Эммы", "performer": COURSE_NAME})
-            events.append({"id": f"s2_day{day:02d}_bonus", "date": event_date, "time": "18:00", "retry_until": "20:00", "steps": steps})
+            events.append({"id": f"s4_day{day:02d}_bonus", "date": event_date, "time": "18:00", "retry_until": "20:00", "steps": steps})
+
+        if day == 21:
+            clue = next(p for p in section if p.text.strip().startswith("🔎 Пасхалка недели:"))
+            events.append({"id": "s4_day21_bonus", "date": event_date, "time": "18:00", "retry_until": "20:00", "steps": [{"id": "text", "type": "message", "text": join_paragraphs([clue])}]})
 
     final_section = paragraphs[final_polls_start:congrats_start]
     final_texts = [p.text.strip() for p in final_section]
@@ -266,8 +270,8 @@ def build() -> None:
                 {
                     "id": "poll07_audio",
                     "type": "audio",
-                    "path": "audio/season2/final/final_poll_07.mp3",
-                    "title": "Сезон 2 · Итоговый опрос · Задание 7",
+                    "path": "audio/season4/final/final_poll_07.mp3",
+                    "title": "Сезон 4 · Итоговый опрос · Задание 7",
                     "performer": COURSE_NAME,
                 }
             )
@@ -283,8 +287,8 @@ def build() -> None:
 
     events.append(
         {
-            "id": "season2_final_polls",
-            "date": "2026-10-31",
+            "id": "season4_final_polls",
+            "date": "2026-12-31",
             "time": "14:00",
             "retry_until": "16:00",
             "steps": final_steps,
@@ -293,17 +297,17 @@ def build() -> None:
 
     congrats_section = paragraphs[congrats_start:]
     congrats_texts = [p.text.strip() for p in congrats_section]
-    congrats_body_start = next(i for i, value in enumerate(congrats_texts) if value.startswith("🎉 SEASON 2 COMPLETE"))
+    congrats_body_start = next(i for i, value in enumerate(congrats_texts) if value.startswith("🎉 SEASON 4 COMPLETE"))
     photo_marker = next(i for i, value in enumerate(congrats_texts) if value.startswith("📸 ФИНАЛЬНОЕ ФОТО"))
     congrats_text = join_congratulations(congrats_section[congrats_body_start:photo_marker])
     events.append(
         {
-            "id": "season2_congratulations",
-            "date": "2026-10-31",
+            "id": "season4_congratulations",
+            "date": "2026-12-31",
             "time": "16:00",
             "retry_until": "18:00",
             "steps": [
-                {"id": "image", "type": "photo", "path": "images/season2/final.png"},
+                {"id": "image", "type": "photo", "path": "images/season4/final.png"},
                 {"id": "text", "type": "message", "text": congrats_text},
             ],
         }
@@ -312,7 +316,7 @@ def build() -> None:
     practice_days = {
         int(event["id"][6:8])
         for event in events
-        if event["id"].startswith("s2_day") and event["id"].endswith("_practice")
+        if event["id"].startswith("s4_day") and event["id"].endswith("_practice")
         for step in event["steps"]
         if step["type"] == "audio"
     }
@@ -332,13 +336,13 @@ def build() -> None:
     payload = {
         "meta": {
             "course": COURSE_NAME,
-            "season": 2,
-            "start_date": "2026-10-01",
-            "end_date": "2026-10-31",
+            "season": 4,
+            "start_date": "2026-12-01",
+            "end_date": "2026-12-31",
             "timezone": TIMEZONE,
             "channel": CHANNEL,
             "source_sha256": sha256(SOURCE),
-            "audio_files": 53,
+            "audio_files": 54,
             "image_files": 5,
         },
         "events": events,

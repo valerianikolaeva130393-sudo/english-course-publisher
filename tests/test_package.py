@@ -262,8 +262,8 @@ def verify_season2(content: dict) -> None:
     assert meta["end_date"] == "2026-10-31"
     assert meta["audio_files"] == 53
     assert meta["image_files"] == 5
-    assert len(content["events"]) == 64
-    verify_common(content, {"message": 63, "audio": 53, "photo": 5, "poll": 38})
+    assert len(content["events"]) == 68
+    verify_common(content, {"message": 67, "audio": 53, "photo": 5, "poll": 38})
     assert sha256(SEASON2_SOURCE) == meta["source_sha256"]
     verify_daily_events(
         content,
@@ -306,10 +306,10 @@ def verify_season3(content: dict) -> None:
     assert meta["channel"] == "@english_story_a1a2"
     assert meta["start_date"] == "2026-11-01"
     assert meta["end_date"] == "2026-11-30"
-    assert meta["audio_files"] == 52
+    assert meta["audio_files"] == 53
     assert meta["image_files"] == 5
-    assert len(content["events"]) == 62
-    verify_common(content, {"message": 61, "audio": 52, "photo": 5, "poll": 37})
+    assert len(content["events"]) == 66
+    verify_common(content, {"message": 65, "audio": 53, "photo": 5, "poll": 37})
     assert sha256(SEASON3_SOURCE) == meta["source_sha256"]
     verify_daily_events(
         content,
@@ -340,7 +340,7 @@ def verify_season3(content: dict) -> None:
         for step in event["steps"]
         if step["type"] == "message"
     ]
-    assert sum("<tg-spoiler>" in text for text in messages) == 2
+    assert sum("<tg-spoiler>" in text for text in messages) == 3
 
     congratulations = next(
         step["text"]
@@ -405,11 +405,45 @@ def verify_manual_controls() -> None:
 
     workflow = (ROOT / ".github" / "workflows" / "publish.yml").read_text(encoding="utf-8")
     assert "*/15" not in workflow
-    assert workflow.count('cron: "*/5') == 13
+    assert workflow.count('cron: "*/5') == 18
     assert "MANUAL_EVENT_ID" not in workflow
     assert "MANUAL_CONFIRM" not in workflow
     for option in ("check", "welcome", "morning", "practice", "final_polls", "congratulations", "start_button"):
         assert f"- {option}" in workflow
+
+
+def verify_new_content(season2, season3):
+    season4 = load(ROOT / "content/season4.json")
+    verify_common(season4, {"message": 67, "audio": 54, "photo": 5, "poll": 38})
+    verify_daily_events(season4, season=4, days=31, event_prefix="s4_", no_practice_audio=SEASON3_NO_PRACTICE_AUDIO)
+    verify_bold_dialogue_speakers(season4)
+    assert season4["meta"]["source_sha256"] == sha256(ROOT / "source/Сезон 4_Все публикации_Английский через истории_ФИНАЛ.docx")
+    assert season4["meta"]["audio_files"] == 54
+    assert len(season4["events"]) == 68
+    timezone = ZoneInfo("Europe/Moscow")
+    for season, content in ((2, season2), (3, season3), (4, season4)):
+        bonuses = [e for e in content["events"] if e["id"].endswith("_bonus")]
+        assert [int(e["id"][6:8]) for e in bonuses] == [7, 14, 21, 28]
+        for event in bonuses:
+            day = int(event["id"][6:8])
+            assert event["time"] == "18:00" and event["retry_until"] == "20:00"
+            now = datetime(2026, season + 8, day, 18, 5, tzinfo=timezone)
+            assert event["id"] in [e["id"] for e in due_events(content, now)]
+            assert resolve_manual_event_id("bonus", season, day, now) == event["id"]
+            text = event["steps"][0]["text"]
+            assert "ВЕЧЕРНИЙ БОНУС" not in text and "ПРОИЗВОДСТВЕННАЯ" not in text
+            if season == 3 and day == 14:
+                assert [st["type"] for st in event["steps"]] == ["message", "audio"]
+                assert event["steps"][1]["path"] == "audio/season3/bonus/day14_emma.mp3"
+            else:
+                assert len(event["steps"]) == 1
+            if season == 4 and day == 21:
+                assert "Пасхалка недели" in text and "После титров" not in text
+    final = event_map(season4)["season4_final_polls"]
+    assert [st["type"] for st in final["steps"]] == ["poll"] * 6 + ["audio", "poll"]
+    assert final["steps"][-2]["path"] == "audio/season4/final/final_poll_07.mp3"
+    now = datetime(2026, 12, 31, 7, tzinfo=timezone)
+    assert resolve_manual_event_id("morning", 0, 0, now) == "s4_day31_morning"
 
 
 def main() -> None:
@@ -423,17 +457,18 @@ def main() -> None:
     verify_season3(season3)
     verify_schedule(launch, season1, season2, season3)
     verify_manual_controls()
+    verify_new_content(season2, season3)
 
     combined = load_all_content()
-    assert combined["meta"]["seasons"] == [1, 2, 3]
-    assert len(combined["events"]) == 190
-    assert len({event["id"] for event in combined["events"]}) == 190
+    assert combined["meta"]["seasons"] == [1, 2, 3, 4]
+    assert len(combined["events"]) == 266
+    assert len({event["id"] for event in combined["events"]}) == 266
     assert combined["events"][0]["date"] == "2026-08-31"
-    assert combined["events"][-1]["date"] == "2026-11-30"
+    assert combined["events"][-1]["date"] == "2026-12-31"
 
     print(
-        "Package QA passed: launch + 3 seasons, 190 events, 472 Telegram steps, "
-        "157 audio, 16 images, 112 polls"
+        "Package QA passed: launch + 4 seasons, 266 events, 645 Telegram steps, "
+        "212 audio, 21 images, 150 polls"
     )
 
 

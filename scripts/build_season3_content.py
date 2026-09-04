@@ -249,6 +249,15 @@ def build() -> None:
             }
         )
 
+
+        bonus_start = next((i for i, text in enumerate(section_texts) if text.startswith("ВЕЧЕРНИЙ БОНУС")), None)
+        if bonus_start is not None:
+            body = [p for p in section[bonus_start + 1:] if not p.text.strip().startswith("🎧 Голосовое:")]
+            steps = [{"id": "text", "type": "message", "text": join_paragraphs(body)}]
+            if 3 == 3 and day == 14:
+                steps.append({"id": "audio", "type": "audio", "path": "audio/season3/bonus/day14_emma.mp3", "title": "Сезон 3 · День 14 · Голосовое от Эммы", "performer": COURSE_NAME})
+            events.append({"id": f"s3_day{day:02d}_bonus", "date": event_date, "time": "18:00", "retry_until": "20:00", "steps": steps})
+
     final_section = paragraphs[final_polls_start:congrats_start]
     final_texts = [p.text.strip() for p in final_section]
     poll_heads = [i for i, value in enumerate(final_texts) if value.startswith("FINAL POLL")]
@@ -337,7 +346,7 @@ def build() -> None:
             "timezone": TIMEZONE,
             "channel": CHANNEL,
             "source_sha256": sha256(SOURCE),
-            "audio_files": 52,
+            "audio_files": 53,
             "image_files": 5,
         },
         "events": events,
