@@ -120,6 +120,18 @@
     "day06_morning:audio": {
       "message_id": 106,
       "sent_at": "2026-09-06T08:02:06+03:00"
+    },
+    "day06_practice:text": {
+      "message_id": 107,
+      "sent_at": "2026-09-06T13:00:01+03:00"
+    },
+    "day06_practice:audio": {
+      "message_id": 108,
+      "sent_at": "2026-09-06T13:00:02+03:00"
+    },
+    "day06_practice:poll": {
+      "message_id": 109,
+      "sent_at": "2026-09-06T13:00:04+03:00"
     }
   }
 }
