@@ -156,6 +156,14 @@
     "day07_practice:poll": {
       "message_id": 115,
       "sent_at": "2026-09-07T13:11:01+03:00"
+    },
+    "day08_morning:text": {
+      "message_id": 116,
+      "sent_at": "2026-09-08T08:54:49+03:00"
+    },
+    "day08_morning:audio": {
+      "message_id": 117,
+      "sent_at": "2026-09-08T08:54:51+03:00"
     }
   }
 }
