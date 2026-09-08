@@ -164,6 +164,18 @@
     "day08_morning:audio": {
       "message_id": 117,
       "sent_at": "2026-09-08T08:54:51+03:00"
+    },
+    "day08_practice:text": {
+      "message_id": 118,
+      "sent_at": "2026-09-08T13:49:43+03:00"
+    },
+    "day08_practice:audio": {
+      "message_id": 119,
+      "sent_at": "2026-09-08T13:49:45+03:00"
+    },
+    "day08_practice:poll": {
+      "message_id": 120,
+      "sent_at": "2026-09-08T13:49:46+03:00"
     }
   }
 }
