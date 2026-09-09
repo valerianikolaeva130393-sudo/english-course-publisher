@@ -184,6 +184,14 @@
     "day09_morning:audio": {
       "message_id": 122,
       "sent_at": "2026-09-09T07:31:39+03:00"
+    },
+    "day09_practice:text": {
+      "message_id": 123,
+      "sent_at": "2026-09-09T13:00:47+03:00"
+    },
+    "day09_practice:poll": {
+      "message_id": 124,
+      "sent_at": "2026-09-09T13:00:48+03:00"
     }
   }
 }
