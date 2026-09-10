@@ -200,6 +200,18 @@
     "day10_morning:audio": {
       "message_id": 126,
       "sent_at": "2026-09-10T08:00:25+03:00"
+    },
+    "day10_practice:text": {
+      "message_id": 127,
+      "sent_at": "2026-09-10T13:02:35+03:00"
+    },
+    "day10_practice:audio": {
+      "message_id": 128,
+      "sent_at": "2026-09-10T13:02:37+03:00"
+    },
+    "day10_practice:poll": {
+      "message_id": 129,
+      "sent_at": "2026-09-10T13:02:38+03:00"
     }
   }
 }
