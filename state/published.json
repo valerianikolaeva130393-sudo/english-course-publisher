@@ -220,6 +220,18 @@
     "day11_morning:audio": {
       "message_id": 131,
       "sent_at": "2026-09-11T07:59:44+03:00"
+    },
+    "day11_practice:text": {
+      "message_id": 132,
+      "sent_at": "2026-09-11T12:58:34+03:00"
+    },
+    "day11_practice:audio": {
+      "message_id": 133,
+      "sent_at": "2026-09-11T12:58:35+03:00"
+    },
+    "day11_practice:poll": {
+      "message_id": 134,
+      "sent_at": "2026-09-11T12:58:37+03:00"
     }
   }
 }
