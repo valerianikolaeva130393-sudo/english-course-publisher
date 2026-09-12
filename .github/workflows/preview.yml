@@ -48,6 +48,19 @@ on:
           - s4_day21_morning
           - season4_final_polls
           - season4_congratulations
+          - s5_day01_morning
+          - s5_day01_practice
+          - s5_day07_bonus
+          - s5_day31_morning
+          - season5_final_polls
+          - season5_congratulations
+          - s6_day01_morning
+          - s6_day01_practice
+          - s6_day07_bonus
+          - s6_day21_bonus
+          - s6_day28_bonus
+          - season6_final_polls
+          - season6_congratulations
       confirm:
         description: "Введите PREVIEW"
         required: true
