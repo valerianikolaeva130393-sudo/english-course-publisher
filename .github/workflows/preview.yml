@@ -80,7 +80,7 @@ jobs:
     env:
       PYTHONUNBUFFERED: "1"
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TEST_TELEGRAM_CHAT_ID }}
       PREVIEW_EVENT_ID: ${{ inputs.event_id }}
       PREVIEW_CONFIRM: ${{ inputs.confirm }}
 
