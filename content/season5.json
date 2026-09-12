@@ -1,0 +1,1852 @@
+{
+  "meta": {
+    "course": "Английский через истории",
+    "season": 5,
+    "start_date": "2027-01-01",
+    "end_date": "2027-01-31",
+    "timezone": "Europe/Moscow",
+    "channel": "@english_story_a1a2",
+    "source_sha256": "8c57a26f307d15e8254c09c85b5ded9026ab217ae20162ae5efa4616c3cf4198",
+    "audio_files": 54,
+    "image_files": 5
+  },
+  "events": [
+    {
+      "id": "s5_day01_morning",
+      "date": "2027-01-01",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 1</b>\n<b>My apartment has one bedroom. — В моей квартире одна спальня.</b>\n\n<u>🎬 История</u>\nПервое января. После декабрьских прогулок по городу Эмма приглашает друзей на кофе домой. Она хочет сделать квартиру уютнее и показывает Камиле комнаты.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Your apartment is nice.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Thanks! It has one bedroom.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;And a kitchen?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. A small kitchen.\n\n<u>🗣 Новые слова</u>\n🔹 bedroom — спальня\n🔹 kitchen — кухня\n🔹 It has… — В нём / в ней есть…\n\n<u>⭐ Запомните</u>\nHave и has — две формы глагола to have («иметь»).\nС I, you, we, they используем have: I have a small kitchen.\nС he, she, it — has: Emma has a lamp. My apartment has one bedroom.\n\n<u>🎧 Послушайте и повторите</u>\nYour apartment is nice.\nThanks! It has one bedroom.\nAnd a kitchen?\nYes. A small kitchen."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day01.mp3",
+          "title": "Сезон 5 · День 1 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day01_practice",
+      "date": "2027-01-01",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 1</b>\nПослушайте и выберите ответ.\nMy apartment has one bedroom and a small kitchen."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day01.mp3",
+          "title": "Сезон 5 · День 1 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что есть в квартире?",
+          "options": [
+            "Две спальни и большая кухня.",
+            "Одна спальня и маленькая кухня.",
+            "Только одна комната."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day02_morning",
+      "date": "2027-01-02",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 2</b>\n<b>The living room is bright. — В гостиной светло.</b>\n\n<u>🎬 История</u>\nАдам присоединяется к подругам. В гостиной много дневного света — Эмме здесь удобно рассматривать фотографии.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Is this the living room?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s bright.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I like it.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. The bathroom is next to the bedroom.\n\n<u>🗣 Новые слова</u>\n🔹 living room — гостиная\n🔹 bright — светлый\n🔹 bathroom — ванная комната\n\n<u>⭐ Запомните</u>\nIs — форма глагола to be («быть») для he, she, it.\nСвязку нельзя пропускать: The living room is bright, а не The living room bright.\nПосле is можно назвать любое подходящее качество: small, bright, comfortable.\n\n<u>🎧 Послушайте и повторите</u>\nIs this the living room?\nYes. It’s bright.\nI like it.\nMe too. The bathroom is next to the bedroom."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day02.mp3",
+          "title": "Сезон 5 · День 2 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day02_practice",
+      "date": "2027-01-02",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 2</b>\nПослушайте. Не старайтесь переводить каждое слово.\nThe living room is bright. The bathroom is next to the bedroom."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day02.mp3",
+          "title": "Сезон 5 · День 2 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какая комната светлая?",
+          "options": [
+            "Гостиная.",
+            "Ванная.",
+            "Спальня."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day03_morning",
+      "date": "2027-01-03",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 3</b>\n<b>There’s a sofa in the living room. — В гостиной есть диван.</b>\n\n<u>🎬 История</u>\nЭмма показывает гостям место для отдыха. Вместо большого списка мебели друзья обсуждают только то, что нужно для сегодняшнего кофе.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;There’s a sofa in the living room.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It looks comfortable.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;And there are two chairs.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. A seat for everyone.\n\n<u>🗣 Новые слова</u>\n🔹 sofa — диван\n🔹 chair — стул\n🔹 seat — место для сидения\n\n<u>⭐ Запомните</u>\nThere is / there are используем, когда сообщаем, что в каком-то месте что-то находится/имеется.\nС одним исчисляемым предметом используем there is: There is a sofa. \nС несколькими — there are: There are two chairs.\n\n<u>🎧 Послушайте и повторите</u>\nThere’s a sofa in the living room.\nIt looks comfortable.\nAnd there are two chairs.\nYes. A seat for everyone."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day03.mp3",
+          "title": "Сезон 5 · День 3 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day03_practice",
+      "date": "2027-01-03",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 3</b>\nПослушайте и выберите ответ.\nThere’s a sofa in the living room. There are two chairs, too."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day03.mp3",
+          "title": "Сезон 5 · День 3 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Сколько стульев в гостиной?",
+          "options": [
+            "Один.",
+            "Три.",
+            "Два."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day04_morning",
+      "date": "2027-01-04",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 4</b>\n<b>Does it have a table? — Там есть стол?</b>\n\n<u>🎬 История</u>\nКамила спрашивает, можно ли собираться на ужин у Эммы. Кухня небольшая, но самое нужное в ней есть.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Does your kitchen have a table?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, it does.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Is it big?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No, but it’s fine for three people.\n\n<u>🗣 Новые слова</u>\n🔹 table — стол\n🔹 Does it have…? — В нём / в ней есть…?\n\n<u>⭐ Запомните</u>\nВ Present Simple вопрос о he, she, it строится так: Does + подлежащее + глагол в начальной форме? Does your kitchen have…?, а не Does your kitchen has…?\nКороткий ответ: Yes, it does. / No, it doesn’t.\n\n<u>🎧 Послушайте и повторите</u>\nDoes your kitchen have a table?\nYes, it does.\nIs it big?\nNo, but it’s fine for three people."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day04.mp3",
+          "title": "Сезон 5 · День 4 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day04_practice",
+      "date": "2027-01-04",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 4</b>\nВыберите вопрос о столе на кухне. Затем произнесите его вслух."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как спросить, есть ли на кухне стол?",
+          "options": [
+            "Does your kitchen has a table?",
+            "Does your kitchen have a table?",
+            "Is your kitchen have a table?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day05_morning",
+      "date": "2027-01-05",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 5</b>\n<b>I have a lamp for you. — У меня есть для тебя лампа.</b>\n\n<u>🎬 История</u>\nУ Камилы есть настольная лампа, которой она не пользуется. Она предлагает её Эмме для уголка с фотографиями.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;I have a lamp for you.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Really? Thank you!\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;It’s small, but it’s nice.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I have a shelf for it.\n\n<u>🗣 Новые слова</u>\n🔹 lamp — лампа\n🔹 shelf — полка\n\n<u>⭐ Запомните</u>\nI have a lamp. / She has a lamp. — У меня / у неё есть лампа.\nFor you означает «для тебя». I have a book for you. We have some coffee for Adam.\n\n<u>🎧 Послушайте и повторите</u>\nI have a lamp for you.\nReally? Thank you!\nIt’s small, but it’s nice.\nGreat. I have a shelf for it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day05.mp3",
+          "title": "Сезон 5 · День 5 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day05_practice",
+      "date": "2027-01-05",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 5</b>\nПослушайте и выберите ответ.\nI have a lamp for you. It’s small, but it’s nice."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day05.mp3",
+          "title": "Сезон 5 · День 5 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что Камила предлагает Эмме?",
+          "options": [
+            "Полку.",
+            "Стул.",
+            "Лампу."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day06_morning",
+      "date": "2027-01-06",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 6</b>\n<b>It feels like home. — Здесь уже чувствуешь себя дома.</b>\n\n<u>🎬 История</u>\nЛампа стоит на полке, на диване удобно сидеть. Теперь Эмме хочется не только уходить исследовать город, но и приглашать друзей к себе.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;The sofa is comfortable.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And I love the lamp.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do you like your apartment now?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It feels like home.\n\n<u>🗣 Новые слова</u>\n🔹 It feels like home. — Здесь чувствуешь себя дома.\n\n<u>⭐ Запомните</u>\nFeel like + существительное означает «ощущаться как, напоминать по ощущению».\nThis café feels like home. I feel comfortable here.\n\n<u>🎧 Послушайте и повторите</u>\nThe sofa is comfortable.\nAnd I love the lamp.\nDo you like your apartment now?\nYes. It feels like home."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day06.mp3",
+          "title": "Сезон 5 · День 6 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day06_practice",
+      "date": "2027-01-06",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 6</b>\nПослушайте и выберите общий смысл.\nI like my apartment. The living room is bright, and the sofa is comfortable. It feels like home."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day06.mp3",
+          "title": "Сезон 5 · День 6 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что чувствует Эмма?",
+          "options": [
+            "Ей не нравится квартира.",
+            "Она чувствует себя дома.",
+            "Она хочет другую лампу."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day07_morning",
+      "date": "2027-01-07",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season5/week01.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 7</b>\n<b>Week 1 Review — Уже можем описать свой дом</b>\n\n<u>🎬 История</u>\nДрузья снова собираются у Эммы. Небольшая квартира становится ещё одним знакомым местом их истории.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Your apartment is bright.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Thanks. It has one bedroom and a small kitchen.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Does the kitchen have a table?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, it does.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Where’s the lamp?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;It’s in the living room.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;And the sofa is comfortable.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It feels like home.\n\n<u>🗣 Повторяем</u>\n🔹 My apartment has one bedroom. — В моей квартире одна спальня.\n🔹 The living room is bright. — Гостиная светлая.\n🔹 There’s a sofa. — Есть диван.\n🔹 Does it have a table? — Там есть стол?\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог, не читая текст. Постарайтесь представить квартиру. Затем прочитайте и послушайте ещё раз.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day07.mp3",
+          "title": "Сезон 5 · День 7 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day07_practice",
+      "date": "2027-01-07",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 7</b>\nListen and choose — послушайте и выберите.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>The apartment has one bedroom. There’s a table in the kitchen. The lamp is in the living room.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day07.mp3",
+          "title": "Сезон 5 · День 7 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что есть в описанной кухне?",
+          "options": [
+            "Стол.",
+            "Диван.",
+            "Лампа."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day07_bonus",
+      "date": "2027-01-07",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;There’s a sofa and there are two chairs.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;A seat for everyone.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I like the sofa.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We all like the sofa, Adam."
+        }
+      ]
+    },
+    {
+      "id": "s5_day08_morning",
+      "date": "2027-01-08",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 8</b>\n<b>It’s under the table. — Это под столом.</b>\n\n<u>🎬 История</u>\nЭмма хочет показать друзьям фотографии, но не видит сумку с камерой. Адам замечает её возле стула.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where’s my bag?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;It’s under the table.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Oh, yes. Thanks.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Is your camera in it?\n\n<u>🗣 Новые слова</u>\n🔹 under — под\n🔹 camera — фотоаппарат\n\n<u>⭐ Запомните</u>\nIn — внутри, on — на поверхности, under — под предметом.\nПеред конкретным предметом ставим предлог the: under the table, on the shelf.\n\n<u>🎧 Послушайте и повторите</u>\nWhere’s my bag?\nIt’s under the table.\nOh, yes. Thanks.\nIs your camera in it?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day08.mp3",
+          "title": "Сезон 5 · День 8 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day08_practice",
+      "date": "2027-01-08",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 8</b>\nПослушайте и выберите ответ.\nWhere’s my bag? It’s under the table."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day08.mp3",
+          "title": "Сезон 5 · День 8 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где сумка?",
+          "options": [
+            "На столе.",
+            "Под столом.",
+            "В кухне на полке."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day09_morning",
+      "date": "2027-01-09",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 9</b>\n<b>Are they behind the sofa? — Они за диваном?</b>\n\n<u>🎬 История</u>\nНа следующий день Эмма ищет ключи. На этот раз Камила предлагает посмотреть в другом месте.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where are my keys?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Are they behind the sofa?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No. They’re in my bag.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Good. We can go now.\n\n<u>🗣 Новые слова</u>\n🔹 keys — ключи\n🔹 behind — за, позади\n\n<u>⭐ Запомните</u>\nОб одном предмете спрашиваем Where is…? - It’s…: Where is my bag? — It’s under the table.\nО нескольких — Where are…? - They’re…: Where are my keys? — They’re in my bag. They’re = they are.\n\n<u>🎧 Послушайте и повторите</u>\nWhere are my keys?\nAre they behind the sofa?\nNo. They’re in my bag.\nGood. We can go now."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day09.mp3",
+          "title": "Сезон 5 · День 9 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day09_practice",
+      "date": "2027-01-09",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 9</b>\nВыберите ответ, который называет настоящее местоположение ключей."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Where are Emma’s keys?",
+          "options": [
+            "They’re behind the sofa.",
+            "They’re under the table.",
+            "They’re in her bag."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day10_morning",
+      "date": "2027-01-10",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 10</b>\n<b>The picture is above the sofa. — Картина над диваном.</b>\n\n<u>🎬 История</u>\nКамила помогает выбрать место для фотографии Эммы. Они прикладывают рамку к стене над диваном, прежде чем её повесить.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Is this a good place for the picture?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, above the sofa.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And the lamp is next to it.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;That looks nice.\n\n<u>🗣 Новые слова</u>\n🔹 picture — картина, изображение\n🔹 above — над, выше\n\n<u>⭐ Запомните</u>\nAbove the sofa — выше дивана и не касается его. On the sofa — на самом диване. Next to the sofa — рядом с диваном.\n\n<u>🎧 Послушайте и повторите</u>\nIs this a good place for the picture?\nYes, above the sofa.\nAnd the lamp is next to it.\nThat looks nice."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day10.mp3",
+          "title": "Сезон 5 · День 10 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day10_practice",
+      "date": "2027-01-10",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 10</b>\nПослушайте.\nThe picture is above the sofa. The lamp is next to the picture."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day10.mp3",
+          "title": "Сезон 5 · День 10 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где будет картина?",
+          "options": [
+            "Над диваном.",
+            "На диване.",
+            "За диваном."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day11_morning",
+      "date": "2027-01-11",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 11</b>\n<b>It’s inside the box. — Это внутри коробки.</b>\n\n<u>🎬 История</u>\nПосле переезда у Эммы осталась одна коробка с фотографиями. Она ищет в ней снимок для рамки — остальные вещи давно разобраны.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where’s the picture from Chicago?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Is it inside the box?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Here it is.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;That’s a nice picture.\n\n<u>🗣 Новые слова</u>\n🔹 inside — внутри\n🔹 box — коробка\n\n<u>⭐ Запомните</u>\nIn и inside оба значат «внутри». In — нейтральный предлог места: It’s in the box.\nInside сильнее подчёркивает, что предмет находится в пределах коробки: It’s inside the box.\n\n<u>🎧 Послушайте и повторите</u>\nWhere’s the picture from Chicago?\nIs it inside the box?\nYes. Here it is.\nThat’s a nice picture."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day11.mp3",
+          "title": "Сезон 5 · День 11 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day11_practice",
+      "date": "2027-01-11",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 11</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>Is the picture inside the box? Yes. Here it is.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day11.mp3",
+          "title": "Сезон 5 · День 11 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где фотография из Чикаго?",
+          "options": [
+            "Под коробкой.",
+            "Внутри коробки.",
+            "Над диваном."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day12_morning",
+      "date": "2027-01-12",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 12</b>\n<b>They’re on the shelf. — Они на полке.</b>\n\n<u>🎬 История</u>\nЭмма освобождает место для фотографий. Адам ищет книги, которые обычно лежат на столе.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Where are the books?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;They’re on the shelf.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;And where’s the box?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;It’s under the table.\n\n<u>🗣 Повторяем</u>\n🔹 They’re on the shelf. — Они на полке.\n🔹 It’s under the table. — Это под столом.\n\n<u>⭐ Запомните</u>\nОдна коробка: It’s under the table. Несколько книг: They’re on the shelf.\nГлагол пропускать нельзя: правильно They’re on the shelf, а не They on the shelf.\n\n<u>🎧 Послушайте и повторите</u>\nWhere are the books?\nThey’re on the shelf.\nAnd where’s the box?\nIt’s under the table."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day12.mp3",
+          "title": "Сезон 5 · День 12 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day12_practice",
+      "date": "2027-01-12",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 12</b>\nВыберите ответ про книги. Затем назовите по-английски место одной своей вещи."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Where are the books?",
+          "options": [
+            "It’s on the shelf.",
+            "They’re on the shelf.",
+            "They on the shelf."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day13_morning",
+      "date": "2027-01-13",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 13</b>\n<b>The chair is in front of the window. — Стул перед окном.</b>\n\n<u>🎬 История</u>\nКамила предлагает переставить стул ближе к свету. Теперь у Эммы есть удобное место, где можно смотреть фотографии.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Where do you want the chair?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;In front of the window, please.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Here?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. That’s perfect.\n\n<u>🗣 Новые слова</u>\n🔹 in front of — перед\n🔹 window — окно\n\n<u>⭐ Запомните</u>\nIn front of и behind — противоположные предлоги места. In front of означает, что предмет находится перед чем-то; behind — позади чего-то. In front of the window, behind the sofa.\n\n<u>🎧 Послушайте и повторите</u>\nWhere do you want the chair?\nIn front of the window, please.\nHere?\nYes. That’s perfect."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day13.mp3",
+          "title": "Сезон 5 · День 13 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day13_practice",
+      "date": "2027-01-13",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 13</b>\nПослушайте и выберите ответ.\nWhere do you want the chair? In front of the window, please."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day13.mp3",
+          "title": "Сезон 5 · День 13 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Куда Эмма просит поставить стул?",
+          "options": [
+            "За диван.",
+            "Под полку.",
+            "Перед окном."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day14_morning",
+      "date": "2027-01-14",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season5/week02.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 14</b>\n<b>Week 2 Review — Уже можем найти вещь и объяснить, где она</b>\n\n<u>🎬 История</u>\nВ гостиной всё на своих местах. Эмма показывает Камиле фотографию из Чикаго, а Адам собирает вещи перед выходом.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Where are my keys?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;They’re on the shelf.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Where’s the picture from Chicago?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;It’s above the sofa.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Is my bag behind the sofa?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No. It’s under the table.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;And the chair is in front of the window.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. A good place for coffee.\n\n<u>🗣 Повторяем</u>\n🔹 It’s under the table. — Это под столом.\n🔹 They’re on the shelf. — Они на полке.\n🔹 It’s above the sofa. — Это над диваном.\n🔹 It’s in front of the window. — Это перед окном.\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог без текста и представьте расположение вещей. Не нужно запоминать всю комнату сразу.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day14.mp3",
+          "title": "Сезон 5 · День 14 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day14_practice",
+      "date": "2027-01-14",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 14</b>\nListen and choose — послушайте и выберите.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>My keys are on the shelf. My bag is under the table, not behind the sofa.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day14.mp3",
+          "title": "Сезон 5 · День 14 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где сумка Адама?",
+          "options": [
+            "Под столом.",
+            "За диваном.",
+            "На полке."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day14_bonus",
+      "date": "2027-01-14",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Where are my keys?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;In your bag.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And where’s my bag?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;We need a map of your apartment."
+        }
+      ]
+    },
+    {
+      "id": "s5_day15_morning",
+      "date": "2027-01-15",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 15</b>\n<b>Do we have any tomatoes? — У нас есть помидоры?</b>\n\n<u>🎬 История</u>\nДрузья договариваются об ужине у Эммы. Камила проверяет продукты, а Адам предлагает приготовить рис с овощами.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have any tomatoes?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, we have some tomatoes.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have any rice?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No. We need some rice.\n\n<u>🗣 Новые слова</u>\n🔹 tomato / tomatoes — помидор / помидоры\n🔹 rice — рис\n\n<u>⭐ Запомните</u>\nSome и any используем, когда точное количество не названо. Some используем в утвердительных предложениях: We have some tomatoes. Any — в вопросах и отрицаниях: Do we have any tomatoes? We don’t have any rice.\n\n<u>🎧 Послушайте и повторите</u>\nDo we have any tomatoes?\nYes, we have some tomatoes.\nDo we have any rice?\nNo. We need some rice."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day15.mp3",
+          "title": "Сезон 5 · День 15 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day15_practice",
+      "date": "2027-01-15",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 15</b>\nПослушайте. Выберите продукт, которого не хватает.\nWe have some tomatoes, but we don’t have any rice."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day15.mp3",
+          "title": "Сезон 5 · День 15 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что нужно купить?",
+          "options": [
+            "Помидоры.",
+            "Рис.",
+            "Яблоки."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day16_morning",
+      "date": "2027-01-16",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 16</b>\n<b>A bag of rice and a piece of cheese. — Пакет риса и кусок сыра.</b>\n\n<u>🎬 История</u>\nЭмма записывает покупки. Они берут один пакет риса, воду и немного сыра к хлебу.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How much rice do we need?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;One bag of rice.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;And a piece of cheese, please.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. And a bottle of water.\n\n<u>🗣 Новые слова</u>\n🔹 a bag of rice — пакет риса\n🔹 a piece of cheese — кусок сыра\n🔹 How much rice…? — Сколько риса…?\n\n<u>⭐ Запомните</u>\nHow many используем с исчисляемыми существительными во множественном числе: How many tomatoes? How much - с неисчисляемыми существительными: How much rice? Сам рис посчитать не можем, но можем посчитать его упаковки или порции: one bag of rice, two bags of rice; a piece of cheese.\n\n<u>🎧 Послушайте и повторите</u>\nHow much rice do we need?\nOne bag of rice.\nAnd a piece of cheese, please.\nOkay. And a bottle of water."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day16.mp3",
+          "title": "Сезон 5 · День 16 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day16_practice",
+      "date": "2027-01-16",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 16</b>\nПослушайте и выберите количество.\nWe need one bag of rice, a piece of cheese, and a bottle of water."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day16.mp3",
+          "title": "Сезон 5 · День 16 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Сколько пакетов риса нужно?",
+          "options": [
+            "Два.",
+            "Три.",
+            "Один."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day17_morning",
+      "date": "2027-01-17",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 17</b>\n<b>We don’t have any bread. — У нас нет хлеба.</b>\n\n<u>🎬 История</u>\nПеред заказом Адам проверяет хлеб. Доставка позволит не идти за продуктами в снег.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have any bread?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No, we don’t have any bread.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Can we order some?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Let’s get delivery.\n\n<u>🗣 Новые слова</u>\n🔹 order — заказывать\n🔹 delivery — доставка\n\n<u>⭐ Запомните</u>\nВ отрицании с don’t have используем any: We don’t have any bread. В просьбах и предложениях, когда речь идёт о некотором количестве уже названного продукта, возможно some: Can we order some? Здесь some означает «немного хлеба».\n\n<u>🎧 Послушайте и повторите</u>\nDo we have any bread?\nNo, we don’t have any bread.\nCan we order some?\nYes. Let’s get delivery."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day17.mp3",
+          "title": "Сезон 5 · День 17 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day17_practice",
+      "date": "2027-01-17",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 17</b>\nПослушайте и выберите общий смысл.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>We don’t have any bread. Can we order some? Yes. Let’s get delivery.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day17.mp3",
+          "title": "Сезон 5 · День 17 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что хотят сделать друзья?",
+          "options": [
+            "Заказать хлеб с доставкой.",
+            "Купить новый стол.",
+            "Отменить ужин."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day18_morning",
+      "date": "2027-01-18",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 18</b>\n<b>How many tomatoes do we need? — Сколько помидоров нам нужно?</b>\n\n<u>🎬 История</u>\nВ приложении Эмма уточняет количество помидоров. Часть продуктов уже есть, поэтому лишнее заказывать не нужно.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How many tomatoes do we need?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Four.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We have two.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Then we need two more.\n\n<u>🗣 Новые слова</u>\n🔹 two more — ещё два\n\n<u>⭐ Запомните</u>\nHow many + предметы во множественном числе: How many tomatoes? Для риса — How much rice? Two more — ещё два, а не два всего.\n\n<u>🎧 Послушайте и повторите</u>\nHow many tomatoes do we need?\nFour.\nWe have two.\nThen we need two more."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day18.mp3",
+          "title": "Сезон 5 · День 18 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day18_practice",
+      "date": "2027-01-18",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 18</b>\nПрочитайте условие и выберите, сколько помидоров нужно добавить."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "We have two tomatoes. We need four. How many more do we need?",
+          "options": [
+            "Four more.",
+            "Two more.",
+            "Six more."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day19_morning",
+      "date": "2027-01-19",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 19</b>\nCan we get delivery at six? — Можно заказать доставку на шесть?\n\n<u>🎬 История</u>\nЭмма выбирает время доставки. Ужин не привязан к точной минуте, поэтому друзья спокойно сравнивают доступные варианты.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Can we get delivery at six?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;No. Six thirty is available.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Dinner at seven?\n\n<u>🗣 Новые слова</u>\n🔹 available — доступный, свободный\n\n<u>⭐ Запомните</u>\nSix thirty is available. — Время 18:30 доступно.\nПеред точным временем используем at: at six, at six thirty, at seven.\n\n<u>🎧 Послушайте и повторите</u>\nCan we get delivery at six?\nNo. Six thirty is available.\nThat works for me.\nGreat. Dinner at seven?"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day19.mp3",
+          "title": "Сезон 5 · День 19 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day19_practice",
+      "date": "2027-01-19",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 19</b>\nВыберите доступное время доставки."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "When is delivery available?",
+          "options": [
+            "At six.",
+            "At seven.",
+            "At six thirty."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day20_morning",
+      "date": "2027-01-20",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 20</b>\n<b>What’s the apartment number? — Какой номер квартиры?</b>\n\n<u>🎬 История</u>\nКурьер звонит из вестибюля: адрес понятен, осталось уточнить квартиру. Эмма объясняет, где его встретить.\n\n🧑 <b>Delivery driver:</b>\n&#160;&#160;&#160;&#160;&#160;What’s the apartment number?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;4B. I’m in the lobby.\n🧑 <b>Delivery driver:</b>\n&#160;&#160;&#160;&#160;&#160;By the door?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Thank you.\n\n<u>🗣 Новые слова</u>\n🔹 apartment number — номер квартиры\n🔹 lobby — вестибюль\n🔹 by the door — у двери\n\n<u>⭐ Запомните</u>\nWhat спрашивает о самой информации: What’s the apartment number? — нужен номер квартиры. Where спрашивает о месте: Where are you? — I’m in the lobby.\n\n<u>🎧 Послушайте и повторите</u>\nWhat’s the apartment number?\n4B. I’m in the lobby.\nBy the door?\nYes. Thank you."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day20.mp3",
+          "title": "Сезон 5 · День 20 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day20_practice",
+      "date": "2027-01-20",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 20</b>\nПослушайте сообщение Эммы.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>My apartment number is four B. I’m in the lobby, by the door.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day20.mp3",
+          "title": "Сезон 5 · День 20 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где Эмма ждёт курьера?",
+          "options": [
+            "В вестибюле у двери.",
+            "В квартире у окна.",
+            "На улице возле магазина."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day21_morning",
+      "date": "2027-01-21",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season5/week03.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 21</b>\n<b>Week 3 Review — Уже можем подготовить заказ продуктов</b>\n\n<u>🎬 История</u>\nПродукты дома. Друзья проверяют покупки перед ужином: рис, помидоры и хлеб на месте.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have any tomatoes?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. We have four.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;How much rice do we have?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;One bag of rice.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;And some bread?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, and a piece of cheese.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Dinner at seven?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me.\n\n<u>🗣 Повторяем</u>\n🔹 Do we have any tomatoes? — У нас есть помидоры?\n🔹 We don’t have any bread. — У нас нет хлеба.\n🔹 A bag of rice. — Пакет риса.\n🔹 Can we get delivery at six? — Можно заказать доставку на шесть?\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог без текста. Важно понять, хватает ли продуктов для ужина, а не перевести каждое слово.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day21.mp3",
+          "title": "Сезон 5 · День 21 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day21_practice",
+      "date": "2027-01-21",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 21</b>\nПослушайте другой список продуктов: чего в нём не хватает?\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>We have some rice and tomatoes. We have a piece of cheese, too. But we don’t have any bread.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day21.mp3",
+          "title": "Сезон 5 · День 21 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой продукт ещё нужно заказать?",
+          "options": [
+            "Рис.",
+            "Хлеб.",
+            "Сыр."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day21_bonus",
+      "date": "2027-01-21",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;How much cheese do we need?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;One piece.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;A small piece?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. A very big piece."
+        }
+      ]
+    },
+    {
+      "id": "s5_day22_morning",
+      "date": "2027-01-22",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 22</b>\n<b>Something’s wrong with the sink. — С раковиной что-то не так.</b>\n\n<u>🎬 История</u>\nПосле ужина вода в кухонной раковине плохо уходит. Эмма замечает проблему и решает связаться со службой обслуживания дома.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Something’s wrong with the sink.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;In the kitchen?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. There’s water in it.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s call for help.\n\n<u>🗣 Новые слова</u>\n🔹 Something’s wrong with… — С… что-то не так\n🔹 sink — раковина\n\n<u>⭐ Запомните</u>\nSomething is wrong with + предмет — готовая модель, чтобы назвать проблему: Something is wrong with the sink. В разговорной речи Something is сокращается до Something’s.\n\n<u>🎧 Послушайте и повторите</u>\nSomething’s wrong with the sink.\nIn the kitchen?\nYes. There’s water in it.\nLet’s call for help."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day22.mp3",
+          "title": "Сезон 5 · День 22 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day22_practice",
+      "date": "2027-01-22",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 22</b>\nПослушайте и выберите ответ.\nSomething’s wrong with the sink. There’s water in it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day22.mp3",
+          "title": "Сезон 5 · День 22 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "С чем проблема?",
+          "options": [
+            "С раковиной на кухне.",
+            "Со стулом в гостиной.",
+            "С лампой в спальне."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day23_morning",
+      "date": "2027-01-23",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 23</b>\n<b>It doesn’t work. — Это не работает.</b>\n\n<u>🎬 История</u>\nОжидая ответа службы дома, Эмма замечает, что маленькая лампа не включается. Камила помогает ей коротко описать ситуацию, не пытаясь ремонтировать прибор.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;The lamp doesn’t work.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;The small lamp?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It doesn’t work.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;We have another lamp.\n\n<u>🗣 Новые слова</u>\n🔹 It doesn’t work. — Это не работает\n🔹 another — другой, ещё один\n\n<u>⭐ Запомните</u>\nThe lamp doesn’t work. В doesn’t уже есть показатель третьего лица, поэтому у основного глагола окончания -s нет: work, а не works. С I, you, we, they используем don’t: They don’t work.\n\n<u>🎧 Послушайте и повторите</u>\nThe lamp doesn’t work.\nThe small lamp?\nYes. It doesn’t work.\nWe have another lamp."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day23.mp3",
+          "title": "Сезон 5 · День 23 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day23_practice",
+      "date": "2027-01-23",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 23</b>\nВыберите фразу о лампе, которая не работает."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Лампа не работает»?",
+          "options": [
+            "The lamp don’t work.",
+            "The lamp doesn’t works.",
+            "The lamp doesn’t work."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day24_morning",
+      "date": "2027-01-24",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 24</b>\n<b>Could you help me? — Не могли бы вы мне помочь?</b>\n\n<u>🎬 История</u>\nЭмма дозванивается в службу обслуживания. Она сама объясняет проблему с раковиной и просит помощь.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Hello. Could you help me?\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;Of course. What’s the problem?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Something’s wrong with the kitchen sink.\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;What’s your apartment number?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;4B.\n\n<u>🗣 Новые слова</u>\n🔹 Could you help me? — Не могли бы вы мне помочь?\n🔹 What’s the problem? — В чём проблема?\n\n<u>⭐ Запомните</u>\nCould you + глагол — вежливая просьба к собеседнику: Could you help me? В этой конструкции could не обозначает прошлое, а делает просьбу мягче, чем can. После could ставим глагол в начальной форме без to: Could you help…?, а не Could you to help…?\n\n<u>🎧 Послушайте и повторите</u>\nHello. Could you help me?\nOf course. What’s the problem?\nSomething’s wrong with the kitchen sink.\nWhat’s your apartment number?\n4B."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day24.mp3",
+          "title": "Сезон 5 · День 24 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day24_practice",
+      "date": "2027-01-24",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 24</b>\nПослушайте обращение Эммы.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>Hello. Could you help me? Something’s wrong with the kitchen sink. My apartment number is 4B.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day24.mp3",
+          "title": "Сезон 5 · День 24 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "О чём просит Эмма?",
+          "options": [
+            "О доставке продуктов.",
+            "О помощи с раковиной.",
+            "О новом номере квартиры."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day25_morning",
+      "date": "2027-01-25",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 25</b>\n<b>Could someone come today? — Может кто-нибудь прийти сегодня?</b>\n\n<u>🎬 История</u>\nСотрудник понимает, какая нужна помощь. Эмма уточняет, возможен ли визит сегодня.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Could someone come today?\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Are you home after three?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I am.\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;Good. Someone can come at three thirty.\n\n<u>🗣 Новые слова</u>\n🔹 someone — кто-нибудь, кто-то\n🔹 Could someone come today? — Может кто-нибудь прийти сегодня?\n\n<u>⭐ Запомните</u>\nCould you…? — просьба собеседнику. Could someone…? — вопрос, может ли помочь кто-нибудь. Are you home after three? означает «Вы будете дома после трёх?»; на вопрос с are отвечаем Yes, I am / No, I’m not.\n\n<u>🎧 Послушайте и повторите</u>\nCould someone come today?\nYes. Are you home after three?\nYes, I am.\nGood. Someone can come at three thirty."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day25.mp3",
+          "title": "Сезон 5 · День 25 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day25_practice",
+      "date": "2027-01-25",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 25</b>\nВыберите английский ответ по разговору."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "When can someone come?",
+          "options": [
+            "At three thirty.",
+            "At three.",
+            "Tomorrow morning."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day26_morning",
+      "date": "2027-01-26",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 26</b>\n<b>When can someone come? — Когда кто-нибудь может прийти?</b>\n\n<u>🎬 История</u>\nНа следующий день у Адама не работает обогреватель. После опыта с раковиной он знает, как коротко обратиться в службу дома.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;There’s a problem with the heater.\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;Does it work?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. When can someone come?\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;At two fifteen.\n\n<u>🗣 Новые слова</u>\n🔹 heater — обогреватель\n🔹 There’s a problem with… — Есть проблема с…\n\n<u>⭐ Запомните</u>\nWhen can someone come? После can используем начальную форму глагола come (без to и без -s).\n\n<u>🎧 Послушайте и повторите</u>\nThere’s a problem with the heater.\nDoes it work?\nNo. When can someone come?\nAt two fifteen."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day26.mp3",
+          "title": "Сезон 5 · День 26 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day26_practice",
+      "date": "2027-01-26",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 26</b>\nВыберите вопрос, с помощью которого уточняют время визита."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какой вопрос означает «Когда кто-нибудь может прийти?»",
+          "options": [
+            "When can someone come?",
+            "Where can someone come?",
+            "What can someone fix?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day27_morning",
+      "date": "2027-01-27",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 27</b>\n<b>Could you say that again? — Не могли бы вы повторить?</b>\n\n<u>🎬 История</u>\nСотрудник уточняет время визита по телефону. Адам не расслышал и спокойно просит повторить — лучше уточнить, чем угадывать.\n\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;Someone can come at two fifteen.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Could you say that again, please?\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;At two fifteen.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Two fifteen. Thank you.\n\n<u>🗣 Новые слова</u>\n🔹 Could you say that again? — Не могли бы вы повторить?\n\n<u>⭐ Запомните</u>\nCould you say that again, please? — универсальная вежливая просьба повторить сказанное.\nПосле ответа можно повторить ключевую деталь самому: Two fifteen. Это помогает проверить понимание.\n\n<u>🎧 Послушайте и повторите</u>\nSomeone can come at two fifteen.\nCould you say that again, please?\nAt two fifteen.\nTwo fifteen. Thank you."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day27.mp3",
+          "title": "Сезон 5 · День 27 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day27_practice",
+      "date": "2027-01-27",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 27</b>\nПослушайте, какое время уточнили.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>Someone can come at two fifteen. Could you say that again, please? At two fifteen.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day27.mp3",
+          "title": "Сезон 5 · День 27 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько придёт сотрудник?",
+          "options": [
+            "В 14:30.",
+            "В 14:15.",
+            "В 15:15."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day28_morning",
+      "date": "2027-01-28",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season5/week04.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 28</b>\n<b>Week 4 Review — Уже можем объяснить проблему и попросить помощь</b>\n\n<u>🎬 История</u>\nАдам ждёт сотрудника дома. Он спокойно называет проблему, уточняет время и проверяет, что правильно понял ответ.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Hello. There’s a problem with the heater.\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;Does it work?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No, it doesn’t. Could you help me?\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Someone can come at two fifteen.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Could you say that again, please?\n🧑 <b>Staff:</b>\n&#160;&#160;&#160;&#160;&#160;At two fifteen.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I’m home. Thank you.\n\n<u>🗣 Повторяем</u>\n🔹 Something’s wrong with the sink. — С раковиной что-то не так.\n🔹 It doesn’t work. — Это не работает.\n🔹 Could you help me? — Не могли бы вы помочь?\n🔹 When can someone come? — Когда кто-нибудь может прийти?\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог без текста. Найдите две главные детали: в чём проблема и когда придёт помощь.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day28.mp3",
+          "title": "Сезон 5 · День 28 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day28_practice",
+      "date": "2027-01-28",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 28</b>\nListen and choose — послушайте и выберите.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>There’s a problem with the heater. It doesn’t work. Someone can come at two fifteen.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day28.mp3",
+          "title": "Сезон 5 · День 28 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "С чем нужна помощь?",
+          "options": [
+            "С обогревателем.",
+            "С раковиной.",
+            "С доставкой."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day28_bonus",
+      "date": "2027-01-28",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Coffee?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;A cold coffee, please.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Cold?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;The apartment is warm. My coffee can be cold."
+        }
+      ]
+    },
+    {
+      "id": "s5_day29_morning",
+      "date": "2027-01-29",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 29</b>\n<b>It works now. — Теперь это работает.</b>\n\n<u>🎬 История</u>\nПосле визита сотрудника у Адама снова тепло. Эмма приглашает друзей на воскресный обед: её раковина тоже в порядке.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Does the heater work now?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, it does.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Would you like to come for lunch on Sunday?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’d love to. Is your sink okay?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s fine now.\n\n<u>🗣 Повторяем</u>\n🔹 It works now. — Теперь это работает.\n🔹 It’s fine now. — Теперь всё в порядке.\n\n<u>⭐ Запомните</u>\nDoes it work? — Yes, it does. / It works now. Обратите внимание на окончание глаголов с -s и без.\n\n<u>🎧 Послушайте и повторите</u>\nDoes the heater work now?\nYes, it does.\nWould you like to come for lunch on Sunday?\nI’d love to. Is your sink okay?\nYes. It’s fine now."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day29.mp3",
+          "title": "Сезон 5 · День 29 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day29_practice",
+      "date": "2027-01-29",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 29</b>\nВыберите правильную фразу о работающем обогревателе."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать «Обогреватель теперь работает»?",
+          "options": [
+            "The heater works now.",
+            "The heater work now.",
+            "The heater does works now."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day30_morning",
+      "date": "2027-01-30",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 30</b>\n<b>Do we have everything for lunch? — У нас всё есть для обеда?</b>\n\n<u>🎬 История</u>\nСуббота. Эмма и Камила проверяют покупки для завтрашнего обеда. Небольшой список помогает ничего не забыть.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do we have everything for lunch?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;We have some rice and tomatoes.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;How much cheese do we have?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;One piece.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;And the bread?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;It’s in the kitchen, on the table.\n\n<u>🗣 Повторяем</u>\n🔹 Do we have everything? — У нас всё есть?\n🔹 How much cheese…? — Сколько сыра…?\n\n<u>⭐ Запомните</u>\nСоединяем знакомое: наличие продуктов, количество и местоположение. С cheese используем how much, с tomatoes — how many.\n\n<u>🎧 Послушайте и повторите</u>\nDo we have everything for lunch?\nWe have some rice and tomatoes.\nHow much cheese do we have?\nOne piece.\nAnd the bread?\nIt’s in the kitchen, on the table."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day30.mp3",
+          "title": "Сезон 5 · День 30 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day30_practice",
+      "date": "2027-01-30",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 30</b>\nПослушайте. Ответьте только на вопрос о месте.\nWe have some bread for lunch. It’s in the kitchen, on the table."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day30.mp3",
+          "title": "Сезон 5 · День 30 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где хлеб?",
+          "options": [
+            "На полке в гостиной.",
+            "В коробке под столом.",
+            "На столе в кухне."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5_day31_morning",
+      "date": "2027-01-31",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 5 • День 31</b>\n<b>One Month of Home &amp; Neighborhood — Месяц домашних дел и соседской помощи</b>\n\n<u>🎬 История</u>\nВоскресенье, последний день января. Эмма, Адам и Камила собираются на обед. Дом, покупки и маленькие проблемы больше не мешают их планам.\n\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Your living room is bright and comfortable.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Thanks! Where’s Adam?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;In the kitchen. Do we have any bread?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s on the table.\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;And a piece of cheese?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. We have everything.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;The sink works now.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Could you help me with the chairs?\n👩 <b>Camila:</b>\n&#160;&#160;&#160;&#160;&#160;Of course. Where do you want them?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Next to the table, please.\n\n<u>🗣 Повторяем</u>\n🔹 My apartment has one bedroom. — В моей квартире одна спальня.\n🔹 They’re on the shelf. — Они на полке.\n🔹 We need some bread. — Нам нужен хлеб.\n🔹 Could you help me? — Не могли бы вы помочь?\n\n<u>⭐ Главная задача</u>\nСначала послушайте весь диалог без текста. Кто где находится? Что просят сделать? Затем прочитайте и послушайте ещё раз. Это знакомая жизнь на английском, не экзамен.\n\n<u>🎧 Послушайте и повторите</u>\n<b>Диалог целиком.</b>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/morning/day31.mp3",
+          "title": "Сезон 5 · День 31 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s5_day31_practice",
+      "date": "2027-01-31",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 31</b>\nПослушайте и выберите главную просьбу.\nСначала послушайте аудио без текста. При необходимости включите его ещё раз.\n<tg-spoiler>The sink works now. We have everything for lunch. Could you help me with the chairs? Next to the table, please.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season5/practice/day31.mp3",
+          "title": "Сезон 5 · День 31 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "С чем Эмма просит помочь?",
+          "options": [
+            "Со стульями.",
+            "С заказом хлеба.",
+            "С ремонтом раковины."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season5_final_polls",
+      "date": "2027-01-31",
+      "time": "14:00",
+      "retry_until": "16:00",
+      "steps": [
+        {
+          "id": "poll01",
+          "type": "poll",
+          "question": "Как сказать, что в квартире одна спальня?",
+          "options": [
+            "My apartment have one bedroom.",
+            "My apartment has one bedroom.",
+            "My apartment is one bedroom."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll02",
+          "type": "poll",
+          "question": "Ключи под столом. Как это сказать?",
+          "options": [
+            "The keys are under the table.",
+            "The keys are above the table.",
+            "The keys are behind the table."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll03",
+          "type": "poll",
+          "question": "Как спросить о количестве риса?",
+          "options": [
+            "How many rice do we need?",
+            "How rice do we need?",
+            "How much rice do we need?"
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        },
+        {
+          "id": "poll04",
+          "type": "poll",
+          "question": "Как сказать, что хлеба нет?",
+          "options": [
+            "We don’t have some bread.",
+            "We don’t have any bread.",
+            "We aren’t have bread."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll05",
+          "type": "poll",
+          "question": "Как вежливо попросить помощь?",
+          "options": [
+            "Could you help me, please?",
+            "Could you to help me?",
+            "Could you helps me?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll06",
+          "type": "poll",
+          "question": "Сотрудник сказал время, но вы не расслышали. Что ответить?",
+          "options": [
+            "Where’s the sink?",
+            "Do we have any rice?",
+            "Could you say that again, please?"
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        },
+        {
+          "id": "poll07_audio",
+          "type": "audio",
+          "path": "audio/season5/final/final_poll_07.mp3",
+          "title": "Сезон 5 · Итоговый опрос · Задание 7",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll07",
+          "type": "poll",
+          "question": "Во сколько может прийти сотрудник?",
+          "options": [
+            "В 15:00.",
+            "В 15:30.",
+            "В 16:30."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season5_congratulations",
+      "date": "2027-01-31",
+      "time": "16:00",
+      "retry_until": "18:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season5/final.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🎉<b> SEASON 5 COMPLETE!</b>\n\n<b>Поздравляем!</b>\n\nВы прошли пятый сезон курса.\n\n<b>Теперь вы уже можете:</b>\n\n✅ описать квартиру и рассказать, что в ней есть;\n\n✅ найти вещь и объяснить, где она находится;\n\n✅ проверить продукты и подготовить заказ с доставкой;\n\n✅ назвать бытовую проблему и попросить помощь;\n\n✅ уточнить время визита и попросить повторить.\n\n🏆<b> Вы молодец!</b>\n\nДо встречи в шестом сезоне!"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "audio/season5/final/final_poll_07.mp3": "43a27ec0c300bce1f9cc6fa27b7a455c467bf7747beb1e2551ac8d6f70997126",
+    "audio/season5/morning/day01.mp3": "7f77f0ed9ee12c67aba2e4a51e7b4fe60057abf566bc876af6b76cd5a4d695d7",
+    "audio/season5/morning/day02.mp3": "0247ed94f284f0f189eb6ee83bcc29e06217237fc270fa67ca71cf10e668d521",
+    "audio/season5/morning/day03.mp3": "19dab25560cb1c374a0e122a7365a719ab715d8bbbf75888728726923fb51377",
+    "audio/season5/morning/day04.mp3": "faafabc0bc37562d549a591a3316e3123136599705e7f21db60fd6756ff4a13f",
+    "audio/season5/morning/day05.mp3": "fc245e21df42a1265b28ec968fb8f7aa0ad44fc4a1dcf22e96bda637221f4241",
+    "audio/season5/morning/day06.mp3": "7538a3e7aab42a3dae20a3b5901a0480857413d20568582a0cc600e3ec659832",
+    "audio/season5/morning/day07.mp3": "43b06b2a661c2d138e2ec45ebd8e61406d5e972afb3f9a6d5a7a16d1ca57ca64",
+    "audio/season5/morning/day08.mp3": "7fdc7b0b70787e16817010f41047fa861081b8a2fbfb23dde90296c67c062981",
+    "audio/season5/morning/day09.mp3": "48bdc9443788d17aad9081e0b2f92998dc383b9f64b068d8c0b7dc2473396acb",
+    "audio/season5/morning/day10.mp3": "f4af0ea1a57813291bb8010e856f4034005395b89b9607d6f40b9060c7d5a41f",
+    "audio/season5/morning/day11.mp3": "69b220cc14c1607522b8ed7028bf7f651cef7d6da332b8a1e1bc42b7eb683854",
+    "audio/season5/morning/day12.mp3": "636d89f714627dbaa91aecb9122ac43c4da98c2e0216fa949abaaf94c8440ee8",
+    "audio/season5/morning/day13.mp3": "3a24fe64081aa96a69cc2f3c139fcc53a25a9bef9d9d74bebb80dca68f14cf70",
+    "audio/season5/morning/day14.mp3": "9d13c61406c3047ed30309cff1370983593b8477079226a5bc4cfccb654000da",
+    "audio/season5/morning/day15.mp3": "e57d7df3206947798793a7f8c9c34b5191be48f9e4566a5d7a8f0fcc0c680af5",
+    "audio/season5/morning/day16.mp3": "994ab2cb11a2ef41026ebfaa9682d825cbd5bd1c9cf20652120d563fdae38b74",
+    "audio/season5/morning/day17.mp3": "70fc7cf851399fe9181a84003614ab0fadb91e2bc3477cc6b80beaed5847f9af",
+    "audio/season5/morning/day18.mp3": "57102e0fffea4b7bd8da4b4ccdae34d07015fa3e3398772c0155df21ee2e0c0c",
+    "audio/season5/morning/day19.mp3": "3374c691cbb54610385c9070620cbddf6badc631e4f2ea8588d02936baa01d5b",
+    "audio/season5/morning/day20.mp3": "c0224c64c77c51f6e7c01ee25386b91ddbae4a367e16bad5fb7c36b3eaf39ff5",
+    "audio/season5/morning/day21.mp3": "51d5dd30d2b26cb216d513723f02f488976c3168ae0637732449a31d288756d0",
+    "audio/season5/morning/day22.mp3": "d1f238a3f6798a563a7aeb9d56f38f85947e849d8ac87ec3c6766d093fc7bb1f",
+    "audio/season5/morning/day23.mp3": "82678f13794cad4a5c58795c4899024bc30af888bb4e120e23b080c1b7959315",
+    "audio/season5/morning/day24.mp3": "21c95c7ac9bd980a904e88ae32b3342be84c5e400b129d6385f92c375fe55778",
+    "audio/season5/morning/day25.mp3": "d107c58b222d40786802fac47d4b341fb00e6c66ec52c4ed424dae3a79c0702d",
+    "audio/season5/morning/day26.mp3": "8cc0cb37c32ab0962283e2d9898fa39ac04554c2f5b9a707107676674e363da7",
+    "audio/season5/morning/day27.mp3": "8ce892daa28565d8cb839c08da3989d7b8a42f9075288f360fdc1d52b4cfd5a3",
+    "audio/season5/morning/day28.mp3": "502fc99fc6392947e49dbd8b524d52bbac702de91b411f42ebc75e7da1a84ad3",
+    "audio/season5/morning/day29.mp3": "142d56036201139b54c7c11901199e5ff14db931e3ec951e2c2c4bc9e296cd47",
+    "audio/season5/morning/day30.mp3": "c1b9eaea6cd68b1400f21960686a9e9aba0923da87c404f4f1445aa9b46388d7",
+    "audio/season5/morning/day31.mp3": "dfcdafa5cb497295ec83894b1e0c9ef0dcdc3991053ef7ac6709021025aaf756",
+    "audio/season5/practice/day01.mp3": "9b184c2c0e543af5a9e25e337084c6cab62d1160e2ab1d5250a3b13d53e76bdc",
+    "audio/season5/practice/day02.mp3": "33da32644928376389d7f451a42d7da312d3f601303cd466f85431503810ae97",
+    "audio/season5/practice/day03.mp3": "723056fea8435678e979cc9fd42c1a69d99f7da05365cae061fa00335bff383e",
+    "audio/season5/practice/day05.mp3": "3c1df533ebd5f32dba4da271dd17ae0e1ff44124423bff1a03d3a828f089c51e",
+    "audio/season5/practice/day06.mp3": "80297feee55ebb013db9e76f15fd6b1543c745a797b657596896275a96a9a432",
+    "audio/season5/practice/day07.mp3": "074aa48a15c2a5649eb91d9cd6c4e34efc7c0f7f6549de467a2a4616c348a54e",
+    "audio/season5/practice/day08.mp3": "ab9a5d926c717fb0d862c8e6165f8c86ac9ba9a580e496b9316f51aca03e3599",
+    "audio/season5/practice/day10.mp3": "67e37fc38118f11578ed3bd75a710163bf6fe03aa0a41de16ba5651580b5ac9a",
+    "audio/season5/practice/day11.mp3": "8308d7fea120e162aa996e18470cb436cad2a44c709998f6dbdd30f7abcaf83e",
+    "audio/season5/practice/day13.mp3": "da97780ee215ff773871faf10742fb8d16b72da0773331d34576cf33a873436e",
+    "audio/season5/practice/day14.mp3": "b73c4dee2cf4f971b0def12be61b66b97f5a6ba29733160dd2ed981f7dda5c31",
+    "audio/season5/practice/day15.mp3": "744e06d0a1a95f3395c46bf0ecdabbfb9fbc15cc9f5fc39143c55da89a797c79",
+    "audio/season5/practice/day16.mp3": "655e730faa6a5fd37891e8e8526b6530ab7c06392b6bce80450f10703c961f8d",
+    "audio/season5/practice/day17.mp3": "bf8f374f503949249573a16b8da5decf3f8e8da3008c6ac51cf8d0bb0be116b4",
+    "audio/season5/practice/day20.mp3": "d56b9635574e3286f3bb373c48b7d1fe4bf1fdc682762cc6db26d12d22edb535",
+    "audio/season5/practice/day21.mp3": "d1cfedce0cd0453dae754b37984366351c6aa72e6334cada4bdf7cc303d15eda",
+    "audio/season5/practice/day22.mp3": "7d92717776baabc26b9b43153505038e0148db225b853785a8f8ba0673395d3a",
+    "audio/season5/practice/day24.mp3": "9b4b43b7013312a52a0da665347e73c98858c7f491d258a93a6179819312ab47",
+    "audio/season5/practice/day27.mp3": "337cccfdadd53c4b6cd74894952ebf06d3ca9ba9d10832a81635c90777116472",
+    "audio/season5/practice/day28.mp3": "8febc15f7cc2c65294cd7e311e140c719378d4c66caa040d997f0f2f24fed528",
+    "audio/season5/practice/day30.mp3": "b70cf9ea1e5655474bb1e8146393ff59ce2425337eb78a6ed45a38c02f3843d4",
+    "audio/season5/practice/day31.mp3": "400627a4fa9f59819df9f8c5fe5a8964b0367979eab040f93a5ea211c38ea36e",
+    "images/season5/final.png": "ebaed32be83ba5cbbdb1cfa32202234d74c3e638c8766148b6a85955e77f0cfe",
+    "images/season5/week01.png": "e9a014cd2302e08fe594023311eee4e2d5e8c3df5232a9d7031fbe782bcb9d2e",
+    "images/season5/week02.png": "dd0f531f0ea53c6f0c5e170166bcfa022da54b698e92c9d9b7548131b6cf7f8a",
+    "images/season5/week03.png": "e3b523d58d8cab44d6d6cf5c65b241ba99d383c9bce40f2d03b378c61669e202",
+    "images/season5/week04.png": "1450183fe85f028adc2d83a56edcebac5a5b0ce1ecc0396698c9bd89840758b8"
+  }
+}

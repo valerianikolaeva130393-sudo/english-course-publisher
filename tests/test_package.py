@@ -28,6 +28,8 @@ WELCOME_IMAGE = ROOT / "images" / "welcome.png"
 SEASON1_NO_PRACTICE_AUDIO = {9, 12, 18, 19, 22, 23, 25, 26, 29}
 SEASON2_NO_PRACTICE_AUDIO = {4, 9, 12, 18, 19, 22, 23, 25, 26, 29}
 SEASON3_NO_PRACTICE_AUDIO = {9, 12, 18, 19, 22, 23, 25, 26, 29}
+SEASON5_NO_PRACTICE_AUDIO = {4, 9, 12, 18, 19, 23, 25, 26, 29}
+SEASON6_NO_PRACTICE_AUDIO = {2, 4, 6, 9, 10, 12, 13, 16, 17, 20, 23, 25, 26, 27}
 
 
 def sha256(path: Path) -> str:
@@ -405,7 +407,7 @@ def verify_manual_controls() -> None:
 
     workflow = (ROOT / ".github" / "workflows" / "publish.yml").read_text(encoding="utf-8")
     assert "*/15" not in workflow
-    assert workflow.count('cron: "*/5') == 18
+    assert workflow.count('cron: "*/5') == 27
     assert "MANUAL_EVENT_ID" not in workflow
     assert "MANUAL_CONFIRM" not in workflow
     for option in ("check", "welcome", "morning", "practice", "final_polls", "congratulations", "start_button"):
@@ -445,6 +447,36 @@ def verify_new_content(season2, season3):
     now = datetime(2026, 12, 31, 7, tzinfo=timezone)
     assert resolve_manual_event_id("morning", 0, 0, now) == "s4_day31_morning"
 
+    season5 = load(ROOT / "content/season5.json")
+    verify_common(season5, {"message": 67, "audio": 54, "photo": 5, "poll": 38})
+    verify_daily_events(season5, season=5, days=31, event_prefix="s5_", no_practice_audio=SEASON5_NO_PRACTICE_AUDIO)
+    verify_bold_dialogue_speakers(season5)
+    assert season5["meta"]["start_date"] == "2027-01-01"
+    assert season5["meta"]["end_date"] == "2027-01-31"
+    assert season5["meta"]["audio_files"] == 54
+    assert len(season5["events"]) == 68
+    bonuses5 = [e for e in season5["events"] if e["id"].endswith("_bonus")]
+    assert [e["id"] for e in bonuses5] == ["s5_day07_bonus", "s5_day14_bonus", "s5_day21_bonus", "s5_day28_bonus"]
+    assert all([step["type"] for step in event["steps"]] == ["message"] for event in bonuses5)
+
+    season6 = load(ROOT / "content/season6.json")
+    verify_common(season6, {"message": 61, "audio": 44, "photo": 5, "poll": 36})
+    verify_daily_events(season6, season=6, days=28, event_prefix="s6_", no_practice_audio=SEASON6_NO_PRACTICE_AUDIO)
+    verify_bold_dialogue_speakers(season6)
+    assert season6["meta"]["start_date"] == "2027-02-01"
+    assert season6["meta"]["end_date"] == "2027-02-28"
+    assert season6["meta"]["audio_files"] == 44
+    assert len(season6["events"]) == 62
+    events6 = event_map(season6)
+    assert [step["type"] for step in events6["s6_day07_bonus"]["steps"]] == ["message", "audio"]
+    assert events6["s6_day07_bonus"]["steps"][1]["path"] == "audio/season6/bonus/day07_adam.mp3"
+    assert [step["type"] for step in events6["s6_day14_bonus"]["steps"]] == ["message"]
+    assert [step["type"] for step in events6["s6_day21_bonus"]["steps"]] == ["message", "poll"]
+    assert [step["type"] for step in events6["s6_day28_bonus"]["steps"]] == ["message"]
+    assert resolve_manual_event_id("morning", 0, 0, datetime(2027, 1, 31, 7, tzinfo=timezone)) == "s5_day31_morning"
+    assert resolve_manual_event_id("morning", 0, 0, datetime(2027, 2, 28, 7, tzinfo=timezone)) == "s6_day28_morning"
+    assert resolve_manual_event_id("bonus", 6, 28, datetime(2027, 2, 28, 18, tzinfo=timezone)) == "s6_day28_bonus"
+
 
 def main() -> None:
     launch = load(LAUNCH_PATH)
@@ -460,15 +492,15 @@ def main() -> None:
     verify_new_content(season2, season3)
 
     combined = load_all_content()
-    assert combined["meta"]["seasons"] == [1, 2, 3, 4]
-    assert len(combined["events"]) == 266
-    assert len({event["id"] for event in combined["events"]}) == 266
+    assert combined["meta"]["seasons"] == [1, 2, 3, 4, 5, 6]
+    assert len(combined["events"]) == 396
+    assert len({event["id"] for event in combined["events"]}) == 396
     assert combined["events"][0]["date"] == "2026-08-31"
-    assert combined["events"][-1]["date"] == "2026-12-31"
+    assert combined["events"][-1]["date"] == "2027-02-28"
 
     print(
-        "Package QA passed: launch + 4 seasons, 266 events, 645 Telegram steps, "
-        "212 audio, 21 images, 150 polls"
+        "Package QA passed: launch + 6 seasons, 396 events, 955 Telegram steps, "
+        "310 audio, 31 images, 224 polls"
     )
 
 

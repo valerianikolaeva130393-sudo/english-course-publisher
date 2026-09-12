@@ -1,0 +1,1668 @@
+{
+  "meta": {
+    "course": "Английский через истории",
+    "season": 6,
+    "start_date": "2027-02-01",
+    "end_date": "2027-02-28",
+    "timezone": "Europe/Moscow",
+    "channel": "@english_story_a1a2",
+    "source_sha256": "5a6eb35bddc2da0e09ff6feedc86d8f17bae8736162f7d556e5e475cac1cca6e",
+    "audio_files": 44,
+    "image_files": 5
+  },
+  "events": [
+    {
+      "id": "s6_day01_morning",
+      "date": "2027-02-01",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 1</b>\n<b>I usually work from the office. — Обычно я работаю из офиса.</b>\n\n<u>🎬 История</u>\nПонедельник. Эмма начинает рабочую неделю в офисе. Её коллега Рэйчел уже готовит кофе и уточняет план на день.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Good morning, Emma. Working from home today?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No. I usually work from the office.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Me too. Coffee?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, please.\n\n<u>🗣 Новые слова</u>\n🔹 office — офис\n🔹 usually — обычно\n🔹 work from the office — работать из офиса\n\n<u>⭐ Запомните</u>\nPresent Simple используем для привычного или регулярного действия.\nМаркеры usually, often и every day часто помогают узнать такой смысл: I usually work from the office.\nСлова времени обычно ставим перед смысловым глаголом: I usually work, а не I work usually.\n\n<u>🎧 Послушайте и повторите</u>\nGood morning, Emma. Working from home today?\nNo. I usually work from the office.\nMe too. Coffee?\nYes, please."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day01.mp3",
+          "title": "Сезон 6 · День 1 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day01_practice",
+      "date": "2027-02-01",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 1</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Emma usually works from the office. Rachel works there, too.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day01.mp3",
+          "title": "Сезон 6 · День 1 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где Эмма обычно работает?",
+          "options": [
+            "Дома.",
+            "В офисе.",
+            "В кафе."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day02_morning",
+      "date": "2027-02-02",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 2</b>\n<b>Today I’m working from home. — Сегодня я работаю из дома.</b>\n\n<u>🎬 История</u>\nВо вторник Эмма остаётся дома, чтобы спокойно закончить отчёт. Рэйчел звонит ей перед общей встречей.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Are you at the office?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No. Today I’m working from home.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Are you busy?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;A little. I’m preparing a report.\n\n<u>🗣 Новые слова</u>\n🔹 work from home — работать из дома\n🔹 report — отчёт\n🔹 prepare — готовить\n\n<u>⭐ Запомните</u>\nPresent Continuous показывает действие, которое происходит сейчас или временно в текущий период: Today I’m working from home. Модель: am / is / are + глагол с -ing. Сравните: I usually work from the office — привычка (Present Simple); today I’m working from home — ситуация сегодня (Present Continuous).\n\n<u>🎧 Послушайте и повторите</u>\nAre you at the office?\nNo. Today I’m working from home.\nAre you busy?\nA little. I’m preparing a report."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day02.mp3",
+          "title": "Сезон 6 · День 2 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day02_practice",
+      "date": "2027-02-02",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 2</b>\nВыберите фразу о временной ситуации сегодня."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать: «Сегодня я работаю из дома»?",
+          "options": [
+            "I usually work from home.",
+            "Today I’m working from home.",
+            "Today I working from home."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day03_morning",
+      "date": "2027-02-03",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 3</b>\n<b>I’m working on a new project. — Я работаю над новым проектом.</b>\n\n<u>🎬 История</u>\nВ офисе Адама начинается новый инженерный проект. Его опытный коллега Дэвид интересуется первыми задачами.\n\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;What are you working on, Adam?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’m working on a new project.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Is it difficult?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;A little, but I like it.\n\n<u>🗣 Новые слова</u>\n🔹 project — проект\n🔹 work on — работать над\n🔹 difficult — сложный\n\n<u>⭐ Запомните</u>\nПосле WORK ставим ON, когда называем задачу или проект: work on a project, work on a report.\nМодель вопроса: What + am / is / are + I / you / he / she / we / they + глагол с -ing?\nWhat are you working on? Предлог on остаётся в конце.\n\n<u>🎧 Послушайте и повторите</u>\nWhat are you working on, Adam?\nI’m working on a new project.\nIs it difficult?\nA little, but I like it."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day03.mp3",
+          "title": "Сезон 6 · День 3 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day03_practice",
+      "date": "2027-02-03",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 3</b>\nПослушайте и выберите общий смысл.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Adam is working on a new project. He likes it, but it is a little difficult.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day03.mp3",
+          "title": "Сезон 6 · День 3 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что мы узнали о проекте?",
+          "options": [
+            "Он уже закончен.",
+            "Он немного сложный, но нравится Адаму.",
+            "Это проект Рэйчел."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day04_morning",
+      "date": "2027-02-04",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 4</b>\n<b>I’m busy right now. — Я сейчас занят.</b>\n\n<u>🎬 История</u>\nЭмма звонит Адаму во время перерыва, но он обсуждает чертежи с Дэвидом. Они договариваются поговорить позже.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Hi, Adam. Are you free?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Sorry, I’m busy right now.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No problem. Can I call you later?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. After six.\n\n<u>🗣 Новые слова</u>\n🔹 busy — занятый\n🔹 right now — прямо сейчас\n🔹 later — позже\n\n<u>⭐ Запомните</u>\nRight now подчёркивает, что ситуация относится к текущему моменту: I’m busy right now.\nВопрос Can I call you later? — простой способ попросить разрешение позвонить позже.\nПосле can всегда используем начальную форму глагола без to: can call, а не can to call.\n\n<u>🎧 Послушайте и повторите</u>\nHi, Adam. Are you free?\nSorry, I’m busy right now.\nNo problem. Can I call you later?\nYes. After six."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day04.mp3",
+          "title": "Сезон 6 · День 4 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day04_practice",
+      "date": "2027-02-04",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 4</b>\nВыберите вежливую реплику для этой ситуации."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Адам сейчас занят. Как Эмме предложить позвонить позже?",
+          "options": [
+            "No problem. Can I call you later?",
+            "No problem. I can calling you later?",
+            "I call you right now."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day05_morning",
+      "date": "2027-02-05",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 5</b>\n<b>I usually start at nine, but today I’m starting at ten. — Обычно я начинаю в девять, но сегодня начинаю в десять.</b>\n\n<u>🎬 История</u>\nУ Рэйчел утром встреча вне офиса, поэтому её рабочий день начинается позже обычного.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do you start at nine today?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Not today. I’m starting at ten.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Do you usually start at nine?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I do.\n\n<u>🗣 Новые слова</u>\n🔹 start — начинать\n🔹 not today — не сегодня\n\n<u>⭐ Запомните</u>\nДля обычного расписания используем Present Simple: I usually start at nine.\nДля временной ситуации — Present Continuous: Today I’m starting at ten.\nСлова usually и today помогают выбрать форму.\n\n<u>🎧 Послушайте и повторите</u>\nDo you start at nine today?\nNot today. I’m starting at ten.\nDo you usually start at nine?\nYes, I do."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day05.mp3",
+          "title": "Сезон 6 · День 5 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day05_practice",
+      "date": "2027-02-05",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 5</b>\nПослушайте и выберите правильное продолжение.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Rachel usually starts work at nine, but today she’s starting at ten.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day05.mp3",
+          "title": "Сезон 6 · День 5 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Какое утверждение верно?",
+          "options": [
+            "Сегодня Рэйчел начинает в десять.",
+            "Рэйчел всегда начинает в десять.",
+            "Сегодня Рэйчел не работает."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day06_morning",
+      "date": "2027-02-06",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 6</b>\n<b>What are you working on? — Над чем вы сейчас работаете?</b>\n\n<u>🎬 История</u>\nЭмма и Рэйчел готовят короткую презентацию. Рэйчел проверяет, какую часть уже делает Эмма.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;What are you working on?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m preparing the presentation.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Do you need help?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Not right now, thanks.\n\n<u>🗣 Новые слова</u>\n🔹 presentation — презентация\n🔹 need help — нуждаться в помощи\n\n<u>⭐ Запомните</u>\nМодель: What + am / is / are + I / you / he / she / we / they + глагол с -ing?\nWhat are you working on? — I’m preparing the presentation.\nЭту же схему можно использовать с where: Where are you working today?\n\n<u>🎧 Послушайте и повторите</u>\nWhat are you working on?\nI’m preparing the presentation.\nDo you need help?\nNot right now, thanks."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day06.mp3",
+          "title": "Сезон 6 · День 6 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day06_practice",
+      "date": "2027-02-06",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 6</b>\nВыберите правильный порядок слов."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как правильно спросить по-английски: «Над чем вы сейчас работаете?»",
+          "options": [
+            "What are you working on?",
+            "What you are working on?",
+            "What are working you on?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day07_morning",
+      "date": "2027-02-07",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season6/week01.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 7</b>\n<b>Week 1 Review — Уже можем рассказать о работе сегодня и обычно</b>\n\n<u>🎬 История</u>\nВ воскресенье Эмма и Адам встречаются в знакомом кафе. Они сравнивают обычный график и планы на новую рабочую неделю.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I usually work from the office.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Me too, but this week I’m working from home.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;What are you working on?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;A new project.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Are you busy right now?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. Coffee first.\n\n<u>🗣 Повторяем</u>\n🔹 I usually work from the office. — Обычно я работаю из офиса.\n🔹 Today I’m working from home. — Сегодня я работаю из дома.\n🔹 What are you working on? — Над чем вы сейчас работаете?\n🔹 Can I call you later? — Можно я позвоню позже?\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог без текста и определите, где герои обычно работают и что изменилось на этой неделе. Затем прочитайте диалог и послушайте ещё раз. Не переводите каждое слово — ловите контраст между usually и this week.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day07.mp3",
+          "title": "Сезон 6 · День 7 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day07_practice",
+      "date": "2027-02-07",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 7</b>\nListen and choose — послушайте и выберите.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Emma usually works from the office. Adam is working from home this week. He is working on a new project.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day07.mp3",
+          "title": "Сезон 6 · День 7 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Кто на этой неделе работает из дома?",
+          "options": [
+            "Эмма.",
+            "Адам.",
+            "Рэйчел."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day07_bonus",
+      "date": "2027-02-07",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n<b>🎙 Голосовое сообщение от Адама</b>\nСначала послушайте сообщение без текста. Затем откройте подсказку только при необходимости.\n<tg-spoiler>Hi, it’s Adam. I’m working from home today. I’m very busy: one project, one report and no coffee. Can I call you later? After coffee, please.</tg-spoiler>\n💬 Ответьте Адаму вслух: Of course. / Coffee first!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/bonus/day07_adam.mp3",
+          "title": "Сезон 6 · День 7 · Голосовое от Адама",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day08_morning",
+      "date": "2027-02-08",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 8</b>\n<b>Does Tuesday work for you? — Вторник вам подходит?</b>\n\n<u>🎬 История</u>\nРэйчел предлагает Эмме короткую встречу, чтобы обсудить презентацию и распределить следующие задачи.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;We need a short meeting. Does Tuesday work for you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. Morning or afternoon?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Tuesday morning.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me.\n\n<u>🗣 Новые слова</u>\n🔹 meeting — встреча, совещание\n🔹 Does Tuesday work for you? — Вторник вам подходит?\n🔹 That works for me. — Мне подходит.\n\n<u>⭐ Запомните</u>\nВ вопросе Does Tuesday work for you? глагол work означает «подходить, быть удобным», а не «работать». По этой модели можно проверить любой день или время: Does ten o’clock work for you?\n\n<u>🎧 Послушайте и повторите</u>\nWe need a short meeting. Does Tuesday work for you?\nYes. Morning or afternoon?\nTuesday morning.\nThat works for me."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day08.mp3",
+          "title": "Сезон 6 · День 8 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day08_practice",
+      "date": "2027-02-08",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 8</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Rachel wants to meet on Tuesday morning. Tuesday works for Emma.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day08.mp3",
+          "title": "Сезон 6 · День 8 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Когда состоится встреча?",
+          "options": [
+            "Во вторник утром.",
+            "Во вторник вечером.",
+            "В среду утром."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day09_morning",
+      "date": "2027-02-09",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 9</b>\n<b>Are you available on Wednesday afternoon? — Вы свободны в среду днём?</b>\n\n<u>🎬 История</u>\nДэвид ищет время для обсуждения проекта. Адам проверяет календарь перед ответом.\n\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Are you available on Wednesday afternoon?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Let me check.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Sure.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I’m free after three.\n\n<u>🗣 Новые слова</u>\n🔹 available — свободный, доступный\n🔹 on Wednesday afternoon — в среду днём\n🔹 Let me check. — Дайте мне проверить.\n\n<u>⭐ Запомните</u>\nПеред днём недели используем on: on Wednesday.\nЕсли сразу добавляем часть дня, говорим on Wednesday afternoon — без второго предлога.\nСравните: in the afternoon, но on Wednesday afternoon.\n\n<u>🎧 Послушайте и повторите</u>\nAre you available on Wednesday afternoon?\nLet me check.\nSure.\nYes. I’m free after three."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day09.mp3",
+          "title": "Сезон 6 · День 9 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day09_practice",
+      "date": "2027-02-09",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 9</b>\nВыберите правильный вариант с предлогами времени."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать: «Я свободен в среду после трёх»?",
+          "options": [
+            "I’m free on Wednesday after three.",
+            "I’m free at Wednesday before three.",
+            "I’m free in Wednesday after three."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day10_morning",
+      "date": "2027-02-10",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 10</b>\n<b>I’m free after three. — Я свободен после трёх.</b>\n\n<u>🎬 История</u>\nЭмма отвечает Рэйчел после проверки календаря. Утро занято, но после обеда есть свободное время.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Are you free before lunch?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No, I have another meeting.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;What about after three?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I’m free after three.\n\n<u>🗣 Новые слова</u>\n🔹 free — свободный\n🔹 before lunch — до обеда\n🔹 after three — после трёх\n\n<u>⭐ Запомните</u>\nFree и available в разговоре о расписании часто передают один смысл: человек свободен.\nПосле before и after дополнительный предлог at не нужен.\n\n<u>🎧 Послушайте и повторите</u>\nAre you free before lunch?\nNo, I have another meeting.\nWhat about after three?\nYes. I’m free after three."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day10.mp3",
+          "title": "Сезон 6 · День 10 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day10_practice",
+      "date": "2027-02-10",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 10</b>\nПрочитайте расписание и выберите подходящее время."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Расписание Эммы: meeting — 11:00; free — after 3:00. Когда можно назначить новую встречу?",
+          "options": [
+            "В 11:00.",
+            "В 13:00.",
+            "В 15:30."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day11_morning",
+      "date": "2027-02-11",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 11</b>\n<b>Let’s meet at ten. — Давайте встретимся в десять.</b>\n\n<u>🎬 История</u>\nАдам и Дэвид выбрали день. Осталось согласовать точное время короткого рабочего разговора.\n\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Thursday works for me.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Let’s meet at ten.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;In the meeting room?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. See you there.\n\n<u>🗣 Новые слова</u>\n🔹 Let’s meet… — Давайте встретимся…\n🔹 meeting room — переговорная\n🔹 See you there. — Увидимся там.\n\n<u>⭐ Запомните</u>\nLet’s + глагол — предложение сделать что-то вместе: Let’s meet, Let’s call, Let’s check. После let’s ставим начальную форму без to. Перед точным временем используем at: at ten.\n\n<u>🎧 Послушайте и повторите</u>\nThursday works for me.\nGreat. Let’s meet at ten.\nIn the meeting room?\nYes. See you there."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day11.mp3",
+          "title": "Сезон 6 · День 11 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day11_practice",
+      "date": "2027-02-11",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 11</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Adam and David are meeting on Thursday at ten in the meeting room.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day11.mp3",
+          "title": "Сезон 6 · День 11 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Где и когда они встречаются?",
+          "options": [
+            "В переговорной в четверг в 10:00.",
+            "В кафе в четверг в 11:00.",
+            "В офисе в среду в 10:00."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day12_morning",
+      "date": "2027-02-12",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 12</b>\n<b>Can we move the meeting to Thursday? — Можем перенести встречу на четверг?</b>\n\n<u>🎬 История</u>\nУ клиента изменилось время, и Рэйчел нужно перенести встречу. Она предлагает Эмме новый день.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Wednesday doesn’t work.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Okay. Can we move the meeting to Thursday?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Thursday afternoon?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. That works for me.\n\n<u>🗣 Новые слова</u>\n🔹 move the meeting — перенести встречу\n🔹 to Thursday — на четверг\n\n<u>⭐ Запомните</u>\nMove the meeting to + день или время означает «перенести встречу на…»: move it to Thursday, move it to three. Вопрос Can we…? звучит нейтрально и подходит для совместного решения.\n\n<u>🎧 Послушайте и повторите</u>\nWednesday doesn’t work.\nOkay. Can we move the meeting to Thursday?\nThursday afternoon?\nYes. That works for me."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day12.mp3",
+          "title": "Сезон 6 · День 12 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day12_practice",
+      "date": "2027-02-12",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 12</b>\nВыберите правильную просьбу о переносе встречи."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как предложить перенести встречу на четверг?",
+          "options": [
+            "Can we moving the meeting on Thursday?",
+            "Can we move the meeting to Thursday?",
+            "Do we move meeting at Thursday?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day13_morning",
+      "date": "2027-02-13",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 13</b>\n<b>The meeting is still at two. — Встреча всё ещё в два.</b>\n\n<u>🎬 История</u>\nПосле нескольких изменений Адам уточняет окончательное время. Дэвид подтверждает, что оно не изменилось.\n\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Just checking: is the meeting still at two?\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. It’s still at two.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Great. See you then.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;See you.\n\n<u>🗣 Новые слова</u>\n🔹 Just checking… — Просто уточняю…\n🔹 still — всё ещё, по-прежнему\n🔹 See you then. — Увидимся тогда.\n\n<u>⭐ Запомните</u>\nStill показывает, что информация не изменилась: The meeting is still at two.\nВ вопросе оно стоит после is: Is the meeting still at two?\nThen заменяет уже согласованное время, поэтому его не нужно повторять: See you then.\n\n<u>🎧 Послушайте и повторите</u>\nJust checking: is the meeting still at two?\nYes. It’s still at two.\nGreat. See you then.\nSee you."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day13.mp3",
+          "title": "Сезон 6 · День 13 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day13_practice",
+      "date": "2027-02-13",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 13</b>\nВыберите подходящий ответ на уточняющий вопрос."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Is the meeting still at two?",
+          "options": [
+            "Yes. It’s still at two.",
+            "Yes. It was at two.",
+            "No. It’s at three."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day14_morning",
+      "date": "2027-02-14",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season6/week02.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 14</b>\n<b>Week 2 Review — Уже можем назначить и перенести встречу</b>\n\n<u>🎬 История</u>\nРэйчел и Эмма согласуют встречу на следующую неделю. Эмма проверяет календарь и предлагает точное время.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Does Tuesday work for you?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I’m not available Tuesday morning.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Can we move the meeting to Wednesday?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I’m free after three.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Let’s meet at three thirty.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;That works for me. See you then.\n\n<u>🗣 Повторяем</u>\n🔹 Does Tuesday work for you? — Вторник вам подходит?\n🔹 Are you available…? — Вы свободны…?\n🔹 Can we move the meeting…? — Можем перенести встречу…?\n🔹 Let’s meet at three thirty. — Давайте встретимся в 15:30.\n\n<u>⭐ Главная задача</u>\nСначала послушайте и найдите три детали: неподходящее время, новый день и окончательное время встречи. Затем прочитайте диалог и послушайте снова. Смысл важнее дословного перевода.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day14.mp3",
+          "title": "Сезон 6 · День 14 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day14_practice",
+      "date": "2027-02-14",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 14</b>\nListen and choose — послушайте и выберите.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Tuesday morning does not work for Emma. She is available on Wednesday after three. The meeting is at three thirty.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day14.mp3",
+          "title": "Сезон 6 · День 14 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Когда состоится встреча?",
+          "options": [
+            "Во вторник в 10:00.",
+            "В среду в 15:30.",
+            "В четверг в 15:00."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day14_bonus",
+      "date": "2027-02-14",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Wednesday at three thirty works for me.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Let’s meet at the café.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;For a meeting or for coffee?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Both. But coffee comes first."
+        }
+      ]
+    },
+    {
+      "id": "s6_day15_morning",
+      "date": "2027-02-15",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 15</b>\n<b>Could you send me the file? — Не могли бы вы прислать мне файл?</b>\n\n<u>🎬 История</u>\nПосле встречи Эмме нужна последняя версия презентации. Она отправляет Рэйчел короткую и вежливую просьбу.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Hi, Rachel. Could you send me the file?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Of course. The new file?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, please.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;I’ll send it now.\n\n<u>🗣 Новые слова</u>\n🔹 file — файл\n🔹 send — отправлять\n🔹 the new file — новый файл\n\n<u>⭐ Запомните</u>\nCould you + глагол — вежливая просьба к собеседнику: Could you send me the file?\nДругие примеры: send me the report, send me the address.\nI’ll = I will. Так говорим о решении или обещании на будущее: I’ll send it now. После will используем начальную форму глагола без to.\n\n<u>🎧 Послушайте и повторите</u>\nHi, Rachel. Could you send me the file?\nOf course. The new file?\nYes, please.\nI’ll send it now."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day15.mp3",
+          "title": "Сезон 6 · День 15 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day15_practice",
+      "date": "2027-02-15",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 15</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Emma needs the new file. She asks Rachel to send it.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day15.mp3",
+          "title": "Сезон 6 · День 15 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что Эмма просит прислать?",
+          "options": [
+            "Адрес офиса.",
+            "Новый файл.",
+            "Время встречи."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day16_morning",
+      "date": "2027-02-16",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 16</b>\n<b>Thanks for letting me know. — Спасибо, что сообщили.</b>\n\n<u>🎬 История</u>\nРэйчел замечает изменение в расписании и сразу предупреждает Эмму коротким сообщением.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;The meeting is at eleven, not ten.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Thanks for letting me know.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Sorry for the change.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;No problem.\n\n<u>🗣 Новые слова</u>\n🔹 let someone know — сообщить кому-то\n🔹 change — изменение\n\n<u>⭐ Запомните</u>\nThanks for… означает благодарность за действие или информацию. После for глагол получает -ing: Thanks for letting me know, Thanks for helping me.\n\n<u>🎧 Послушайте и повторите</u>\nThe meeting is at eleven, not ten.\nThanks for letting me know.\nSorry for the change.\nNo problem."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day16.mp3",
+          "title": "Сезон 6 · День 16 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day16_practice",
+      "date": "2027-02-16",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 16</b>\nВыберите вежливый ответ на сообщение."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Rachel: The meeting is at eleven, not ten.",
+          "options": [
+            "Thanks for letting me know.",
+            "Could you send me the file?",
+            "The meeting is still at ten."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day17_morning",
+      "date": "2027-02-17",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 17</b>\n<b>Just checking: is the meeting still at eleven? — Просто уточняю: встреча всё ещё в одиннадцать?</b>\n\n<u>🎬 История</u>\nУтром Эмма хочет убедиться, что время снова не изменилось. Она пишет одно короткое сообщение без лишних формальностей.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Hi, Rachel. Just checking: is the meeting still at eleven?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, it is.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Great. See you then.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;See you.\n\n<u>🗣 Новые слова</u>\n🔹 still at eleven — всё ещё в одиннадцать\n\n<u>⭐ Запомните</u>\nJust checking… — мягкое начало короткого сообщения, когда мы хотим перепроверить информацию. После него задаём обычный вопрос: Is the meeting still at eleven? Эту модель можно переносить: Just checking: are you free today?\n\n<u>🎧 Послушайте и повторите</u>\nHi, Rachel. Just checking: is the meeting still at eleven?\nYes, it is.\nGreat. See you then.\nSee you."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day17.mp3",
+          "title": "Сезон 6 · День 17 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day17_practice",
+      "date": "2027-02-17",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 17</b>\nВыберите подходящее сообщение для уточнения времени."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как вежливо перепроверить время встречи?",
+          "options": [
+            "Just checking: is the meeting still at eleven?",
+            "You meeting eleven now?",
+            "Check meeting at eleven."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day18_morning",
+      "date": "2027-02-18",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 18</b>\n<b>I’ll get back to you. — Я отвечу вам позже.</b>\n\n<u>🎬 История</u>\nДэвид спрашивает, сможет ли Адам закончить часть проекта сегодня. Адаму нужно сначала проверить рабочий план.\n\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Can you finish this today?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I need to check.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Okay.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I’ll get back to you after lunch.\n\n<u>🗣 Новые слова</u>\n🔹 get back to someone — ответить кому-то позже\n🔹 finish — заканчивать\n\n<u>⭐ Запомните</u>\nЗдесь I’ll get back to you — решение ответить позже. После will используем начальную форму глагола: I’ll call, I’ll send, I’ll get back to you. Время можно добавить в конце: after lunch, this afternoon.\n\n<u>🎧 Послушайте и повторите</u>\nCan you finish this today?\nI need to check.\nOkay.\nI’ll get back to you after lunch."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day18.mp3",
+          "title": "Сезон 6 · День 18 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day18_practice",
+      "date": "2027-02-18",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 18</b>\nПослушайте и выберите общий смысл.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Adam needs to check the plan. He will get back to David after lunch.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day18.mp3",
+          "title": "Сезон 6 · День 18 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что сделает Адам?",
+          "options": [
+            "Сразу закончит разговор без ответа.",
+            "Проверит план и ответит после обеда.",
+            "Перенесёт встречу на завтра."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day19_morning",
+      "date": "2027-02-19",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 19</b>\n<b>Sorry for the late reply. — Извините за поздний ответ.</b>\n\n<u>🎬 История</u>\nЭмма замечает сообщение Рэйчел только после встречи и отвечает позже, чем планировала.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Sorry for the late reply.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;No problem. Are you free now?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I can talk now.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Great. I’ll call you.\n\n<u>🗣 Новые слова</u>\n🔹 late — поздний\n🔹 reply — ответ\n\n<u>⭐ Запомните</u>\nSorry for + существительное — короткое извинение за ситуацию: Sorry for the late reply, Sorry for the change. Если дальше идёт действие, используем -ing: Sorry for calling late.\n\n<u>🎧 Послушайте и повторите</u>\nSorry for the late reply.\nNo problem. Are you free now?\nYes. I can talk now.\nGreat. I’ll call you."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day19.mp3",
+          "title": "Сезон 6 · День 19 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day19_practice",
+      "date": "2027-02-19",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 19</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Emma replies late, but Rachel can talk to her now. Rachel will call Emma.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day19.mp3",
+          "title": "Сезон 6 · День 19 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Кто позвонит?",
+          "options": [
+            "Эмма.",
+            "Рэйчел.",
+            "Дэвид."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day20_morning",
+      "date": "2027-02-20",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 20</b>\n<b>Could you send me the new schedule? — Не могли бы вы прислать мне новое расписание?</b>\n\n<u>🎬 История</u>\nЭмма пишет короткое письмо Рэйчел. В нём только приветствие, одна понятная просьба и подпись.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Hi Rachel,\n&#160;&#160;&#160;&#160;&#160;Could you send me the new schedule?\n&#160;&#160;&#160;&#160;&#160;Thanks,\n&#160;&#160;&#160;&#160;&#160;Emma\n\n<u>🗣 Новые слова</u>\n🔹 schedule — расписание\n🔹 Thanks, — Спасибо,\n\n<u>⭐ Запомните</u>\nКороткое рабочее письмо не требует сложных оборотов. Достаточно трёх частей: приветствие, ясная просьба и подпись. В строке приветствия после имени ставим запятую — Hi Rachel, — а просьбу начинаем с новой строки.\n\n<u>🎧 Послушайте и повторите</u>\nHi Rachel,\nCould you send me the new schedule?\nThanks!"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day20.mp3",
+          "title": "Сезон 6 · День 20 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day20_practice",
+      "date": "2027-02-20",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 20</b>\nВыберите самый ясный и вежливый вариант сообщения."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как попросить Рэйчел прислать расписание?",
+          "options": [
+            "Rachel! Schedule now.",
+            "Hi Rachel, could you send me the new schedule? Thanks, Emma.",
+            "New schedule where?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day21_morning",
+      "date": "2027-02-21",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season6/week03.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 21</b>\n<b>Week 3 Review — Уже можем написать короткое рабочее сообщение</b>\n\n<u>🎬 История</u>\nПеред встречей Рэйчел уточняет время и просит последнюю версию файла. Эмма отвечает коротко и по делу.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Hi, Emma. Just checking: is the meeting still at eleven?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, it is.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Could you send me the new file?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Of course. I’ll send it now.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Thanks for letting me know.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;See you tomorrow.\n\n<u>🗣 Повторяем</u>\n🔹 Could you send me the file? — Не могли бы вы прислать мне файл?\n🔹 Just checking… — Просто уточняю…\n🔹 Thanks for letting me know. — Спасибо, что сообщили.\n🔹 I’ll get back to you. — Я отвечу позже.\n\n<u>⭐ Главная задача</u>\nСначала послушайте диалог без текста. Определите, что Рэйчел уточняет и что просит прислать. Затем откройте текст и проверьте себя. В коротком сообщении важны ясная цель и вежливый тон, а не длинные фразы.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day21.mp3",
+          "title": "Сезон 6 · День 21 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day21_practice",
+      "date": "2027-02-21",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 21</b>\nListen and choose — послушайте и выберите.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Hi, Adam. Just checking: is the meeting still at two? Could you send me the file before the meeting? Thanks. See you later.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day21.mp3",
+          "title": "Сезон 6 · День 21 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Что нужно сделать до встречи?",
+          "options": [
+            "Перенести встречу.",
+            "Прислать файл.",
+            "Позвонить Рэйчел после обеда."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day21_bonus",
+      "date": "2027-02-21",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<b>🔎 Пасхалка недели</b>\nПосмотрите на фотографию недели ещё раз. На рабочем столе спряталась маленькая подсказка к теме встреч."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Который час показывают маленькие настольные часы?",
+          "options": [
+            "10:00.",
+            "11:00.",
+            "12:00."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day22_morning",
+      "date": "2027-02-22",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 22</b>\n<b>I was really busy yesterday. — Вчера я была очень занята.</b>\n\n<u>🎬 История</u>\nВ начале рабочей недели Рэйчел спрашивает Эмму о предыдущем насыщенном дне. Работа закончилась позже обычного.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;How was your day yesterday?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I was really busy.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Were you at the office?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. We were there until seven.\n\n<u>🗣 Новые слова</u>\n🔹 yesterday — вчера\n🔹 was / were — был, была / были\n🔹 until seven — до семи\n\n<u>⭐ Запомните</u>\nWas и were — формы глагола to be для прошлого.\nС I, he, she, it используем was: I was busy.\nС you, we, they — were: We were at the office.\nЧтобы задать вопрос, меняем порядок слов. Модель: Was / Were + I / you / he / she / we / they…? Were you at the office?\n\n<u>🎧 Послушайте и повторите</u>\nHow was your day yesterday?\nI was really busy.\nWere you at the office?\nYes. We were there until seven."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day22.mp3",
+          "title": "Сезон 6 · День 22 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day22_practice",
+      "date": "2027-02-22",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 22</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>Emma was very busy yesterday. She and Rachel were at the office until seven.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day22.mp3",
+          "title": "Сезон 6 · День 22 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "До какого времени они были в офисе?",
+          "options": [
+            "До пяти.",
+            "До шести.",
+            "До семи."
+          ],
+          "correct_option_ids": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day23_morning",
+      "date": "2027-02-23",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 23</b>\n<b>I worked late and called a client. — Я работала допоздна и позвонила клиенту.</b>\n\n<u>🎬 История</u>\nЭмма коротко рассказывает Рэйчел, что сделала в конце вчерашнего рабочего дня.\n\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;You worked late yesterday.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I called a client at six.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;And after that?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I worked until seven.\n\n<u>🗣 Новые слова</u>\n🔹 worked — работал, работала\n🔹 called — позвонил, позвонила\n🔹 client — клиент\n\n<u>⭐ Запомните</u>\nУ правильных глаголов утвердительная форма Past Simple обычно образуется с помощью -ed: work → worked, call → called. Она одинакова для всех: I worked, she worked, we worked.\nСлово yesterday сразу показывает, что действие завершилось в прошлом.\n\n<u>🎧 Послушайте и повторите</u>\nYou worked late yesterday.\nYes. I called a client at six.\nAnd after that?\nI worked until seven."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day23.mp3",
+          "title": "Сезон 6 · День 23 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day23_practice",
+      "date": "2027-02-23",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 23</b>\nВыберите правильные формы для рассказа о вчерашнем дне."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать: «Вчера я работал и позвонил клиенту»?",
+          "options": [
+            "Yesterday I worked and called a client.",
+            "Yesterday I work and call a client.",
+            "Yesterday I did worked and called a client."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day24_morning",
+      "date": "2027-02-24",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 24</b>\n<b>We finished the project yesterday. — Мы закончили проект вчера.</b>\n\n<u>🎬 История</u>\nАдам и Дэвид завершили важную часть проекта. Они проверяют время последней встречи и результат дня.\n\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;The meeting started at ten.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;And it finished at eleven.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;We finished the project after lunch.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Good work.\n\n<u>🗣 Новые слова</u>\n🔹 started — начался, началась\n🔹 finished — закончился; закончил\n🔹 Good work. — Хорошая работа.\n\n<u>⭐ Запомните</u>\nОкончание -ed пишется одинаково, но звучит по-разному: worked — короткий звук /t/, called — /d/, started — отдельный слог /ɪd/. Смысл Past Simple во всех трёх случаях один — действие завершилось.\n\n<u>🎧 Послушайте и повторите</u>\nThe meeting started at ten.\nAnd it finished at eleven.\nWe finished the project after lunch.\nGood work."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day24.mp3",
+          "title": "Сезон 6 · День 24 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day24_practice",
+      "date": "2027-02-24",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 24</b>\nПослушайте и выберите ответ.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>The meeting started at ten and finished at eleven. Adam and David finished the project after lunch.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day24.mp3",
+          "title": "Сезон 6 · День 24 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Во сколько закончилась встреча?",
+          "options": [
+            "В 10:00.",
+            "В 11:00.",
+            "После обеда."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day25_morning",
+      "date": "2027-02-25",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 25</b>\n<b>I went to the office and had two meetings. — Я пошёл в офис, и у меня было две встречи.</b>\n\n<u>🎬 История</u>\nАдам рассказывает Дэвиду о вчерашнем дне. Некоторые частые глаголы в прошлом меняются не по правилу.\n\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Were you at home yesterday?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. I went to the office.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Was it busy?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. I had two meetings.\n\n<u>🗣 Новые слова</u>\n🔹 go → went — идти, ехать → пошёл, поехал\n🔹 have → had — иметь → имел; было\n\n<u>⭐ Запомните</u>\nGo и have — неправильные глаголы: в Past Simple они меняют форму не по общему правилу: go → went, have → had.\nЭти пары запоминаем вместе с примером: I went to the office. I had two meetings.\n\n<u>🎧 Послушайте и повторите</u>\nWere you at home yesterday?\nNo. I went to the office.\nWas it busy?\nYes. I had two meetings."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day25.mp3",
+          "title": "Сезон 6 · День 25 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day25_practice",
+      "date": "2027-02-25",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 25</b>\nВыберите правильное продолжение."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Yesterday I … to the office and … two meetings.",
+          "options": [
+            "go / have",
+            "went / had",
+            "went / have"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day26_morning",
+      "date": "2027-02-26",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 26</b>\n<b>I didn’t have time for lunch. — У меня не было времени на обед.</b>\n\n<u>🎬 История</u>\nЭмма спрашивает Адама о его насыщенном дне. Из-за встреч он пропустил обычный обеденный перерыв.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Did you have lunch yesterday?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. I didn’t have time.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Not even a sandwich?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;No. I was too busy.\n\n<u>🗣 Новые слова</u>\n🔹 didn’t — не сделал; не происходило\n🔹 have time for lunch — иметь время на обед\n🔹 too busy — слишком занят\n\n<u>⭐ Запомните</u>\nОтрицание Past Simple строим так: didn’t + начальная форма глагола.\nПрошедшее время уже выражено в didn’t, поэтому говорим didn’t have, а не didn’t had.\nМодель подходит и правильным, и неправильным глаголам: didn’t work, didn’t go, didn’t call.\n\n<u>🎧 Послушайте и повторите</u>\nDid you have lunch yesterday?\nNo. I didn’t have time.\nNot even a sandwich?\nNo. I was too busy."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day26.mp3",
+          "title": "Сезон 6 · День 26 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day26_practice",
+      "date": "2027-02-26",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 26</b>\nВыберите правильное отрицание."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как сказать, что вчера не было времени на обед?",
+          "options": [
+            "I didn’t had time for lunch.",
+            "I didn’t have time for lunch.",
+            "I not have time for lunch."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day27_morning",
+      "date": "2027-02-27",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 27</b>\n<b>What did you do yesterday? — Что вы делали вчера?</b>\n\n<u>🎬 История</u>\nДэвид уточняет, какие задачи Адам успел выполнить. Адам отвечает коротко и подтверждает звонок клиенту.\n\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;What did you do yesterday?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I went to the office.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Did you call the client?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I did.\n\n<u>🗣 Новые слова</u>\n🔹 What did you do? — Что вы делали?\n🔹 Did you call…? — Вы звонили…?\n🔹 Yes, I did. — Да.\n\n<u>⭐ Запомните</u>\nМодель вопроса в Past Simple: Did + I / you / he / she / we / they + начальная форма глагола? Did you call? Если есть вопросительное слово, оно ставится перед did: What did you do?\nПрошедшее время выражено в did, поэтому основной глагол не меняется: did call, did do, а не did called. Короткий ответ повторяет did: Yes, I did. / No, I didn’t.\n\n<u>🎧 Послушайте и повторите</u>\nWhat did you do yesterday?\nI went to the office.\nDid you call the client?\nYes, I did."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day27.mp3",
+          "title": "Сезон 6 · День 27 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day27_practice",
+      "date": "2027-02-27",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 27</b>\nВыберите грамматически правильный вопрос о вчерашнем дне."
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Как правильно спросить по-английски: «Ты звонил клиенту?»",
+          "options": [
+            "Did you call the client?",
+            "Did you called the client?",
+            "Do you call the client yesterday?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6_day28_morning",
+      "date": "2027-02-28",
+      "time": "07:00",
+      "retry_until": "09:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season6/week04.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🌱<b> Сезон 6 • День 28</b>\n<b>One Month of Work &amp; Communication — Месяц работы и уверенного общения</b>\n\n<u>🎬 История</u>\nВ последнее воскресенье февраля Эмма, Адам, Рэйчел и Дэвид встречаются за обедом в знакомом кафе. Они спокойно вспоминают насыщенную рабочую неделю.\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;This week was busy.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Yes. We finished the project on Friday.\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;I went to the office and had two meetings.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Did you finish your report?\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Yes, I did.\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;I didn’t have time for lunch on Thursday.\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;What happened?\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;Three meetings.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Then today we have time for lunch.\n\n<u>🗣 Повторяем</u>\n🔹 I was busy yesterday. — Вчера я был занят.\n🔹 We finished the project. — Мы закончили проект.\n🔹 I went to the office. — Я поехал в офис.\n🔹 Did you call David? — Вы звонили Дэвиду?\n\n<u>⭐ Главная задача</u>\nСначала послушайте весь диалог без текста и отметьте только завершённые действия: что закончили, куда ездил Адам и у кого не было времени на обед. Затем прочитайте и послушайте снова. Past Simple помогает собрать отдельные действия в короткий рассказ о прошлом.\n\n<u>🎧 Послушайте и повторите</u>\nДиалог целиком."
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/morning/day28.mp3",
+          "title": "Сезон 6 · День 28 · Утро",
+          "performer": "Английский через истории"
+        }
+      ]
+    },
+    {
+      "id": "s6_day28_practice",
+      "date": "2027-02-28",
+      "time": "12:00",
+      "retry_until": "14:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "☀️<b> Практика • День 28</b>\nListen and choose — послушайте и выберите.\nСначала послушайте аудио без текста. Если задание окажется сложным, откройте подсказку.\n\n<u>🎧 Текст аудио:</u>\n<tg-spoiler>The week was busy. Emma worked late and did not have time for lunch on Thursday. Adam went to the office and had two meetings. They finished the project on Friday.</tg-spoiler>"
+        },
+        {
+          "id": "audio",
+          "type": "audio",
+          "path": "audio/season6/practice/day28.mp3",
+          "title": "Сезон 6 · День 28 · Практика",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll",
+          "type": "poll",
+          "question": "Кто не успел пообедать в четверг?",
+          "options": [
+            "Эмма.",
+            "Адам.",
+            "Дэвид."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season6_final_polls",
+      "date": "2027-02-28",
+      "time": "14:00",
+      "retry_until": "16:00",
+      "steps": [
+        {
+          "id": "poll01",
+          "type": "poll",
+          "question": "Как сказать о своей обычной рабочей привычке?",
+          "options": [
+            "I usually work from the office.",
+            "I’m usually work from the office.",
+            "I usually working from the office."
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll02",
+          "type": "poll",
+          "question": "Как уточнить, подходит ли вторник?",
+          "options": [
+            "Is Tuesday work for you?",
+            "Does Tuesday work for you?",
+            "Do Tuesday works for you?"
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll03",
+          "type": "poll",
+          "question": "Как вежливо попросить прислать файл?",
+          "options": [
+            "Could you send me the file?",
+            "Could you to send me the file?",
+            "Do you send me file now?"
+          ],
+          "correct_option_ids": [
+            0
+          ]
+        },
+        {
+          "id": "poll04",
+          "type": "poll",
+          "question": "Выберите правильные формы глагола to be в прошлом.",
+          "options": [
+            "I were busy, and we was at the office.",
+            "I was busy, and we were at the office.",
+            "I am busy, and we were at the office yesterday."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll05",
+          "type": "poll",
+          "question": "Как сказать: «Мы закончили проект вчера»?",
+          "options": [
+            "We finish the project yesterday.",
+            "We finished the project yesterday.",
+            "We did finished the project yesterday."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll06",
+          "type": "poll",
+          "question": "Как правильно построить отрицание?",
+          "options": [
+            "I didn’t had time for lunch.",
+            "I didn’t have time for lunch.",
+            "I no had time for lunch."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        },
+        {
+          "id": "poll07_audio",
+          "type": "audio",
+          "path": "audio/season6/final/final_poll_07.mp3",
+          "title": "Сезон 6 · Итоговый опрос · Задание 7",
+          "performer": "Английский через истории"
+        },
+        {
+          "id": "poll07",
+          "type": "poll",
+          "question": "Во сколько закончили проект?",
+          "options": [
+            "В 17:00.",
+            "В 18:00.",
+            "В 19:00."
+          ],
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season6_congratulations",
+      "date": "2027-02-28",
+      "time": "16:00",
+      "retry_until": "18:00",
+      "steps": [
+        {
+          "id": "image",
+          "type": "photo",
+          "path": "images/season6/final.png"
+        },
+        {
+          "id": "text",
+          "type": "message",
+          "text": "🎉 SEASON 6 COMPLETE!\n\n<b>Поздравляем!</b>\n\nВы прошли шестой сезон курса.\n\n<b>Теперь вы уже можете:</b>\n\n✅ рассказать о своей обычной работе и о том, что происходит сейчас;\n\n✅ предложить время, назначить или перенести встречу;\n\n✅ написать короткое рабочее сообщение и вежливо попросить файл;\n\n✅ рассказать о нескольких завершённых действиях;\n\n✅ задать простой вопрос о прошлом и ответить на него.\n\n<b>🏆 Well done!</b>\n\nДо встречи в седьмом сезоне!"
+        }
+      ]
+    },
+    {
+      "id": "s6_day28_bonus",
+      "date": "2027-02-28",
+      "time": "18:00",
+      "retry_until": "20:00",
+      "steps": [
+        {
+          "id": "text",
+          "type": "message",
+          "text": "<u>🎬 После титров</u>\n\n👩 <b>Emma:</b>\n&#160;&#160;&#160;&#160;&#160;We finished the project!\n👨 <b>Adam:</b>\n&#160;&#160;&#160;&#160;&#160;Great. Did we finish all the emails?\n👩 <b>Rachel:</b>\n&#160;&#160;&#160;&#160;&#160;Almost. One email is still waiting.\n👨 <b>David:</b>\n&#160;&#160;&#160;&#160;&#160;Then it can wait until Monday."
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "audio/season6/bonus/day07_adam.mp3": "0ef13cc9a3e234ee022a0bc4e2027e909b45f591db1061ed519e745ee23d8cd5",
+    "audio/season6/final/final_poll_07.mp3": "29700c2ac00b804e6a771865832757373568c68eae700532e16b8147f7ad43dd",
+    "audio/season6/morning/day01.mp3": "3d74718cb3699448db042a08d6b57e2fb073811f9e9ab83aacc9e2c5b0051cc1",
+    "audio/season6/morning/day02.mp3": "c0c1a96f8a2d5be63b56da322199ad8f63bb3d37400402fb79e02f136823d6cb",
+    "audio/season6/morning/day03.mp3": "75623cbb2586ed36a99f8bfd6a7b82be9e63b93260c7cbdebe16fdb317fb5b6e",
+    "audio/season6/morning/day04.mp3": "590352f5368535ce7ee096edbe87b76f16cb1194aadbd9c9475eb51b8dd644cc",
+    "audio/season6/morning/day05.mp3": "5a858856a1c408af1da76091fc573f4d56307071e17f3ddb0c11bd4d5fa5250b",
+    "audio/season6/morning/day06.mp3": "3e1a7d6c005456efbdba0740b18575afe90c9f7cb2537ae668d3c7efcd049969",
+    "audio/season6/morning/day07.mp3": "b8d942d32ef65638ee6d005aab682ebe47ab37fadd081dbdd4484d450fb48a7d",
+    "audio/season6/morning/day08.mp3": "f90965bdbfddd0027f369c8b51f71b9b0fc644209ee4a9a298093b1eb405fecf",
+    "audio/season6/morning/day09.mp3": "00926ee69fe4aa18a9e48d3894a47f61aa594e3c6cc4cb1761c66580c52bc9a7",
+    "audio/season6/morning/day10.mp3": "41d2c6c297402e20fdabc924c4016f34b69ceb1de717919b3c827c72149ef02c",
+    "audio/season6/morning/day11.mp3": "2d56ebeafabc190ca56bb3cad86972140c4a902cbe1e4ea9315c2bea105ae058",
+    "audio/season6/morning/day12.mp3": "f58d6aa0fb9accc0b44fdfcdb45f33f001c78d450fc142ad03d0a32642a33f47",
+    "audio/season6/morning/day13.mp3": "40c11eb10de8cafc441d9441477a844d9c976787514af04813cc51ae4dd1b495",
+    "audio/season6/morning/day14.mp3": "eca7f22912eba122889f6e9bc7e286464899251f25f27d6983b92396cf5944a5",
+    "audio/season6/morning/day15.mp3": "e54d75167e4d14b0e2f315972b6dcfc7df9364ed540112e85a377d77ea2a616b",
+    "audio/season6/morning/day16.mp3": "a57e0d2689998c8af22986f305a05b6f572bb95f1dfff7fd9ecbe0aa747dda0f",
+    "audio/season6/morning/day17.mp3": "8e9bff94b2850c6a0f4459b5b30fd825925d5a65681d0de564c5a46343799d51",
+    "audio/season6/morning/day18.mp3": "e5898ed86de8ae8efa73d1bbe380567f249a294942ec261a5a043bdf03e1d8f2",
+    "audio/season6/morning/day19.mp3": "e31d6eadd7747528c9b9aeb6d7e6464b54d5a96f160758963d1499fe3fa3dc4b",
+    "audio/season6/morning/day20.mp3": "c00138df63ff374b861fa354fad36e7eae97f6822c3dae7a6ea98a2463b33547",
+    "audio/season6/morning/day21.mp3": "53caf583e25c35d70e5a673be375776929515ab0a7b6f11bb187501c53ed27ed",
+    "audio/season6/morning/day22.mp3": "be48d816c01dd89c4be4b915de8cc7b3234752e28f04b1b9bf2150f4d749dae7",
+    "audio/season6/morning/day23.mp3": "065909220f874ed1d193cb9ef2eec2aacb14c6a82d434e948be32c6f615d7b7a",
+    "audio/season6/morning/day24.mp3": "7d440ccb80a9f2c9bd37d821006cb17d2d3f457b6979bab07df6ca9e6fe2e936",
+    "audio/season6/morning/day25.mp3": "df165f22b9b2ca3832186a699e47ed800f2183eb5d36767c65e7bac79ad70e61",
+    "audio/season6/morning/day26.mp3": "137cf8281b2a40c226adbaf579584deb1fe1ee38990951ede699d3997faf4102",
+    "audio/season6/morning/day27.mp3": "c4669da2ae069f9a361b0b3673d390aa6576ac4739959b20107074e2c02cdad0",
+    "audio/season6/morning/day28.mp3": "71c355c6f6ba88557995242b7edc82fb5bc4c692d22a002af3d62e545839b484",
+    "audio/season6/practice/day01.mp3": "799516f963a68aaf8281e8ec8cd0ef38fa7c1bde1363ba51159cd4e24c960484",
+    "audio/season6/practice/day03.mp3": "a2d3d114aa6dc4bbe2e063b7b1c30a5f5647666669be6bb4a15c9fa4193414a1",
+    "audio/season6/practice/day05.mp3": "3f27ccd1ddf5068631873648d79893de3c15dc9d8a40a6582b35a6a0153bbaaf",
+    "audio/season6/practice/day07.mp3": "0104a446d68497c678b525796398343c947657010df9fac4df7de2034ec2da85",
+    "audio/season6/practice/day08.mp3": "4930108e3a738c3d92052029125da7a5f925a010cc0291ec4d11c3fbbd1caf8d",
+    "audio/season6/practice/day11.mp3": "1540a6f2b350e550ca164980c29d3ce99fd329c50d9f67b32c354b85b1fe4249",
+    "audio/season6/practice/day14.mp3": "3cc26ecad264b4adfc626d3edf5f4b69d1d6a4c256fc125cd6dab75ddab6a0b3",
+    "audio/season6/practice/day15.mp3": "801ac3a9a1055e5069f67cd7b021745046f9107e9e6f359e30d85c47eff25f5e",
+    "audio/season6/practice/day18.mp3": "d6da85f677a054000e7b976e7f6f728cab5351806d148db97a1923edc004b1d6",
+    "audio/season6/practice/day19.mp3": "d2fca511de0482384695aac4397f6f9e78a21a450d8133625f1505b90ce6e7c7",
+    "audio/season6/practice/day21.mp3": "f029c4cdba489f5607a22b9987ed00b9160989c173a13fe27a271ad18c142516",
+    "audio/season6/practice/day22.mp3": "61866fec7c1097a3aab24923dff2062e9226c3f1a3c46ceb1eb3f41e3d85e79f",
+    "audio/season6/practice/day24.mp3": "96ae7b816391ca974928871f574c34712f8ff225632eef4c5b58fc21b90f11fc",
+    "audio/season6/practice/day28.mp3": "d453172938d822e1e77ab3337ff76ef5e04870eaf3e61401fb86ef04aa940b34",
+    "images/season6/final.png": "ca20de405ac1a765606e4b9f78529306ce06cf48813e3d354766090f3ffc4cbe",
+    "images/season6/week01.png": "65b4c94f48be210145a18725bf71c964ccf401147d27db6371ea70a90a2c6909",
+    "images/season6/week02.png": "a2dc19e0be4a1b73fd10630ad09c57b772c46a55e7c8349cfbbbba2b916e019d",
+    "images/season6/week03.png": "258d9dbcafad64914af5e5911dd6dbb8422a819c02ae0d1dae0bdd5e83923003",
+    "images/season6/week04.png": "42c718d19890d16399dc14355692c71e6cf52db2b72241fa3305a39660cec206"
+  }
+}
