@@ -232,6 +232,14 @@
     "day11_practice:poll": {
       "message_id": 134,
       "sent_at": "2026-09-11T12:58:37+03:00"
+    },
+    "day12_morning:text": {
+      "message_id": 135,
+      "sent_at": "2026-09-12T08:22:55+03:00"
+    },
+    "day12_morning:audio": {
+      "message_id": 136,
+      "sent_at": "2026-09-12T08:22:57+03:00"
     }
   }
 }
