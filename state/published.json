@@ -240,6 +240,14 @@
     "day12_morning:audio": {
       "message_id": 136,
       "sent_at": "2026-09-12T08:22:57+03:00"
+    },
+    "day12_practice:text": {
+      "message_id": 137,
+      "sent_at": "2026-09-12T13:00:41+03:00"
+    },
+    "day12_practice:poll": {
+      "message_id": 138,
+      "sent_at": "2026-09-12T13:00:42+03:00"
     }
   }
 }
