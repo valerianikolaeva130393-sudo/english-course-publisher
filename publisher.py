@@ -315,20 +315,27 @@ def resolve_manual_event_id(action: str, season: int, day: int, now: datetime) -
         return "course_start_button"
 
     if season == 0:
-        season_by_month = {9: 1, 10: 2, 11: 3, 12: 4}
-        if now.year != 2026 or now.month not in season_by_month:
-            raise SystemExit("Не удалось определить сезон автоматически. Выберите сезон 1, 2, 3 или 4.")
-        season = season_by_month[now.month]
-    if season not in {1, 2, 3, 4}:
-        raise SystemExit("Сезон должен быть 1, 2, 3 или 4.")
+        season_by_month = {
+            (2026, 9): 1,
+            (2026, 10): 2,
+            (2026, 11): 3,
+            (2026, 12): 4,
+            (2027, 1): 5,
+            (2027, 2): 6,
+        }
+        if (now.year, now.month) not in season_by_month:
+            raise SystemExit("Не удалось определить сезон автоматически. Выберите сезон вручную.")
+        season = season_by_month[(now.year, now.month)]
+    if season not in {1, 2, 3, 4, 5, 6}:
+        raise SystemExit("Сезон должен быть от 1 до 6.")
 
     if action in {"morning", "practice", "bonus"}:
         if day == 0:
             day = now.day
-        maximum_day = 31 if season in {2, 4} else 30
+        maximum_day = {1: 30, 2: 31, 3: 30, 4: 31, 5: 31, 6: 28}[season]
         if not 1 <= day <= maximum_day:
             raise SystemExit(f"Для сезона {season} выберите день от 1 до {maximum_day}.")
-        prefix = {1: "", 2: "s2_", 3: "s3_", 4: "s4_"}[season]
+        prefix = {1: "", 2: "s2_", 3: "s3_", 4: "s4_", 5: "s5_", 6: "s6_"}[season]
         return f"{prefix}day{day:02d}_{action}"
 
     if action == "final_polls":
