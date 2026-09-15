@@ -300,6 +300,18 @@
     "day15_morning:audio": {
       "message_id": 151,
       "sent_at": "2026-09-15T08:32:59+03:00"
+    },
+    "day15_practice:text": {
+      "message_id": 152,
+      "sent_at": "2026-09-15T12:00:57+03:00"
+    },
+    "day15_practice:audio": {
+      "message_id": 153,
+      "sent_at": "2026-09-15T12:00:58+03:00"
+    },
+    "day15_practice:poll": {
+      "message_id": 154,
+      "sent_at": "2026-09-15T12:01:00+03:00"
     }
   }
 }
