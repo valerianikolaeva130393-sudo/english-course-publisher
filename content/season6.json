@@ -6,7 +6,7 @@
     "end_date": "2027-02-28",
     "timezone": "Europe/Moscow",
     "channel": "@english_story_a1a2",
-    "source_sha256": "5a6eb35bddc2da0e09ff6feedc86d8f17bae8736162f7d556e5e475cac1cca6e",
+    "source_sha256": "5fd52291491f7ad0711306b3915cdcafbbd6bae5dc8209796b8bf3f95f894bbd",
     "audio_files": 44,
     "image_files": 5
   },
@@ -1111,16 +1111,16 @@
         {
           "id": "text",
           "type": "message",
-          "text": "<b>🔎 Пасхалка недели</b>\nПосмотрите на фотографию недели ещё раз. На рабочем столе спряталась маленькая подсказка к теме встреч."
+          "text": "<b>🔎 Пасхалка недели</b>\nПосмотрите на фотографию недели ещё раз. Найдите маленькую деталь, которая повторяет время встречи из утреннего диалога."
         },
         {
           "id": "poll",
           "type": "poll",
-          "question": "Который час показывают маленькие настольные часы?",
+          "question": "Какая английская фраза соответствует времени на спрятанных часах?",
           "options": [
-            "10:00.",
-            "11:00.",
-            "12:00."
+            "It’s ten o’clock.",
+            "It’s eleven o’clock.",
+            "It’s twelve o’clock."
           ],
           "correct_option_ids": [
             1
