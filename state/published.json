@@ -340,6 +340,18 @@
     "day17_morning:audio": {
       "message_id": 161,
       "sent_at": "2026-09-17T08:01:44+03:00"
+    },
+    "day17_practice:text": {
+      "message_id": 162,
+      "sent_at": "2026-09-17T13:01:08+03:00"
+    },
+    "day17_practice:audio": {
+      "message_id": 163,
+      "sent_at": "2026-09-17T13:01:10+03:00"
+    },
+    "day17_practice:poll": {
+      "message_id": 164,
+      "sent_at": "2026-09-17T13:01:12+03:00"
     }
   }
 }
