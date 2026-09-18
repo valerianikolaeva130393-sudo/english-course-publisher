@@ -360,6 +360,14 @@
     "day18_morning:audio": {
       "message_id": 166,
       "sent_at": "2026-09-18T08:01:23+03:00"
+    },
+    "day18_practice:text": {
+      "message_id": 167,
+      "sent_at": "2026-09-18T13:18:31+03:00"
+    },
+    "day18_practice:poll": {
+      "message_id": 168,
+      "sent_at": "2026-09-18T13:18:33+03:00"
     }
   }
 }
