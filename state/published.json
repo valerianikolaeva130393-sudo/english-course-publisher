@@ -392,6 +392,18 @@
     "day20_morning:audio": {
       "message_id": 174,
       "sent_at": "2026-09-20T09:16:21+03:00"
+    },
+    "day20_practice:text": {
+      "message_id": 175,
+      "sent_at": "2026-09-20T13:10:27+03:00"
+    },
+    "day20_practice:audio": {
+      "message_id": 176,
+      "sent_at": "2026-09-20T13:10:29+03:00"
+    },
+    "day20_practice:poll": {
+      "message_id": 177,
+      "sent_at": "2026-09-20T13:10:30+03:00"
     }
   }
 }
