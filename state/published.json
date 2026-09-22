@@ -436,6 +436,14 @@
     "day22_morning:audio": {
       "message_id": 185,
       "sent_at": "2026-09-22T08:16:37+03:00"
+    },
+    "day22_practice:text": {
+      "message_id": 186,
+      "sent_at": "2026-09-22T13:38:38+03:00"
+    },
+    "day22_practice:poll": {
+      "message_id": 187,
+      "sent_at": "2026-09-22T13:38:40+03:00"
     }
   }
 }
