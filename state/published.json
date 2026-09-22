@@ -428,6 +428,14 @@
     "day21_practice:poll": {
       "message_id": 183,
       "sent_at": "2026-09-21T12:21:56+03:00"
+    },
+    "day22_morning:text": {
+      "message_id": 184,
+      "sent_at": "2026-09-22T08:16:35+03:00"
+    },
+    "day22_morning:audio": {
+      "message_id": 185,
+      "sent_at": "2026-09-22T08:16:37+03:00"
     }
   }
 }
