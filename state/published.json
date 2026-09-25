@@ -488,6 +488,14 @@
     "day25_morning:audio": {
       "message_id": 198,
       "sent_at": "2026-09-25T08:03:25+03:00"
+    },
+    "day25_practice:text": {
+      "message_id": 199,
+      "sent_at": "2026-09-25T12:08:40+03:00"
+    },
+    "day25_practice:poll": {
+      "message_id": 200,
+      "sent_at": "2026-09-25T12:08:42+03:00"
     }
   }
 }
