@@ -504,6 +504,14 @@
     "day26_morning:audio": {
       "message_id": 202,
       "sent_at": "2026-09-26T08:18:57+03:00"
+    },
+    "day26_practice:text": {
+      "message_id": 203,
+      "sent_at": "2026-09-26T13:59:54+03:00"
+    },
+    "day26_practice:poll": {
+      "message_id": 204,
+      "sent_at": "2026-09-26T13:59:56+03:00"
     }
   }
 }
