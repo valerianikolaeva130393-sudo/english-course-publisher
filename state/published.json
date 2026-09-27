@@ -524,6 +524,14 @@
     "day27_practice:poll": {
       "message_id": 207,
       "sent_at": "2026-09-27T12:35:13+03:00"
+    },
+    "day27_morning:text": {
+      "message_id": 208,
+      "sent_at": "2026-09-27T13:30:14+03:00"
+    },
+    "day27_morning:audio": {
+      "message_id": 209,
+      "sent_at": "2026-09-27T13:30:17+03:00"
     }
   }
 }
