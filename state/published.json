@@ -544,6 +544,18 @@
     "day28_morning:audio": {
       "message_id": 215,
       "sent_at": "2026-09-28T08:20:09+03:00"
+    },
+    "day28_practice:text": {
+      "message_id": 216,
+      "sent_at": "2026-09-28T13:01:06+03:00"
+    },
+    "day28_practice:audio": {
+      "message_id": 217,
+      "sent_at": "2026-09-28T13:01:08+03:00"
+    },
+    "day28_practice:poll": {
+      "message_id": 218,
+      "sent_at": "2026-09-28T13:01:10+03:00"
     }
   }
 }
