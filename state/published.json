@@ -564,6 +564,14 @@
     "day29_morning:audio": {
       "message_id": 220,
       "sent_at": "2026-09-29T08:01:21+03:00"
+    },
+    "day29_practice:text": {
+      "message_id": 221,
+      "sent_at": "2026-09-29T13:00:52+03:00"
+    },
+    "day29_practice:poll": {
+      "message_id": 222,
+      "sent_at": "2026-09-29T13:00:53+03:00"
     }
   }
 }
