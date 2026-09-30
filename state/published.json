@@ -580,6 +580,18 @@
     "day30_morning:audio": {
       "message_id": 224,
       "sent_at": "2026-09-30T09:05:04+03:00"
+    },
+    "day30_practice:text": {
+      "message_id": 225,
+      "sent_at": "2026-09-30T13:02:53+03:00"
+    },
+    "day30_practice:audio": {
+      "message_id": 226,
+      "sent_at": "2026-09-30T13:02:56+03:00"
+    },
+    "day30_practice:poll": {
+      "message_id": 227,
+      "sent_at": "2026-09-30T13:02:57+03:00"
     }
   }
 }
