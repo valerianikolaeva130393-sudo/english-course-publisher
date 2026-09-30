@@ -624,6 +624,14 @@
     "season1_final_polls:poll07": {
       "message_id": 235,
       "sent_at": "2026-09-30T15:07:14+03:00"
+    },
+    "season1_congratulations:image": {
+      "message_id": 236,
+      "sent_at": "2026-09-30T16:01:23+03:00"
+    },
+    "season1_congratulations:text": {
+      "message_id": 237,
+      "sent_at": "2026-09-30T16:01:24+03:00"
     }
   }
 }
