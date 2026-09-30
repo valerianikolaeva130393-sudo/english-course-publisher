@@ -592,6 +592,38 @@
     "day30_practice:poll": {
       "message_id": 227,
       "sent_at": "2026-09-30T13:02:57+03:00"
+    },
+    "season1_final_polls:poll01": {
+      "message_id": 228,
+      "sent_at": "2026-09-30T15:07:02+03:00"
+    },
+    "season1_final_polls:poll02": {
+      "message_id": 229,
+      "sent_at": "2026-09-30T15:07:04+03:00"
+    },
+    "season1_final_polls:poll03": {
+      "message_id": 230,
+      "sent_at": "2026-09-30T15:07:05+03:00"
+    },
+    "season1_final_polls:poll04": {
+      "message_id": 231,
+      "sent_at": "2026-09-30T15:07:07+03:00"
+    },
+    "season1_final_polls:poll05": {
+      "message_id": 232,
+      "sent_at": "2026-09-30T15:07:08+03:00"
+    },
+    "season1_final_polls:poll06": {
+      "message_id": 233,
+      "sent_at": "2026-09-30T15:07:10+03:00"
+    },
+    "season1_final_polls:poll07_audio": {
+      "message_id": 234,
+      "sent_at": "2026-09-30T15:07:13+03:00"
+    },
+    "season1_final_polls:poll07": {
+      "message_id": 235,
+      "sent_at": "2026-09-30T15:07:14+03:00"
     }
   }
 }
