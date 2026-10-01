@@ -640,6 +640,18 @@
     "s2_day01_morning:audio": {
       "message_id": 239,
       "sent_at": "2026-10-01T08:03:29+03:00"
+    },
+    "s2_day01_practice:text": {
+      "message_id": 240,
+      "sent_at": "2026-10-01T13:04:13+03:00"
+    },
+    "s2_day01_practice:audio": {
+      "message_id": 241,
+      "sent_at": "2026-10-01T13:04:15+03:00"
+    },
+    "s2_day01_practice:poll": {
+      "message_id": 242,
+      "sent_at": "2026-10-01T13:04:16+03:00"
     }
   }
 }
