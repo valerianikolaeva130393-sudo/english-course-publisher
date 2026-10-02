@@ -652,6 +652,14 @@
     "s2_day01_practice:poll": {
       "message_id": 242,
       "sent_at": "2026-10-01T13:04:16+03:00"
+    },
+    "s2_day02_morning:text": {
+      "message_id": 243,
+      "sent_at": "2026-10-02T08:05:22+03:00"
+    },
+    "s2_day02_morning:audio": {
+      "message_id": 244,
+      "sent_at": "2026-10-02T08:05:24+03:00"
     }
   }
 }
