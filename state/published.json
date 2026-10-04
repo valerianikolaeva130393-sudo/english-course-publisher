@@ -700,6 +700,14 @@
     "s2_day04_practice:poll": {
       "message_id": 254,
       "sent_at": "2026-10-04T13:25:50+03:00"
+    },
+    "s2_day04_morning:text": {
+      "message_id": 255,
+      "sent_at": "2026-10-04T19:43:35+03:00"
+    },
+    "s2_day04_morning:audio": {
+      "message_id": 256,
+      "sent_at": "2026-10-04T19:43:37+03:00"
     }
   }
 }
