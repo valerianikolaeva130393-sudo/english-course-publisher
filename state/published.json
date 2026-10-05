@@ -716,6 +716,18 @@
     "s2_day05_morning:audio": {
       "message_id": 260,
       "sent_at": "2026-10-05T09:59:12+03:00"
+    },
+    "s2_day05_practice:text": {
+      "message_id": 261,
+      "sent_at": "2026-10-05T13:19:36+03:00"
+    },
+    "s2_day05_practice:audio": {
+      "message_id": 262,
+      "sent_at": "2026-10-05T13:19:38+03:00"
+    },
+    "s2_day05_practice:poll": {
+      "message_id": 263,
+      "sent_at": "2026-10-05T13:19:39+03:00"
     }
   }
 }
