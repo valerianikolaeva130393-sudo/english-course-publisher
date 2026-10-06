@@ -728,6 +728,14 @@
     "s2_day05_practice:poll": {
       "message_id": 263,
       "sent_at": "2026-10-05T13:19:39+03:00"
+    },
+    "s2_day06_morning:text": {
+      "message_id": 264,
+      "sent_at": "2026-10-06T08:00:34+03:00"
+    },
+    "s2_day06_morning:audio": {
+      "message_id": 265,
+      "sent_at": "2026-10-06T08:00:36+03:00"
     }
   }
 }
