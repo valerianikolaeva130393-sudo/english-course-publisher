@@ -776,6 +776,14 @@
     "s2_day07_bonus:text": {
       "message_id": 275,
       "sent_at": "2026-10-07T18:27:24+03:00"
+    },
+    "s2_day08_morning:text": {
+      "message_id": 276,
+      "sent_at": "2026-10-08T08:13:08+03:00"
+    },
+    "s2_day08_morning:audio": {
+      "message_id": 277,
+      "sent_at": "2026-10-08T08:13:10+03:00"
     }
   }
 }
