@@ -876,6 +876,18 @@
     "s2_day13_morning:audio": {
       "message_id": 303,
       "sent_at": "2026-10-13T07:57:17+03:00"
+    },
+    "s2_day13_practice:text": {
+      "message_id": 304,
+      "sent_at": "2026-10-13T13:00:23+03:00"
+    },
+    "s2_day13_practice:audio": {
+      "message_id": 305,
+      "sent_at": "2026-10-13T13:00:25+03:00"
+    },
+    "s2_day13_practice:poll": {
+      "message_id": 306,
+      "sent_at": "2026-10-13T13:00:27+03:00"
     }
   }
 }
