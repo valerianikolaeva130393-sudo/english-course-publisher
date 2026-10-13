@@ -868,6 +868,14 @@
     "s2_day12_practice:poll": {
       "message_id": 301,
       "sent_at": "2026-10-12T17:14:45+03:00"
+    },
+    "s2_day13_morning:text": {
+      "message_id": 302,
+      "sent_at": "2026-10-13T07:57:15+03:00"
+    },
+    "s2_day13_morning:audio": {
+      "message_id": 303,
+      "sent_at": "2026-10-13T07:57:17+03:00"
     }
   }
 }
