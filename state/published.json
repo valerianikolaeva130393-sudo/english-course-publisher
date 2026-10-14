@@ -912,6 +912,10 @@
     "s2_day14_practice:poll": {
       "message_id": 312,
       "sent_at": "2026-10-14T12:19:25+03:00"
+    },
+    "s2_day14_bonus:text": {
+      "message_id": 313,
+      "sent_at": "2026-10-14T18:45:21+03:00"
     }
   }
 }
