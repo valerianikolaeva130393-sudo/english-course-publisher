@@ -924,6 +924,18 @@
     "s2_day15_morning:audio": {
       "message_id": 315,
       "sent_at": "2026-10-15T08:20:30+03:00"
+    },
+    "s2_day15_practice:text": {
+      "message_id": 316,
+      "sent_at": "2026-10-15T13:40:04+03:00"
+    },
+    "s2_day15_practice:audio": {
+      "message_id": 317,
+      "sent_at": "2026-10-15T13:40:06+03:00"
+    },
+    "s2_day15_practice:poll": {
+      "message_id": 318,
+      "sent_at": "2026-10-15T13:40:07+03:00"
     }
   }
 }
