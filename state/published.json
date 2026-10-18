@@ -984,6 +984,14 @@
     "s2_day18_morning:audio": {
       "message_id": 330,
       "sent_at": "2026-10-18T08:09:37+03:00"
+    },
+    "s2_day18_practice:text": {
+      "message_id": 331,
+      "sent_at": "2026-10-18T13:11:32+03:00"
+    },
+    "s2_day18_practice:poll": {
+      "message_id": 332,
+      "sent_at": "2026-10-18T13:11:34+03:00"
     }
   }
 }
