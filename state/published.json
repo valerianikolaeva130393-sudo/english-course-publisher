@@ -1040,6 +1040,18 @@
     "s2_day21_morning:audio": {
       "message_id": 344,
       "sent_at": "2026-10-21T08:02:46+03:00"
+    },
+    "s2_day21_practice:text": {
+      "message_id": 345,
+      "sent_at": "2026-10-21T12:09:05+03:00"
+    },
+    "s2_day21_practice:audio": {
+      "message_id": 346,
+      "sent_at": "2026-10-21T12:09:07+03:00"
+    },
+    "s2_day21_practice:poll": {
+      "message_id": 347,
+      "sent_at": "2026-10-21T12:09:09+03:00"
     }
   }
 }
