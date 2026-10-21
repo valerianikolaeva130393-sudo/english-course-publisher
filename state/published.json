@@ -1052,6 +1052,10 @@
     "s2_day21_practice:poll": {
       "message_id": 347,
       "sent_at": "2026-10-21T12:09:09+03:00"
+    },
+    "s2_day21_bonus:text": {
+      "message_id": 348,
+      "sent_at": "2026-10-21T18:53:20+03:00"
     }
   }
 }
