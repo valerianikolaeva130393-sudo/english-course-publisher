@@ -1064,6 +1064,14 @@
     "s2_day22_morning:audio": {
       "message_id": 350,
       "sent_at": "2026-10-22T08:12:15+03:00"
+    },
+    "s2_day22_practice:text": {
+      "message_id": 351,
+      "sent_at": "2026-10-22T12:11:30+03:00"
+    },
+    "s2_day22_practice:poll": {
+      "message_id": 352,
+      "sent_at": "2026-10-22T12:11:32+03:00"
     }
   }
 }
