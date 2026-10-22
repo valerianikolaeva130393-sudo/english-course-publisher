@@ -1056,6 +1056,14 @@
     "s2_day21_bonus:text": {
       "message_id": 348,
       "sent_at": "2026-10-21T18:53:20+03:00"
+    },
+    "s2_day22_morning:text": {
+      "message_id": 349,
+      "sent_at": "2026-10-22T08:12:13+03:00"
+    },
+    "s2_day22_morning:audio": {
+      "message_id": 350,
+      "sent_at": "2026-10-22T08:12:15+03:00"
     }
   }
 }
