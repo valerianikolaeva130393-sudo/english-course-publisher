@@ -1080,6 +1080,14 @@
     "s2_day23_morning:audio": {
       "message_id": 354,
       "sent_at": "2026-10-23T08:00:57+03:00"
+    },
+    "s2_day23_practice:text": {
+      "message_id": 355,
+      "sent_at": "2026-10-23T12:07:57+03:00"
+    },
+    "s2_day23_practice:poll": {
+      "message_id": 356,
+      "sent_at": "2026-10-23T12:07:59+03:00"
     }
   }
 }
