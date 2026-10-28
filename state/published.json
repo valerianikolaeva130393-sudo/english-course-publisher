@@ -1160,6 +1160,18 @@
     "s2_day27_practice:poll": {
       "message_id": 376,
       "sent_at": "2026-10-27T12:38:28+03:00"
+    },
+    "s2_day28_morning:image": {
+      "message_id": 377,
+      "sent_at": "2026-10-28T13:03:33+03:00"
+    },
+    "s2_day28_morning:text": {
+      "message_id": 378,
+      "sent_at": "2026-10-28T13:03:34+03:00"
+    },
+    "s2_day28_morning:audio": {
+      "message_id": 379,
+      "sent_at": "2026-10-28T13:03:36+03:00"
     }
   }
 }
