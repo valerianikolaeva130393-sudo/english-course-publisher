@@ -1188,6 +1188,14 @@
     "s2_day28_bonus:text": {
       "message_id": 383,
       "sent_at": "2026-10-28T18:32:58+03:00"
+    },
+    "s2_day29_morning:text": {
+      "message_id": 384,
+      "sent_at": "2026-10-29T07:27:27+03:00"
+    },
+    "s2_day29_morning:audio": {
+      "message_id": 385,
+      "sent_at": "2026-10-29T07:27:29+03:00"
     }
   }
 }
