@@ -1196,6 +1196,14 @@
     "s2_day29_morning:audio": {
       "message_id": 385,
       "sent_at": "2026-10-29T07:27:29+03:00"
+    },
+    "s2_day29_practice:text": {
+      "message_id": 386,
+      "sent_at": "2026-10-29T13:43:33+03:00"
+    },
+    "s2_day29_practice:poll": {
+      "message_id": 387,
+      "sent_at": "2026-10-29T13:43:34+03:00"
     }
   }
 }
