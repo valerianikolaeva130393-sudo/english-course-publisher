@@ -1276,6 +1276,14 @@
     "season2_final_polls:poll07": {
       "message_id": 405,
       "sent_at": "2026-10-31T14:30:34+03:00"
+    },
+    "season2_congratulations:image": {
+      "message_id": 406,
+      "sent_at": "2026-10-31T17:52:07+03:00"
+    },
+    "season2_congratulations:text": {
+      "message_id": 407,
+      "sent_at": "2026-10-31T17:52:09+03:00"
     }
   }
 }
