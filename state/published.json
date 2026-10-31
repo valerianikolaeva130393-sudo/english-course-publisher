@@ -1244,6 +1244,38 @@
     "s2_day31_practice:poll": {
       "message_id": 397,
       "sent_at": "2026-10-31T13:12:23+03:00"
+    },
+    "season2_final_polls:poll01": {
+      "message_id": 398,
+      "sent_at": "2026-10-31T14:30:23+03:00"
+    },
+    "season2_final_polls:poll02": {
+      "message_id": 399,
+      "sent_at": "2026-10-31T14:30:25+03:00"
+    },
+    "season2_final_polls:poll03": {
+      "message_id": 400,
+      "sent_at": "2026-10-31T14:30:26+03:00"
+    },
+    "season2_final_polls:poll04": {
+      "message_id": 401,
+      "sent_at": "2026-10-31T14:30:28+03:00"
+    },
+    "season2_final_polls:poll05": {
+      "message_id": 402,
+      "sent_at": "2026-10-31T14:30:29+03:00"
+    },
+    "season2_final_polls:poll06": {
+      "message_id": 403,
+      "sent_at": "2026-10-31T14:30:31+03:00"
+    },
+    "season2_final_polls:poll07_audio": {
+      "message_id": 404,
+      "sent_at": "2026-10-31T14:30:33+03:00"
+    },
+    "season2_final_polls:poll07": {
+      "message_id": 405,
+      "sent_at": "2026-10-31T14:30:34+03:00"
     }
   }
 }
