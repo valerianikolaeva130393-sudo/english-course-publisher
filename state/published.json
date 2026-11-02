@@ -1312,6 +1312,18 @@
     "s3_day02_morning:audio": {
       "message_id": 416,
       "sent_at": "2026-11-02T15:44:23+03:00"
+    },
+    "s3_day02_practice:text": {
+      "message_id": 417,
+      "sent_at": "2026-11-02T15:45:38+03:00"
+    },
+    "s3_day02_practice:audio": {
+      "message_id": 418,
+      "sent_at": "2026-11-02T15:45:40+03:00"
+    },
+    "s3_day02_practice:poll": {
+      "message_id": 419,
+      "sent_at": "2026-11-02T15:45:42+03:00"
     }
   }
 }
