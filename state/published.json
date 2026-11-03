@@ -1324,6 +1324,14 @@
     "s3_day02_practice:poll": {
       "message_id": 419,
       "sent_at": "2026-11-02T15:45:42+03:00"
+    },
+    "s3_day03_morning:text": {
+      "message_id": 420,
+      "sent_at": "2026-11-03T19:22:04+03:00"
+    },
+    "s3_day03_morning:audio": {
+      "message_id": 421,
+      "sent_at": "2026-11-03T19:22:06+03:00"
     }
   }
 }
