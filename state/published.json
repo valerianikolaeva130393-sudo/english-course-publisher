@@ -1380,6 +1380,18 @@
     "s3_day06_morning:audio": {
       "message_id": 436,
       "sent_at": "2026-11-06T09:23:21+03:00"
+    },
+    "s3_day06_practice:text": {
+      "message_id": 437,
+      "sent_at": "2026-11-06T19:03:29+03:00"
+    },
+    "s3_day06_practice:audio": {
+      "message_id": 438,
+      "sent_at": "2026-11-06T19:03:31+03:00"
+    },
+    "s3_day06_practice:poll": {
+      "message_id": 439,
+      "sent_at": "2026-11-06T19:03:32+03:00"
     }
   }
 }
