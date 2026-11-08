@@ -1420,6 +1420,18 @@
     "s3_day07_bonus:text": {
       "message_id": 446,
       "sent_at": "2026-11-07T18:33:04+03:00"
+    },
+    "s3_day08_practice:text": {
+      "message_id": 447,
+      "sent_at": "2026-11-08T14:00:15+03:00"
+    },
+    "s3_day08_practice:audio": {
+      "message_id": 448,
+      "sent_at": "2026-11-08T14:00:17+03:00"
+    },
+    "s3_day08_practice:poll": {
+      "message_id": 449,
+      "sent_at": "2026-11-08T14:00:19+03:00"
     }
   }
 }
