@@ -1652,6 +1652,18 @@
     "s3_day20_morning:audio": {
       "message_id": 504,
       "sent_at": "2026-11-20T08:06:40+03:00"
+    },
+    "s3_day20_practice:text": {
+      "message_id": 505,
+      "sent_at": "2026-11-20T13:42:19+03:00"
+    },
+    "s3_day20_practice:audio": {
+      "message_id": 506,
+      "sent_at": "2026-11-20T13:42:21+03:00"
+    },
+    "s3_day20_practice:poll": {
+      "message_id": 507,
+      "sent_at": "2026-11-20T13:42:22+03:00"
     }
   }
 }
