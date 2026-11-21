@@ -1676,6 +1676,18 @@
     "s3_day21_morning:audio": {
       "message_id": 510,
       "sent_at": "2026-11-21T09:14:36+03:00"
+    },
+    "s3_day21_practice:text": {
+      "message_id": 511,
+      "sent_at": "2026-11-21T13:31:33+03:00"
+    },
+    "s3_day21_practice:audio": {
+      "message_id": 512,
+      "sent_at": "2026-11-21T13:31:35+03:00"
+    },
+    "s3_day21_practice:poll": {
+      "message_id": 513,
+      "sent_at": "2026-11-21T13:31:36+03:00"
     }
   }
 }
