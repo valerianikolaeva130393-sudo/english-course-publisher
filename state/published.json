@@ -1688,6 +1688,10 @@
     "s3_day21_practice:poll": {
       "message_id": 513,
       "sent_at": "2026-11-21T13:31:36+03:00"
+    },
+    "s3_day21_bonus:text": {
+      "message_id": 514,
+      "sent_at": "2026-11-21T19:40:49+03:00"
     }
   }
 }
