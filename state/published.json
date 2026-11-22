@@ -1692,6 +1692,14 @@
     "s3_day21_bonus:text": {
       "message_id": 514,
       "sent_at": "2026-11-21T19:40:49+03:00"
+    },
+    "s3_day22_morning:text": {
+      "message_id": 515,
+      "sent_at": "2026-11-22T09:18:27+03:00"
+    },
+    "s3_day22_morning:audio": {
+      "message_id": 516,
+      "sent_at": "2026-11-22T09:18:29+03:00"
     }
   }
 }
