@@ -1732,6 +1732,18 @@
     "s3_day24_morning:audio": {
       "message_id": 524,
       "sent_at": "2026-11-24T08:00:33+03:00"
+    },
+    "s3_day24_practice:text": {
+      "message_id": 525,
+      "sent_at": "2026-11-24T18:55:00+03:00"
+    },
+    "s3_day24_practice:audio": {
+      "message_id": 526,
+      "sent_at": "2026-11-24T18:55:02+03:00"
+    },
+    "s3_day24_practice:poll": {
+      "message_id": 527,
+      "sent_at": "2026-11-24T18:55:03+03:00"
     }
   }
 }
